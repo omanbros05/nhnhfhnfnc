@@ -1,0 +1,1770 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DatabaseEntitiesModelStoreContainer" CdmEntityContainer="DatabaseEntitiesEntities">
+    <EntitySetMapping Name="AdministrativePenaltyCompany">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.AdministrativePenaltyCompany">
+        <MappingFragment StoreEntitySet="AdministrativePenaltyCompany">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyAddress" ColumnName="CompanyAddress" />
+          <ScalarProperty Name="CompanyPost" ColumnName="CompanyPost" />
+          <ScalarProperty Name="JuridicalName" ColumnName="JuridicalName" />
+          <ScalarProperty Name="JuridicalJob" ColumnName="JuridicalJob" />
+          <ScalarProperty Name="JuridicalTel" ColumnName="JuridicalTel" />
+          <ScalarProperty Name="Proof" ColumnName="Proof" />
+          <ScalarProperty Name="Deregulation" ColumnName="Deregulation" />
+          <ScalarProperty Name="LegalRule" ColumnName="LegalRule" />
+          <ScalarProperty Name="AdministrativePenalty" ColumnName="AdministrativePenalty" />
+          <ScalarProperty Name="PromptCash" ColumnName="PromptCash" />
+          <ScalarProperty Name="TimeQuantumCash" ColumnName="TimeQuantumCash" />
+          <ScalarProperty Name="PaymentAddress" ColumnName="PaymentAddress" />
+          <ScalarProperty Name="PaymentAccount" ColumnName="PaymentAccount" />
+          <ScalarProperty Name="GovArea" ColumnName="GovArea" />
+          <ScalarProperty Name="ManageArea" ColumnName="ManageArea" />
+          <ScalarProperty Name="CourtArea" ColumnName="CourtArea" />
+          <ScalarProperty Name="OfficerName1" ColumnName="OfficerName1" />
+          <ScalarProperty Name="CID1" ColumnName="CID1" />
+          <ScalarProperty Name="OfficerName2" ColumnName="OfficerName2" />
+          <ScalarProperty Name="CID2" ColumnName="CID2" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+          <ScalarProperty Name="DocDate" ColumnName="DocDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdministrativePenaltyPerson">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.AdministrativePenaltyPerson">
+        <MappingFragment StoreEntitySet="AdministrativePenaltyPerson">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="SentPeople" ColumnName="SentPeople" />
+          <ScalarProperty Name="SentSex" ColumnName="SentSex" />
+          <ScalarProperty Name="SentAge" ColumnName="SentAge" />
+          <ScalarProperty Name="SentIDCard" ColumnName="SentIDCard" />
+          <ScalarProperty Name="SentAddress" ColumnName="SentAddress" />
+          <ScalarProperty Name="SentCompany" ColumnName="SentCompany" />
+          <ScalarProperty Name="SentJob" ColumnName="SentJob" />
+          <ScalarProperty Name="SentCompanyAddress" ColumnName="SentCompanyAddress" />
+          <ScalarProperty Name="SentTel" ColumnName="SentTel" />
+          <ScalarProperty Name="Proof" ColumnName="Proof" />
+          <ScalarProperty Name="Deregulation" ColumnName="Deregulation" />
+          <ScalarProperty Name="LegalRule" ColumnName="LegalRule" />
+          <ScalarProperty Name="AdministrativePenalty" ColumnName="AdministrativePenalty" />
+          <ScalarProperty Name="PromptCash" ColumnName="PromptCash" />
+          <ScalarProperty Name="TimeQuantumCash" ColumnName="TimeQuantumCash" />
+          <ScalarProperty Name="PaymentAddress" ColumnName="PaymentAddress" />
+          <ScalarProperty Name="PaymentAccount" ColumnName="PaymentAccount" />
+          <ScalarProperty Name="GovArea" ColumnName="GovArea" />
+          <ScalarProperty Name="ManageArea" ColumnName="ManageArea" />
+          <ScalarProperty Name="CourtArea" ColumnName="CourtArea" />
+          <ScalarProperty Name="OfficerName1" ColumnName="OfficerName1" />
+          <ScalarProperty Name="CID1" ColumnName="CID1" />
+          <ScalarProperty Name="OfficerName2" ColumnName="OfficerName2" />
+          <ScalarProperty Name="CID2" ColumnName="CID2" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+          <ScalarProperty Name="DocDate" ColumnName="DocDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdminPunishNotification">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.AdminPunishNotification">
+        <MappingFragment StoreEntitySet="AdminPunishNotification">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="BriefCase" ColumnName="BriefCase" />
+          <ScalarProperty Name="CompanyBehavior" ColumnName="CompanyBehavior" />
+          <ScalarProperty Name="LawProvision" ColumnName="LawProvision" />
+          <ScalarProperty Name="Certificate" ColumnName="Certificate" />
+          <ScalarProperty Name="AdminPunish" ColumnName="AdminPunish" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Post" ColumnName="Post" />
+          <ScalarProperty Name="Contacter" ColumnName="Contacter" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="SendDate" ColumnName="SendDate" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AppraisalEntrust">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.AppraisalEntrust">
+        <MappingFragment StoreEntitySet="AppraisalEntrust">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SamplingID" ColumnName="SamplingID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="AppraisalUnit" ColumnName="AppraisalUnit" />
+          <ScalarProperty Name="AppraisalPoints" ColumnName="AppraisalPoints" />
+          <ScalarProperty Name="AppraisaDate" ColumnName="AppraisaDate" />
+          <ScalarProperty Name="ContactUserName" ColumnName="ContactUserName" />
+          <ScalarProperty Name="ContactUserPhone" ColumnName="ContactUserPhone" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+          <ScalarProperty Name="FillDate" ColumnName="FillDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Archive">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.Archive">
+        <MappingFragment StoreEntitySet="Archive">
+          <ScalarProperty Name="GUID" ColumnName="GUID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="CREATION_DATE" ColumnName="CREATION_DATE" />
+          <ScalarProperty Name="TABLE_NAME" ColumnName="TABLE_NAME" />
+          <ScalarProperty Name="RECORD_ID" ColumnName="RECORD_ID" />
+          <ScalarProperty Name="PATH" ColumnName="PATH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AreaCode">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.AreaCode">
+        <MappingFragment StoreEntitySet="AreaCode">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CodeID" ColumnName="CodeID" />
+          <ScalarProperty Name="CodeName" ColumnName="CodeName" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="LevelID" ColumnName="LevelID" />
+          <ScalarProperty Name="LevelName" ColumnName="LevelName" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bank">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.Bank">
+        <MappingFragment StoreEntitySet="Bank">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+          <ScalarProperty Name="Account" ColumnName="Account" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CaseCancel">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.CaseCancel">
+        <MappingFragment StoreEntitySet="CaseCancel">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="PutOnRecordCaseName" ColumnName="PutOnRecordCaseName" />
+          <ScalarProperty Name="PutOnRecordThisDate" ColumnName="PutOnRecordThisDate" />
+          <ScalarProperty Name="PutOnRecordDocTitle" ColumnName="PutOnRecordDocTitle" />
+          <ScalarProperty Name="PutOnRecordPeopleName" ColumnName="PutOnRecordPeopleName" />
+          <ScalarProperty Name="PutOnRecordFName" ColumnName="PutOnRecordFName" />
+          <ScalarProperty Name="PutOnRecordPeopleAddress" ColumnName="PutOnRecordPeopleAddress" />
+          <ScalarProperty Name="PutOnRecordPeoplePhone" ColumnName="PutOnRecordPeoplePhone" />
+          <ScalarProperty Name="PutOnRecordSourceName" ColumnName="PutOnRecordSourceName" />
+          <ScalarProperty Name="PutOnRecordUserNames1" ColumnName="PutOnRecordUserNames1" />
+          <ScalarProperty Name="PutOnRecordUserNames2" ColumnName="PutOnRecordUserNames2" />
+          <ScalarProperty Name="ResearchDetail" ColumnName="ResearchDetail" />
+          <ScalarProperty Name="RevocationReason" ColumnName="RevocationReason" />
+          <ScalarProperty Name="UndertakerUserName1" ColumnName="UndertakerUserName1" />
+          <ScalarProperty Name="UndertakerUserName2" ColumnName="UndertakerUserName2" />
+          <ScalarProperty Name="UndertakerUserName3" ColumnName="UndertakerUserName3" />
+          <ScalarProperty Name="UndertakerData" ColumnName="UndertakerData" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CaseClosedApproval">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.CaseClosedApproval">
+        <MappingFragment StoreEntitySet="CaseClosedApproval">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CaseID" ColumnName="CaseID" />
+          <ScalarProperty Name="CaseName" ColumnName="CaseName" />
+          <ScalarProperty Name="Party" ColumnName="Party" />
+          <ScalarProperty Name="Legal" ColumnName="Legal" />
+          <ScalarProperty Name="CaseSourceID" ColumnName="CaseSourceID" />
+          <ScalarProperty Name="PunishInstrumentNo" ColumnName="PunishInstrumentNo" />
+          <ScalarProperty Name="CaseStartDate" ColumnName="CaseStartDate" />
+          <ScalarProperty Name="CaseEndDate" ColumnName="CaseEndDate" />
+          <ScalarProperty Name="PunishDate" ColumnName="PunishDate" />
+          <ScalarProperty Name="UserID1" ColumnName="UserID1" />
+          <ScalarProperty Name="UserID2" ColumnName="UserID2" />
+          <ScalarProperty Name="PunishContent" ColumnName="PunishContent" />
+          <ScalarProperty Name="ExecutionResult" ColumnName="ExecutionResult" />
+          <ScalarProperty Name="FormDate" ColumnName="FormDate" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="CaseSourceName" ColumnName="CaseSourceName" />
+          <ScalarProperty Name="UserName1" ColumnName="UserName1" />
+          <ScalarProperty Name="UserName2" ColumnName="UserName2" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CaseExtensionClosedApproval">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.CaseExtensionClosedApproval">
+        <MappingFragment StoreEntitySet="CaseExtensionClosedApproval">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CaseID" ColumnName="CaseID" />
+          <ScalarProperty Name="CaseName" ColumnName="CaseName" />
+          <ScalarProperty Name="Party" ColumnName="Party" />
+          <ScalarProperty Name="Legal" ColumnName="Legal" />
+          <ScalarProperty Name="CaseSourceID" ColumnName="CaseSourceID" />
+          <ScalarProperty Name="CaseStartDate" ColumnName="CaseStartDate" />
+          <ScalarProperty Name="FormDate" ColumnName="FormDate" />
+          <ScalarProperty Name="ExtensionApproval" ColumnName="ExtensionApproval" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="CaseSourceName" ColumnName="CaseSourceName" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CaseExtensionClosedApprovalToSibling">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.CaseExtensionClosedApprovalToSibling">
+        <MappingFragment StoreEntitySet="CaseExtensionClosedApprovalToSibling">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CaseID" ColumnName="CaseID" />
+          <ScalarProperty Name="CaseName" ColumnName="CaseName" />
+          <ScalarProperty Name="Party" ColumnName="Party" />
+          <ScalarProperty Name="Legal" ColumnName="Legal" />
+          <ScalarProperty Name="CaseSourceID" ColumnName="CaseSourceID" />
+          <ScalarProperty Name="CaseStartDate" ColumnName="CaseStartDate" />
+          <ScalarProperty Name="FormDate" ColumnName="FormDate" />
+          <ScalarProperty Name="ExtensionApproval" ColumnName="ExtensionApproval" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="CaseSourceName" ColumnName="CaseSourceName" />
+          <ScalarProperty Name="UserID1" ColumnName="UserID1" />
+          <ScalarProperty Name="UserID2" ColumnName="UserID2" />
+          <ScalarProperty Name="UserName1" ColumnName="UserName1" />
+          <ScalarProperty Name="UserName2" ColumnName="UserName2" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CaseHandel">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.CaseHandel">
+        <MappingFragment StoreEntitySet="CaseHandel">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UnitAbb" ColumnName="UnitAbb" />
+          <ScalarProperty Name="DocYear" ColumnName="DocYear" />
+          <ScalarProperty Name="DocIndex" ColumnName="DocIndex" />
+          <ScalarProperty Name="Party" ColumnName="Party" />
+          <ScalarProperty Name="LegalRepre" ColumnName="LegalRepre" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="CaseSource" ColumnName="CaseSource" />
+          <ScalarProperty Name="CaseSituation" ColumnName="CaseSituation" />
+          <ScalarProperty Name="Fact" ColumnName="Fact" />
+          <ScalarProperty Name="Undertake" ColumnName="Undertake" />
+          <ScalarProperty Name="UndertakeOpinion" ColumnName="UndertakeOpinion" />
+          <ScalarProperty Name="UndertakeDate" ColumnName="UndertakeDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CaseSource">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.CaseSource">
+        <MappingFragment StoreEntitySet="CaseSource">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SourceName" ColumnName="SourceName" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CaseTransferred">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.CaseTransferred">
+        <MappingFragment StoreEntitySet="CaseTransferred">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UnitName" ColumnName="UnitName" />
+          <ScalarProperty Name="TransferredDate" ColumnName="TransferredDate" />
+          <ScalarProperty Name="CaseName" ColumnName="CaseName" />
+          <ScalarProperty Name="TransferredReason" ColumnName="TransferredReason" />
+          <ScalarProperty Name="TransferredLaw" ColumnName="TransferredLaw" />
+          <ScalarProperty Name="CaseMaterial" ColumnName="CaseMaterial" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="HandleDate" ColumnName="HandleDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CaseTransferredApproval">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.CaseTransferredApproval">
+        <MappingFragment StoreEntitySet="CaseTransferredApproval">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CaseID" ColumnName="CaseID" />
+          <ScalarProperty Name="CaseName" ColumnName="CaseName" />
+          <ScalarProperty Name="ReceiverUnit" ColumnName="ReceiverUnit" />
+          <ScalarProperty Name="CaseInfo" ColumnName="CaseInfo" />
+          <ScalarProperty Name="TransferredReason" ColumnName="TransferredReason" />
+          <ScalarProperty Name="UserID1" ColumnName="UserID1" />
+          <ScalarProperty Name="UserID2" ColumnName="UserID2" />
+          <ScalarProperty Name="UserReason" ColumnName="UserReason" />
+          <ScalarProperty Name="HandleDate" ColumnName="HandleDate" />
+          <ScalarProperty Name="Party" ColumnName="Party" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="UserName1" ColumnName="UserName1" />
+          <ScalarProperty Name="UserName2" ColumnName="UserName2" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CheckPlace">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.CheckPlace">
+        <MappingFragment StoreEntitySet="CheckPlace">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CheckContent" ColumnName="CheckContent" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChemicalsHighlyToxic">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.ChemicalsHighlyToxic">
+        <MappingFragment StoreEntitySet="ChemicalsHighlyToxic">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ChemicalName" ColumnName="ChemicalName" />
+          <ScalarProperty Name="ChemicalAlias" ColumnName="ChemicalAlias" />
+          <ScalarProperty Name="ChemicalNameEn" ColumnName="ChemicalNameEn" />
+          <ScalarProperty Name="ChemicalAliasEn" ColumnName="ChemicalAliasEn" />
+          <ScalarProperty Name="Formula" ColumnName="Formula" />
+          <ScalarProperty Name="CAS" ColumnName="CAS" />
+          <ScalarProperty Name="UN" ColumnName="UN" />
+          <ScalarProperty Name="LimitedRange" ColumnName="LimitedRange" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChemicalsList">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.ChemicalsList">
+        <MappingFragment StoreEntitySet="ChemicalsList">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ChemicalsType" ColumnName="ChemicalsType" />
+          <ScalarProperty Name="ChemicalsNumber" ColumnName="ChemicalsNumber" />
+          <ScalarProperty Name="ChemicalsName" ColumnName="ChemicalsName" />
+          <ScalarProperty Name="ChemicalsAlias" ColumnName="ChemicalsAlias" />
+          <ScalarProperty Name="ChemicalsUN" ColumnName="ChemicalsUN" />
+          <ScalarProperty Name="ChemicalsChildType" ColumnName="ChemicalsChildType" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Company">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.Company">
+        <MappingFragment StoreEntitySet="Company">
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyAddress" ColumnName="CompanyAddress" />
+          <ScalarProperty Name="CompanyPost" ColumnName="CompanyPost" />
+          <ScalarProperty Name="JuridicalPerson" ColumnName="JuridicalPerson" />
+          <ScalarProperty Name="JuridicalPersonSex" ColumnName="JuridicalPersonSex" />
+          <ScalarProperty Name="JuridicalPersonAge" ColumnName="JuridicalPersonAge" />
+          <ScalarProperty Name="JuridicalPersonJob" ColumnName="JuridicalPersonJob" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+          <ScalarProperty Name="CompanyType" ColumnName="CompanyType" />
+          <ScalarProperty Name="IsCity" ColumnName="IsCity" />
+          <ScalarProperty Name="CompanyAreaID" ColumnName="CompanyAreaID" />
+          <ScalarProperty Name="WarehousAddress" ColumnName="WarehousAddress" />
+          <ScalarProperty Name="PermitRange" ColumnName="PermitRange" />
+          <ScalarProperty Name="BusinessMode" ColumnName="BusinessMode" />
+          <ScalarProperty Name="PermitValid" ColumnName="PermitValid" />
+          <ScalarProperty Name="IDCard" ColumnName="IDCard" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompanyArea">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.CompanyArea">
+        <MappingFragment StoreEntitySet="CompanyArea">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AreaName" ColumnName="AreaName" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompanyDangerChemicals">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.CompanyDangerChemicals">
+        <MappingFragment StoreEntitySet="CompanyDangerChemicals">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="Certificate" ColumnName="Certificate" />
+          <ScalarProperty Name="WarehousAddress" ColumnName="WarehousAddress" />
+          <ScalarProperty Name="BusinessScope" ColumnName="BusinessScope" />
+          <ScalarProperty Name="EconomicTypes" ColumnName="EconomicTypes" />
+          <ScalarProperty Name="BusinessMode" ColumnName="BusinessMode" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+          <ScalarProperty Name="ValidStartDate" ColumnName="ValidStartDate" />
+          <ScalarProperty Name="ValidEndDate" ColumnName="ValidEndDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompanyDangerChemicalsProduce">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.CompanyDangerChemicalsProduce">
+        <MappingFragment StoreEntitySet="CompanyDangerChemicalsProduce">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="PermitRange" ColumnName="PermitRange" />
+          <ScalarProperty Name="ValidStartDate" ColumnName="ValidStartDate" />
+          <ScalarProperty Name="ValidEndDate" ColumnName="ValidEndDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompanyFireworks">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.CompanyFireworks">
+        <MappingFragment StoreEntitySet="CompanyFireworks">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="WarehousAddress" ColumnName="WarehousAddress" />
+          <ScalarProperty Name="PermitCertificateNo" ColumnName="PermitCertificateNo" />
+          <ScalarProperty Name="PermitBusinessScope" ColumnName="PermitBusinessScope" />
+          <ScalarProperty Name="ValidStartDate" ColumnName="ValidStartDate" />
+          <ScalarProperty Name="ValidEndDate" ColumnName="ValidEndDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompanyHighlyToxicChemicals">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.CompanyHighlyToxicChemicals">
+        <MappingFragment StoreEntitySet="CompanyHighlyToxicChemicals">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="MainProducts" ColumnName="MainProducts" />
+          <ScalarProperty Name="Registration" ColumnName="Registration" />
+          <ScalarProperty Name="ValidStartDate" ColumnName="ValidStartDate" />
+          <ScalarProperty Name="ValidEndDate" ColumnName="ValidEndDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompanyNoCoalSecurity">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.CompanyNoCoalSecurity">
+        <MappingFragment StoreEntitySet="CompanyNoCoalSecurity">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="MiningMethods" ColumnName="MiningMethods" />
+          <ScalarProperty Name="EconomicType" ColumnName="EconomicType" />
+          <ScalarProperty Name="PermitRange" ColumnName="PermitRange" />
+          <ScalarProperty Name="CertificateNumber" ColumnName="CertificateNumber" />
+          <ScalarProperty Name="IsStandard" ColumnName="IsStandard" />
+          <ScalarProperty Name="StandardizationRegister" ColumnName="StandardizationRegister" />
+          <ScalarProperty Name="ValidStartDate" ColumnName="ValidStartDate" />
+          <ScalarProperty Name="ValidEndDate" ColumnName="ValidEndDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CompanyType">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.CompanyType">
+        <MappingFragment StoreEntitySet="CompanyType">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CompanyTypeName" ColumnName="CompanyTypeName" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContributeFine">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.ContributeFine">
+        <MappingFragment StoreEntitySet="ContributeFine">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="ContributionsDate" ColumnName="ContributionsDate" />
+          <ScalarProperty Name="InstrumentNo" ColumnName="InstrumentNo" />
+          <ScalarProperty Name="FineSumString" ColumnName="FineSumString" />
+          <ScalarProperty Name="FineSum" ColumnName="FineSum" />
+          <ScalarProperty Name="ExtensionDate" ColumnName="ExtensionDate" />
+          <ScalarProperty Name="ExtensionDateString" ColumnName="ExtensionDateString" />
+          <ScalarProperty Name="Period" ColumnName="Period" />
+          <ScalarProperty Name="InstallmentsDate" ColumnName="InstallmentsDate" />
+          <ScalarProperty Name="InstallmentsDateString" ColumnName="InstallmentsDateString" />
+          <ScalarProperty Name="InstallmentsSum" ColumnName="InstallmentsSum" />
+          <ScalarProperty Name="InstallmentsSumString" ColumnName="InstallmentsSumString" />
+          <ScalarProperty Name="InstallmentsBalance" ColumnName="InstallmentsBalance" />
+          <ScalarProperty Name="InstallmentsBalanceString" ColumnName="InstallmentsBalanceString" />
+          <ScalarProperty Name="FormDate" ColumnName="FormDate" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContributeFineApproval">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.ContributeFineApproval">
+        <MappingFragment StoreEntitySet="ContributeFineApproval">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CaseID" ColumnName="CaseID" />
+          <ScalarProperty Name="CaseName" ColumnName="CaseName" />
+          <ScalarProperty Name="PunishInstrumentNo" ColumnName="PunishInstrumentNo" />
+          <ScalarProperty Name="Party" ColumnName="Party" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="LawFactPunish" ColumnName="LawFactPunish" />
+          <ScalarProperty Name="ExtensionReason" ColumnName="ExtensionReason" />
+          <ScalarProperty Name="UserOpinion" ColumnName="UserOpinion" />
+          <ScalarProperty Name="FormDate" ColumnName="FormDate" />
+          <ScalarProperty Name="UserName1" ColumnName="UserName1" />
+          <ScalarProperty Name="UserName2" ColumnName="UserName2" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DefenseRecords">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.DefenseRecords">
+        <MappingFragment StoreEntitySet="DefenseRecords">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DefenseStartDate" ColumnName="DefenseStartDate" />
+          <ScalarProperty Name="DefenseEndDate" ColumnName="DefenseEndDate" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="DefenseUser" ColumnName="DefenseUser" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+          <ScalarProperty Name="WorkUnit" ColumnName="WorkUnit" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="UserName1" ColumnName="UserName1" />
+          <ScalarProperty Name="UserName2" ColumnName="UserName2" />
+          <ScalarProperty Name="UserName3" ColumnName="UserName3" />
+          <ScalarProperty Name="LawUnit" ColumnName="LawUnit" />
+          <ScalarProperty Name="ProblemResult1" ColumnName="ProblemResult1" />
+          <ScalarProperty Name="ProblemResult2" ColumnName="ProblemResult2" />
+          <ScalarProperty Name="ProblemResult3" ColumnName="ProblemResult3" />
+          <ScalarProperty Name="CaseID" ColumnName="CaseID" />
+          <ScalarProperty Name="CaseName" ColumnName="CaseName" />
+          <ScalarProperty Name="DefenseDate" ColumnName="DefenseDate" />
+          <ScalarProperty Name="ProblemUser1" ColumnName="ProblemUser1" />
+          <ScalarProperty Name="ProblemUser2" ColumnName="ProblemUser2" />
+          <ScalarProperty Name="ProblemUserCode1" ColumnName="ProblemUserCode1" />
+          <ScalarProperty Name="ProblemUserCode2" ColumnName="ProblemUserCode2" />
+          <ScalarProperty Name="ProblemResult4" ColumnName="ProblemResult4" />
+          <ScalarProperty Name="ProblemContent" ColumnName="ProblemContent" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DocumentsServiceReply">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.DocumentsServiceReply">
+        <MappingFragment StoreEntitySet="DocumentsServiceReply">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="PutOnRecordCaseName" ColumnName="PutOnRecordCaseName" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EnquireQuestion">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.EnquireQuestion">
+        <MappingFragment StoreEntitySet="EnquireQuestion">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EnquireBeginDate" ColumnName="EnquireBeginDate" />
+          <ScalarProperty Name="EnquireEndDate" ColumnName="EnquireEndDate" />
+          <ScalarProperty Name="EnquireCount" ColumnName="EnquireCount" />
+          <ScalarProperty Name="EnquireAddress" ColumnName="EnquireAddress" />
+          <ScalarProperty Name="EnquirePerson" ColumnName="EnquirePerson" />
+          <ScalarProperty Name="EnquirePersonSex" ColumnName="EnquirePersonSex" />
+          <ScalarProperty Name="EnquirePersonAge" ColumnName="EnquirePersonAge" />
+          <ScalarProperty Name="EnquirePersonIDC" ColumnName="EnquirePersonIDC" />
+          <ScalarProperty Name="EnquirePersonUnit" ColumnName="EnquirePersonUnit" />
+          <ScalarProperty Name="EnquirePersonJob" ColumnName="EnquirePersonJob" />
+          <ScalarProperty Name="EnquirePersonAddress" ColumnName="EnquirePersonAddress" />
+          <ScalarProperty Name="EnquirePersonTel" ColumnName="EnquirePersonTel" />
+          <ScalarProperty Name="EnquirerName" ColumnName="EnquirerName" />
+          <ScalarProperty Name="EnquirerUnit" ColumnName="EnquirerUnit" />
+          <ScalarProperty Name="WriterName" ColumnName="WriterName" />
+          <ScalarProperty Name="WriterUnit" ColumnName="WriterUnit" />
+          <ScalarProperty Name="Attendee" ColumnName="Attendee" />
+          <ScalarProperty Name="QFirstUnit" ColumnName="QFirstUnit" />
+          <ScalarProperty Name="QFirstPerson1" ColumnName="QFirstPerson1" />
+          <ScalarProperty Name="QFirstPersonIDC1" ColumnName="QFirstPersonIDC1" />
+          <ScalarProperty Name="QFirstPerson2" ColumnName="QFirstPerson2" />
+          <ScalarProperty Name="QFirstPerson2IDC2" ColumnName="QFirstPerson2IDC2" />
+          <ScalarProperty Name="QFirstAnswer" ColumnName="QFirstAnswer" />
+          <ScalarProperty Name="QuestionSecond" ColumnName="QuestionSecond" />
+          <ScalarProperty Name="QuestionSecondAnswer" ColumnName="QuestionSecondAnswer" />
+          <ScalarProperty Name="QuestionThirdAnswer" ColumnName="QuestionThirdAnswer" />
+          <ScalarProperty Name="Questions" ColumnName="Questions" />
+          <ScalarProperty Name="DocDate" ColumnName="DocDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EnquireQuestionItem">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.EnquireQuestionItem">
+        <MappingFragment StoreEntitySet="EnquireQuestionItem">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="EnquireID" ColumnName="EnquireID" />
+          <ScalarProperty Name="Question" ColumnName="Question" />
+          <ScalarProperty Name="Anwser" ColumnName="Anwser" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExplorationRecord">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.ExplorationRecord">
+        <MappingFragment StoreEntitySet="ExplorationRecord">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="BeganTime" ColumnName="BeganTime" />
+          <ScalarProperty Name="ToTime" ColumnName="ToTime" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Weather" ColumnName="Weather" />
+          <ScalarProperty Name="EUserName1" ColumnName="EUserName1" />
+          <ScalarProperty Name="ECompanyName1" ColumnName="ECompanyName1" />
+          <ScalarProperty Name="EUserName2" ColumnName="EUserName2" />
+          <ScalarProperty Name="ECompanyName2" ColumnName="ECompanyName2" />
+          <ScalarProperty Name="TheEPeopleName1" ColumnName="TheEPeopleName1" />
+          <ScalarProperty Name="TheECompanyName1" ColumnName="TheECompanyName1" />
+          <ScalarProperty Name="TheEPeopleName2" ColumnName="TheEPeopleName2" />
+          <ScalarProperty Name="TheECompanyName2" ColumnName="TheECompanyName2" />
+          <ScalarProperty Name="InvitedEPeopleName" ColumnName="InvitedEPeopleName" />
+          <ScalarProperty Name="InvitedECompanyName" ColumnName="InvitedECompanyName" />
+          <ScalarProperty Name="RecordUserName" ColumnName="RecordUserName" />
+          <ScalarProperty Name="RecordCompanyName" ColumnName="RecordCompanyName" />
+          <ScalarProperty Name="QFirstPerson1" ColumnName="QFirstPerson1" />
+          <ScalarProperty Name="QFirstPersonUser1" ColumnName="QFirstPersonUser1" />
+          <ScalarProperty Name="QFirstPersonIDC1" ColumnName="QFirstPersonIDC1" />
+          <ScalarProperty Name="QFirstPerson2" ColumnName="QFirstPerson2" />
+          <ScalarProperty Name="QFirstPerson2IDC2" ColumnName="QFirstPerson2IDC2" />
+          <ScalarProperty Name="ESituation" ColumnName="ESituation" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FineCallsNotice">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.FineCallsNotice">
+        <MappingFragment StoreEntitySet="FineCallsNotice">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="SendCallsDate" ColumnName="SendCallsDate" />
+          <ScalarProperty Name="DecideNumber" ColumnName="DecideNumber" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="FormDate" ColumnName="FormDate" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ForceMeasureDecision">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.ForceMeasureDecision">
+        <MappingFragment StoreEntitySet="ForceMeasureDecision">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="Matter" ColumnName="Matter" />
+          <ScalarProperty Name="Accord" ColumnName="Accord" />
+          <ScalarProperty Name="EnforceMea" ColumnName="EnforceMea" />
+          <ScalarProperty Name="GovArea" ColumnName="GovArea" />
+          <ScalarProperty Name="ManageArea" ColumnName="ManageArea" />
+          <ScalarProperty Name="CourtArea" ColumnName="CourtArea" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+          <ScalarProperty Name="DocDate" ColumnName="DocDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ForceMeasureDecisionApprove">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.ForceMeasureDecisionApprove">
+        <MappingFragment StoreEntitySet="ForceMeasureDecisionApprove">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Party" ColumnName="Party" />
+          <ScalarProperty Name="PartyAddress" ColumnName="PartyAddress" />
+          <ScalarProperty Name="LegalRepre" ColumnName="LegalRepre" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="Matter" ColumnName="Matter" />
+          <ScalarProperty Name="Accord" ColumnName="Accord" />
+          <ScalarProperty Name="Supervise" ColumnName="Supervise" />
+          <ScalarProperty Name="SuperviseDate" ColumnName="SuperviseDate" />
+          <ScalarProperty Name="Undertake" ColumnName="Undertake" />
+          <ScalarProperty Name="Principal" ColumnName="Principal" />
+          <ScalarProperty Name="PrincipalDate" ColumnName="PrincipalDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HearingInform">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.HearingInform">
+        <MappingFragment StoreEntitySet="HearingInform">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="CaseName" ColumnName="CaseName" />
+          <ScalarProperty Name="CompereName" ColumnName="CompereName" />
+          <ScalarProperty Name="SecretaryName" ColumnName="SecretaryName" />
+          <ScalarProperty Name="HearName" ColumnName="HearName" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="Suggest" ColumnName="Suggest" />
+          <ScalarProperty Name="PrincipalSuggest" ColumnName="PrincipalSuggest" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HearingNotice">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.HearingNotice">
+        <MappingFragment StoreEntitySet="HearingNotice">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="Informant" ColumnName="Informant" />
+          <ScalarProperty Name="About" ColumnName="About" />
+          <ScalarProperty Name="HearDate" ColumnName="HearDate" />
+          <ScalarProperty Name="HearAddress" ColumnName="HearAddress" />
+          <ScalarProperty Name="CompereName" ColumnName="CompereName" />
+          <ScalarProperty Name="CompereJob" ColumnName="CompereJob" />
+          <ScalarProperty Name="SecretaryName" ColumnName="SecretaryName" />
+          <ScalarProperty Name="SecretaryJob" ColumnName="SecretaryJob" />
+          <ScalarProperty Name="HearName1" ColumnName="HearName1" />
+          <ScalarProperty Name="HearJob1" ColumnName="HearJob1" />
+          <ScalarProperty Name="HearName2" ColumnName="HearName2" />
+          <ScalarProperty Name="HearJob2" ColumnName="HearJob2" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+          <ScalarProperty Name="DocDate" ColumnName="DocDate" />
+          <ScalarProperty Name="DocManageAddress" ColumnName="DocManageAddress" />
+          <ScalarProperty Name="DocManagePost" ColumnName="DocManagePost" />
+          <ScalarProperty Name="LinkMan" ColumnName="LinkMan" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IllegalType">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.IllegalType">
+        <MappingFragment StoreEntitySet="IllegalType">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ImportDocument">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.ImportDocument">
+        <MappingFragment StoreEntitySet="ImportDocument">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TableName" ColumnName="TableName" />
+          <ScalarProperty Name="TableID" ColumnName="TableID" />
+          <ScalarProperty Name="DocName" ColumnName="DocName" />
+          <ScalarProperty Name="DiskDocName" ColumnName="DiskDocName" />
+          <ScalarProperty Name="DocState" ColumnName="DocState" />
+          <ScalarProperty Name="DirectoryID" ColumnName="DirectoryID" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InCaseOfTable">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.InCaseOfTable">
+        <MappingFragment StoreEntitySet="InCaseOfTable">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="PutOnRecordCaseName" ColumnName="PutOnRecordCaseName" />
+          <ScalarProperty Name="PutOnRecordPeopleName" ColumnName="PutOnRecordPeopleName" />
+          <ScalarProperty Name="PutOnRecordFName" ColumnName="PutOnRecordFName" />
+          <ScalarProperty Name="PutOnRecordPeopleAddress" ColumnName="PutOnRecordPeopleAddress" />
+          <ScalarProperty Name="CaseSourceName" ColumnName="CaseSourceName" />
+          <ScalarProperty Name="GeneralCase" ColumnName="GeneralCase" />
+          <ScalarProperty Name="IllegalFact" ColumnName="IllegalFact" />
+          <ScalarProperty Name="UndertakerOpinion" ColumnName="UndertakerOpinion" />
+          <ScalarProperty Name="UndertakerUserName1" ColumnName="UndertakerUserName1" />
+          <ScalarProperty Name="UndertakerUserName2" ColumnName="UndertakerUserName2" />
+          <ScalarProperty Name="UndertakerData" ColumnName="UndertakerData" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="GUID" ColumnName="GUID" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InstrumentsExample">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.InstrumentsExample">
+        <MappingFragment StoreEntitySet="InstrumentsExample">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="InstrumentsTitle" ColumnName="InstrumentsTitle" />
+          <ScalarProperty Name="InstrumentsPath" ColumnName="InstrumentsPath" />
+          <ScalarProperty Name="InstrumentsType" ColumnName="InstrumentsType" />
+          <ScalarProperty Name="InstrumentsChildType" ColumnName="InstrumentsChildType" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InstrumentsHistoryFile">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.InstrumentsHistoryFile">
+        <MappingFragment StoreEntitySet="InstrumentsHistoryFile">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="InstrumentsTitle" ColumnName="InstrumentsTitle" />
+          <ScalarProperty Name="InstrumentsPath" ColumnName="InstrumentsPath" />
+          <ScalarProperty Name="InstrumentsFolderID" ColumnName="InstrumentsFolderID" />
+          <ScalarProperty Name="TableName" ColumnName="TableName" />
+          <ScalarProperty Name="TableID" ColumnName="TableID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InstrumentsHistoryFolder">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.InstrumentsHistoryFolder">
+        <MappingFragment StoreEntitySet="InstrumentsHistoryFolder">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="InstrumentsParentType" ColumnName="InstrumentsParentType" />
+          <ScalarProperty Name="InstrumentsChildType" ColumnName="InstrumentsChildType" />
+          <ScalarProperty Name="InstrumentsYear" ColumnName="InstrumentsYear" />
+          <ScalarProperty Name="InstrumentsMonth" ColumnName="InstrumentsMonth" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InstrumentsReceipt">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.InstrumentsReceipt">
+        <MappingFragment StoreEntitySet="InstrumentsReceipt">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CaseID" ColumnName="CaseID" />
+          <ScalarProperty Name="CaseName" ColumnName="CaseName" />
+          <ScalarProperty Name="ReceiverUnit" ColumnName="ReceiverUnit" />
+          <ScalarProperty Name="InstrumentsNameSymbol" ColumnName="InstrumentsNameSymbol" />
+          <ScalarProperty Name="ServiceDate" ColumnName="ServiceDate" />
+          <ScalarProperty Name="ServiceLocation" ColumnName="ServiceLocation" />
+          <ScalarProperty Name="ServiceMode" ColumnName="ServiceMode" />
+          <ScalarProperty Name="ServiceUser" ColumnName="ServiceUser" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InterrogationRecord">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.InterrogationRecord">
+        <MappingFragment StoreEntitySet="InterrogationRecord">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="InterrogationRecordCount" ColumnName="InterrogationRecordCount" />
+          <ScalarProperty Name="BeganTime" ColumnName="BeganTime" />
+          <ScalarProperty Name="ToTime" ColumnName="ToTime" />
+          <ScalarProperty Name="AskAddress" ColumnName="AskAddress" />
+          <ScalarProperty Name="BeAskEPeopleName" ColumnName="BeAskEPeopleName" />
+          <ScalarProperty Name="BeAskEPeopleSex" ColumnName="BeAskEPeopleSex" />
+          <ScalarProperty Name="BeAskEPeopleAge" ColumnName="BeAskEPeopleAge" />
+          <ScalarProperty Name="BeAskEPeopleID" ColumnName="BeAskEPeopleID" />
+          <ScalarProperty Name="BeAskEPeopleCompanyName" ColumnName="BeAskEPeopleCompanyName" />
+          <ScalarProperty Name="BeAskEPeoplePosition" ColumnName="BeAskEPeoplePosition" />
+          <ScalarProperty Name="BeAskEPeopleAddress" ColumnName="BeAskEPeopleAddress" />
+          <ScalarProperty Name="BeAskEPeoplePhone" ColumnName="BeAskEPeoplePhone" />
+          <ScalarProperty Name="AskUserName" ColumnName="AskUserName" />
+          <ScalarProperty Name="AskUserCompanyName" ColumnName="AskUserCompanyName" />
+          <ScalarProperty Name="RecordUserName" ColumnName="RecordUserName" />
+          <ScalarProperty Name="RecordCompanyName" ColumnName="RecordCompanyName" />
+          <ScalarProperty Name="PresentEPeopleName" ColumnName="PresentEPeopleName" />
+          <ScalarProperty Name="QFirstPerson1" ColumnName="QFirstPerson1" />
+          <ScalarProperty Name="QFirstPersonName1" ColumnName="QFirstPersonName1" />
+          <ScalarProperty Name="QFirstPersonIDC1" ColumnName="QFirstPersonIDC1" />
+          <ScalarProperty Name="QFirstPerson2" ColumnName="QFirstPerson2" />
+          <ScalarProperty Name="QFirstPerson2IDC2" ColumnName="QFirstPerson2IDC2" />
+          <ScalarProperty Name="QFirstAnswer" ColumnName="QFirstAnswer" />
+          <ScalarProperty Name="QuestionSecond" ColumnName="QuestionSecond" />
+          <ScalarProperty Name="QuestionSecondAnswer" ColumnName="QuestionSecondAnswer" />
+          <ScalarProperty Name="QuestionThirdAnswer" ColumnName="QuestionThirdAnswer" />
+          <ScalarProperty Name="Questions" ColumnName="Questions" />
+          <ScalarProperty Name="RecordDate" ColumnName="RecordDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LawFile">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.LawFile">
+        <MappingFragment StoreEntitySet="LawFile">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LawTitle" ColumnName="LawTitle" />
+          <ScalarProperty Name="LawFilePath" ColumnName="LawFilePath" />
+          <ScalarProperty Name="LawType" ColumnName="LawType" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LawRegulations">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.LawRegulations">
+        <MappingFragment StoreEntitySet="LawRegulations">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lawyer">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.Lawyer">
+        <MappingFragment StoreEntitySet="Lawyer">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="LawyerName" ColumnName="LawyerName" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Job" ColumnName="Job" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaturalPerson">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.NaturalPerson">
+        <MappingFragment StoreEntitySet="NaturalPerson">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PersonName" ColumnName="PersonName" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="IDcard" ColumnName="IDcard" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="Job" ColumnName="Job" />
+          <ScalarProperty Name="CompanyAddress" ColumnName="CompanyAddress" />
+          <ScalarProperty Name="CompanyTel" ColumnName="CompanyTel" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NoticeOfEnquiry">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.NoticeOfEnquiry">
+        <MappingFragment StoreEntitySet="NoticeOfEnquiry">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="IllegalTypeName" ColumnName="IllegalTypeName" />
+          <ScalarProperty Name="ToDateTime" ColumnName="ToDateTime" />
+          <ScalarProperty Name="ToAddress" ColumnName="ToAddress" />
+          <ScalarProperty Name="IfID" ColumnName="IfID" />
+          <ScalarProperty Name="IfBusinessLicense" ColumnName="IfBusinessLicense" />
+          <ScalarProperty Name="IfLawID" ColumnName="IfLawID" />
+          <ScalarProperty Name="IfOther" ColumnName="IfOther" />
+          <ScalarProperty Name="OtherDocument" ColumnName="OtherDocument" />
+          <ScalarProperty Name="DetpAddress" ColumnName="DetpAddress" />
+          <ScalarProperty Name="DetpName" ColumnName="DetpName" />
+          <ScalarProperty Name="DetpPhone" ColumnName="DetpPhone" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+          <ScalarProperty Name="FillDate" ColumnName="FillDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Officers">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.Officers">
+        <MappingFragment StoreEntitySet="Officers">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="OfficersName" ColumnName="OfficersName" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+          <ScalarProperty Name="CID" ColumnName="CID" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderDeadlineReform">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.OrderDeadlineReform">
+        <MappingFragment StoreEntitySet="OrderDeadlineReform">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="OrderCompany" ColumnName="OrderCompany" />
+          <ScalarProperty Name="Matter" ColumnName="Matter" />
+          <ScalarProperty Name="MatterCount" ColumnName="MatterCount" />
+          <ScalarProperty Name="ReformDate" ColumnName="ReformDate" />
+          <ScalarProperty Name="GovArea" ColumnName="GovArea" />
+          <ScalarProperty Name="ManageArea" ColumnName="ManageArea" />
+          <ScalarProperty Name="CourtArea" ColumnName="CourtArea" />
+          <ScalarProperty Name="OfficerName1" ColumnName="OfficerName1" />
+          <ScalarProperty Name="CID1" ColumnName="CID1" />
+          <ScalarProperty Name="OfficerName2" ColumnName="OfficerName2" />
+          <ScalarProperty Name="CID2" ColumnName="CID2" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+          <ScalarProperty Name="DocDate" ColumnName="DocDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PowerInventory">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.PowerInventory">
+        <MappingFragment StoreEntitySet="PowerInventory">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PowerName" ColumnName="PowerName" />
+          <ScalarProperty Name="PowerNumber" ColumnName="PowerNumber" />
+          <ScalarProperty Name="PowerType" ColumnName="PowerType" />
+          <ScalarProperty Name="PowerSubject" ColumnName="PowerSubject" />
+          <ScalarProperty Name="PowerContent" ColumnName="PowerContent" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PunishmentDecision">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.PunishmentDecision">
+        <MappingFragment StoreEntitySet="PunishmentDecision">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="PutOnRecordID" ColumnName="PutOnRecordID" />
+          <ScalarProperty Name="BePenalizeEPeopleID" ColumnName="BePenalizeEPeopleID" />
+          <ScalarProperty Name="IllegalEvidence" ColumnName="IllegalEvidence" />
+          <ScalarProperty Name="IllegalProvisions" ColumnName="IllegalProvisions" />
+          <ScalarProperty Name="According" ColumnName="According" />
+          <ScalarProperty Name="PunishmentMoney" ColumnName="PunishmentMoney" />
+          <ScalarProperty Name="PunishmentAmount" ColumnName="PunishmentAmount" />
+          <ScalarProperty Name="IfSpotPay" ColumnName="IfSpotPay" />
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+          <ScalarProperty Name="BankID" ColumnName="BankID" />
+          <ScalarProperty Name="ReconsiderationUnit1" ColumnName="ReconsiderationUnit1" />
+          <ScalarProperty Name="ReconsiderationUnit2" ColumnName="ReconsiderationUnit2" />
+          <ScalarProperty Name="LitigationUnit" ColumnName="LitigationUnit" />
+          <ScalarProperty Name="ExecUserID1" ColumnName="ExecUserID1" />
+          <ScalarProperty Name="ExecUserID2" ColumnName="ExecUserID2" />
+          <ScalarProperty Name="FillDate" ColumnName="FillDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PunishmentDecisionPersonal">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.PunishmentDecisionPersonal">
+        <MappingFragment StoreEntitySet="PunishmentDecisionPersonal">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="FieldEPeopleName" ColumnName="FieldEPeopleName" />
+          <ScalarProperty Name="FieldEPeopleSex" ColumnName="FieldEPeopleSex" />
+          <ScalarProperty Name="FieldEPeopleAge" ColumnName="FieldEPeopleAge" />
+          <ScalarProperty Name="FieldEPeoplePhone" ColumnName="FieldEPeoplePhone" />
+          <ScalarProperty Name="FieldEPeopleAddress" ColumnName="FieldEPeopleAddress" />
+          <ScalarProperty Name="FieldEPeopleCompanyName" ColumnName="FieldEPeopleCompanyName" />
+          <ScalarProperty Name="FieldEPeoplePosition" ColumnName="FieldEPeoplePosition" />
+          <ScalarProperty Name="FieldEPeopleCompanyAddress" ColumnName="FieldEPeopleCompanyAddress" />
+          <ScalarProperty Name="FieldEPeopleZip" ColumnName="FieldEPeopleZip" />
+          <ScalarProperty Name="IllegalEvidence" ColumnName="IllegalEvidence" />
+          <ScalarProperty Name="IllegalProvisions" ColumnName="IllegalProvisions" />
+          <ScalarProperty Name="According" ColumnName="According" />
+          <ScalarProperty Name="PunishmentMoney" ColumnName="PunishmentMoney" />
+          <ScalarProperty Name="PunishmentAmount" ColumnName="PunishmentAmount" />
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+          <ScalarProperty Name="BankID" ColumnName="BankID" />
+          <ScalarProperty Name="ReconsiderationUnitName1" ColumnName="ReconsiderationUnitName1" />
+          <ScalarProperty Name="ReconsiderationUnitName2" ColumnName="ReconsiderationUnitName2" />
+          <ScalarProperty Name="LitigationUnitName" ColumnName="LitigationUnitName" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+          <ScalarProperty Name="FillDate" ColumnName="FillDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PunishmentDecisionUnit">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.PunishmentDecisionUnit">
+        <MappingFragment StoreEntitySet="PunishmentDecisionUnit">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="PutOnRecordCaseName" ColumnName="PutOnRecordCaseName" />
+          <ScalarProperty Name="FieldEAddress" ColumnName="FieldEAddress" />
+          <ScalarProperty Name="FieldEPeopleZio" ColumnName="FieldEPeopleZio" />
+          <ScalarProperty Name="FieldEFName" ColumnName="FieldEFName" />
+          <ScalarProperty Name="FieldEPosition" ColumnName="FieldEPosition" />
+          <ScalarProperty Name="FieldEPeoplePhone" ColumnName="FieldEPeoplePhone" />
+          <ScalarProperty Name="IllegalEvidence" ColumnName="IllegalEvidence" />
+          <ScalarProperty Name="IllegalProvisions" ColumnName="IllegalProvisions" />
+          <ScalarProperty Name="According" ColumnName="According" />
+          <ScalarProperty Name="PunishmentMoney" ColumnName="PunishmentMoney" />
+          <ScalarProperty Name="PunishmentAmount" ColumnName="PunishmentAmount" />
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+          <ScalarProperty Name="BankID" ColumnName="BankID" />
+          <ScalarProperty Name="ReconsiderationUnitName1" ColumnName="ReconsiderationUnitName1" />
+          <ScalarProperty Name="ReconsiderationUnitName2" ColumnName="ReconsiderationUnitName2" />
+          <ScalarProperty Name="LitigationUnitName" ColumnName="LitigationUnitName" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+          <ScalarProperty Name="FillDate" ColumnName="FillDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PunishmentDiscussRecord">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.PunishmentDiscussRecord">
+        <MappingFragment StoreEntitySet="PunishmentDiscussRecord">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PutOnRecordCaseName" ColumnName="PutOnRecordCaseName" />
+          <ScalarProperty Name="DiscussDate" ColumnName="DiscussDate" />
+          <ScalarProperty Name="DiscussAddress" ColumnName="DiscussAddress" />
+          <ScalarProperty Name="HostName" ColumnName="HostName" />
+          <ScalarProperty Name="ReportName" ColumnName="ReportName" />
+          <ScalarProperty Name="RecordUserName" ColumnName="RecordUserName" />
+          <ScalarProperty Name="PDRPeople1" ColumnName="PDRPeople1" />
+          <ScalarProperty Name="PDRPeople2" ColumnName="PDRPeople2" />
+          <ScalarProperty Name="DiscussContent" ColumnName="DiscussContent" />
+          <ScalarProperty Name="RecordContent" ColumnName="RecordContent" />
+          <ScalarProperty Name="Conclusion" ColumnName="Conclusion" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PutDown">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.PutDown">
+        <MappingFragment StoreEntitySet="PutDown">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CaseName" ColumnName="CaseName" />
+          <ScalarProperty Name="Organ" ColumnName="Organ" />
+          <ScalarProperty Name="OrganAddress" ColumnName="OrganAddress" />
+          <ScalarProperty Name="HearBeginDate" ColumnName="HearBeginDate" />
+          <ScalarProperty Name="HearEndDate" ColumnName="HearEndDate" />
+          <ScalarProperty Name="CompereName" ColumnName="CompereName" />
+          <ScalarProperty Name="HearName" ColumnName="HearName" />
+          <ScalarProperty Name="SecretaryName" ColumnName="SecretaryName" />
+          <ScalarProperty Name="Investigador1" ColumnName="Investigador1" />
+          <ScalarProperty Name="InvestigadorIDC1" ColumnName="InvestigadorIDC1" />
+          <ScalarProperty Name="Investigador2" ColumnName="Investigador2" />
+          <ScalarProperty Name="InvestigadorIDC2" ColumnName="InvestigadorIDC2" />
+          <ScalarProperty Name="ProposerCompany" ColumnName="ProposerCompany" />
+          <ScalarProperty Name="ProposerAddress" ColumnName="ProposerAddress" />
+          <ScalarProperty Name="LegalRepre" ColumnName="LegalRepre" />
+          <ScalarProperty Name="LegalRepreSex" ColumnName="LegalRepreSex" />
+          <ScalarProperty Name="LegalRepreAge" ColumnName="LegalRepreAge" />
+          <ScalarProperty Name="LegalRepreAgent1" ColumnName="LegalRepreAgent1" />
+          <ScalarProperty Name="LegalRepreAgentSex1" ColumnName="LegalRepreAgentSex1" />
+          <ScalarProperty Name="LegalRepreAgentAge1" ColumnName="LegalRepreAgentAge1" />
+          <ScalarProperty Name="LegalRepreAgentJob1" ColumnName="LegalRepreAgentJob1" />
+          <ScalarProperty Name="LegalRepreAgent2" ColumnName="LegalRepreAgent2" />
+          <ScalarProperty Name="LegalRepreAgentSex2" ColumnName="LegalRepreAgentSex2" />
+          <ScalarProperty Name="LegalRepreAgentAge2" ColumnName="LegalRepreAgentAge2" />
+          <ScalarProperty Name="LegalRepreAgentJob2" ColumnName="LegalRepreAgentJob2" />
+          <ScalarProperty Name="Proposer" ColumnName="Proposer" />
+          <ScalarProperty Name="ProposerSex" ColumnName="ProposerSex" />
+          <ScalarProperty Name="ProposerAge" ColumnName="ProposerAge" />
+          <ScalarProperty Name="ProposerJob" ColumnName="ProposerJob" />
+          <ScalarProperty Name="ProposerAgent1" ColumnName="ProposerAgent1" />
+          <ScalarProperty Name="ProposerAgentSex1" ColumnName="ProposerAgentSex1" />
+          <ScalarProperty Name="ProposerAgentAge1" ColumnName="ProposerAgentAge1" />
+          <ScalarProperty Name="ProposerAgentJob1" ColumnName="ProposerAgentJob1" />
+          <ScalarProperty Name="ProposerAgen2" ColumnName="ProposerAgen2" />
+          <ScalarProperty Name="ProposerAgentSex2" ColumnName="ProposerAgentSex2" />
+          <ScalarProperty Name="ProposerAgentAge2" ColumnName="ProposerAgentAge2" />
+          <ScalarProperty Name="ProposerAgentJob2" ColumnName="ProposerAgentJob2" />
+          <ScalarProperty Name="ThirdPerson" ColumnName="ThirdPerson" />
+          <ScalarProperty Name="OhterPerson" ColumnName="OhterPerson" />
+          <ScalarProperty Name="Record" ColumnName="Record" />
+          <ScalarProperty Name="ProposerOrAgent" ColumnName="ProposerOrAgent" />
+          <ScalarProperty Name="DocDate" ColumnName="DocDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PutOnRecord">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.PutOnRecord">
+        <MappingFragment StoreEntitySet="PutOnRecord">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="IllegalTypeName" ColumnName="IllegalTypeName" />
+          <ScalarProperty Name="CaseSourceName" ColumnName="CaseSourceName" />
+          <ScalarProperty Name="ThisDate" ColumnName="ThisDate" />
+          <ScalarProperty Name="CaseName" ColumnName="CaseName" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="PeopleName" ColumnName="PeopleName" />
+          <ScalarProperty Name="PeoplePhone" ColumnName="PeoplePhone" />
+          <ScalarProperty Name="PeopleCondition" ColumnName="PeopleCondition" />
+          <ScalarProperty Name="PeopleAddress" ColumnName="PeopleAddress" />
+          <ScalarProperty Name="PeopleZip" ColumnName="PeopleZip" />
+          <ScalarProperty Name="CaseStatus" ColumnName="CaseStatus" />
+          <ScalarProperty Name="UndertakerOpinion" ColumnName="UndertakerOpinion" />
+          <ScalarProperty Name="UndertakerUserName1" ColumnName="UndertakerUserName1" />
+          <ScalarProperty Name="UndertakerUserName2" ColumnName="UndertakerUserName2" />
+          <ScalarProperty Name="UndertakerUserName3" ColumnName="UndertakerUserName3" />
+          <ScalarProperty Name="UndertakerData" ColumnName="UndertakerData" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Question">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.Question">
+        <MappingFragment StoreEntitySet="Question">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="QuestionInfo" ColumnName="QuestionInfo" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReformReView">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.ReformReView">
+        <MappingFragment StoreEntitySet="ReformReView">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="ReviewCompany" ColumnName="ReviewCompany" />
+          <ScalarProperty Name="ReviewDate" ColumnName="ReviewDate" />
+          <ScalarProperty Name="Decide" ColumnName="Decide" />
+          <ScalarProperty Name="DocTitle2" ColumnName="DocTitle2" />
+          <ScalarProperty Name="Idea" ColumnName="Idea" />
+          <ScalarProperty Name="OfficerName1" ColumnName="OfficerName1" />
+          <ScalarProperty Name="CID1" ColumnName="CID1" />
+          <ScalarProperty Name="OfficerName2" ColumnName="OfficerName2" />
+          <ScalarProperty Name="CID2" ColumnName="CID2" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+          <ScalarProperty Name="DocDate" ColumnName="DocDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReviewOptionApprove">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.ReviewOptionApprove">
+        <MappingFragment StoreEntitySet="ReviewOptionApprove">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Party" ColumnName="Party" />
+          <ScalarProperty Name="PartyAddress" ColumnName="PartyAddress" />
+          <ScalarProperty Name="LegalRepre" ColumnName="LegalRepre" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="RawDecisionID" ColumnName="RawDecisionID" />
+          <ScalarProperty Name="LeaveTime" ColumnName="LeaveTime" />
+          <ScalarProperty Name="ReceiveTime" ColumnName="ReceiveTime" />
+          <ScalarProperty Name="ReviewTime" ColumnName="ReviewTime" />
+          <ScalarProperty Name="MajorProblems" ColumnName="MajorProblems" />
+          <ScalarProperty Name="ReviewCondition" ColumnName="ReviewCondition" />
+          <ScalarProperty Name="Reviewer" ColumnName="Reviewer" />
+          <ScalarProperty Name="ReviewDate" ColumnName="ReviewDate" />
+          <ScalarProperty Name="Undertake" ColumnName="Undertake" />
+          <ScalarProperty Name="Principal" ColumnName="Principal" />
+          <ScalarProperty Name="PrincipalDate" ColumnName="PrincipalDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sampling">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.Sampling">
+        <MappingFragment StoreEntitySet="Sampling">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="FieldECompanyName" ColumnName="FieldECompanyName" />
+          <ScalarProperty Name="FieldEPeopleName" ColumnName="FieldEPeopleName" />
+          <ScalarProperty Name="FieldEAddress" ColumnName="FieldEAddress" />
+          <ScalarProperty Name="FieldEPeoplePhone" ColumnName="FieldEPeoplePhone" />
+          <ScalarProperty Name="FieldEPeopleZio" ColumnName="FieldEPeopleZio" />
+          <ScalarProperty Name="BeganTime" ColumnName="BeganTime" />
+          <ScalarProperty Name="ToTime" ColumnName="ToTime" />
+          <ScalarProperty Name="SamplingAddress" ColumnName="SamplingAddress" />
+          <ScalarProperty Name="FieldEPeopleName1" ColumnName="FieldEPeopleName1" />
+          <ScalarProperty Name="ExecUserName1" ColumnName="ExecUserName1" />
+          <ScalarProperty Name="ExecUserNumber1" ColumnName="ExecUserNumber1" />
+          <ScalarProperty Name="ExecUserName2" ColumnName="ExecUserName2" />
+          <ScalarProperty Name="ExecUserNumber2" ColumnName="ExecUserNumber2" />
+          <ScalarProperty Name="WitnesEPeopleName1" ColumnName="WitnesEPeopleName1" />
+          <ScalarProperty Name="WitnesEPeopleName2" ColumnName="WitnesEPeopleName2" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+          <ScalarProperty Name="FillDate" ColumnName="FillDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SamplingContent">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.SamplingContent">
+        <MappingFragment StoreEntitySet="SamplingContent">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SamplingID" ColumnName="SamplingID" />
+          <ScalarProperty Name="SDocTitle" ColumnName="SDocTitle" />
+          <ScalarProperty Name="ItemName" ColumnName="ItemName" />
+          <ScalarProperty Name="ItemRule" ColumnName="ItemRule" />
+          <ScalarProperty Name="Origin" ColumnName="Origin" />
+          <ScalarProperty Name="Grade" ColumnName="Grade" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="ItemUnit" ColumnName="ItemUnit" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SaveEvidenceAudit">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.SaveEvidenceAudit">
+        <MappingFragment StoreEntitySet="SaveEvidenceAudit">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PutOnRecordCaseName" ColumnName="PutOnRecordCaseName" />
+          <ScalarProperty Name="PutOnRecordCasePeopleInfo" ColumnName="PutOnRecordCasePeopleInfo" />
+          <ScalarProperty Name="PutOnRecordCaseContent" ColumnName="PutOnRecordCaseContent" />
+          <ScalarProperty Name="SamplingID" ColumnName="SamplingID" />
+          <ScalarProperty Name="ReasonBasis" ColumnName="ReasonBasis" />
+          <ScalarProperty Name="SavaWay" ColumnName="SavaWay" />
+          <ScalarProperty Name="UndertakerOpinion" ColumnName="UndertakerOpinion" />
+          <ScalarProperty Name="UndertakerUserName1" ColumnName="UndertakerUserName1" />
+          <ScalarProperty Name="UndertakerUserName2" ColumnName="UndertakerUserName2" />
+          <ScalarProperty Name="UndertakerData" ColumnName="UndertakerData" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SaveEvidenceNotice">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.SaveEvidenceNotice">
+        <MappingFragment StoreEntitySet="SaveEvidenceNotice">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SamplingID" ColumnName="SamplingID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="FieldECompanyName" ColumnName="FieldECompanyName" />
+          <ScalarProperty Name="IllegalTypeName" ColumnName="IllegalTypeName" />
+          <ScalarProperty Name="ToTime" ColumnName="ToTime" />
+          <ScalarProperty Name="QFirstPerson" ColumnName="QFirstPerson" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+          <ScalarProperty Name="FillDate" ColumnName="FillDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SaveEvidenceProceAudit">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.SaveEvidenceProceAudit">
+        <MappingFragment StoreEntitySet="SaveEvidenceProceAudit">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PutOnRecordCaseName" ColumnName="PutOnRecordCaseName" />
+          <ScalarProperty Name="PutOnRecordCasePeopleInfo" ColumnName="PutOnRecordCasePeopleInfo" />
+          <ScalarProperty Name="PutOnRecordCaseContent" ColumnName="PutOnRecordCaseContent" />
+          <ScalarProperty Name="SamplingID" ColumnName="SamplingID" />
+          <ScalarProperty Name="ReasonBasis" ColumnName="ReasonBasis" />
+          <ScalarProperty Name="UndertakerOpinion" ColumnName="UndertakerOpinion" />
+          <ScalarProperty Name="UndertakerUserName1" ColumnName="UndertakerUserName1" />
+          <ScalarProperty Name="UndertakerUserName2" ColumnName="UndertakerUserName2" />
+          <ScalarProperty Name="UndertakerData" ColumnName="UndertakerData" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SaveEvidenceProceDecide">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.SaveEvidenceProceDecide">
+        <MappingFragment StoreEntitySet="SaveEvidenceProceDecide">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="FieldECompanyName" ColumnName="FieldECompanyName" />
+          <ScalarProperty Name="JData" ColumnName="JData" />
+          <ScalarProperty Name="SamplingContent" ColumnName="SamplingContent" />
+          <ScalarProperty Name="SaveEvidenceProceAuditDocTitle" ColumnName="SaveEvidenceProceAuditDocTitle" />
+          <ScalarProperty Name="DecideContent" ColumnName="DecideContent" />
+          <ScalarProperty Name="LitigationUnitName1" ColumnName="LitigationUnitName1" />
+          <ScalarProperty Name="LitigationUnitName2" ColumnName="LitigationUnitName2" />
+          <ScalarProperty Name="LitigationUnitName3" ColumnName="LitigationUnitName3" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+          <ScalarProperty Name="FillDate" ColumnName="FillDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SealDecide">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.SealDecide">
+        <MappingFragment StoreEntitySet="SealDecide">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="SealReason" ColumnName="SealReason" />
+          <ScalarProperty Name="SealLaw" ColumnName="SealLaw" />
+          <ScalarProperty Name="Government" ColumnName="Government" />
+          <ScalarProperty Name="ManageDepartment" ColumnName="ManageDepartment" />
+          <ScalarProperty Name="Court" ColumnName="Court" />
+          <ScalarProperty Name="SealLocation" ColumnName="SealLocation" />
+          <ScalarProperty Name="SealStartDate" ColumnName="SealStartDate" />
+          <ScalarProperty Name="SealEndDate" ColumnName="SealEndDate" />
+          <ScalarProperty Name="UserName1" ColumnName="UserName1" />
+          <ScalarProperty Name="UserName2" ColumnName="UserName2" />
+          <ScalarProperty Name="HandleDate" ColumnName="HandleDate" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SealDecideApproval">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.SealDecideApproval">
+        <MappingFragment StoreEntitySet="SealDecideApproval">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CaseID" ColumnName="CaseID" />
+          <ScalarProperty Name="CaseName" ColumnName="CaseName" />
+          <ScalarProperty Name="CaseStatus" ColumnName="CaseStatus" />
+          <ScalarProperty Name="PartyBaseInfo" ColumnName="PartyBaseInfo" />
+          <ScalarProperty Name="SealContent" ColumnName="SealContent" />
+          <ScalarProperty Name="SealReason" ColumnName="SealReason" />
+          <ScalarProperty Name="UserName1" ColumnName="UserName1" />
+          <ScalarProperty Name="UserName2" ColumnName="UserName2" />
+          <ScalarProperty Name="UserReason" ColumnName="UserReason" />
+          <ScalarProperty Name="HandleDate" ColumnName="HandleDate" />
+          <ScalarProperty Name="ThingID" ColumnName="ThingID" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SealThingDetail">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.SealThingDetail">
+        <MappingFragment StoreEntitySet="SealThingDetail">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ThingName" ColumnName="ThingName" />
+          <ScalarProperty Name="ThingModel" ColumnName="ThingModel" />
+          <ScalarProperty Name="ThingPlace" ColumnName="ThingPlace" />
+          <ScalarProperty Name="ThingGrade" ColumnName="ThingGrade" />
+          <ScalarProperty Name="ThingUnit" ColumnName="ThingUnit" />
+          <ScalarProperty Name="ThingPrice" ColumnName="ThingPrice" />
+          <ScalarProperty Name="ThingNumber" ColumnName="ThingNumber" />
+          <ScalarProperty Name="ThingNoe" ColumnName="ThingNoe" />
+          <ScalarProperty Name="ThingID" ColumnName="ThingID" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SealThingHandle">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.SealThingHandle">
+        <MappingFragment StoreEntitySet="SealThingHandle">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="SealDate" ColumnName="SealDate" />
+          <ScalarProperty Name="SealContent" ColumnName="SealContent" />
+          <ScalarProperty Name="SealResult" ColumnName="SealResult" />
+          <ScalarProperty Name="Government" ColumnName="Government" />
+          <ScalarProperty Name="ManageDepartment" ColumnName="ManageDepartment" />
+          <ScalarProperty Name="Court" ColumnName="Court" />
+          <ScalarProperty Name="HandleDate" ColumnName="HandleDate" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="ThingCheckNo" ColumnName="ThingCheckNo" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SealThingHandleApproval">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.SealThingHandleApproval">
+        <MappingFragment StoreEntitySet="SealThingHandleApproval">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CaseName" ColumnName="CaseName" />
+          <ScalarProperty Name="PartyBaseInfo" ColumnName="PartyBaseInfo" />
+          <ScalarProperty Name="CaseSurveyInfo" ColumnName="CaseSurveyInfo" />
+          <ScalarProperty Name="UserReason" ColumnName="UserReason" />
+          <ScalarProperty Name="UserName1" ColumnName="UserName1" />
+          <ScalarProperty Name="UserName2" ColumnName="UserName2" />
+          <ScalarProperty Name="HandleDate" ColumnName="HandleDate" />
+          <ScalarProperty Name="SealDecideNo" ColumnName="SealDecideNo" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SealThings">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.SealThings">
+        <MappingFragment StoreEntitySet="SealThings">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ThingUser" ColumnName="ThingUser" />
+          <ScalarProperty Name="UserID1" ColumnName="UserID1" />
+          <ScalarProperty Name="UserID2" ColumnName="UserID2" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SearchWord">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.SearchWord">
+        <MappingFragment StoreEntitySet="SearchWord">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Words" ColumnName="Words" />
+          <ScalarProperty Name="SearchIndex" ColumnName="SearchIndex" />
+          <ScalarProperty Name="Fields" ColumnName="Fields" />
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+          <ScalarProperty Name="WordClassType" ColumnName="WordClassType" />
+          <ScalarProperty Name="TableID" ColumnName="TableID" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SpotCheck">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.SpotCheck">
+        <MappingFragment StoreEntitySet="SpotCheck">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CompanyAddress" ColumnName="CompanyAddress" />
+          <ScalarProperty Name="JuridicalName" ColumnName="JuridicalName" />
+          <ScalarProperty Name="JuridicalJob" ColumnName="JuridicalJob" />
+          <ScalarProperty Name="JuridicalTel" ColumnName="JuridicalTel" />
+          <ScalarProperty Name="CheckAddress" ColumnName="CheckAddress" />
+          <ScalarProperty Name="CheckStartTime" ColumnName="CheckStartTime" />
+          <ScalarProperty Name="CheckEndTime" ColumnName="CheckEndTime" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="OfficerName1" ColumnName="OfficerName1" />
+          <ScalarProperty Name="CID1" ColumnName="CID1" />
+          <ScalarProperty Name="OfficerName2" ColumnName="OfficerName2" />
+          <ScalarProperty Name="CID2" ColumnName="CID2" />
+          <ScalarProperty Name="CheckCondition" ColumnName="CheckCondition" />
+          <ScalarProperty Name="SpotCondition" ColumnName="SpotCondition" />
+          <ScalarProperty Name="CheckPerson1" ColumnName="CheckPerson1" />
+          <ScalarProperty Name="CheckPerson2" ColumnName="CheckPerson2" />
+          <ScalarProperty Name="CheckDate" ColumnName="CheckDate" />
+          <ScalarProperty Name="SiteJuridical" ColumnName="SiteJuridical" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SpotHandelDesision">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.SpotHandelDesision">
+        <MappingFragment StoreEntitySet="SpotHandelDesision">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="CheckDate" ColumnName="CheckDate" />
+          <ScalarProperty Name="Violations" ColumnName="Violations" />
+          <ScalarProperty Name="LegalBasis" ColumnName="LegalBasis" />
+          <ScalarProperty Name="SitHandel" ColumnName="SitHandel" />
+          <ScalarProperty Name="GovArea" ColumnName="GovArea" />
+          <ScalarProperty Name="ManageArea" ColumnName="ManageArea" />
+          <ScalarProperty Name="CourtArea" ColumnName="CourtArea" />
+          <ScalarProperty Name="OfficerName1" ColumnName="OfficerName1" />
+          <ScalarProperty Name="CID1" ColumnName="CID1" />
+          <ScalarProperty Name="OfficerName2" ColumnName="OfficerName2" />
+          <ScalarProperty Name="CID2" ColumnName="CID2" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+          <ScalarProperty Name="DocDate" ColumnName="DocDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SpotHandelDesisionSixtyDay">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.SpotHandelDesisionSixtyDay">
+        <MappingFragment StoreEntitySet="SpotHandelDesisionSixtyDay">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="HandleComp" ColumnName="HandleComp" />
+          <ScalarProperty Name="CheckDate" ColumnName="CheckDate" />
+          <ScalarProperty Name="Danger" ColumnName="Danger" />
+          <ScalarProperty Name="LegalBasis" ColumnName="LegalBasis" />
+          <ScalarProperty Name="SitHandel" ColumnName="SitHandel" />
+          <ScalarProperty Name="GovArea" ColumnName="GovArea" />
+          <ScalarProperty Name="ManageArea" ColumnName="ManageArea" />
+          <ScalarProperty Name="CourtArea" ColumnName="CourtArea" />
+          <ScalarProperty Name="OfficerName1" ColumnName="OfficerName1" />
+          <ScalarProperty Name="CID1" ColumnName="CID1" />
+          <ScalarProperty Name="OfficerName2" ColumnName="OfficerName2" />
+          <ScalarProperty Name="CID2" ColumnName="CID2" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+          <ScalarProperty Name="DocDate" ColumnName="DocDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SpotPunishmentDecisionPersonal">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.SpotPunishmentDecisionPersonal">
+        <MappingFragment StoreEntitySet="SpotPunishmentDecisionPersonal">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="FieldEPeopleName" ColumnName="FieldEPeopleName" />
+          <ScalarProperty Name="FieldEPeopleSex" ColumnName="FieldEPeopleSex" />
+          <ScalarProperty Name="FieldEPeopleAge" ColumnName="FieldEPeopleAge" />
+          <ScalarProperty Name="FieldEPeopleID" ColumnName="FieldEPeopleID" />
+          <ScalarProperty Name="FieldEPeopleAddress" ColumnName="FieldEPeopleAddress" />
+          <ScalarProperty Name="FieldEPeopleCompanyName" ColumnName="FieldEPeopleCompanyName" />
+          <ScalarProperty Name="FieldEPeoplePosition" ColumnName="FieldEPeoplePosition" />
+          <ScalarProperty Name="FieldEPeopleCompanyAddress" ColumnName="FieldEPeopleCompanyAddress" />
+          <ScalarProperty Name="FieldEPeoplePhone" ColumnName="FieldEPeoplePhone" />
+          <ScalarProperty Name="IllegalEvidence" ColumnName="IllegalEvidence" />
+          <ScalarProperty Name="IllegalProvisions" ColumnName="IllegalProvisions" />
+          <ScalarProperty Name="According" ColumnName="According" />
+          <ScalarProperty Name="PunishmentMoney" ColumnName="PunishmentMoney" />
+          <ScalarProperty Name="PunishmentAmount" ColumnName="PunishmentAmount" />
+          <ScalarProperty Name="IfSpotPay" ColumnName="IfSpotPay" />
+          <ScalarProperty Name="IfOther" ColumnName="IfOther" />
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+          <ScalarProperty Name="BankID" ColumnName="BankID" />
+          <ScalarProperty Name="ReconsiderationUnitName1" ColumnName="ReconsiderationUnitName1" />
+          <ScalarProperty Name="ReconsiderationUnitName2" ColumnName="ReconsiderationUnitName2" />
+          <ScalarProperty Name="LitigationUnitName" ColumnName="LitigationUnitName" />
+          <ScalarProperty Name="ExecUserName1" ColumnName="ExecUserName1" />
+          <ScalarProperty Name="ExecUserName2" ColumnName="ExecUserName2" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+          <ScalarProperty Name="FillDate" ColumnName="FillDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SpotPunishmentDecisionUnit">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.SpotPunishmentDecisionUnit">
+        <MappingFragment StoreEntitySet="SpotPunishmentDecisionUnit">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="PutOnRecordCompanyName" ColumnName="PutOnRecordCompanyName" />
+          <ScalarProperty Name="FieldEAddress" ColumnName="FieldEAddress" />
+          <ScalarProperty Name="FieldEPeopleZio" ColumnName="FieldEPeopleZio" />
+          <ScalarProperty Name="FieldEFName" ColumnName="FieldEFName" />
+          <ScalarProperty Name="FieldEPosition" ColumnName="FieldEPosition" />
+          <ScalarProperty Name="FieldEPeoplePhone" ColumnName="FieldEPeoplePhone" />
+          <ScalarProperty Name="IllegalEvidence" ColumnName="IllegalEvidence" />
+          <ScalarProperty Name="IllegalProvisions" ColumnName="IllegalProvisions" />
+          <ScalarProperty Name="According" ColumnName="According" />
+          <ScalarProperty Name="PunishmentMoney" ColumnName="PunishmentMoney" />
+          <ScalarProperty Name="PunishmentAmount" ColumnName="PunishmentAmount" />
+          <ScalarProperty Name="IfSpotPay" ColumnName="IfSpotPay" />
+          <ScalarProperty Name="IfOther" ColumnName="IfOther" />
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+          <ScalarProperty Name="BankID" ColumnName="BankID" />
+          <ScalarProperty Name="ReconsiderationUnitName1" ColumnName="ReconsiderationUnitName1" />
+          <ScalarProperty Name="ReconsiderationUnitName2" ColumnName="ReconsiderationUnitName2" />
+          <ScalarProperty Name="LitigationUnitName" ColumnName="LitigationUnitName" />
+          <ScalarProperty Name="ExecUserName1" ColumnName="ExecUserName1" />
+          <ScalarProperty Name="ExecUserName2" ColumnName="ExecUserName2" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+          <ScalarProperty Name="FillDate" ColumnName="FillDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SpotShoot">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.SpotShoot">
+        <MappingFragment StoreEntitySet="SpotShoot">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SpotName" ColumnName="SpotName" />
+          <ScalarProperty Name="ShootDate" ColumnName="ShootDate" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SpotShootItem">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.SpotShootItem">
+        <MappingFragment StoreEntitySet="SpotShootItem">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SpotID" ColumnName="SpotID" />
+          <ScalarProperty Name="SpotPhoto" ColumnName="SpotPhoto" />
+          <ScalarProperty Name="ShootAddress" ColumnName="ShootAddress" />
+          <ScalarProperty Name="PhotoIllustr" ColumnName="PhotoIllustr" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SurveyEndReport">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.SurveyEndReport">
+        <MappingFragment StoreEntitySet="SurveyEndReport">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CaseID" ColumnName="CaseID" />
+          <ScalarProperty Name="CaseName" ColumnName="CaseName" />
+          <ScalarProperty Name="CaseHandleResult" ColumnName="CaseHandleResult" />
+          <ScalarProperty Name="CaseStartDate" ColumnName="CaseStartDate" />
+          <ScalarProperty Name="CaseEndDate" ColumnName="CaseEndDate" />
+          <ScalarProperty Name="CaseVolume" ColumnName="CaseVolume" />
+          <ScalarProperty Name="CaseItem" ColumnName="CaseItem" />
+          <ScalarProperty Name="CasePage" ColumnName="CasePage" />
+          <ScalarProperty Name="CaseRetention" ColumnName="CaseRetention" />
+          <ScalarProperty Name="CaseArchivingNo" ColumnName="CaseArchivingNo" />
+          <ScalarProperty Name="AllCaseVolume" ColumnName="AllCaseVolume" />
+          <ScalarProperty Name="AllCaseCatalogNo" ColumnName="AllCaseCatalogNo" />
+          <ScalarProperty Name="AllFondsNo" ColumnName="AllFondsNo" />
+          <ScalarProperty Name="FormHeadUnitAbb" ColumnName="FormHeadUnitAbb" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="UserName1" ColumnName="UserName1" />
+          <ScalarProperty Name="UserName2" ColumnName="UserName2" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TableSequence">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.TableSequence">
+        <MappingFragment StoreEntitySet="TableSequence">
+          <ScalarProperty Name="TableName" ColumnName="TableName" />
+          <ScalarProperty Name="Sequence" ColumnName="Sequence" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserInfo">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.UserInfo">
+        <MappingFragment StoreEntitySet="UserInfo">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Abb" ColumnName="Abb" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="Post" ColumnName="Post" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WritServiceReceipt">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.WritServiceReceipt">
+        <MappingFragment StoreEntitySet="WritServiceReceipt">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="CaseName" ColumnName="CaseName" />
+          <ScalarProperty Name="ServiceCompany" ColumnName="ServiceCompany" />
+          <ScalarProperty Name="DocManageArea" ColumnName="DocManageArea" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WritServiceReceiptItem">
+      <EntityTypeMapping TypeName="DatabaseEntitiesModel.WritServiceReceiptItem">
+        <MappingFragment StoreEntitySet="WritServiceReceiptItem">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ReceiptID" ColumnName="ReceiptID" />
+          <ScalarProperty Name="WritName" ColumnName="WritName" />
+          <ScalarProperty Name="Recipient" ColumnName="Recipient" />
+          <ScalarProperty Name="ServiceDate" ColumnName="ServiceDate" />
+          <ScalarProperty Name="ServiceAddress" ColumnName="ServiceAddress" />
+          <ScalarProperty Name="ServiceWay" ColumnName="ServiceWay" />
+          <ScalarProperty Name="ServicePerson" ColumnName="ServicePerson" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="ExchangeGUID" ColumnName="ExchangeGUID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

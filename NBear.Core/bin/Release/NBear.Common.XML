@@ -1,0 +1,1870 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NBear.Core</name>
+    </assembly>
+    <members>
+        <member name="T:System.Check">
+            <summary>
+            Design By Contract Checks.
+            
+            Each method generates an exception or
+            a trace assertion statement if the contract is broken.
+            </summary>
+            <remarks>
+            This example shows how to call the Require method.
+            Assume DBC_CHECK_PRECONDITION is defined.
+            <code>
+            public void Test(int x)
+            {
+            	try
+            	{
+            		Check.Require(x > 1, "x must be > 1");
+            	}
+            	catch (System.Exception ex)
+            	{
+            		Console.WriteLine(ex.ToString());
+            	}
+            }
+            </code>
+            </remarks>
+            
+        </member>
+        <member name="F:System.Check.NotNull">
+            <summary>
+            NotNullCheckStrategy singleton
+            </summary>
+        </member>
+        <member name="F:System.Check.NotNullOrEmpty">
+            <summary>
+            NotNullOrEmptyStrategy singleton
+            </summary>
+        </member>
+        <member name="M:System.Check.IsAssignableTo``1">
+            <summary>
+            Create IsAssignableToStrategy inatance
+            </summary>
+            <typeparam name="TargetType">The type</typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:System.Check.GreaterThan``1(``0)">
+            <summary>
+            &gt;
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="compareValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Check.LessThan``1(``0)">
+            <summary>
+            &lt;
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="compareValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Check.GreaterThanOrEqual``1(``0)">
+            <summary>
+            &gt;=
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="compareValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Check.LessThanOrEqual``1(``0)">
+            <summary>
+            &lt;=
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="compareValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Check.Require(System.Boolean,System.String)">
+            <summary>
+            Precondition check.
+            </summary>
+        </member>
+        <member name="M:System.Check.Require(System.Boolean,System.String,System.Exception)">
+            <summary>
+            Precondition check.
+            </summary>
+        </member>
+        <member name="M:System.Check.Require(System.Boolean)">
+            <summary>
+            Precondition check.
+            </summary>
+        </member>
+        <member name="M:System.Check.Require(System.Object,System.String,System.Check.ICheckStrategy[])">
+            <summary>
+            Precondition check.
+            </summary>
+        </member>
+        <member name="M:System.Check.Ensure(System.Boolean,System.String)">
+            <summary>
+            Postcondition check.
+            </summary>
+        </member>
+        <member name="M:System.Check.Ensure(System.Boolean,System.String,System.Exception)">
+            <summary>
+            Postcondition check.
+            </summary>
+        </member>
+        <member name="M:System.Check.Ensure(System.Boolean)">
+            <summary>
+            Postcondition check.
+            </summary>
+        </member>
+        <member name="M:System.Check.Ensure(System.Object,System.String,System.Check.ICheckStrategy[])">
+            <summary>
+            Postcondition check.
+            </summary>
+        </member>
+        <member name="M:System.Check.Invariant(System.Boolean,System.String)">
+            <summary>
+            Invariant check.
+            </summary>
+        </member>
+        <member name="M:System.Check.Invariant(System.Boolean,System.String,System.Exception)">
+            <summary>
+            Invariant check.
+            </summary>
+        </member>
+        <member name="M:System.Check.Invariant(System.Boolean)">
+            <summary>
+            Invariant check.
+            </summary>
+        </member>
+        <member name="M:System.Check.Invariant(System.Object,System.String,System.Check.ICheckStrategy[])">
+            <summary>
+            Invariant check.
+            </summary>
+        </member>
+        <member name="M:System.Check.Assert(System.Boolean,System.String)">
+            <summary>
+            Assertion check.
+            </summary>
+        </member>
+        <member name="M:System.Check.Assert(System.Boolean,System.String,System.Exception)">
+            <summary>
+            Assertion check.
+            </summary>
+        </member>
+        <member name="M:System.Check.Assert(System.Boolean)">
+            <summary>
+            Assertion check.
+            </summary>
+        </member>
+        <member name="M:System.Check.Assert(System.Object,System.String,System.Check.ICheckStrategy[])">
+            <summary>
+            Assertion check.
+            </summary>
+        </member>
+        <member name="P:System.Check.UseExceptions">
+            <summary>
+            Is exception handling being used?
+            </summary>
+        </member>
+        <member name="T:System.Check.ICheckStrategy">
+            <summary>
+            ICheckStrategy
+            </summary>
+        </member>
+        <member name="M:System.Check.ICheckStrategy.Pass(System.Object)">
+            <summary>
+            Chech the obj with the strategy
+            </summary>
+            <param name="obj">the obj</param>
+            <returns>true for pass, or return false</returns>
+        </member>
+        <member name="M:System.Check.ICheckStrategy.GetFailingMessage(System.String)">
+            <summary>
+            Get the message when check failed
+            </summary>
+            <param name="objName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.DesignByContractException">
+            <summary>
+            Exception raised when a contract is broken.
+            Catch this exception type if you wish to differentiate between 
+            any DesignByContract exception and other runtime exceptions.
+             
+            </summary>
+        </member>
+        <member name="M:System.DesignByContractException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.DesignByContractException"/> class.
+            </summary>
+        </member>
+        <member name="M:System.DesignByContractException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.DesignByContractException"/> class.
+            </summary>
+            <param name="message">The message.</param>
+        </member>
+        <member name="M:System.DesignByContractException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.DesignByContractException"/> class.
+            </summary>
+            <param name="message">The message.</param>
+            <param name="inner">The inner.</param>
+        </member>
+        <member name="T:System.PreconditionException">
+            <summary>
+            Exception raised when a precondition fails.
+            </summary>
+        </member>
+        <member name="M:System.PreconditionException.#ctor">
+            <summary>
+            Precondition Exception.
+            </summary>
+        </member>
+        <member name="M:System.PreconditionException.#ctor(System.String)">
+            <summary>
+            Precondition Exception.
+            </summary>
+        </member>
+        <member name="M:System.PreconditionException.#ctor(System.String,System.Exception)">
+            <summary>
+            Precondition Exception.
+            </summary>
+        </member>
+        <member name="T:System.PostconditionException">
+            <summary>
+            Exception raised when a postcondition fails.
+            </summary>
+        </member>
+        <member name="M:System.PostconditionException.#ctor">
+            <summary>
+            Postcondition Exception.
+            </summary>
+        </member>
+        <member name="M:System.PostconditionException.#ctor(System.String)">
+            <summary>
+            Postcondition Exception.
+            </summary>
+        </member>
+        <member name="M:System.PostconditionException.#ctor(System.String,System.Exception)">
+            <summary>
+            Postcondition Exception.
+            </summary>
+        </member>
+        <member name="T:System.InvariantException">
+            <summary>
+            Exception raised when an invariant fails.
+            </summary>
+        </member>
+        <member name="M:System.InvariantException.#ctor">
+            <summary>
+            Invariant Exception.
+            </summary>
+        </member>
+        <member name="M:System.InvariantException.#ctor(System.String)">
+            <summary>
+            Invariant Exception.
+            </summary>
+        </member>
+        <member name="M:System.InvariantException.#ctor(System.String,System.Exception)">
+            <summary>
+            Invariant Exception.
+            </summary>
+        </member>
+        <member name="T:System.AssertionException">
+            <summary>
+            Exception raised when an assertion fails.
+            </summary>
+        </member>
+        <member name="M:System.AssertionException.#ctor">
+            <summary>
+            Assertion Exception.
+            </summary>
+        </member>
+        <member name="M:System.AssertionException.#ctor(System.String)">
+            <summary>
+            Assertion Exception.
+            </summary>
+        </member>
+        <member name="M:System.AssertionException.#ctor(System.String,System.Exception)">
+            <summary>
+            Assertion Exception.
+            </summary>
+        </member>
+        <member name="T:System.AttributeUtils">
+            <summary>
+            The AttributeUtils
+            </summary>
+        </member>
+        <member name="M:System.AttributeUtils.GetAttribute``1(System.Reflection.MemberInfo,System.Boolean)">
+            <summary>
+            Gets the attribute.
+            </summary>
+            <param name="member">The member.</param>
+            <param name="findChildAttributes">if set to <c>true</c> [find child attributes].</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.AttributeUtils.GetAttribute``1(System.Reflection.MemberInfo)">
+            <summary>
+            Gets the attribute.
+            </summary>
+            <param name="member">The member.</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.AttributeUtils.GetAttributes``1(System.Reflection.MemberInfo,System.Boolean)">
+            <summary>
+            Gets the attributes.
+            </summary>
+            <param name="member">The member.</param>
+            <param name="findChildAttributes">if set to <c>true</c> [find child attributes].</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.AttributeUtils.GetAttributes``1(System.Reflection.MemberInfo)">
+            <summary>
+            Gets the attributes.
+            </summary>
+            <param name="member">The member.</param>
+            <returns></returns>
+        </member>
+        <member name="T:System.Reflection.Emit.StaticDynamicMethodProxyHandler">
+            <summary>
+            Delegate for calling static method/property/field
+            </summary>
+            <param name="paramObjs">The parameters passing to the invoking method.</param>
+            <returns>The return value.</returns>
+        </member>
+        <member name="T:System.Reflection.Emit.DynamicMethodProxyHandler">
+            <summary>
+            Delegate for calling non-static method/property/field
+            </summary>
+            <param name="ownerInstance">The object instance owns the invoking method.</param>
+            <param name="paramObjs">The parameters passing to the invoking method.</param>
+            <returns>The return value.</returns>
+        </member>
+        <member name="T:System.Reflection.Emit.DynamicMethodFactory">
+            <summary>
+            DynamicMethodFactory
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.DoGetStaticMethodDelegate(System.Reflection.Module,System.Reflection.MethodInfo,System.Type[])">
+            <summary>
+            Do GetStaticMethodDelegate
+            </summary>
+            <param name="targetModule"></param>
+            <param name="genericMethodInfo"></param>
+            <param name="genericParameterTypes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.DoGetStaticFieldGetDelegate(System.Reflection.Module,System.Reflection.FieldInfo)">
+            <summary>
+            Do Get Static Field Get Delegate
+            </summary>
+            <param name="targetModule"></param>
+            <param name="fieldInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.DoGetStaticFieldSetDelegate(System.Reflection.Module,System.Reflection.FieldInfo)">
+            <summary>
+            Do Get Static Field Set Delegate
+            </summary>
+            <param name="targetModule"></param>
+            <param name="fieldInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.GetStaticMethodDelegate(System.Reflection.MethodInfo,System.Type[])">
+            <summary>
+            Get delegate of a static method
+            </summary>
+            <param name="genericMethodInfo"></param>
+            <param name="genericParameterTypes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.GetStaticMethodDelegate(System.Reflection.Module,System.Reflection.MethodInfo,System.Type[])">
+            <summary>
+            Get delegate of a static method defined in specific Module
+            </summary>
+            <param name="targetModule"></param>
+            <param name="genericMethodInfo"></param>
+            <param name="genericParameterTypes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.GetStaticPropertyGetMethodDelegate(System.Reflection.PropertyInfo)">
+            <summary>
+            Get StaticPropertyGetMethod Delegate
+            </summary>
+            <param name="propertyInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.GetStaticPropertyGetMethodDelegate(System.Reflection.Module,System.Reflection.PropertyInfo)">
+            <summary>
+            Get StaticPropertyGetMethod Delegate defined in specific Module
+            </summary>
+            <param name="targetModule"></param>
+            <param name="propertyInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.GetStaticPropertySetMethodDelegate(System.Reflection.PropertyInfo)">
+            <summary>
+            Get StaticPropertySetMethod Delegate
+            </summary>
+            <param name="propertyInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.GetStaticPropertySetMethodDelegate(System.Reflection.Module,System.Reflection.PropertyInfo)">
+            <summary>
+            Get StaticPropertySetMethod Delegate defined in specific Module
+            </summary>
+            <param name="targetModule"></param>
+            <param name="propertyInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.GetStaticFieldGetDelegate(System.Reflection.FieldInfo)">
+            <summary>
+            Get Static Field Get Delegate
+            </summary>
+            <param name="fieldInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.GetStaticFieldGetDelegate(System.Reflection.Module,System.Reflection.FieldInfo)">
+            <summary>
+            Get Static Field Get Delegate in specific Module
+            </summary>
+            <param name="targetModule"></param>
+            <param name="fieldInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.GetStaticFieldSetDelegate(System.Reflection.FieldInfo)">
+            <summary>
+            Get Static Field Set Delegate
+            </summary>
+            <param name="fieldInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.GetStaticFieldSetDelegate(System.Reflection.Module,System.Reflection.FieldInfo)">
+            <summary>
+            Get Static Field Set Delegate in specific Module
+            </summary>
+            <param name="targetModule"></param>
+            <param name="fieldInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.DoGetMethodDelegate(System.Reflection.Module,System.Reflection.MethodInfo,System.Type[])">
+            <summary>
+            Do GetMethodDelegate
+            </summary>
+            <param name="targetModule"></param>
+            <param name="genericMethodInfo"></param>
+            <param name="genericParameterTypes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.DoGetFieldGetDelegate(System.Reflection.Module,System.Reflection.FieldInfo)">
+            <summary>
+            Do Get Field Get Delegate
+            </summary>
+            <param name="targetModule"></param>
+            <param name="fieldInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.DoGetFieldSetDelegate(System.Reflection.Module,System.Reflection.FieldInfo)">
+            <summary>
+            Do Get Field Set Delegate
+            </summary>
+            <param name="targetModule"></param>
+            <param name="fieldInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.GetMethodDelegate(System.Reflection.MethodInfo,System.Type[])">
+            <summary>
+            Get delegate of a static method
+            </summary>
+            <param name="genericMethodInfo"></param>
+            <param name="genericParameterTypes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.GetMethodDelegate(System.Reflection.Module,System.Reflection.MethodInfo,System.Type[])">
+            <summary>
+            Get delegate of a static method defined in specific Module
+            </summary>
+            <param name="targetModule"></param>
+            <param name="genericMethodInfo"></param>
+            <param name="genericParameterTypes"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.GetPropertyGetMethodDelegate(System.Reflection.PropertyInfo)">
+            <summary>
+            Get PropertyGetMethod Delegate
+            </summary>
+            <param name="propertyInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.GetPropertyGetMethodDelegate(System.Reflection.Module,System.Reflection.PropertyInfo)">
+            <summary>
+            Get PropertyGetMethod Delegate defined in specific Module
+            </summary>
+            <param name="targetModule"></param>
+            <param name="propertyInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.GetPropertySetMethodDelegate(System.Reflection.PropertyInfo)">
+            <summary>
+            Get PropertySetMethod Delegate
+            </summary>
+            <param name="propertyInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.GetPropertySetMethodDelegate(System.Reflection.Module,System.Reflection.PropertyInfo)">
+            <summary>
+            Get PropertySetMethod Delegate defined in specific Module
+            </summary>
+            <param name="targetModule"></param>
+            <param name="propertyInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.GetFieldGetDelegate(System.Reflection.FieldInfo)">
+            <summary>
+            Get Field Get Delegate
+            </summary>
+            <param name="fieldInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.GetFieldGetDelegate(System.Reflection.Module,System.Reflection.FieldInfo)">
+            <summary>
+            Get Field Get Delegate in specific Module
+            </summary>
+            <param name="targetModule"></param>
+            <param name="fieldInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.GetFieldSetDelegate(System.Reflection.FieldInfo)">
+            <summary>
+            Get Field Set Delegate
+            </summary>
+            <param name="fieldInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.GetFieldSetDelegate(System.Reflection.Module,System.Reflection.FieldInfo)">
+            <summary>
+            Get Field Set Delegate in specific Module
+            </summary>
+            <param name="targetModule"></param>
+            <param name="fieldInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.CreateInstance(System.Reflection.Module,System.String,System.Boolean,System.Boolean,System.Reflection.Binder,System.Globalization.CultureInfo,System.Object[],System.Object[])">
+            <summary>
+            Create internal class instance in specific Module
+            </summary>
+            <param name="targetModule"></param>
+            <param name="typeFullName"></param>
+            <param name="ignoreCase"></param>
+            <param name="isPublic"></param>
+            <param name="binder"></param>
+            <param name="culture"></param>
+            <param name="activationAttrs"></param>
+            <param name="paramObjs"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.DynamicMethodFactory.CreateInstance(System.Reflection.Module,System.String,System.Boolean,System.Boolean,System.Object[])">
+            <summary>
+            Create internal class instance in specific Module
+            </summary>
+            <param name="targetModule"></param>
+            <param name="typeFullName"></param>
+            <param name="ignoreCase"></param>
+            <param name="isPublic"></param>
+            <param name="paramObjs"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.EnumDescriptionAttribute">
+            <summary>
+            EnumDescriptionAttribute
+            An Chinese version introduction to the usage of this class: 
+            http://www.cnblogs.com/teddyma/archive/2007/05/26/759842.html
+            </summary>
+        </member>
+        <member name="M:System.EnumDescriptionAttribute.GetDescription(System.Object)">
+            <summary>
+            Get desc of specific enum value
+            </summary>
+            <param name="enumValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.EnumDescriptionAttribute.GetDescription(System.Type,System.Int32)">
+            <summary>
+            Get desc of specific enum value of specific enum type
+            </summary>
+            <param name="enumType"></param>
+            <param name="enumIntValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.EnumDescriptionAttribute.GetDescriptions(System.Type)">
+            <summary>
+            Get descs of specific enum type
+            </summary>
+            <param name="enumType"></param>
+            <returns></returns>
+        </member>
+        <member name="P:System.EnumDescriptionAttribute.DefaultDescription">
+            <summary>
+            The default desc
+            </summary>
+        </member>
+        <member name="T:System.Reflection.Emit.Cmp">
+            <summary>
+            Cmp
+            </summary>
+        </member>
+        <member name="F:System.Reflection.Emit.Cmp.LessThan">
+            <summary>
+            LessThan
+            </summary>
+        </member>
+        <member name="F:System.Reflection.Emit.Cmp.EqualTo">
+            <summary>
+            EqualTo
+            </summary>
+        </member>
+        <member name="F:System.Reflection.Emit.Cmp.LessThanOrEqualTo">
+            <summary>
+            LessThanOrEqualTo
+            </summary>
+        </member>
+        <member name="F:System.Reflection.Emit.Cmp.GreaterThan">
+            <summary>
+            GreaterThan
+            </summary>
+        </member>
+        <member name="F:System.Reflection.Emit.Cmp.NotEqualTo">
+            <summary>
+            NotEqualTo
+            </summary>
+        </member>
+        <member name="F:System.Reflection.Emit.Cmp.GreaterThanOrEqualTo">
+            <summary>
+            GreaterThanOrEqualTo
+            </summary>
+        </member>
+        <member name="T:System.Reflection.Emit.ArgBuilder">
+            <summary>
+            ArgBuilder
+            </summary>
+        </member>
+        <member name="F:System.Reflection.Emit.ArgBuilder.ArgType">
+            <summary>
+            ArgType
+            </summary>
+        </member>
+        <member name="F:System.Reflection.Emit.ArgBuilder.Index">
+            <summary>
+            Index
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.ArgBuilder.#ctor(System.Int32,System.Type)">
+            <summary>
+            ArgBuilder
+            </summary>
+            <param name="index"></param>
+            <param name="argType"></param>
+        </member>
+        <member name="T:System.Reflection.Emit.IfState">
+            <summary>
+            IfState
+            </summary>
+        </member>
+        <member name="P:System.Reflection.Emit.IfState.ElseBegin">
+            <summary>
+            ElseBegin
+            </summary>
+        </member>
+        <member name="P:System.Reflection.Emit.IfState.EndIf">
+            <summary>
+            EndIf
+            </summary>
+        </member>
+        <member name="T:System.Reflection.Emit.SwitchState">
+            <summary>
+            SwitchState
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.SwitchState.#ctor(System.Reflection.Emit.Label,System.Reflection.Emit.Label)">
+            <summary>
+            SwitchState
+            </summary>
+            <param name="defaultLabel"></param>
+            <param name="endOfSwitchLabel"></param>
+        </member>
+        <member name="P:System.Reflection.Emit.SwitchState.DefaultDefined">
+            <summary>
+            DefaultDefined
+            </summary>
+        </member>
+        <member name="P:System.Reflection.Emit.SwitchState.DefaultLabel">
+            <summary>
+            DefaultLabel
+            </summary>
+        </member>
+        <member name="P:System.Reflection.Emit.SwitchState.EndOfSwitchLabel">
+            <summary>
+            EndOfSwitchLabel
+            </summary>
+        </member>
+        <member name="T:System.Reflection.Emit.ForState">
+            <summary>
+            ForState
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.ForState.#ctor(System.Reflection.Emit.LocalBuilder,System.Reflection.Emit.Label,System.Reflection.Emit.Label,System.Object)">
+            <summary>
+            ForState
+            </summary>
+            <param name="indexVar"></param>
+            <param name="beginLabel"></param>
+            <param name="testLabel"></param>
+            <param name="end"></param>
+        </member>
+        <member name="P:System.Reflection.Emit.ForState.BeginLabel">
+            <summary>
+            BeginLabel
+            </summary>
+        </member>
+        <member name="P:System.Reflection.Emit.ForState.End">
+            <summary>
+            End
+            </summary>
+        </member>
+        <member name="P:System.Reflection.Emit.ForState.EndLabel">
+            <summary>
+            EndLabel
+            </summary>
+        </member>
+        <member name="P:System.Reflection.Emit.ForState.Index">
+            <summary>
+            Index
+            </summary>
+        </member>
+        <member name="P:System.Reflection.Emit.ForState.RequiresEndLabel">
+            <summary>
+            RequiresEndLabel
+            </summary>
+        </member>
+        <member name="P:System.Reflection.Emit.ForState.TestLabel">
+            <summary>
+            TestLabel
+            </summary>
+        </member>
+        <member name="T:System.Reflection.Emit.CodeGenerator">
+            <summary>
+            CodeGenerator
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.#ctor">
+            <summary>
+            Initialize a CodeGenerator instance
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.#ctor(System.Reflection.Module)">
+            <summary>
+            Initialize a CodeGenerator instance
+            </summary>
+            <param name="targetModule"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.#ctor(System.Reflection.Emit.TypeBuilder,System.String,System.Reflection.MethodAttributes,System.Reflection.CallingConventions,System.Type,System.Type[])">
+            <summary>
+            Initialize a CodeGenerator instance
+            </summary>
+            <param name="ownerTypeBuilder"></param>
+            <param name="methodName"></param>
+            <param name="methodAttrs"></param>
+            <param name="callingConversion"></param>
+            <param name="returnType"></param>
+            <param name="argTypes"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Add">
+            <summary>
+            Add
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.And">
+            <summary>
+            And
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.BeginMethod(System.String,System.Type)">
+            <summary>
+            BeginMethod
+            </summary>
+            <param name="methodName"></param>
+            <param name="delegateType"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.BeginMethod(System.Type,System.String,System.Type[])">
+            <summary>
+            BeginMethod
+            </summary>
+            <param name="returnType"></param>
+            <param name="methodName"></param>
+            <param name="argTypes"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Bgt(System.Reflection.Emit.Label)">
+            <summary>
+            Bgt
+            </summary>
+            <param name="label"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ble(System.Reflection.Emit.Label)">
+            <summary>
+            Ble
+            </summary>
+            <param name="label"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Blt(System.Reflection.Emit.Label)">
+            <summary>
+            Blt
+            </summary>
+            <param name="label"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Box(System.Type)">
+            <summary>
+            Box
+            </summary>
+            <param name="type"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Br(System.Reflection.Emit.Label)">
+            <summary>
+            Br 无条件地将控制转移到目标指令
+            </summary>
+            <param name="label"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Break(System.Object)">
+            <summary>
+            Break
+            </summary>
+            <param name="forState"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Brfalse(System.Reflection.Emit.Label)">
+            <summary>
+            Brfalse
+            </summary>
+            <param name="label"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Brtrue(System.Reflection.Emit.Label)">
+            <summary>
+            Brtrue
+            </summary>
+            <param name="label"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Call(System.Reflection.ConstructorInfo)">
+            <summary>
+            Call 调用由传递的方法说明符指示的方法。
+            </summary>
+            <param name="ctor"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Call(System.Reflection.MethodInfo)">
+            <summary>
+            Call 调用由传递的方法说明符指示的方法。
+            </summary>
+            <param name="methodInfo"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Call(System.Object,System.Reflection.MethodInfo)">
+            <summary>
+            Call
+            </summary>
+            <param name="thisObj"></param>
+            <param name="methodInfo"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Call(System.Object,System.Reflection.MethodInfo,System.Object)">
+            <summary>
+            Call
+            </summary>
+            <param name="thisObj"></param>
+            <param name="methodInfo"></param>
+            <param name="param1"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Call(System.Object,System.Reflection.MethodInfo,System.Object,System.Object)">
+            <summary>
+            Call
+            </summary>
+            <param name="thisObj"></param>
+            <param name="methodInfo"></param>
+            <param name="param1"></param>
+            <param name="param2"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Call(System.Object,System.Reflection.MethodInfo,System.Object,System.Object,System.Object)">
+            <summary>
+            Call
+            </summary>
+            <param name="thisObj"></param>
+            <param name="methodInfo"></param>
+            <param name="param1"></param>
+            <param name="param2"></param>
+            <param name="param3"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Call(System.Object,System.Reflection.MethodInfo,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            Call
+            </summary>
+            <param name="thisObj"></param>
+            <param name="methodInfo"></param>
+            <param name="param1"></param>
+            <param name="param2"></param>
+            <param name="param3"></param>
+            <param name="param4"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Call(System.Object,System.Reflection.MethodInfo,System.Object,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            Call
+            </summary>
+            <param name="thisObj"></param>
+            <param name="methodInfo"></param>
+            <param name="param1"></param>
+            <param name="param2"></param>
+            <param name="param3"></param>
+            <param name="param4"></param>
+            <param name="param5"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Call(System.Object,System.Reflection.MethodInfo,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            Call
+            </summary>
+            <param name="thisObj"></param>
+            <param name="methodInfo"></param>
+            <param name="param1"></param>
+            <param name="param2"></param>
+            <param name="param3"></param>
+            <param name="param4"></param>
+            <param name="param5"></param>
+            <param name="param6"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.CallStringFormat(System.String,System.Object[])">
+            <summary>
+            CallStringFormat
+            </summary>
+            <param name="msg"></param>
+            <param name="values"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Case(System.Reflection.Emit.Label,System.String)">
+            <summary>
+            Case
+            </summary>
+            <param name="caseLabel1"></param>
+            <param name="caseLabelName"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Castclass(System.Type)">
+            <summary>
+            Castclass
+            </summary>
+            <param name="target"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ceq">
+            <summary>
+            Ceq
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Concat2">
+            <summary>
+            Concat2
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Concat3">
+            <summary>
+            Concat3
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.ConvertAddress(System.Type,System.Type)">
+            <summary>
+            ConvertAddress
+            </summary>
+            <param name="source"></param>
+            <param name="target"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.ConvertValue(System.Type,System.Type)">
+            <summary>
+            ConvertValue
+            </summary>
+            <param name="source"></param>
+            <param name="target"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Dec(System.Object)">
+            <summary>
+            Dec
+            </summary>
+            <param name="var"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.DeclareLocal(System.Type)">
+            <summary>
+            DeclareLocal
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.DeclareLocal(System.Type,System.String)">
+            <summary>
+            DeclareLocal
+            </summary>
+            <param name="type"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.DeclareLocal(System.Type,System.String,System.Boolean)">
+            <summary>
+            DeclareLocal
+            </summary>
+            <param name="type"></param>
+            <param name="name"></param>
+            <param name="isPinned"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.DeclareLocal(System.Type,System.String,System.Object)">
+            <summary>
+            DeclareLocal
+            </summary>
+            <param name="type"></param>
+            <param name="name"></param>
+            <param name="initialValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.DefaultCase">
+            <summary>
+            DefaultCase
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.DefineLabel">
+            <summary>
+            DefineLabel
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Dup">
+            <summary>
+            Dup
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Else">
+            <summary>
+            Else
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.ElseIf(System.Object,System.Reflection.Emit.Cmp,System.Object)">
+            <summary>
+            ElseIf
+            </summary>
+            <param name="value1"></param>
+            <param name="cmpOp"></param>
+            <param name="value2"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.EndCase">
+            <summary>
+            EndCase
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.EndFor">
+            <summary>
+            EndFor
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.EndForEach(System.Reflection.MethodInfo)">
+            <summary>
+            EndForEach
+            </summary>
+            <param name="moveNextMethod"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.EndIf">
+            <summary>
+            EndIf
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.EndMethod">
+            <summary>
+            EndMethod
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.EndSwitch">
+            <summary>
+            EndSwitch
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.For(System.Reflection.Emit.LocalBuilder,System.Object,System.Object)">
+            <summary>
+            For
+            </summary>
+            <param name="local"></param>
+            <param name="start"></param>
+            <param name="end"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.ForEach(System.Reflection.Emit.LocalBuilder,System.Type,System.Type,System.Reflection.Emit.LocalBuilder,System.Reflection.MethodInfo)">
+            <summary>
+            ForEach
+            </summary>
+            <param name="local"></param>
+            <param name="elementType"></param>
+            <param name="enumeratorType"></param>
+            <param name="enumerator"></param>
+            <param name="getCurrentMethod"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.GetArg(System.Int32)">
+            <summary>
+            GetArg
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.GetLdindOpCode(System.TypeCode)">
+            <summary>
+            根据值类型，返回使用哪个指令将值类型复制到计算堆栈上(ldobj指令的功能)
+            	<remark>abu 2007-10-16 11:49 AF043</remark>
+            </summary>
+            <param name="typeCode">The type code.</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.GetVariableType(System.Object)">
+            <summary>
+            GetVariableType
+            </summary>
+            <param name="var"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.If">
+            <summary>
+            If
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.If(System.Reflection.Emit.Cmp)">
+            <summary>
+            If
+            </summary>
+            <param name="cmpOp"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.If(System.Object,System.Reflection.Emit.Cmp,System.Object)">
+            <summary>
+            If
+            </summary>
+            <param name="value1"></param>
+            <param name="cmpOp"></param>
+            <param name="value2"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.IfFalseBreak(System.Object)">
+            <summary>
+            IfFalseBreak
+            </summary>
+            <param name="forState"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.IfNot">
+            <summary>
+            IfNot
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.IfNotDefaultValue(System.Object)">
+            <summary>
+            IfNotDefaultValue
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.IfTrueBreak(System.Object)">
+            <summary>
+            IfTrueBreak
+            </summary>
+            <param name="forState"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.IgnoreReturnValue">
+            <summary>
+            IgnoreReturnValue
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Inc(System.Object)">
+            <summary>
+            Inc
+            </summary>
+            <param name="var"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.InitObj(System.Type)">
+            <summary>
+            InitObj
+            </summary>
+            <param name="valueType"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.InternalBreakFor(System.Object,System.Reflection.Emit.OpCode)">
+            <summary>
+            InternalBreakFor
+            </summary>
+            <param name="userForState"></param>
+            <param name="branchInstruction"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.InternalConvert(System.Type,System.Type,System.Boolean)">
+            <summary>
+            InternalConvert
+            </summary>
+            <param name="source"></param>
+            <param name="target"></param>
+            <param name="isAddress"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ldarg(System.Int32)">
+            <summary>
+            Ldarg 加载第solt参数到堆栈
+            注意：实例方法都有一个隐含参数，也就是第0个参数是表示当前对象引用 也就是 this指针
+            </summary>
+            <param name="slot">The slot.</param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ldarg(System.Reflection.Emit.ArgBuilder)">
+            <summary>
+            Ldarg 调用Ldarg(int)的重载方式
+            </summary>
+            <param name="arg"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ldarga(System.Int32)">
+            <summary>
+            Ldarga 将参数的地址加载到计算堆栈
+            自动判断是使用Ldarga_S,还是Ldarga
+            Ldarga_S 指令是用于slot值在 0 到 255的参数编号，效率更高的编码
+            </summary>
+            <param name="slot"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ldarga(System.Reflection.Emit.ArgBuilder)">
+            <summary>
+            Ldarga 调用 Ldarga(int) 重载
+            </summary>
+            <param name="argBuilder"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.LdargAddress(System.Reflection.Emit.ArgBuilder)">
+            <summary>
+            LdargAddress 加载参数地址。IL没有这个指令，它根据参数的类型分别调用不同的IL指令：
+            当参数为值类型时，通过调用Ldarga指令，加载参数地址
+            当参不为值类型时，直接调用Ldarg加载参数
+            </summary>
+            <param name="argBuilder"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ldc(System.Boolean)">
+            <summary>
+            Ldc 通过Ldc指令加载布尔值到计算堆栈 true 为 1,false 为0        
+            </summary>
+            <param name="boolVar"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ldc(System.Double)">
+            <summary>
+            Ldc 加载双精度浮点数到计算堆栈 对应指令：Ldc_R8
+            </summary>
+            <param name="d"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ldc(System.Int32)">
+            <summary>
+            Ldc 加载整型数值到计算堆栈
+            <list type="">
+            ldc.i4.m1 (ldc.i4.M1)    -1 
+            ldc.i4.0                0
+            ...
+            ldc.i4.8                8
+            Ldc_I4                  普通整数
+            </list>
+            </summary>
+            <param name="intVar"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ldc(System.Int64)">
+            <summary>
+            Ldc 加载长整数到计算堆栈   对应指令 ldc.i8 
+            </summary>
+            <param name="l">The l.</param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ldc(System.Object)">
+            <summary>
+            Ldc 传入一个未知类型对象，根据其类型，自动调用适合的指令来将它加载到计算堆栈
+            </summary>
+            <param name="o"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ldc(System.Single)">
+            <summary>
+            Ldc 加载单精度浮点数到计算堆栈
+            </summary>
+            <param name="f"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ldelem(System.Type)">
+            <summary>
+            Ldelem 根据传入的数组类型，自动选择不同的指令，将位于数组指定索引处的元素加到计算堆栈 
+            这些指令包括：
+            ldelem.i1       加载int8
+            ldelem.u1       unsigned int8.
+            ldelem.i2       int16
+            ldelem.u2       unsigned int16
+            ldelem.i4       int32
+            ldelem.i8       int64
+            ldelem.i        native int
+            ldelem.r4       float32
+            ldelem.r8       float64
+            ldelem.ref      reference type
+            </summary>
+            <param name="arrayElementType"></param>
+        </member>
+        <!-- 对于成员“M:System.Reflection.Emit.CodeGenerator.Ldelema(System.Type)”忽略有格式错误的 XML 注释 -->
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ldlen">
+            <summary>
+            Ldlen 将从零开始的、一维数组的元素的数目推送到计算堆栈上。        
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ldloc(System.Int32)">
+            <summary>
+            Ldloc 将指定索引处的局部变量加载到计算堆栈上。
+            </summary>
+            <param name="slot"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ldloc(System.Reflection.Emit.LocalBuilder)">
+            <summary>
+            Ldloc 将指定索引处的局部变量加载到计算堆栈上
+            </summary>
+            <param name="localBuilder"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ldloca(System.Int32)">
+            <summary>
+            Ldloca 将位于特定索引处的局部变量的地址加载到计算堆栈上。
+            </summary>
+            <param name="slot"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ldloca(System.Reflection.Emit.LocalBuilder)">
+            <summary>
+            Ldloca
+            </summary>
+            <param name="localBuilder"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.LdlocAddress(System.Reflection.Emit.LocalBuilder)">
+            <summary>
+            LdlocAddress 不是IL指令。
+            分别调用Ldloca和Ldloc将值/引用类型变量地址加载到计算堆栈
+            当是为值类型时调用 Ldloca
+            否则调用 Ldloc
+            </summary>
+            <param name="localBuilder"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ldobj(System.Type)">
+            <summary>
+            Ldobj 将地址指向的值类型(类型为type)对象复制到计算堆栈的顶部        
+            </summary>
+            <param name="type"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ldstr(System.String)">
+            <summary>
+            Ldstr
+            将一个字符串加载到 Stack
+            </summary>
+            <param name="strVar"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ldtoken(System.Type)">
+            <summary>
+            Ldtoken 将元数据标记(数据类型)转换为其运行时表示形式，并将其推送到计算堆栈上。
+            </summary>
+            <param name="t"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Load(System.Object)">
+            <summary>
+            Load
+            </summary>
+            <param name="obj"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.LoadAddress(System.Object)">
+            <summary>
+            LoadAddress
+            </summary>
+            <param name="obj"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.LoadArrayElement(System.Object,System.Object)">
+            <summary>
+            LoadArrayElement
+            </summary>
+            <param name="obj"></param>
+            <param name="arrayIndex"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.LoadDefaultValue(System.Type)">
+            <summary>
+            LoadDefaultValue
+            </summary>
+            <param name="type"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.LoadMember(System.Reflection.MemberInfo)">
+            <summary>
+            LoadMember
+            </summary>
+            <param name="memberInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.LoadParam(System.Object,System.Int32,System.Reflection.MethodBase)">
+            <summary>
+            LoadParam
+            </summary>
+            <param name="arg"></param>
+            <param name="oneBasedArgIndex"></param>
+            <param name="methodInfo"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.LoadThis(System.Object,System.Reflection.MethodInfo)">
+            <summary>
+            LoadThis
+            </summary>
+            <param name="thisObj"></param>
+            <param name="methodInfo"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.MarkLabel(System.Reflection.Emit.Label)">
+            <summary>
+            MarkLabel
+            </summary>
+            <param name="label"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.New(System.Reflection.ConstructorInfo)">
+            <summary>
+            New
+            </summary>
+            <param name="constructorInfo"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.New(System.Reflection.ConstructorInfo,System.Object)">
+            <summary>
+            New
+            </summary>
+            <param name="constructorInfo"></param>
+            <param name="param1"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.NewArray(System.Type,System.Object)">
+            <summary>
+            NewArray
+            </summary>
+            <param name="elementType"></param>
+            <param name="len"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Not">
+            <summary>
+            Not
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Or">
+            <summary>
+            Or
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Pop">
+            <summary>
+            Pop
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Ret">
+            <summary>
+            Ret 从当前方法返回，并将返回值（如果存在）从调用方的计算堆栈推送到被调用方的计算堆栈上。
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Set(System.Reflection.Emit.LocalBuilder,System.Object)">
+            <summary>
+            Set
+            </summary>
+            <param name="local"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Starg(System.Int32)">
+            <summary>
+            Starg
+            </summary>
+            <param name="slot"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Starg(System.Reflection.Emit.ArgBuilder)">
+            <summary>
+            Starg
+            </summary>
+            <param name="arg"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Stelem(System.Type)">
+            <summary>
+            Stelem
+            </summary>
+            <param name="arrayElementType"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Stloc(System.Int32)">
+            <summary>
+            Stloc
+            从计算堆栈的顶部弹出当前值并将其存储到指定索引处的局部变量列表中。
+            </summary>
+            <param name="slot"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Stloc(System.Reflection.Emit.LocalBuilder)">
+            <summary>
+            Stloc
+            </summary>
+            <param name="local"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Stobj(System.Type)">
+            <summary>
+            Stobj
+            </summary>
+            <param name="type"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Store(System.Object)">
+            <summary>
+            Store
+            </summary>
+            <param name="var"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.StoreArrayElement(System.Object,System.Object,System.Object)">
+            <summary>
+            StoreArrayElement
+            </summary>
+            <param name="obj"></param>
+            <param name="arrayIndex"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.StoreMember(System.Reflection.MemberInfo)">
+            <summary>
+            StoreMember 用新值替换在对象引用或指针的字段中存储的值。
+            </summary>
+            <param name="memberInfo"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Subtract">
+            <summary>
+            Subtract
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Switch(System.Int32)">
+            <summary>
+            Switch
+            </summary>
+            <param name="labelCount"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Throw">
+            <summary>
+            Throw
+            </summary>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.ToString(System.Type)">
+            <summary>
+            ToString
+            </summary>
+            <param name="type"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.Unbox(System.Type)">
+            <summary>
+            Unbox
+            </summary>
+            <param name="type"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.UnboxAny(System.Type)">
+            <summary>
+            UnboxAny
+            </summary>
+            <param name="type"></param>
+        </member>
+        <member name="M:System.Reflection.Emit.CodeGenerator.VerifyParameterCount(System.Reflection.MethodInfo,System.Int32)">
+            <summary>
+            VerifyParameterCount
+            </summary>
+            <param name="methodInfo"></param>
+            <param name="expectedCount"></param>
+        </member>
+        <member name="P:System.Reflection.Emit.CodeGenerator.CurrentMethod">
+            <summary>
+            CurrentMethod
+            </summary>
+        </member>
+        <member name="P:System.Reflection.Emit.CodeGenerator.InternalILGenerator">
+            <summary>
+            InternalILGenerator
+            </summary>
+        </member>
+        <member name="P:System.Reflection.Emit.CodeGenerator.SerializationModule">
+            <summary>
+            SerializationModule
+            </summary>
+        </member>
+        <member name="T:System.ReflectionUtils">
+            <summary>
+            ReflectionUtils
+            </summary>
+        </member>
+        <member name="M:System.ReflectionUtils.DeepGetProperties(System.Type[])">
+            <summary>
+            Deeply get properties of specific types
+            </summary>
+            <param name="types">The types</param>
+            <returns>The property infos</returns>
+        </member>
+        <member name="M:System.ReflectionUtils.DeepGetFields(System.Type[])">
+            <summary>
+            Deeply get fields of specific fields
+            </summary>
+            <param name="types">The types</param>
+            <returns>The field infos</returns>
+        </member>
+        <member name="M:System.ReflectionUtils.DeepGetProperty(System.Type,System.String)">
+            <summary>
+            Deeply get property info from specified type.
+            </summary>
+            <param name="type">The type.</param>
+            <param name="propertyName">Name of the property.</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ReflectionUtils.DeepGetField(System.Type,System.String,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Deeps the get field from specific type.
+            </summary>
+            <param name="type"></param>
+            <param name="name"></param>
+            <param name="includePublic"></param>
+            <param name="includeNonPublic"></param>
+            <param name="isStatic"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ReflectionUtils.GetMethodInfoFromArrayBySignature(System.String,System.Reflection.MethodInfo[])">
+            <summary>
+            GetMethodInfoFromArrayBySignature
+            </summary>
+            <param name="signature">The signature</param>
+            <param name="mis">The method info array</param>
+            <returns>The method info</returns>
+        </member>
+        <member name="M:System.ReflectionUtils.GetMethodInfoBySignature(System.Type,System.String,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            GetMethodInfoBySignature
+            </summary>
+            <param name="type"></param>
+            <param name="signature"></param>
+            <param name="includePublic"></param>
+            <param name="includeNonPublic"></param>
+            <param name="isStatic"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ReflectionUtils.GetFieldValue(System.Object,System.String)">
+            <summary>
+            Get public field/property value
+            </summary>
+            <param name="instance"></param>
+            <param name="fieldName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ReflectionUtils.GetFieldValue(System.Object,System.Reflection.MemberInfo)">
+            <summary>
+            Get public field/property value
+            </summary>
+            <param name="instance"></param>
+            <param name="mi"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.ReflectionUtils.SetFieldValue(System.Object,System.String,System.Object)">
+            <summary>
+            Set public field/property value
+            </summary>
+            <param name="instance"></param>
+            <param name="fieldName"></param>
+            <param name="fieldValue"></param>
+        </member>
+        <member name="M:System.ReflectionUtils.SetFieldValue(System.Object,System.Reflection.MemberInfo,System.Object)">
+            <summary>
+            Set public field/property value
+            </summary>
+            <param name="instance"></param>
+            <param name="mi"></param>
+            <param name="fieldValue"></param>
+        </member>
+        <member name="T:System.CryptographyManager">
+            <summary>
+            Common CryptographyManager
+            </summary>
+        </member>
+        <member name="F:System.CryptographyManager.DEFAULT_KEY">
+            <summary>
+            The default encrypt key.
+            </summary>
+        </member>
+        <member name="M:System.CryptographyManager.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.CryptographyManager"/> class.
+            </summary>
+        </member>
+        <member name="M:System.CryptographyManager.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.CryptographyManager"/> class.
+            </summary>
+            <param name="legalIVKey">The legal IV key.</param>
+        </member>
+        <member name="M:System.CryptographyManager.SymmetricEncrpyt(System.String,System.Security.Cryptography.SymmetricAlgorithm,System.String)">
+            <summary>
+            Symmetrics encrpyt.
+            </summary>
+            <param name="str">The STR to encrpyt.</param>
+            <param name="mobjCryptoService">A concrete symmetric algorithm.</param>
+            <param name="key">The key.</param>
+            <returns>The encrpyt str.</returns>
+        </member>
+        <member name="M:System.CryptographyManager.SymmetricEncrpyt(System.Byte[],System.Security.Cryptography.SymmetricAlgorithm,System.String)">
+            <summary>
+            Symmetrics the encrpyt.
+            </summary>
+            <param name="buffer">The buffer.</param>
+            <param name="mobjCryptoService">The mobj crypto service.</param>
+            <param name="key">The key.</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.CryptographyManager.SymmetricDecrpyt(System.String,System.Security.Cryptography.SymmetricAlgorithm,System.String)">
+            <summary>
+            Symmetrics decrpyt.
+            </summary>
+            <param name="str">The STR to decrpyt.</param>
+            <param name="mobjCryptoService">A concrete symmetric algorithm.</param>
+            <param name="key">The key.</param>
+            <returns>The decrpyted str.</returns>
+        </member>
+        <member name="M:System.CryptographyManager.SymmetricDecrpyt(System.Byte[],System.Security.Cryptography.SymmetricAlgorithm,System.String)">
+            <summary>
+            Symmetrics the decrpyt.
+            </summary>
+            <param name="buffer">The buffer.</param>
+            <param name="mobjCryptoService">The mobj crypto service.</param>
+            <param name="key">The key.</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.CryptographyManager.ComputeHash(System.String)">
+            <summary>
+            Computes the hash.
+            </summary>
+            <param name="str">The STR to compute hash value.</param>
+            <returns>The hash value.</returns>
+        </member>
+        <member name="M:System.CryptographyManager.ComputeHash(System.Byte[])">
+            <summary>
+            Computes the hash.
+            </summary>
+            <param name="buffer">The buffer.</param>
+            <returns></returns>
+        </member>
+        <member name="T:System.CommonUtils">
+            <summary>
+            The CommonUtils class.
+            </summary>
+        </member>
+        <member name="M:System.CommonUtils.DefaultValue``1">
+            <summary>
+            Gets the default value of a specified Type.
+            </summary>
+            <returns>The default value.</returns>
+        </member>
+        <member name="M:System.CommonUtils.DefaultValue(System.Type)">
+            <summary>
+            Gets the default value of a specified Type.
+            </summary>
+            <param name="type">The type.</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.CommonUtils.GetType(System.String)">
+            <summary>
+            Gets a type in all loaded assemblies of current app domain.
+            </summary>
+            <param name="fullName">The full name.</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.CommonUtils.GetOriginalTypeOfNullableType(System.Type)">
+            <summary>
+            GetOriginalTypeOfNullableType
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.CommonUtils.MakeUniqueKey(System.Int32,System.String)">
+            <summary>
+            Makes a unique key.
+            </summary>
+            <param name="length">The length.</param>
+            <param name="prefix">The prefix.</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.CommonUtils.MakeUniqueKey(System.Int32)">
+            <summary>
+            Makes a unique key.
+            </summary>
+            <param name="length">The length.</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.CommonUtils.ReplaceFirst(System.String,System.String,System.String)">
+            <summary>
+            Replace the first occurrence of <paramref name="find"/> (case sensitive) with
+            <paramref name="replace"/>.
+            </summary>
+            <param name="str">The STR.</param>
+            <param name="find">The find.</param>
+            <param name="replace">The replace.</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.CommonUtils.ReplaceFirst(System.String,System.String,System.String,System.StringComparison)">
+            <summary>
+            Replace the first occurrence of <paramref name="find"/> with
+            <paramref name="replace"/>.
+            </summary>
+            <param name="str">The STR.</param>
+            <param name="find">The find.</param>
+            <param name="replace">The replace.</param>
+            <param name="findComparison">The find comparison.</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.CommonUtils.ParseRelativePath(System.String,System.String)">
+            <summary>
+            Parses the relative path to absolute path.
+            </summary>
+            <param name="basePath">The base path.</param>
+            <param name="relativePath">The relative path.</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.CommonUtils.PathCombine(System.String,System.String)">
+            <summary>
+            Combines the two paths, making sure no two slashes are combined.
+            </summary>
+            <param name="path1">The path1.</param>
+            <param name="path2">The path2.</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.CommonUtils.GetTemporaryDirectory">
+            <summary>
+            Gets the temporary directory.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:System.CommonUtils.GetTempFileName(System.String)">
+            <summary>
+            Gets the location of a new temporary file name with the given
+            extension. Extension should not begin with a period (e.g. just html, not .html).
+            The file is created on disk with a file size of 0. It is guaranteed
+            that the file is a new file that did not exist before.
+            </summary>
+            <param name="extension">The preferred file extension. Extension should not begin with a period (e.g. just html, not .html).</param>
+            <returns>Location of the 0-byte file in a temporary location with the specified extension.</returns>
+        </member>
+        <member name="M:System.CommonUtils.GetTempFileName(System.String,System.String)">
+            <summary>
+            Gets the location of a new temporary file name with the given file name and
+            extension. Extension should not begin with a period (e.g. just html, not .html).
+            File name should not end with a period and should not contain the extension
+            (as that is in the extension parameter).
+            The file is created on disk with a file size of 0. It is guaranteed
+            that the file is a new file that did not exist before.
+            </summary>
+            <param name="extension">The preferred file extension. Extension should not begin with a period (e.g. just html, not .html).</param>
+            <param name="fileName">The preferred name of the file, without a trailing period, and without an extension (as that is specified by the extension parameter).</param>
+            <returns>Location of the 0-byte file in a temporary location with the specified extension and name.</returns>
+        </member>
+        <member name="M:System.CommonUtils.SaveStreamToFile(System.IO.Stream,System.String)">
+            <summary>
+            Saves the input stream to file.
+            </summary>
+            <param name="stream">The stream.</param>
+            <param name="newFile">The new file.</param>
+        </member>
+        <member name="M:System.CommonUtils.IsArrayEquals(System.Collections.IEnumerable,System.Collections.IEnumerable)">
+            <summary>
+            Check equal of two arrays
+            </summary>
+            <param name="leftArr">left array</param>
+            <param name="rightArr">right array</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.CommonUtils.IsArrayEquals(System.Collections.IEnumerator,System.Collections.IEnumerator)">
+            <summary>
+            Check equal of two arrays
+            </summary>
+            <param name="enLeft">left array</param>
+            <param name="enRight">right array</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.CommonUtils.ToObjectList``1(System.Collections.IEnumerator)">
+            <summary>
+            Convert enumerator to List
+            </summary>
+            <param name="en">the enumerator</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,216 @@
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m180d279bcd0d4c468c18d611baaf8b74(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m9a855d5460474aa5867aac865b799356(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m5687fdd7bd204a2ab824794016f0f85e(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m93881d6f05694851a2d83f757e1a4c64(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m04d369e9cf0d40eda5490248d9d39838(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mc541d18a4dba4ea9849d8602bf76d9d3(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m06f4345a9aa84871ad10ea1d8c1e4979(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mce2ebd177e154d52bbb66a507b3fd459(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m893128a039a54507a035da486385b6da(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m8f0a81da344b45df997d0bdf274e6398(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m20baf05329c74dc3bf13faa2d86f233f(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m5719079115584e22a3964f1e1ca102f5(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m9e731c68652047ddb76597f4e9ceb006(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m5b7b9bd19aac47a58aae7b87bf90ae7a(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m433178c0c65a430f8dbeb13f65e6b6c3(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m545da97b43af46a3b9cc54e05e6fef86(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m21fd56edbcc04737b96fe1808ee2fe61(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m0a189648c0f7408ba9de47f71becd892(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m993939105b4f4d85a7f6c5af741a760a(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mb0ffa570b99b4840a188d6a8b145ad7c(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mcb577bf63b89415a8845eb2645370334(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m3f8dd2b1ae574b3f8ad99ed3379e1af7(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m3e5e475bfbfd49eb8a2989f477a4a708(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m1afdb1bb576d44928c03915181f69778(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m59904ffd9dd2416e886b27e667d9a77c(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m8461362b36c34b0c89eaa81c40f68e5a(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 md334891f8bb64e3e8a7dc9dfee71c048(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 ma68d1fbd268d4064b93098608428a71e(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m6c00cc0f31284b46b58bc9a6c1d63f3e(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m5e44a42df8a448adb026ffcf1fc75315(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m584a8f74c3f44212a423d2f1bd71ff92(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m105e9f08286240e2aaf23c2ab0d19186(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m9b4bfadb1b564ff0beb21c954a6298b6(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m22f9a09babc94c258c667c0ce54a9911(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 md30b754873c7491d86b1a67355b8904b(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 md7de09d9a8c84a99a00b432548e3c5f4(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m225911b8f9ab4319b309915cb6f23335(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m52236356dc254b97927626f3119cfbaa(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 md7b5dd0ee5a045ac8204df80caa203d3(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m7cdaa2a32398488aa0610d5491be342f(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m20f81a513c0540a6b119be5ced002a62(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mb6be4beb80c045418c373bfea88faf56(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m3ae6ce06bf3845819d56cf1b626848ea(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m718a6809a0394747be49535a2d9e8d45(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mc7d2319ac9cc49e39bb459e031769803(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m1c3c069b8cec4d0faf06a0ee1c3b95c7(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m2a3c72e876554a3b954bbe5cc1611ef2(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mc9075ee83c914e6399626acf9215eef7(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m5e2f5a0b839e46f6a9a714d557a0a5e1(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m84615e7cbc114982aff66c8bc808002c(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m2827ea51138f4474993d9eba4ddab25f(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m8fc93e16411f444abaea4dade4495c3e(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m8abd37ba303744419e4e31fb56d0df08(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mb5f1cf4f1cfe442f9889cd90abb3c0ca(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject)

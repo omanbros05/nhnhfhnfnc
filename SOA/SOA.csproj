@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{76089B15-B439-43FC-BDD4-8158E5A1DD33}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SOA</RootNamespace>
+    <AssemblyName>SOA</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contract\IManageService.cs" />
+    <Compile Include="Contract\IManageServiceXyr.cs" />
+    <Compile Include="Contract\ISystemService.cs" />
+    <Compile Include="Implement\ManageService.cs" />
+    <Compile Include="Implement\ManageServiceXyr.cs" />
+    <Compile Include="Implement\SystemService.cs" />
+    <Compile Include="ORM\ArchiveEntity.cs" />
+    <Compile Include="ORM\ArchiveExt.cs" />
+    <Compile Include="ORM\ArchiveExtEntity.cs" />
+    <Compile Include="ORM\AutoMaticQueryColumn\Archive.cs" />
+    <Compile Include="ORM\Archive.cs" />
+    <Compile Include="ORM\AutoMaticQueryColumn\Navigation.cs" />
+    <Compile Include="ORM\AutoMaticQueryColumn\QueryColumn.cs" />
+    <Compile Include="ORM\Navigation.cs" />
+    <Compile Include="ORM\Utility.cs" />
+    <Compile Include="ORM\WordDocument.cs" />
+    <Compile Include="ORM\催缴与分期罚款\ContributeFine.cs" />
+    <Compile Include="ORM\催缴与分期罚款\ContributeFineApproval.cs" />
+    <Compile Include="ORM\催缴与分期罚款\ContributeFineApprovalEntity.cs" />
+    <Compile Include="ORM\催缴与分期罚款\ContributeFineEntity.cs" />
+    <Compile Include="ORM\催缴与分期罚款\FineCallsNotice.cs" />
+    <Compile Include="ORM\催缴与分期罚款\FineCallsNoticeEntity.cs" />
+    <Compile Include="ORM\危化品名录\ChemicalsHighlyToxic.cs" />
+    <Compile Include="ORM\危化品名录\ChemicalsHighlyToxicEntity.cs" />
+    <Compile Include="ORM\危化品名录\ChemicalsList.cs" />
+    <Compile Include="ORM\危化品名录\ChemicalsListEntity.cs" />
+    <Compile Include="ORM\历史文书\ImportDocument.cs" />
+    <Compile Include="ORM\历史文书\ImportDocumentEntity.cs" />
+    <Compile Include="ORM\历史文书\InstrumentsHistoryFile.cs" />
+    <Compile Include="ORM\历史文书\InstrumentsHistoryFileEntity.cs" />
+    <Compile Include="ORM\历史文书\InstrumentsHistoryFolder.cs" />
+    <Compile Include="ORM\历史文书\InstrumentsHistoryFolderEntity.cs" />
+    <Compile Include="ORM\听证会与呈批\EnquireQuestion.cs" />
+    <Compile Include="ORM\听证会与呈批\EnquireQuestionItem.cs" />
+    <Compile Include="ORM\听证会与呈批\HearingInform.cs" />
+    <Compile Include="ORM\听证会与呈批\HearingNotice.cs" />
+    <Compile Include="ORM\基础数据管理\Bank.cs" />
+    <Compile Include="ORM\基础数据管理\BankEntity.cs" />
+    <Compile Include="ORM\基础数据管理\CaseSource.cs" />
+    <Compile Include="ORM\基础数据管理\CaseSourceEntity.cs" />
+    <Compile Include="ORM\基础数据管理\CheckPlace.cs" />
+    <Compile Include="ORM\基础数据管理\CheckPlaceEntity.cs" />
+    <Compile Include="ORM\基础数据管理\CompanyArea.cs" />
+    <Compile Include="ORM\基础数据管理\CompanyAreaEntity.cs" />
+    <Compile Include="ORM\基础数据管理\CompanyDangerChemicals.cs" />
+    <Compile Include="ORM\基础数据管理\CompanyDangerChemicalsEntity.cs" />
+    <Compile Include="ORM\基础数据管理\CompanyDangerChemicalsProduce.cs" />
+    <Compile Include="ORM\基础数据管理\CompanyDangerChemicalsProduceEntity.cs" />
+    <Compile Include="ORM\基础数据管理\CompanyFireworks.cs" />
+    <Compile Include="ORM\基础数据管理\CompanyFireworksEntity.cs" />
+    <Compile Include="ORM\基础数据管理\CompanyHighlyToxicChemicals.cs" />
+    <Compile Include="ORM\基础数据管理\CompanyHighlyToxicChemicalsEntity.cs" />
+    <Compile Include="ORM\基础数据管理\CompanyNoCoalSecurity.cs" />
+    <Compile Include="ORM\基础数据管理\CompanyNoCoalSecurityEntity.cs" />
+    <Compile Include="ORM\基础数据管理\CompanyType.cs" />
+    <Compile Include="ORM\基础数据管理\CompanyTypeEntity.cs" />
+    <Compile Include="ORM\基础数据管理\IllegalType.cs" />
+    <Compile Include="ORM\基础数据管理\IllegalTypeEntity.cs" />
+    <Compile Include="ORM\基础数据管理\LawRegulationsEntity.cs" />
+    <Compile Include="ORM\听证会与呈批\PutDown.cs" />
+    <Compile Include="ORM\听证会与呈批\WritServiceReceipt.cs" />
+    <Compile Include="ORM\听证会与呈批\WritServiceReceiptItem.cs" />
+    <Compile Include="ORM\基础数据管理\Lawyer.cs" />
+    <Compile Include="ORM\基础数据管理\LawyerEntity.cs" />
+    <Compile Include="ORM\基础数据管理\NaturalPerson.cs" />
+    <Compile Include="ORM\基础数据管理\NaturalPersonEntity.cs" />
+    <Compile Include="ORM\基础数据管理\Officers.cs" />
+    <Compile Include="ORM\基础数据管理\OfficersEntity.cs" />
+    <Compile Include="ORM\基础数据管理\PowerInventory.cs" />
+    <Compile Include="ORM\基础数据管理\PowerInventoryEntity.cs" />
+    <Compile Include="ORM\基础数据管理\Question.cs" />
+    <Compile Include="ORM\基础数据管理\QuestionEntity.cs" />
+    <Compile Include="ORM\基础数据管理\SearchWord.cs" />
+    <Compile Include="ORM\基础数据管理\SearchWordEntity.cs" />
+    <Compile Include="ORM\基础数据管理\UserInfo.cs" />
+    <Compile Include="ORM\处罚告知与申辩\AdminPunishNotification.cs" />
+    <Compile Include="ORM\处罚告知与申辩\AdminPunishNotificationEntity.cs" />
+    <Compile Include="ORM\处罚告知与申辩\DefenseRecords.cs" />
+    <Compile Include="ORM\处罚告知与申辩\DefenseRecordsEntity.cs" />
+    <Compile Include="ORM\处罚告知与申辩\InstrumentsReceipt.cs" />
+    <Compile Include="ORM\处罚告知与申辩\InstrumentsReceiptEntity.cs" />
+    <Compile Include="ORM\整改复查\ReformReView.cs" />
+    <Compile Include="ORM\整改复查\ReformReViewEntity.cs" />
+    <Compile Include="ORM\整改复查\ReviewOptionApprove.cs" />
+    <Compile Include="ORM\文书示例\InstrumentsExample.cs" />
+    <Compile Include="ORM\文书示例\InstrumentsExampleEntity.cs" />
+    <Compile Include="ORM\查封或扣押处罚\SealDecide.cs" />
+    <Compile Include="ORM\查封或扣押处罚\SealDecideApproval.cs" />
+    <Compile Include="ORM\查封或扣押处罚\SealDecideApprovalEntity.cs" />
+    <Compile Include="ORM\查封或扣押处罚\SealDecideEntity.cs" />
+    <Compile Include="ORM\查封或扣押处罚\SealThingHandle.cs" />
+    <Compile Include="ORM\查封或扣押处罚\SealThingHandleApproval.cs" />
+    <Compile Include="ORM\查封或扣押处罚\SealThingHandleApprovalEntity.cs" />
+    <Compile Include="ORM\查封或扣押处罚\SealThingHandleEntity.cs" />
+    <Compile Include="ORM\案件处理\InCaseOfTable.cs" />
+    <Compile Include="ORM\案件处理\InCaseOfTableEntity.cs" />
+    <Compile Include="ORM\案件移送\CaseTransferred.cs" />
+    <Compile Include="ORM\案件移送\CaseTransferredApproval.cs" />
+    <Compile Include="ORM\案件移送\CaseTransferredApprovalEntity.cs" />
+    <Compile Include="ORM\案件移送\CaseTransferredEntity.cs" />
+    <Compile Include="ORM\法律法规\LawFile.cs" />
+    <Compile Include="ORM\法律法规\LawFileEntity.cs" />
+    <Compile Include="ORM\现场检查\ForceMeasureDecision.cs" />
+    <Compile Include="ORM\现场检查\ForceMeasureDecisionApprove.cs" />
+    <Compile Include="ORM\基础数据管理\UserInfoEntity.cs" />
+    <Compile Include="ORM\现场检查\OrderDeadlineReform.cs" />
+    <Compile Include="ORM\现场检查\SpotHandelDesision.cs" />
+    <Compile Include="ORM\现场检查\SpotHandelDesisionSixtyDay.cs" />
+    <Compile Include="ORM\现场检查\SpotShoot.cs" />
+    <Compile Include="ORM\现场检查\SpotShootEntity.cs" />
+    <Compile Include="ORM\现场检查\SpotShootItem.cs" />
+    <Compile Include="ORM\现场检查\SpotShootItemEntity.cs" />
+    <Compile Include="ORM\立案调查\AppraisalEntrustEntity.cs" />
+    <Compile Include="ORM\立案调查\CaseCancelEntity.cs" />
+    <Compile Include="ORM\立案调查\ExplorationRecordEntity.cs" />
+    <Compile Include="ORM\立案调查\InterrogationRecordEntity.cs" />
+    <Compile Include="ORM\立案调查\NoticeOfEnquiryEntity.cs" />
+    <Compile Include="ORM\立案调查\PunishmentDiscussRecordEntity.cs" />
+    <Compile Include="ORM\立案调查\PutOnRecordEntity.cs" />
+    <Compile Include="ORM\立案调查\SamplingContentEntity.cs" />
+    <Compile Include="ORM\立案调查\SamplingEntity.cs" />
+    <Compile Include="ORM\立案调查\SaveEvidenceAuditEntity.cs" />
+    <Compile Include="ORM\立案调查\SaveEvidenceNoticeEntity.cs" />
+    <Compile Include="ORM\立案调查\SaveEvidenceProceAuditEntity.cs" />
+    <Compile Include="ORM\立案调查\SaveEvidenceProceDecideEntity.cs" />
+    <Compile Include="ORM\立案调查\PutOnRecord.cs" />
+    <Compile Include="ORM\立案调查\NoticeOfEnquiry.cs" />
+    <Compile Include="ORM\立案调查\AppraisalEntrust.cs" />
+    <Compile Include="ORM\立案调查\CaseCancel.cs" />
+    <Compile Include="ORM\立案调查\ExplorationRecord.cs" />
+    <Compile Include="ORM\立案调查\InterrogationRecord.cs" />
+    <Compile Include="ORM\立案调查\PunishmentDiscussRecord.cs" />
+    <Compile Include="ORM\立案调查\Sampling.cs" />
+    <Compile Include="ORM\立案调查\SaveEvidenceAudit.cs" />
+    <Compile Include="ORM\立案调查\SaveEvidenceNotice.cs" />
+    <Compile Include="ORM\立案调查\SaveEvidenceProceAudit.cs" />
+    <Compile Include="ORM\立案调查\SaveEvidenceProceDecide.cs" />
+    <Compile Include="ORM\立案调查\SamplingContent.cs" />
+    <Compile Include="ORM\简易处罚流程\AdministrativePenaltyCompany.cs" />
+    <Compile Include="ORM\简易处罚流程\AdministrativePenaltyCompanyEntity.cs" />
+    <Compile Include="ORM\简易处罚流程\AdministrativePenaltyPerson.cs" />
+    <Compile Include="ORM\简易处罚流程\AdministrativePenaltyPersonEntity.cs" />
+    <Compile Include="ORM\BaseEntity.cs" />
+    <Compile Include="ORM\听证会与呈批\EnquireQuestionEntity.cs" />
+    <Compile Include="ORM\听证会与呈批\EnquireQuestionItemEntity.cs" />
+    <Compile Include="ORM\现场检查\ForceMeasureDecisionApproveEntity.cs" />
+    <Compile Include="ORM\现场检查\ForceMeasureDecisionEntity.cs" />
+    <Compile Include="ORM\听证会与呈批\HearingInformEntity.cs" />
+    <Compile Include="ORM\听证会与呈批\HearingNoticeEntity.cs" />
+    <Compile Include="ORM\现场检查\OrderDeadlineReformEntity.cs" />
+    <Compile Include="ORM\听证会与呈批\PutDownEntity.cs" />
+    <Compile Include="ORM\整改复查\ReviewOptionApproveEntity.cs" />
+    <Compile Include="ORM\现场检查\SpotCheckEntity.cs" />
+    <Compile Include="ORM\现场检查\SpotHandelDesisionEntity.cs" />
+    <Compile Include="ORM\现场检查\SpotHandelDesisionSixtyDayEntity.cs" />
+    <Compile Include="ORM\听证会与呈批\WritServiceReceiptEnity.cs" />
+    <Compile Include="ORM\听证会与呈批\WritServiceReceiptItemEntity.cs" />
+    <Compile Include="ORM\基础数据管理\AreaCode.cs" />
+    <Compile Include="ORM\基础数据管理\AreaCodeEntity.cs" />
+    <Compile Include="ORM\基础数据管理\Company.cs" />
+    <Compile Include="ORM\基础数据管理\CompanyEntity.cs" />
+    <Compile Include="ORM\EList.cs" />
+    <Compile Include="ORM\IEntity.cs" />
+    <Compile Include="ORM\结案\CaseClosedApproval.cs" />
+    <Compile Include="ORM\结案\CaseClosedApprovalEntity.cs" />
+    <Compile Include="ORM\结案\CaseExtensionClosedApproval.cs" />
+    <Compile Include="ORM\结案\CaseExtensionClosedApprovalEntity.cs" />
+    <Compile Include="ORM\结案\CaseExtensionClosedApprovalToSibling.cs" />
+    <Compile Include="ORM\结案\CaseExtensionClosedApprovalToSiblingEntity.cs" />
+    <Compile Include="ORM\行政处罚\DocumentsServiceReplyEntity.cs" />
+    <Compile Include="ORM\行政处罚\PunishmentDecisionPersonalEntity.cs" />
+    <Compile Include="ORM\行政处罚\PunishmentDecisionUnitEntity.cs" />
+    <Compile Include="ORM\行政处罚\SpotPunishmentDecisionPersonalEntity.cs" />
+    <Compile Include="ORM\行政处罚\SpotPunishmentDecisionUnitEntity.cs" />
+    <Compile Include="ORM\调查报告\SurveyEndReport.cs" />
+    <Compile Include="ORM\调查报告\SurveyEndReportEntity.cs" />
+    <Compile Include="ORM\行政处罚\DocumentsServiceReply.cs" />
+    <Compile Include="ORM\行政处罚\PunishmentDecisionPersonal.cs" />
+    <Compile Include="ORM\行政处罚\PunishmentDecisionUnit.cs" />
+    <Compile Include="ORM\行政处罚\SpotPunishmentDecisionPersonal.cs" />
+    <Compile Include="ORM\行政处罚\SpotPunishmentDecisionUnit.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ORM\现场检查\SpotCheck.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{3AF952E4-7FB0-4B79-83F0-3A2D855F697E}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NBear.Mapping\NBear.Mapping.csproj">
+      <Project>{F3395064-269B-4D0D-BCB5-F6F98C3DEA2C}</Project>
+      <Name>NBear.Mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NBearLite\NBearLite.csproj">
+      <Project>{944AD8EE-6DEB-4022-850F-E92B5AA1E7DA}</Project>
+      <Name>NBearLite</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

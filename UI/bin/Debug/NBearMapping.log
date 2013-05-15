@@ -1,0 +1,1176 @@
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mcf72a841e7db470ca16ec7daaf567d3c(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 me04df5d818064806b01d1a242ce1b0e8(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mf1aed7c972b04204ac32e40a765d77e1(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m695b36be81174f5e94f3f1a5ec7e36c9(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 medf24fcd7a9f4335a2bd75b1ba5aa38e(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m2e39714a35674eacb0a9efeeb1294ae1(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m28f2477e96fb4ab6b573d235f845ed4b(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 md941b3f0201948d6a19a66654d3f71d4(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m8448e95a383f41e2a97cc33b97acc465(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m23d22405749a4c918e5edfc3190323f2(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mcc1daaadb73e4d1e8a6831a1ab3ccf56(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mf38c372c84d2433eb62e7d8197b59677(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m32033669705b43509771d2c633d2ea57(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mdba0795673e64ea6b971b59f633bd91f(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 md3731446de5740b3aaf8bf8c40ebdba9(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m0a3155213bb64f9ca53d745b192c778c(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m301a2eea2e3a4a8990a5e076b6035374(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m27ca2e4dc08b449c915d3b09e12e9a68(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m34ac1898c02543ee99d2712bc5a1a526(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m76f869d879524fde884e6d7f30fca82b(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mf5a7a94f864746148ab2baa69f3eca34(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 ma455021124034c6f8be0186ca57a2f4b(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mc337e0ca17564abaa035904d4d5bab2a(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 me406d316116b4ee1bcd497e2ced98726(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 ma4bb44e30ec649998f6b0d80fb80605e(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m491bf28198724befaea5e212b56227ae(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 meaef589175cb41ccb09580ecbf44a9dd(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m5c247a61c1094e889b2f585d0cc7eb79(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m3a393aee099a467da3b8bb4bc1ade691(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m89086062fd184d2dafff7e38f0e9bc81(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 me1775e8091314c1697171463493988d9(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mda01c3f7cca74d54a13ffa1923be0817(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 ma10577edd16045ddaf00877e99e62b0e(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m67067dc0d68f45c0bb57bb5aac0d2324(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m0eac0cbef0ef405683fcaf3e0f135ad2(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mdf3177d3a59442cc932fb288c8147d43(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 ma3518f120a2243108fec48cbc0145f41(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m28dd2cd838024226bd932a0394cf4a3c(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mac914b795ca14948bd12e78649230af4(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m0164df774d934f0a800848fc41c51426(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mc03164a97d434917968a6281619d4730(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m4c3608d3f19146d39cfc8fa5eccbbfdd(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 me742835b55c341ef8cc3cf5f497b79b0(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m2db7e0aa589d48e9b7e5b31fee98279e(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mbecd87d817ff40298d4b68851c96fff9(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 ma2ac566c37364981998c0f808889055a(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mbd600cdf58a647c49302e897993a6a2c(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m47352159af8742a0ae7970a8ce5d1366(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 me2c5cd6c20934be1acd5e14f1702f451(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m988454c249964d8eb03d65b7c351e8fe(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m2a050531be0545b98b9fa02893825834(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mcadf166932e04f68bfe714f2fce0245d(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m05f5b70eb3664d6b8dfa70e431a27ec1(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m2a1fe85438924f80bc6345c1c2b14121(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 md516e00bef9143988cec5977642397c1(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m7cf3b30b8f4b4e7bb49683cc06bbf359(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m44d4d853cb5c47e9bd4f38c74fa8bd85(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mb782c5941b6c43449f4116d2388ceb32(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m23aadaad73314be29c7ef672a21f3caa(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mf3c2ccf75d554d4b91a0cbdb8fb2b6fc(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m731be73b316c455ca9bd79fbf9c8976c(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mee0aca74b00c43eb8c1638fad78c4000(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 med704d24cfef49059dbc71e935160882(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 me5af3e2fd572430080a7c45eca30d08f(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m6dc73322510a4c88a2f039b724ab1a92(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m5932808d2f244e7ebc64f40c6731a272(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m7291222a33e34e5092d819691be02b67(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m9acf4e2d1e464b1da820a2a62223c8cb(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m18e8733d715e4ef98dfbd30cc89bdfad(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 me3dc9fb996c640559e17d11393a68c73(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mafd502df26b14ff2bcb9f6d780835095(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m1c4daaa6bcd74ba1b612b1f3afbf296f(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m42fc436a49b14812a1ffa8a89dd60ee9(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m7410d88fce5f4085a63592a32b534f38(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m67488fe3b6c044e6bf3b7d7b218be2e0(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m203956f5a4e14e87a084ca621a154d86(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mdcb4c935649545cfaadad788da6500b6(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mff4477e38da243d3af49ddd43c16304e(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m8848069477fc48ceb2928c2a14f1b112(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m41c66a6e957445c78ee24651eca8c7db(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m654e13c4b4b2465cb7daa707f1e8bd7e(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m93d809ec71a24ac9b8b6f61db7b42122(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m1de1b7599bc64613bd0a6969faff6ae0(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m9f5e85446b7f412fb7095e06c39aa83e(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m2db261a69b34433caef56eb8d4c2da7c(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mdc4e3c0d2e314c3390b50d69000b6581(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mad0723761c1c4260a264703cd13cc64c(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m9b00e21d098847f5bac54588b1d1ec47(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m8c684b3ecc0b4a9e8a64e4bdce046115(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mec21890b544347b4bd387e448a8af392(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mda82df1d36ca4cb28685c19496f80c01(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m37ca8768b20942e6951aec5db269249c(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m86a7e33ee64247e6b80cc7babc2d556b(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m92cb97d904b640459b7a88c6c6153f96(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mfbe64e523be64a93a4832d13f7f958ce(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mbd48ebd48dc04b7b92508c2a799d0a8f(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mbc197d9813894a928c31f7355f71562f(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 md9792da81dc64d549db54d7bf6c9dea3(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m853024d8ba5c4df4b91113d4853d1cc0(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mcd67059173f648a7bede645f492796c5(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 maa0f5b5324a94801a0440acf8febe223(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m71905f2784b147169aeaacb300da2b06(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 me6b4e31a071d4cebae5c559537a6b721(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m6c74b4ffb4a14e1eb28e6d3b1222f68f(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mb9284a88cba8489cbbad5cbcfe995889(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m41e836bf59a24b6e88c463f660e80f92(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m35256474f9e549de8b66db53440a1a8c(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m63957cfc064b461091f1a4e6daa14ea0(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m1921730b886b40f08250eec4a7441624(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m9c42a8df4ab14bc990b20617984b8ef8(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mc5d4d5764b6d470988a2b0a3e44d6260(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m1a6a1d7ae8224803a677c25a40a1c3d5(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mdc407527939a40e2ab91e5ccebd6e582(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mf6181cad0dd44b75be76f298ddfa975d(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mf44c266ca88f4c6e856a7063a87fa965(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mcb114ade7f2644d19235e9322b463c84(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 ma2c35c350edc4708a81f93f60903c6ca(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m3c3745ffee0e4f7580e821784d87f6b1(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 md0207d3fbd94436c9b7f2f4ae778ee28(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m237bd3b136bd47d79571cc23a170fe37(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m8bdbcc5d014a4fe3bf58101324ed2a64(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 ma36d6a8324f44095b3ee1b7330aa7d4a(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mff5b4c0200a14e41854f03bcb5ea9cc9(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 me88eb70bece34baf971b8a3ac6d21af8(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m93f3d2a65bf742b78471dc65fb82cd10(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m4d27bff286684656b574abc4cda209f2(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m0a4f7e6390c647a09fede69450d92d2d(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m848206699c4d4319b37a81843a12c0ab(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m3e9aa2722692468181667034a5539f90(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m0039b4367e044d10a7f64e1a99aad692(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m882b79f7fdc7472196a5a772034401ad(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mea95281e59204b838a372b2c5ab46c48(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mad771c5141a3452fa8bd6e7fad0adeb8(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m3663d8ae0a1c47fca3c4a31b3b1d9c88(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 me75a4bece92b48cea68468401fda82f9(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m2b1abc1f102046fabcde699aa8da3480(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m6befc71631af47c59d7fd78aef56c3f2(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mfbcb636927f2492084c18d80f63a5b83(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 me2cd539847334481b7a8cd4b2128c6e5(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mf5773a70540d4ae68fe3856a13779b99(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m2bbb611f68b445658a7adf7426385237(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m5b39d6d56c244ded91c7af7e247e55d3(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m0754754f98bb4e8c9d4d33f661d7aea5(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m098c01bbf1ba4a53a6ed7e74e4888369(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 me8ccb42855694bbd9ba3c6c5a47f4d6c(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 ma2e66e6856f5412fa54f942e66eebbd5(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m5041a6aab1c945a489aee0dc8e6cc3c2(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 me74b6cc32c62423db87823b29104da9b(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m9012a615986a4b268e0c6b3239a48033(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mcf1cdffca4d0407f9d8f49d866d41d66(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mc3bdebc2b4954e6a98032caacfdcf306(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m4cd6f166e2f641f98c9ea3afcd50ac6c(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mf9bd5d3a5f354a5aac4f404fe65f1937(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m2b88435643174dea9b3fdcde8b2edf79(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mf1269d1ab1204927b61b343d0c5d3545(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m4ebfda1316244e7c983d7fba89f47027(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 meda60b9145054999a5ec27d84b6f38a0(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m74334ef4253b4f89a7533f11454c1132(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 ma2dd952c4774495ba4442f4302bb595f(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m8697354102dc4c6594f3ba0bf0349ddc(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m09f6469d084145dea3272ea86e176a69(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m63a22249498c4ff9b2c774be71d19a9a(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m96c99e7d5b7c48618af6aeb3b1d32e42(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mb045aeb497484be8ad50977e3c6bf076(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m13eb477963f14403a7809d343f10dc02(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 ma80a1821cb6a46469afaa1dd62e4c58e(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m316a28d91293441d986357c051b3be55(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m6a5646eb5e434d01ab96778b2bcaed1f(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m550697fb92324d139ac789f14e0911df(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m8f733be1fb334319ac5bce970c48b0d1(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m3d3824ee110c40e28865b2c85f39275a(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m0768bd6f786d411aad4acac3c9500d62(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m148d48fe7c804c07853095f15323a5fd(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m4edc36c6599a47a484a73661a19c9316(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mae8120efb28d4eb6ac8d6a97b82ed230(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m277e99be36c14222b4595dc925c8ae00(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m2996ff3ce2ba40fa9b4a518cb25bf24a(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m2e75b02173794b2da8c2200036853e0b(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m2c635cb717544ac5a1e6f448de0119f7(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m121336769e0f404d98ce28688707a543(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m9d922eac57f04a9a8c4499be0f1c8ebb(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m5a89907a1ce94798bc4861669852c6f3(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 md83be250452c4a8c810c82d8a2680dd1(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mb8acc28c22ec4f9bb8525222e618a009(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m52be92ad53294ba0a11913ac6c7d0140(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m821d889d1d914e228de6899cb1a54bc1(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m347dc94a40ab4d07af9a5c995120644b(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m8ea82a4c435d41b99a891f3a21b77619(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mb8e4b9c7629b40928f53656fb06ff220(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m0726e33f56f542869e24857b6de18e0b(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m163891d0653c49218b52b6afe13ca136(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m70080fda008f493b83fdea2f00f8e245(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mded925610acf4f0ea81a1d5ff387d605(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mff44328f5c224f418b7fb77a9b4a9525(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 md33aab02685a4807bda0612d5eed7e0b(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m9b2578c03e9442ddbb3b1f601f230884(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m0ee9974c5a3e4b66b98468632279c918(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m01ca38b014f64b478324f74e939b7ecf(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mcdde6aab0cb04b9c86c21624e0af37f9(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m285fc40754d84fafbf8cbb4a75d0dca9(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m3c94851474b343a381b9515a747d8918(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m1cf21476f1f44ee7947a6b9c07bc3ed3(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m095cfd44d40a4cf7b64a85d002c2b501(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m42ffa0261c684eb78b0ac1609b27f253(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mb8abe23cac6c49328e0ed2954d1ce5f3(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m48e9ca79f1884f549ac307317ff91529(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 ma1130799fa724e68b30d61571ed45485(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m6785ce135c3d4bf39af052ea0cb633aa(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m8fbae9fe5ae9423ea20ce1e529fa95f7(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m381440a8b408406a957417b593332412(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m651a9681ec4846399ad108535020b51a(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mcb8f2a682c3645359166ca38853d9ad1(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m7500b5431930410d8ee12d3e4e6d2af0(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 md761fc2c0e204f019109d4e6bc2e87fa(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 me8c11dd67c444a9c9219a99e83cecdcb(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mfbc286b25c4c457cbcd4ea452ec633b8(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 md5525821a66245cda1eca8344d54a15b(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m721bc1c3e12a48f3894e5f8a5346cdd2(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m7b38a1378fcc4c1582f427528ae1de58(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m54d54dfd9438411494625e07870801a7(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mfe8871267458440eb1be6ebaa2fbfbd4(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 me3d8c13cc6414a74858f738a51473b57(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m6c71addfd57f45909b465cda77304ab9(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m5ad1d99ea9bb455e9a3a5396f73b5d6a(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mea64022dafb3413ea7e2854fc2560d9a(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mcb135c01f95e4c628a0d59f71da26569(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m363bc05301614233a04c0f371e652fc8(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m1aabe6150c1f45b4a17873a2dff42094(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mb7065b3575c9464f982da14a06c557b5(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m923b2a174e2e406393623fbac796f879(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mb6d4678ef2684fdc812fc977abde4124(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mc950154fb7f14b2a8917314c6522d4b4(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mcbb3feab2ff24eee8fa6ef8e1057f2d5(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m50d4d16d79fb40bbad1dcf6bed531fc5(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mee6e97db4c3246359997b30a54318594(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 ma6b4b615e329423086c29f31d7ccfdf1(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mea7d5e8852dc4060bf4d6c8d7f23b098(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m6bcace0578024a21a677ccbed87ffb05(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mef656ec0a2c94e16b9eda743e5000098(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m0ed1f9b7cfde4048b98bfb96d43ec7f7(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mc9a504d408004e0ab4fc0e827a0258e9(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m7eed49fbd9ff4f52b2e648bdb4d1d398(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m9e4d8e7bbeed40c4a968c063c2ac68cb(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m039eb513ebd242c883d89edcba877f94(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 md874eb75b2d04d718c20305b4291725a(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 ma447ea64563845ea85fbf0aec1016f24(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 meb95dfd54c51484a9e070c8bf9369e28(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m409e9dbb36244b79b8e94c3d6290994e(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m60e9ac0db97b40679bbad405fa030de2(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mf8bdefda88114294bcde80ce6285ac76(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m9ba0d4089aa441ca859b7d0b1692e6aa(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m50191267bd7d40d988b6c8cedb4f8764(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m1de65fd6fbfa459d9e19afc4c9d7b277(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 md761679ab6f2460abcda11cae9b67513(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m1c2db48287314121a5d26a5adb9b57c8(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 md8c49cfa7e004966ba5141ccec0aee11(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m491fe1fb35954aa5a1a3ff7456685420(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m970aaa80c38f4f3584ef8d4e997e92d5(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mbdc0afd34913455a8ef3c53f9c53e3b4(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m76eb621012264c2495ec5ee993f95838(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mac25b9f1dd9f47ddbd2f61ca53e7262c(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m211e98a7c066494abccf04405270a726(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mc1802884ea3b4312917db8667d3951fb(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m27b68f741c8942168a2a86e79905e4bc(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mec289f0bbf1440e5940507e55d417759(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m988cf21ff53a491aa9345f14b80aaac2(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m2c49fe857e0b4b55b8b5039249ef5174(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m56e4e16b46154ba1aec2674a6d52c40d(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 md8c353252ea0460abed3e69bd8c91bb8(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m096e3c3c4f654aa097468d3886a4a827(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mc2fd10aa0706463ca6f93ff68def8384(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m7790de83e6e844b18b1f45b40f3abcdf(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m83069ad01fff43a98321249144329134(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mef385f48f5d74c35ba1300f589876cc8(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m7fd74c12baec470fb8ecb57002321daa(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m4183ed33fda0482a9c4fd328a8cb5c68(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m58fe1f4c89444e85bc6ff1a1927210b5(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 me7b0b10d104844babd3379ceed1a792a(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m5bd23f1156b84cf68b677719bbd36b70(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m62fdc93f5bb34f6a9ba5e3ebf2a838e0(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m32e969a1c8b5467bb35f53a05b25f762(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m75e5a5768f4b455ebcdb69ad95c34169(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mf168955b3ccc41449fdc0723f32f2315(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 ma9d885af9dc143609286e11829db45fd(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mfd2620400c8b4907b92f71d364eb4f77(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m219661b886e940efbd2a9ef5c3b730e2(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m83b8667f2c6247f7835dcef480a5c309(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mb8538122286f493bb023e34bc4ad3854(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m652e6d83812c462ba462a77dcddb4b26(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m9e65d48e43064c999dcab7d73d0726e9(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m85d6f9b0119d4bc4ad08ef080fb600cd(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 mde3795a309d04af0b827b4608025a08b(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m1d21548f5c8e42a1aa2d664146bd11cc(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244
+指定的转换无效。
+   在 System.Data.SqlServerCe.SqlCeDataReader.GetInt32(Int32 ordinal)
+   在 m10be92a3b8a246aaa097255f3a9d9681(Object , Object )
+   在 NBear.Mapping.ObjectMapper.ConvertObject(Object inputObject, Object outputObject) 位置 F:\src\Maleos\NBear.Mapping\ObjectMapper.cs:行号 244

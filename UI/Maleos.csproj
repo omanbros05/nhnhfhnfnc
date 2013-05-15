@@ -1,0 +1,1919 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{31B26EE0-97A7-4E5E-AB91-3795AF64AA36}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Maleos</RootNamespace>
+    <AssemblyName>Maleos</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Maleos.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v12.1.Core, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v12.1.Core, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v12.1.Core, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v12.1, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v12.1.Extensions, Version=12.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Activities.Presentation" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\ArchiveFooter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ArchiveFooter.Designer.cs">
+      <DependentUpon>ArchiveFooter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ArchiveTypeSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\ArchiveTypeSelector.Designer.cs">
+      <DependentUpon>ArchiveTypeSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BasePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\BasePage.Designer.cs">
+      <DependentUpon>BasePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Footer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Footer.Designer.cs">
+      <DependentUpon>Footer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ImageButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Header.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Header.Designer.cs">
+      <DependentUpon>Header.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Search.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并的控件\AutoCompleteComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\合并的控件\AutoCompleteComboBox.Designer.cs">
+      <DependentUpon>AutoCompleteComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并的控件\AutoCompleteGridView\QuestionContainer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\合并的控件\AutoCompleteGridView\QuestionContainer.Designer.cs">
+      <DependentUpon>QuestionContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并的控件\AutoCompleteGridView\QuestionsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\合并的控件\AutoCompleteGridView\QuestionsControl.Designer.cs">
+      <DependentUpon>QuestionsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并的控件\AutoCompleteTextBox\TextBox\AutoCompleteEntry.cs" />
+    <Compile Include="Controls\合并的控件\AutoCompleteTextBox\TextBox\AutoCompleteEntryCollection.cs" />
+    <Compile Include="Controls\合并的控件\AutoCompleteTextBox\TextBox\AutoCompleteTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\合并的控件\AutoCompleteTextBox\TextBox\AutoCompleteTrigger.cs" />
+    <Compile Include="Controls\合并的控件\AutoCompleteTextBox\TextBox\AutoCompleteTriggerCollection.cs" />
+    <Compile Include="Controls\合并的控件\AutoCompleteTextBox\TextBox\CoolTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\合并的控件\AutoCompleteTextBox\TextBox\IAutoCompleteEntry.cs" />
+    <Compile Include="Controls\合并的控件\AutoCompleteTextBox\TextBox\ShortCutTrigger.cs" />
+    <Compile Include="Controls\合并的控件\AutoCompleteTextBox\TextBox\TextLengthTrigger.cs" />
+    <Compile Include="Controls\合并的控件\AutoCompleteTextBox\TextBox\TriggerState.cs" />
+    <Compile Include="Controls\合并的控件\AutoCompleteTextBox\TextBox\ValueListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\合并的控件\AutoCompleteTextBox\TextBox\ValueListBox.Designer.cs">
+      <DependentUpon>ValueListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并的控件\AutoCompleteTextBox\Win32\Messages.cs" />
+    <Compile Include="Controls\合并的控件\EnforceToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\合并的控件\EnforceToolStrip.designer.cs">
+      <DependentUpon>EnforceToolStrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并的控件\ScrollPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\合并的控件\ScrollPanel.Designer.cs">
+      <DependentUpon>ScrollPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并的控件\TableAutoCompleteTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\合并的控件\TableAutoCompleteTextBox.designer.cs">
+      <DependentUpon>TableAutoCompleteTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并的控件\TableCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\合并的控件\TableCheckBox.designer.cs">
+      <DependentUpon>TableCheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并的控件\TableDateTimePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\合并的控件\TableDateTimePicker.designer.cs">
+      <DependentUpon>TableDateTimePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并的控件\TableLine.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\合并的控件\TableLine.designer.cs">
+      <DependentUpon>TableLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并的控件\TableRichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\合并的控件\TableRichTextBox.designer.cs">
+      <DependentUpon>TableRichTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并的控件\TableTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\合并的控件\TableTextBox.designer.cs">
+      <DependentUpon>TableTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并的控件\TableTextTitle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\合并的控件\TableTextTitle.designer.cs">
+      <DependentUpon>TableTextTitle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并父窗体\BaseForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\合并父窗体\BaseForm.designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并父窗体\BaseFormDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\合并父窗体\BaseFormDetails.designer.cs">
+      <DependentUpon>BaseFormDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并父窗体\BaseFormDialog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\合并父窗体\BaseFormDialog.designer.cs">
+      <DependentUpon>BaseFormDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并父窗体\BaseMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\合并父窗体\BaseMainForm.designer.cs">
+      <DependentUpon>BaseMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并父窗体\BaseTableForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\合并父窗体\BaseTableForm.designer.cs">
+      <DependentUpon>BaseTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并的控件\DocumentAutoCompleteTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\合并的控件\DocumentAutoCompleteTextBox.Designer.cs">
+      <DependentUpon>DocumentAutoCompleteTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并的控件\EnforceLawComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\合并的控件\EnforceLawComboBox.designer.cs">
+      <DependentUpon>EnforceLawComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并的控件\EnforceLawGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\合并的控件\EnforceLawGridView.designer.cs">
+      <DependentUpon>EnforceLawGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并的控件\ExpandableGridView\TreeGridCell.cs" />
+    <Compile Include="Controls\合并的控件\ExpandableGridView\TreeGridEvents.cs" />
+    <Compile Include="Controls\合并的控件\ExpandableGridView\TreeGridNode.cs" />
+    <Compile Include="Controls\合并的控件\ExpandableGridView\TreeGridNodeCollection.cs" />
+    <Compile Include="Controls\合并的控件\ExpandableGridView\TreeGridView.cs" />
+    <Compile Include="Controls\合并的控件\HeaderLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\合并的控件\HeaderLabel.designer.cs">
+      <DependentUpon>HeaderLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并的控件\InvokeUtil.cs" />
+    <Compile Include="Controls\合并的控件\ITableControl.cs" />
+    <Compile Include="Controls\合并的控件\Pager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\合并的控件\Pager.designer.cs">
+      <DependentUpon>Pager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并的控件\TaskService.cs" />
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\ColorHelper.cs" />
+    <Compile Include="Model\ApprovalCasesInfo.cs" />
+    <Compile Include="Model\FactoryInfo.cs" />
+    <Compile Include="Model\FactoryTypeInfo.cs" />
+    <Compile Include="Model\OfficerInfo.cs" />
+    <Compile Include="Modules\AddArchiveType.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\AddArchiveType.Designer.cs">
+      <DependentUpon>AddArchiveType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\AdmistrativePenalties.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\AdmistrativePenalties.Designer.cs">
+      <DependentUpon>AdmistrativePenalties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Archives.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Archives.Designer.cs">
+      <DependentUpon>Archives.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ArchiveTypeManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ArchiveTypeManager.Designer.cs">
+      <DependentUpon>ArchiveTypeManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ArchiveViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ArchiveViewer.Designer.cs">
+      <DependentUpon>ArchiveViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\CheckMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\CheckMenu.Designer.cs">
+      <DependentUpon>CheckMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ChemicalsMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\ChemicalsMenu.Designer.cs">
+      <DependentUpon>ChemicalsMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Enterprise.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Enterprise.Designer.cs">
+      <DependentUpon>Enterprise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\frmSynchro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\frmSynchro.Designer.cs">
+      <DependentUpon>frmSynchro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TileBuilder.cs" />
+    <Compile Include="Modules\LegalMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\LegalMenu.Designer.cs">
+      <DependentUpon>LegalMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\OutputDocuemnt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\OutputDocuemnt.Designer.cs">
+      <DependentUpon>OutputDocuemnt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\PowerViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\PowerViewer.Designer.cs">
+      <DependentUpon>PowerViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\StartPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\StartPage.Designer.cs">
+      <DependentUpon>StartPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\合并父窗体\FormState.cs" />
+    <Compile Include="Modules\合并的窗体\危化品目录\frmChemicalsHighlyToxic.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\危化品目录\frmChemicalsHighlyToxic.Designer.cs">
+      <DependentUpon>frmChemicalsHighlyToxic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\危化品目录\frmChemicalsHighlyToxics.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\危化品目录\frmChemicalsHighlyToxics.Designer.cs">
+      <DependentUpon>frmChemicalsHighlyToxics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\危化品目录\frmChemicalsList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\危化品目录\frmChemicalsList.Designer.cs">
+      <DependentUpon>frmChemicalsList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\危化品目录\frmChemicalsLists.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\危化品目录\frmChemicalsLists.Designer.cs">
+      <DependentUpon>frmChemicalsLists.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\历史文书\frmInstrumentsFile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\历史文书\frmInstrumentsFile.Designer.cs">
+      <DependentUpon>frmInstrumentsFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\历史文书\frmInstrumentsFiles.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\历史文书\frmInstrumentsFiles.Designer.cs">
+      <DependentUpon>frmInstrumentsFiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\历史文书\frmInstrumentsFolders.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\历史文书\frmInstrumentsFolders.Designer.cs">
+      <DependentUpon>frmInstrumentsFolders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmAreaCodes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmAreaCodes.Designer.cs">
+      <DependentUpon>frmAreaCodes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompany.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompany.Designer.cs">
+      <DependentUpon>frmCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyDangerChemical.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyDangerChemical.Designer.cs">
+      <DependentUpon>frmCompanyDangerChemical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyDangerChemicals.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyDangerChemicals.Designer.cs">
+      <DependentUpon>frmCompanyDangerChemicals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyDangerChemicalsProduce.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyDangerChemicalsProduce.designer.cs">
+      <DependentUpon>frmCompanyDangerChemicalsProduce.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyDangerChemicalsProduces.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyDangerChemicalsProduces.designer.cs">
+      <DependentUpon>frmCompanyDangerChemicalsProduces.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyFirework.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyFirework.designer.cs">
+      <DependentUpon>frmCompanyFirework.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyFireworks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyFireworks.Designer.cs">
+      <DependentUpon>frmCompanyFireworks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyHighlyToxicChemical.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyHighlyToxicChemical.designer.cs">
+      <DependentUpon>frmCompanyHighlyToxicChemical.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyHighlyToxicChemicals.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyHighlyToxicChemicals.Designer.cs">
+      <DependentUpon>frmCompanyHighlyToxicChemicals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyImport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyImport.Designer.cs">
+      <DependentUpon>frmCompanyImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyNoCoalSecurity.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyNoCoalSecurity.designer.cs">
+      <DependentUpon>frmCompanyNoCoalSecurity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyNoCoalSecuritys.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyNoCoalSecuritys.Designer.cs">
+      <DependentUpon>frmCompanyNoCoalSecuritys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanys.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanys.Designer.cs">
+      <DependentUpon>frmCompanys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyTypes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmCompanyTypes.Designer.cs">
+      <DependentUpon>frmCompanyTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmEditCompanyType.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmEditCompanyType.Designer.cs">
+      <DependentUpon>frmEditCompanyType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmOfficers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmOfficers.Designer.cs">
+      <DependentUpon>frmOfficers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmUsers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\基础数据管理\frmUsers.Designer.cs">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\催缴与分期罚款\frmContributeFine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\催缴与分期罚款\frmContributeFine.Designer.cs">
+      <DependentUpon>frmContributeFine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\催缴与分期罚款\frmContributeFineApproval.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\催缴与分期罚款\frmContributeFineApproval.Designer.cs">
+      <DependentUpon>frmContributeFineApproval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\催缴与分期罚款\frmEditContributeFine.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\催缴与分期罚款\frmEditContributeFine.Designer.cs">
+      <DependentUpon>frmEditContributeFine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\催缴与分期罚款\frmEditContributeFineApproval.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\催缴与分期罚款\frmEditContributeFineApproval.Designer.cs">
+      <DependentUpon>frmEditContributeFineApproval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\催缴与分期罚款\frmEditFineCallsNotice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\催缴与分期罚款\frmEditFineCallsNotice.Designer.cs">
+      <DependentUpon>frmEditFineCallsNotice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\催缴与分期罚款\frmFineCallsNotice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\催缴与分期罚款\frmFineCallsNotice.Designer.cs">
+      <DependentUpon>frmFineCallsNotice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmEnquireQuestion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmEnquireQuestion.Designer.cs">
+      <DependentUpon>frmEnquireQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmEnquireQuestions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmEnquireQuestions.Designer.cs">
+      <DependentUpon>frmEnquireQuestions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmHearingInform.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmHearingInform.Designer.cs">
+      <DependentUpon>frmHearingInform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmHearingInforms.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmHearingInforms.Designer.cs">
+      <DependentUpon>frmHearingInforms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmHearingNotice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmHearingNotice.Designer.cs">
+      <DependentUpon>frmHearingNotice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmHearingNotices.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmHearingNotices.Designer.cs">
+      <DependentUpon>frmHearingNotices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmPutDown.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmPutDown.Designer.cs">
+      <DependentUpon>frmPutDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmPutDowns.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmPutDowns.Designer.cs">
+      <DependentUpon>frmPutDowns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmWritServiceReceipt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmWritServiceReceipt.Designer.cs">
+      <DependentUpon>frmWritServiceReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmWritServiceReceipts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmWritServiceReceipts.Designer.cs">
+      <DependentUpon>frmWritServiceReceipts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\处罚告知与申辩\frmAdminPunishNotification.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\处罚告知与申辩\frmAdminPunishNotification.Designer.cs">
+      <DependentUpon>frmAdminPunishNotification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\处罚告知与申辩\frmDefenseRecords.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\处罚告知与申辩\frmDefenseRecords.Designer.cs">
+      <DependentUpon>frmDefenseRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\处罚告知与申辩\frmEditAdminPunishNotification.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\处罚告知与申辩\frmEditAdminPunishNotification.Designer.cs">
+      <DependentUpon>frmEditAdminPunishNotification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\处罚告知与申辩\frmEditDefenseRecords.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\处罚告知与申辩\frmEditDefenseRecords.Designer.cs">
+      <DependentUpon>frmEditDefenseRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\处罚告知与申辩\frmEditInstrumentsReceipt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\处罚告知与申辩\frmEditInstrumentsReceipt.designer.cs">
+      <DependentUpon>frmEditInstrumentsReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\整改复查\frmReformReView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\整改复查\frmReformReView.Designer.cs">
+      <DependentUpon>frmReformReView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\整改复查\frmReformReViews.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\整改复查\frmReformReViews.Designer.cs">
+      <DependentUpon>frmReformReViews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\整改复查\frmReviewOptionApprove.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\整改复查\frmReviewOptionApprove.Designer.cs">
+      <DependentUpon>frmReviewOptionApprove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\整改复查\frmReviewOptionApproves.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\整改复查\frmReviewOptionApproves.Designer.cs">
+      <DependentUpon>frmReviewOptionApproves.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmEditSealDecide.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmEditSealDecide.Designer.cs">
+      <DependentUpon>frmEditSealDecide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmEditSealDecideApproval.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmEditSealDecideApproval.Designer.cs">
+      <DependentUpon>frmEditSealDecideApproval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmEditSealThingHandle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmEditSealThingHandle.Designer.cs">
+      <DependentUpon>frmEditSealThingHandle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmEditSealThingHandleApproval.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmEditSealThingHandleApproval.Designer.cs">
+      <DependentUpon>frmEditSealThingHandleApproval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmSealDecide.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmSealDecide.Designer.cs">
+      <DependentUpon>frmSealDecide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmSealDecideApproval.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmSealDecideApproval.Designer.cs">
+      <DependentUpon>frmSealDecideApproval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmSealThingDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmSealThingDetail.Designer.cs">
+      <DependentUpon>frmSealThingDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmSealThingHandle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmSealThingHandle.Designer.cs">
+      <DependentUpon>frmSealThingHandle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmSealThingHandleApproval.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmSealThingHandleApproval.Designer.cs">
+      <DependentUpon>frmSealThingHandleApproval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\案件处理\frmCaseHandel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\案件处理\frmCaseHandel.Designer.cs">
+      <DependentUpon>frmCaseHandel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\案件处理\frmInCaseOfTable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\案件处理\frmInCaseOfTable.Designer.cs">
+      <DependentUpon>frmInCaseOfTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\案件处理\frmInCaseOfTables.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\案件处理\frmInCaseOfTables.Designer.cs">
+      <DependentUpon>frmInCaseOfTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\案件移送\frmCaseTransferred.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\案件移送\frmCaseTransferred.Designer.cs">
+      <DependentUpon>frmCaseTransferred.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\案件移送\frmCaseTransferredApproval.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\案件移送\frmCaseTransferredApproval.Designer.cs">
+      <DependentUpon>frmCaseTransferredApproval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\案件移送\frmEditCaseTransferred.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\案件移送\frmEditCaseTransferred.Designer.cs">
+      <DependentUpon>frmEditCaseTransferred.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\案件移送\frmEditCaseTransferredApproval.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\案件移送\frmEditCaseTransferredApproval.Designer.cs">
+      <DependentUpon>frmEditCaseTransferredApproval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmForceMeasureDecision.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmForceMeasureDecision.Designer.cs">
+      <DependentUpon>frmForceMeasureDecision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmForceMeasureDecisionApprove.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmForceMeasureDecisionApprove.Designer.cs">
+      <DependentUpon>frmForceMeasureDecisionApprove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmForceMeasureDecisionApproves.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmForceMeasureDecisionApproves.Designer.cs">
+      <DependentUpon>frmForceMeasureDecisionApproves.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmForceMeasureDecisions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmForceMeasureDecisions.Designer.cs">
+      <DependentUpon>frmForceMeasureDecisions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmOrderDeadlineReform.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmOrderDeadlineReform.Designer.cs">
+      <DependentUpon>frmOrderDeadlineReform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmOrderDeadlineReforms.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmOrderDeadlineReforms.Designer.cs">
+      <DependentUpon>frmOrderDeadlineReforms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotCheck.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotCheck.Designer.cs">
+      <DependentUpon>frmSpotCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotChecks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotChecks.Designer.cs">
+      <DependentUpon>frmSpotChecks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotHandelDesision.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotHandelDesision.Designer.cs">
+      <DependentUpon>frmSpotHandelDesision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotHandelDesisions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotHandelDesisions.Designer.cs">
+      <DependentUpon>frmSpotHandelDesisions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotHandelDesisionSixtyDay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotHandelDesisionSixtyDay.Designer.cs">
+      <DependentUpon>frmSpotHandelDesisionSixtyDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotHandelDesisionSixtyDays.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotHandelDesisionSixtyDays.Designer.cs">
+      <DependentUpon>frmSpotHandelDesisionSixtyDays.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotShoot.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotShoot.Designer.cs">
+      <DependentUpon>frmSpotShoot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotShoots.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotShoots.Designer.cs">
+      <DependentUpon>frmSpotShoots.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\MemeroyStream.cs" />
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmAppraisalEntrust.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmAppraisalEntrust.Designer.cs">
+      <DependentUpon>frmAppraisalEntrust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmAppraisalEntrusts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmAppraisalEntrusts.Designer.cs">
+      <DependentUpon>frmAppraisalEntrusts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmCaseCancel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmCaseCancel.Designer.cs">
+      <DependentUpon>frmCaseCancel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmCaseCancels.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmCaseCancels.Designer.cs">
+      <DependentUpon>frmCaseCancels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmExplorationRecord.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmExplorationRecord.Designer.cs">
+      <DependentUpon>frmExplorationRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmExplorationRecords.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmExplorationRecords.Designer.cs">
+      <DependentUpon>frmExplorationRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmInterrogationRecord.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmInterrogationRecord.Designer.cs">
+      <DependentUpon>frmInterrogationRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmInterrogationRecords.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmInterrogationRecords.Designer.cs">
+      <DependentUpon>frmInterrogationRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmNoticeOfEnquiry.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmNoticeOfEnquiry.Designer.cs">
+      <DependentUpon>frmNoticeOfEnquiry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmNoticeOfEnquirys.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmNoticeOfEnquirys.Designer.cs">
+      <DependentUpon>frmNoticeOfEnquirys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmPunishmentDiscussRecord.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmPunishmentDiscussRecord.Designer.cs">
+      <DependentUpon>frmPunishmentDiscussRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmPunishmentDiscussRecords.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmPunishmentDiscussRecords.Designer.cs">
+      <DependentUpon>frmPunishmentDiscussRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmPutOnRecord.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmPutOnRecord.Designer.cs">
+      <DependentUpon>frmPutOnRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmPutOnRecords.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmPutOnRecords.Designer.cs">
+      <DependentUpon>frmPutOnRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSampling.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSampling.Designer.cs">
+      <DependentUpon>frmSampling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSamplings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSamplings.Designer.cs">
+      <DependentUpon>frmSamplings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceAudit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceAudit.Designer.cs">
+      <DependentUpon>frmSaveEvidenceAudit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceAudits.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceAudits.Designer.cs">
+      <DependentUpon>frmSaveEvidenceAudits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceNotice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceNotice.Designer.cs">
+      <DependentUpon>frmSaveEvidenceNotice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceNotices.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceNotices.Designer.cs">
+      <DependentUpon>frmSaveEvidenceNotices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceProceAudit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceProceAudit.Designer.cs">
+      <DependentUpon>frmSaveEvidenceProceAudit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceProceAudits.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceProceAudits.Designer.cs">
+      <DependentUpon>frmSaveEvidenceProceAudits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceProceDecide.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceProceDecide.Designer.cs">
+      <DependentUpon>frmSaveEvidenceProceDecide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceProceDecides.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceProceDecides.Designer.cs">
+      <DependentUpon>frmSaveEvidenceProceDecides.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\简易处罚流程\frmAdministrativePenaltyCompany.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\简易处罚流程\frmAdministrativePenaltyCompany.Designer.cs">
+      <DependentUpon>frmAdministrativePenaltyCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\简易处罚流程\frmAdministrativePenaltyCompanys.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\简易处罚流程\frmAdministrativePenaltyCompanys.Designer.cs">
+      <DependentUpon>frmAdministrativePenaltyCompanys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\简易处罚流程\frmAdministrativePenaltyPerson.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\简易处罚流程\frmAdministrativePenaltyPerson.Designer.cs">
+      <DependentUpon>frmAdministrativePenaltyPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\简易处罚流程\frmAdministrativePenaltyPersons.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\简易处罚流程\frmAdministrativePenaltyPersons.Designer.cs">
+      <DependentUpon>frmAdministrativePenaltyPersons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\结案\frmCaseClosedApproval.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\结案\frmCaseClosedApproval.Designer.cs">
+      <DependentUpon>frmCaseClosedApproval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\结案\frmCaseExtensionClosedApproval.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\结案\frmCaseExtensionClosedApproval.Designer.cs">
+      <DependentUpon>frmCaseExtensionClosedApproval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\结案\frmCaseExtensionClosedApprovalToSibling.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\结案\frmCaseExtensionClosedApprovalToSibling.Designer.cs">
+      <DependentUpon>frmCaseExtensionClosedApprovalToSibling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\结案\frmEditCaseClosedApproval.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\结案\frmEditCaseClosedApproval.Designer.cs">
+      <DependentUpon>frmEditCaseClosedApproval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\结案\frmEditCaseExtensionClosedApproval.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\结案\frmEditCaseExtensionClosedApproval.Designer.cs">
+      <DependentUpon>frmEditCaseExtensionClosedApproval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\结案\frmEditCaseExtensionClosedApprovalToSibling.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\结案\frmEditCaseExtensionClosedApprovalToSibling.Designer.cs">
+      <DependentUpon>frmEditCaseExtensionClosedApprovalToSibling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmDocumentsServiceReply.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmDocumentsServiceReply.Designer.cs">
+      <DependentUpon>frmDocumentsServiceReply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmDocumentsServiceReplys.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmDocumentsServiceReplys.Designer.cs">
+      <DependentUpon>frmDocumentsServiceReplys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmPunishmentDecisionPersonal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmPunishmentDecisionPersonal.Designer.cs">
+      <DependentUpon>frmPunishmentDecisionPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmPunishmentDecisionPersonals.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmPunishmentDecisionPersonals.Designer.cs">
+      <DependentUpon>frmPunishmentDecisionPersonals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmPunishmentDecisionUnit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmPunishmentDecisionUnit.Designer.cs">
+      <DependentUpon>frmPunishmentDecisionUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmPunishmentDecisionUnits.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmPunishmentDecisionUnits.Designer.cs">
+      <DependentUpon>frmPunishmentDecisionUnits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmSpotPunishmentDecisionPersonal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmSpotPunishmentDecisionPersonal.Designer.cs">
+      <DependentUpon>frmSpotPunishmentDecisionPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmSpotPunishmentDecisionPersonals.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmSpotPunishmentDecisionPersonals.Designer.cs">
+      <DependentUpon>frmSpotPunishmentDecisionPersonals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmSpotPunishmentDecisionUnit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmSpotPunishmentDecisionUnit.Designer.cs">
+      <DependentUpon>frmSpotPunishmentDecisionUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmSpotPunishmentDecisionUnits.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmSpotPunishmentDecisionUnits.Designer.cs">
+      <DependentUpon>frmSpotPunishmentDecisionUnits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\调查报告\frmEditSurveyEndReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\调查报告\frmEditSurveyEndReport.Designer.cs">
+      <DependentUpon>frmEditSurveyEndReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\调查报告\frmSurveyEndReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\安全生产行政执法文书\调查报告\frmSurveyEndReport.Designer.cs">
+      <DependentUpon>frmSurveyEndReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\文书示例\frmInstrumentsExample.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\文书示例\frmInstrumentsExample.Designer.cs">
+      <DependentUpon>frmInstrumentsExample.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\文书示例\frmInstrumentsExampleContent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\文书示例\frmInstrumentsExampleContent.Designer.cs">
+      <DependentUpon>frmInstrumentsExampleContent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\文书示例\frmInstrumentsExamples.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\文书示例\frmInstrumentsExamples.Designer.cs">
+      <DependentUpon>frmInstrumentsExamples.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\法律法规\frmLawContent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\法律法规\frmLawContent.Designer.cs">
+      <DependentUpon>frmLawContent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\法律法规\frmLawList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\法律法规\frmLawList.Designer.cs">
+      <DependentUpon>frmLawList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\法律法规\frmLawLists.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\法律法规\frmLawLists.Designer.cs">
+      <DependentUpon>frmLawLists.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\法律法规\frmLawPower.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\法律法规\frmLawPower.Designer.cs">
+      <DependentUpon>frmLawPower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\法律法规\frmLawQuery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\法律法规\frmLawQuery.Designer.cs">
+      <DependentUpon>frmLawQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\法律法规\frmPower.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\法律法规\frmPower.Designer.cs">
+      <DependentUpon>frmPower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\法律法规\frmPowers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\合并的窗体\法律法规\frmPowers.Designer.cs">
+      <DependentUpon>frmPowers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SplashScreen1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.cs">
+      <DependentUpon>SplashScreen1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaitForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitForm1.Designer.cs">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Controls\ArchiveFooter.resx">
+      <DependentUpon>ArchiveFooter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ArchiveTypeSelector.resx">
+      <DependentUpon>ArchiveTypeSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BasePage.resx">
+      <DependentUpon>BasePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Footer.resx">
+      <DependentUpon>Footer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Header.resx">
+      <DependentUpon>Header.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\合并的控件\AutoCompleteGridView\QuestionContainer.resx">
+      <DependentUpon>QuestionContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\合并的控件\AutoCompleteGridView\QuestionsControl.resx">
+      <DependentUpon>QuestionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\合并的控件\AutoCompleteTextBox\TextBox\AutoCompleteTextBox.resx">
+      <DependentUpon>AutoCompleteTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\合并的控件\AutoCompleteTextBox\TextBox\CoolTextBox.resx">
+      <DependentUpon>CoolTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\合并的控件\EnforceToolStrip.resx">
+      <DependentUpon>EnforceToolStrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\合并的控件\ScrollPanel.resx">
+      <DependentUpon>ScrollPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\合并的控件\TableDateTimePicker.resx">
+      <DependentUpon>TableDateTimePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\合并的控件\TableLine.resx">
+      <DependentUpon>TableLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\合并的控件\TableRichTextBox.resx">
+      <DependentUpon>TableRichTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\合并的控件\TableTextTitle.resx">
+      <DependentUpon>TableTextTitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\合并父窗体\BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\合并父窗体\BaseFormDetails.resx">
+      <DependentUpon>BaseFormDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\合并父窗体\BaseFormDialog.resx">
+      <DependentUpon>BaseFormDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\合并父窗体\BaseMainForm.resx">
+      <DependentUpon>BaseMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\合并父窗体\BaseTableForm.resx">
+      <DependentUpon>BaseTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\合并的控件\EnforceLawComboBox.resx">
+      <DependentUpon>EnforceLawComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\合并的控件\EnforceLawGridView.resx">
+      <DependentUpon>EnforceLawGridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\合并的控件\HeaderLabel.resx">
+      <DependentUpon>HeaderLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\合并的控件\Pager.resx">
+      <DependentUpon>Pager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\AddArchiveType.resx">
+      <DependentUpon>AddArchiveType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\AdmistrativePenalties.resx">
+      <DependentUpon>AdmistrativePenalties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Archives.resx">
+      <DependentUpon>Archives.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ArchiveTypeManager.resx">
+      <DependentUpon>ArchiveTypeManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ArchiveViewer.resx">
+      <DependentUpon>ArchiveViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\CheckMenu.resx">
+      <DependentUpon>CheckMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\ChemicalsMenu.resx">
+      <DependentUpon>ChemicalsMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Enterprise.resx">
+      <DependentUpon>Enterprise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\frmSynchro.resx">
+      <DependentUpon>frmSynchro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\LegalMenu.resx">
+      <DependentUpon>LegalMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\OutputDocuemnt.resx">
+      <DependentUpon>OutputDocuemnt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\PowerViewer.resx">
+      <DependentUpon>PowerViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\StartPage.resx">
+      <DependentUpon>StartPage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\危化品目录\frmChemicalsHighlyToxic.resx">
+      <DependentUpon>frmChemicalsHighlyToxic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\危化品目录\frmChemicalsHighlyToxics.resx">
+      <DependentUpon>frmChemicalsHighlyToxics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\危化品目录\frmChemicalsList.resx">
+      <DependentUpon>frmChemicalsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\危化品目录\frmChemicalsLists.resx">
+      <DependentUpon>frmChemicalsLists.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\历史文书\frmInstrumentsFolders.resx">
+      <DependentUpon>frmInstrumentsFolders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\基础数据管理\frmAreaCodes.resx">
+      <DependentUpon>frmAreaCodes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\基础数据管理\frmCompany.resx">
+      <DependentUpon>frmCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\基础数据管理\frmCompanyDangerChemical.resx">
+      <DependentUpon>frmCompanyDangerChemical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\基础数据管理\frmCompanyDangerChemicals.resx">
+      <DependentUpon>frmCompanyDangerChemicals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\基础数据管理\frmCompanyDangerChemicalsProduce.resx">
+      <DependentUpon>frmCompanyDangerChemicalsProduce.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\基础数据管理\frmCompanyDangerChemicalsProduces.resx">
+      <DependentUpon>frmCompanyDangerChemicalsProduces.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\基础数据管理\frmCompanyFirework.resx">
+      <DependentUpon>frmCompanyFirework.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\基础数据管理\frmCompanyFireworks.resx">
+      <DependentUpon>frmCompanyFireworks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\基础数据管理\frmCompanyHighlyToxicChemical.resx">
+      <DependentUpon>frmCompanyHighlyToxicChemical.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\基础数据管理\frmCompanyHighlyToxicChemicals.resx">
+      <DependentUpon>frmCompanyHighlyToxicChemicals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\基础数据管理\frmCompanyImport.resx">
+      <DependentUpon>frmCompanyImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\基础数据管理\frmCompanyNoCoalSecurity.resx">
+      <DependentUpon>frmCompanyNoCoalSecurity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\基础数据管理\frmCompanyNoCoalSecuritys.resx">
+      <DependentUpon>frmCompanyNoCoalSecuritys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\基础数据管理\frmCompanys.resx">
+      <DependentUpon>frmCompanys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\基础数据管理\frmCompanyTypes.resx">
+      <DependentUpon>frmCompanyTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\基础数据管理\frmEditCompanyType.resx">
+      <DependentUpon>frmEditCompanyType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\基础数据管理\frmOfficers.resx">
+      <DependentUpon>frmOfficers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\基础数据管理\frmUsers.resx">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\催缴与分期罚款\frmContributeFine.resx">
+      <DependentUpon>frmContributeFine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\催缴与分期罚款\frmContributeFineApproval.resx">
+      <DependentUpon>frmContributeFineApproval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\催缴与分期罚款\frmEditContributeFine.resx">
+      <DependentUpon>frmEditContributeFine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\催缴与分期罚款\frmEditContributeFineApproval.resx">
+      <DependentUpon>frmEditContributeFineApproval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\催缴与分期罚款\frmEditFineCallsNotice.resx">
+      <DependentUpon>frmEditFineCallsNotice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\催缴与分期罚款\frmFineCallsNotice.resx">
+      <DependentUpon>frmFineCallsNotice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmEnquireQuestion.resx">
+      <DependentUpon>frmEnquireQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmEnquireQuestions.resx">
+      <DependentUpon>frmEnquireQuestions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmHearingInform.resx">
+      <DependentUpon>frmHearingInform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmHearingInforms.resx">
+      <DependentUpon>frmHearingInforms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmHearingNotice.resx">
+      <DependentUpon>frmHearingNotice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmHearingNotices.resx">
+      <DependentUpon>frmHearingNotices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmPutDown.resx">
+      <DependentUpon>frmPutDown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmPutDowns.resx">
+      <DependentUpon>frmPutDowns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmWritServiceReceipt.resx">
+      <DependentUpon>frmWritServiceReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\听证会与呈批\frmWritServiceReceipts.resx">
+      <DependentUpon>frmWritServiceReceipts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\处罚告知与申辩\frmAdminPunishNotification.resx">
+      <DependentUpon>frmAdminPunishNotification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\处罚告知与申辩\frmDefenseRecords.resx">
+      <DependentUpon>frmDefenseRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\处罚告知与申辩\frmEditAdminPunishNotification.resx">
+      <DependentUpon>frmEditAdminPunishNotification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\处罚告知与申辩\frmEditDefenseRecords.resx">
+      <DependentUpon>frmEditDefenseRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\处罚告知与申辩\frmEditInstrumentsReceipt.resx">
+      <DependentUpon>frmEditInstrumentsReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\整改复查\frmReformReView.resx">
+      <DependentUpon>frmReformReView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\整改复查\frmReformReViews.resx">
+      <DependentUpon>frmReformReViews.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\整改复查\frmReviewOptionApprove.resx">
+      <DependentUpon>frmReviewOptionApprove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\整改复查\frmReviewOptionApproves.resx">
+      <DependentUpon>frmReviewOptionApproves.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmEditSealDecide.resx">
+      <DependentUpon>frmEditSealDecide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmEditSealDecideApproval.resx">
+      <DependentUpon>frmEditSealDecideApproval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmEditSealThingHandle.resx">
+      <DependentUpon>frmEditSealThingHandle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmEditSealThingHandleApproval.resx">
+      <DependentUpon>frmEditSealThingHandleApproval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmSealDecide.resx">
+      <DependentUpon>frmSealDecide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmSealDecideApproval.resx">
+      <DependentUpon>frmSealDecideApproval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmSealThingDetail.resx">
+      <DependentUpon>frmSealThingDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmSealThingHandle.resx">
+      <DependentUpon>frmSealThingHandle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\查封或扣押处罚\frmSealThingHandleApproval.resx">
+      <DependentUpon>frmSealThingHandleApproval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\案件处理\frmCaseHandel.resx">
+      <DependentUpon>frmCaseHandel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\案件处理\frmInCaseOfTable.resx">
+      <DependentUpon>frmInCaseOfTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\案件处理\frmInCaseOfTables.resx">
+      <DependentUpon>frmInCaseOfTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\案件移送\frmCaseTransferred.resx">
+      <DependentUpon>frmCaseTransferred.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\案件移送\frmCaseTransferredApproval.resx">
+      <DependentUpon>frmCaseTransferredApproval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\案件移送\frmEditCaseTransferred.resx">
+      <DependentUpon>frmEditCaseTransferred.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\案件移送\frmEditCaseTransferredApproval.resx">
+      <DependentUpon>frmEditCaseTransferredApproval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmForceMeasureDecision.resx">
+      <DependentUpon>frmForceMeasureDecision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmForceMeasureDecisionApprove.resx">
+      <DependentUpon>frmForceMeasureDecisionApprove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmForceMeasureDecisionApproves.resx">
+      <DependentUpon>frmForceMeasureDecisionApproves.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmForceMeasureDecisions.resx">
+      <DependentUpon>frmForceMeasureDecisions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmOrderDeadlineReform.resx">
+      <DependentUpon>frmOrderDeadlineReform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmOrderDeadlineReforms.resx">
+      <DependentUpon>frmOrderDeadlineReforms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotCheck.resx">
+      <DependentUpon>frmSpotCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotChecks.resx">
+      <DependentUpon>frmSpotChecks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotHandelDesision.resx">
+      <DependentUpon>frmSpotHandelDesision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotHandelDesisions.resx">
+      <DependentUpon>frmSpotHandelDesisions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotHandelDesisionSixtyDay.resx">
+      <DependentUpon>frmSpotHandelDesisionSixtyDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotHandelDesisionSixtyDays.resx">
+      <DependentUpon>frmSpotHandelDesisionSixtyDays.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotShoot.resx">
+      <DependentUpon>frmSpotShoot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\现场检查\frmSpotShoots.resx">
+      <DependentUpon>frmSpotShoots.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmAppraisalEntrust.resx">
+      <DependentUpon>frmAppraisalEntrust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmAppraisalEntrusts.resx">
+      <DependentUpon>frmAppraisalEntrusts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmCaseCancel.resx">
+      <DependentUpon>frmCaseCancel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmCaseCancels.resx">
+      <DependentUpon>frmCaseCancels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmExplorationRecord.resx">
+      <DependentUpon>frmExplorationRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmExplorationRecords.resx">
+      <DependentUpon>frmExplorationRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmInterrogationRecord.resx">
+      <DependentUpon>frmInterrogationRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmInterrogationRecords.resx">
+      <DependentUpon>frmInterrogationRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmNoticeOfEnquiry.resx">
+      <DependentUpon>frmNoticeOfEnquiry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmNoticeOfEnquirys.resx">
+      <DependentUpon>frmNoticeOfEnquirys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmPunishmentDiscussRecord.resx">
+      <DependentUpon>frmPunishmentDiscussRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmPunishmentDiscussRecords.resx">
+      <DependentUpon>frmPunishmentDiscussRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmPutOnRecord.resx">
+      <DependentUpon>frmPutOnRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmPutOnRecords.resx">
+      <DependentUpon>frmPutOnRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSampling.resx">
+      <DependentUpon>frmSampling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSamplings.resx">
+      <DependentUpon>frmSamplings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceAudit.resx">
+      <DependentUpon>frmSaveEvidenceAudit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceAudits.resx">
+      <DependentUpon>frmSaveEvidenceAudits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceNotice.resx">
+      <DependentUpon>frmSaveEvidenceNotice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceNotices.resx">
+      <DependentUpon>frmSaveEvidenceNotices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceProceAudit.resx">
+      <DependentUpon>frmSaveEvidenceProceAudit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceProceAudits.resx">
+      <DependentUpon>frmSaveEvidenceProceAudits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceProceDecide.resx">
+      <DependentUpon>frmSaveEvidenceProceDecide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\立案调查\frmSaveEvidenceProceDecides.resx">
+      <DependentUpon>frmSaveEvidenceProceDecides.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\简易处罚流程\frmAdministrativePenaltyCompany.resx">
+      <DependentUpon>frmAdministrativePenaltyCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\简易处罚流程\frmAdministrativePenaltyCompanys.resx">
+      <DependentUpon>frmAdministrativePenaltyCompanys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\简易处罚流程\frmAdministrativePenaltyPerson.resx">
+      <DependentUpon>frmAdministrativePenaltyPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\简易处罚流程\frmAdministrativePenaltyPersons.resx">
+      <DependentUpon>frmAdministrativePenaltyPersons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\结案\frmCaseClosedApproval.resx">
+      <DependentUpon>frmCaseClosedApproval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\结案\frmCaseExtensionClosedApproval.resx">
+      <DependentUpon>frmCaseExtensionClosedApproval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\结案\frmCaseExtensionClosedApprovalToSibling.resx">
+      <DependentUpon>frmCaseExtensionClosedApprovalToSibling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\结案\frmEditCaseClosedApproval.resx">
+      <DependentUpon>frmEditCaseClosedApproval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\结案\frmEditCaseExtensionClosedApproval.resx">
+      <DependentUpon>frmEditCaseExtensionClosedApproval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\结案\frmEditCaseExtensionClosedApprovalToSibling.resx">
+      <DependentUpon>frmEditCaseExtensionClosedApprovalToSibling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmDocumentsServiceReply.resx">
+      <DependentUpon>frmDocumentsServiceReply.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmDocumentsServiceReplys.resx">
+      <DependentUpon>frmDocumentsServiceReplys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmPunishmentDecisionPersonal.resx">
+      <DependentUpon>frmPunishmentDecisionPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmPunishmentDecisionPersonals.resx">
+      <DependentUpon>frmPunishmentDecisionPersonals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmPunishmentDecisionUnit.resx">
+      <DependentUpon>frmPunishmentDecisionUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmPunishmentDecisionUnits.resx">
+      <DependentUpon>frmPunishmentDecisionUnits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmSpotPunishmentDecisionPersonal.resx">
+      <DependentUpon>frmSpotPunishmentDecisionPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmSpotPunishmentDecisionPersonals.resx">
+      <DependentUpon>frmSpotPunishmentDecisionPersonals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmSpotPunishmentDecisionUnit.resx">
+      <DependentUpon>frmSpotPunishmentDecisionUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\行政处罚\frmSpotPunishmentDecisionUnits.resx">
+      <DependentUpon>frmSpotPunishmentDecisionUnits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\调查报告\frmEditSurveyEndReport.resx">
+      <DependentUpon>frmEditSurveyEndReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\安全生产行政执法文书\调查报告\frmSurveyEndReport.resx">
+      <DependentUpon>frmSurveyEndReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\文书示例\frmInstrumentsExample.resx">
+      <DependentUpon>frmInstrumentsExample.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\文书示例\frmInstrumentsExampleContent.resx">
+      <DependentUpon>frmInstrumentsExampleContent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\文书示例\frmInstrumentsExamples.resx">
+      <DependentUpon>frmInstrumentsExamples.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\法律法规\frmLawContent.resx">
+      <DependentUpon>frmLawContent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\法律法规\frmLawList.resx">
+      <DependentUpon>frmLawList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\法律法规\frmLawLists.resx">
+      <DependentUpon>frmLawLists.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\法律法规\frmLawPower.resx">
+      <DependentUpon>frmLawPower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\法律法规\frmLawQuery.resx">
+      <DependentUpon>frmLawQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\法律法规\frmPower.resx">
+      <DependentUpon>frmPower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\合并的窗体\法律法规\frmPowers.resx">
+      <DependentUpon>frmPowers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm1.resx">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SkinData\metroblack.blob" />
+    <None Include="Template\先行登记保存证据处理决定书.rtf" />
+    <None Include="Template\先行登记保存证据处理审批表.rtf" />
+    <None Include="Template\先行登记保存证据审批表.rtf" />
+    <None Include="Template\先行登记保存证据通知书.rtf" />
+    <None Include="Template\勘验笔录.rtf" />
+    <None Include="Template\听证会报告书.rtf" />
+    <None Include="Template\听证会通知书.rtf" />
+    <None Include="Template\听证笔录.rtf" />
+    <None Include="Template\延期（分期）缴纳罚款审批表.rtf" />
+    <None Include="Template\延期（分期）缴纳罚款批准书.rtf" />
+    <None Include="Template\当事人陈述申辩笔录.rtf" />
+    <None Include="Template\抽样取证凭证.rtf" />
+    <None Include="Template\整改复查意见书.rtf" />
+    <None Include="Template\文书送达回执.rtf" />
+    <None Include="Template\查封%28扣押%29决定书.rtf" />
+    <None Include="Template\查封%28扣押%29决定审批表.rtf" />
+    <None Include="Template\查封（扣押）物品处理决定书.rtf" />
+    <None Include="Template\查封（扣押）物品处理审批表.rtf" />
+    <None Include="Template\案件处理呈批表.rtf" />
+    <None Include="Template\案件延期办毕审批表.rtf" />
+    <None Include="Template\案件延期办结毕审批表.rtf" />
+    <None Include="Template\案件移送书.rtf" />
+    <None Include="Template\案件移送审批表.rtf" />
+    <None Include="Template\案件终止（撤销）审批表.rtf" />
+    <None Include="Template\现场图片.rtf" />
+    <None Include="Template\现场处理措施决定书.rtf" />
+    <None Include="Template\现场检查记录.rtf" />
+    <None Include="Template\立案审批表.rtf" />
+    <None Include="Template\结案审批表.rtf" />
+    <None Include="Template\罚款催缴通知书.rtf" />
+    <None Include="Template\行政处罚决定书.rtf" />
+    <None Include="Template\行政处罚决定书个人.rtf" />
+    <None Include="Template\行政处罚告知书.rtf" />
+    <None Include="Template\行政处罚集体讨论记录.rtf" />
+    <None Include="Template\行政当场处罚决定书.rtf" />
+    <None Include="Template\行政当场处罚决定书个人.rtf" />
+    <None Include="Template\询问笔录.rtf" />
+    <None Include="Template\询问通知书.rtf" />
+    <None Include="Template\责令限期整改指令书.rtf" />
+    <None Include="Template\鉴定委托书.rtf" />
+    <None Include="企业库\剧毒化学品使用详情表.xls" />
+    <None Include="企业库\危险化学品生产（含溶剂回收）、储存详情表.xls" />
+    <None Include="企业库\危险化学品经营许可表.xls" />
+    <None Include="企业库\烟花爆竹零售详情表.xls" />
+    <None Include="企业库\非煤矿山安全生产许可企业详情表.xls" />
+    <None Include="剧毒化学品目录\judu.xls" />
+    <None Include="危化品\0\0-10.xls" />
+    <None Include="危化品\0\0-11.xls" />
+    <None Include="危化品\0\0-12.xls" />
+    <None Include="危化品\1\1-20.xls" />
+    <None Include="危化品\1\1-21.xls" />
+    <None Include="危化品\1\1-22.xls" />
+    <None Include="危化品\2\2-30.xls" />
+    <None Include="危化品\2\2-31.xls" />
+    <None Include="危化品\2\2-32.xls" />
+    <None Include="危化品\3\3-40.xls" />
+    <None Include="危化品\3\3-41.xls" />
+    <None Include="危化品\3\3-42.xls" />
+    <None Include="危化品\4\4-50.xls" />
+    <None Include="危化品\4\4-51.xls" />
+    <None Include="危化品\5\5-60.xls" />
+    <None Include="危化品\6\6-70.xls" />
+    <None Include="危化品\6\6-71.xls" />
+    <None Include="危化品\6\6-72.xls" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picture-post-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line1400.gif" />
+    <None Include="Resources\tableline.gif" />
+    <None Include="Resources\application_add.png" />
+    <None Include="Resources\application_delete.png" />
+    <None Include="Resources\application_edit.png" />
+    <None Include="Resources\script_edit.png" />
+    <None Include="Resources\vcard_edit.png" />
+    <None Include="Resources\layout.png" />
+    <None Include="Resources\arrow_redo.png" />
+    <None Include="Resources\SaveAs_16x16.png" />
+    <None Include="Resources\85.png" />
+    <None Include="Resources\81.png" />
+    <None Include="Resources\055.gif" />
+    <None Include="Resources\请插入图片.jpg" />
+    <Content Include="Images\ArrowBlack.png" />
+    <Content Include="Images\ArrowNormal.png" />
+    <None Include="Resources\MemoEdit.Icon.png" />
+    <Content Include="Maleos.ico" />
+    <Content Include="SkinData\metroblack.skin.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{3AF952E4-7FB0-4B79-83F0-3A2D855F697E}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NBear.Core\NBear.Core.csproj">
+      <Project>{D8288555-C4E6-418C-8AAF-56E68BDA60E1}</Project>
+      <Name>NBear.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NBear.Mapping\NBear.Mapping.csproj">
+      <Project>{F3395064-269B-4D0D-BCB5-F6F98C3DEA2C}</Project>
+      <Name>NBear.Mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NBearLite.AdditionalDbProviders\NBearLite.AdditionalDbProviders.csproj">
+      <Project>{7D54D90E-FEDD-4008-8660-2CD2F5D2AF1D}</Project>
+      <Name>NBearLite.AdditionalDbProviders</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NBearLite\NBearLite.csproj">
+      <Project>{944AD8EE-6DEB-4022-850F-E92B5AA1E7DA}</Project>
+      <Name>NBearLite</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SOA\SOA.csproj">
+      <Project>{76089B15-B439-43FC-BDD4-8158E5A1DD33}</Project>
+      <Name>SOA</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

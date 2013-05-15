@@ -1,0 +1,109 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{944AD8EE-6DEB-4022-850F-E92B5AA1E7DA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NBearLite</RootNamespace>
+    <AssemblyName>NBearLite</AssemblyName>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>nbear.snk</AssemblyOriginatorKeyFile>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\NBearLite.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActiveRecord.cs" />
+    <Compile Include="ActiveRecordExceptions.cs" />
+    <Compile Include="AssociationRecord.cs" />
+    <Compile Include="BatchCommander.cs" />
+    <Compile Include="ColumnFormatter - EF.cs" />
+    <Compile Include="Database - EF.cs" />
+    <Compile Include="DataUtils.cs" />
+    <Compile Include="DbProviders\DbProvider.cs" />
+    <Compile Include="DbProviders\DbProviderFactory - EF.cs" />
+    <Compile Include="DbProviders\SqlServer\SqlDbProvider.cs" />
+    <Compile Include="DbProviders\SqlServer\SqlDbProvider9.cs" />
+    <Compile Include="DbProviders\SqlServer\SqlServerQueryFactory - EF.cs" />
+    <Compile Include="ExpressionClip - EF.cs" />
+    <Compile Include="ExtendedQueryClasses - EF.cs" />
+    <Compile Include="ILogable.cs" />
+    <Compile Include="IRecord.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DbProviders\DbProviderOptions.cs" />
+    <Compile Include="FromClip.cs" />
+    <Compile Include="IExpression.cs" />
+    <Compile Include="ISqlQueryFactory.cs" />
+    <Compile Include="QueryOperators.cs" />
+    <Compile Include="SerializationManager.cs" />
+    <Compile Include="SqlQueryFactory.cs" />
+    <Compile Include="SqlQueryUtils.cs" />
+    <Compile Include="DbProviders\SqlServer\SqlServer9QueryFactory.cs" />
+    <Compile Include="DbProviders\SqlServer\SqlServerDbProviderOptions.cs" />
+    <Compile Include="Web\DropDownListField.cs" />
+    <Compile Include="Web\NBearLiteDataSource.cs" />
+    <Compile Include="Web\NBearLiteDataView.cs" />
+    <Compile Include="Web\PagableDataList.cs" />
+    <Compile Include="Web\PagableRepeater.cs" />
+    <Compile Include="WhereClip.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nbear.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\NBear.Core\NBear.Core.csproj">
+      <Project>{D8288555-C4E6-418C-8AAF-56E68BDA60E1}</Project>
+      <Name>NBear.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\NBearMapping\NBear.Mapping\NBear.Mapping.csproj">
+      <Project>{F3395064-269B-4D0D-BCB5-F6F98C3DEA2C}</Project>
+      <Name>NBear.Mapping</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,15 @@
+E:\移动办公\newEnforceLaw\trunk\src\NBear.Core\bin\Debug\NBear.Core.dll
+E:\移动办公\newEnforceLaw\trunk\src\NBear.Core\bin\Debug\NBear.Core.pdb
+E:\移动办公\newEnforceLaw\trunk\src\NBear.Core\obj\Debug\ResolveAssemblyReference.cache
+E:\移动办公\newEnforceLaw\trunk\src\NBear.Core\obj\Debug\NBear.Core.dll
+E:\移动办公\newEnforceLaw\trunk\src\NBear.Core\obj\Debug\NBear.Core.pdb
+F:\src\NBear.Core\bin\Debug\NBear.Core.dll
+F:\src\NBear.Core\bin\Debug\NBear.Core.pdb
+F:\src\NBear.Core\obj\Debug\ResolveAssemblyReference.cache
+F:\src\NBear.Core\obj\Debug\NBear.Core.dll
+F:\src\NBear.Core\obj\Debug\NBear.Core.pdb
+F:\src\Maleos\NBear.Core\bin\Debug\NBear.Core.dll
+F:\src\Maleos\NBear.Core\bin\Debug\NBear.Core.pdb
+F:\src\Maleos\NBear.Core\obj\Debug\ResolveAssemblyReference.cache
+F:\src\Maleos\NBear.Core\obj\Debug\NBear.Core.dll
+F:\src\Maleos\NBear.Core\obj\Debug\NBear.Core.pdb

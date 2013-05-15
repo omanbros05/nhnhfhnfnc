@@ -1,0 +1,542 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NBear.Mapping</name>
+    </assembly>
+    <members>
+        <member name="T:NBear.Mapping.NameValueSetterGenerator">
+            <summary>
+            	NameValueSetterGenerator
+            </summary>
+        </member>
+        <member name="M:NBear.Mapping.IMemberSetterGenerator.ContainsMember(System.String,System.Type,System.Object)">
+            <summary>
+            contains member
+            </summary>
+            <param name="name">The name.</param>
+            <param name="type">The type.</param>
+            <param name="inputObject">The input object.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.IMemberSetterGenerator.SetMemberValue(System.Reflection.Emit.CodeGenerator,System.Reflection.Emit.ArgBuilder,System.String,System.Reflection.Emit.LocalBuilder)">
+            <summary>
+            	
+            </summary>
+            <param name="generator">The generator.</param>
+            <param name="targetObject">The target object.output object 参数</param>
+            <param name="memberName">Name of the member.</param>
+            <param name="memberValue">The member value.</param>
+        </member>
+        <member name="M:NBear.Mapping.IMemberSetterGenerator.EndSetMembers(System.Reflection.Emit.CodeGenerator,System.Reflection.Emit.ArgBuilder)">
+            <summary>
+            Ends the set members.
+            </summary>
+            <param name="generator">The generator.</param>
+        </member>
+        <member name="M:NBear.Mapping.IMemberGetterGenerator.ContainsMember(System.String,System.Type,System.Object)">
+            <summary>
+            contains member
+            </summary>
+            <param name="name">The name.</param>
+            <param name="type">The type.</param>
+            <param name="inputObject">The input object.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.IMemberGetterGenerator.GetMemberValue(System.Reflection.Emit.CodeGenerator,System.Reflection.Emit.ArgBuilder,System.String,System.Reflection.Emit.LocalBuilder@)">
+            <summary>
+            	
+            </summary>
+            <param name="generator">The generator.</param>
+            <param name="targetObject">The target object.input object 参数</param>
+            <param name="memberName">Name of the member.</param>
+            <param name="memberValue">The member value.</param>
+        </member>
+        <member name="M:NBear.Mapping.ObjectGetterGenerator.#ctor">
+            <summary>
+            	
+            </summary>
+        </member>
+        <member name="M:NBear.Mapping.ObjectGetterGenerator.#ctor(NBear.Mapping.IMemberGetterGenerator,NBear.Mapping.IMemberSetterGenerator)">
+            <summary>
+            	inherite base 
+            </summary>
+            <param name="memberGetterGenerator">The member getter generator.</param>
+            <param name="memberSetterGenerator">The member setter generator.</param>
+        </member>
+        <member name="T:NBear.Mapping.ObjectSetterGenerator">
+            <summary>
+            object setter generator
+            </summary>
+        </member>
+        <member name="M:NBear.Mapping.ObjectSetterGenerator.#ctor">
+            <summary>
+            	
+            </summary>
+        </member>
+        <member name="M:NBear.Mapping.ObjectSetterGenerator.#ctor(NBear.Mapping.IMemberGetterGenerator,NBear.Mapping.IMemberSetterGenerator)">
+            <summary>
+            	inherite base 
+            </summary>
+            <param name="memberGetterGenerator">The member getter generator.</param>
+            <param name="memberSetterGenerator">The member setter generator.</param>
+        </member>
+        <member name="M:NBear.Mapping.ObjectSetterGenerator.GetConvertHandler(System.Type,System.Type,System.Object,System.Object,System.Collections.Generic.Dictionary{System.String,System.String},System.Collections.Generic.List{System.String},System.Collections.Generic.Dictionary{System.Int32,System.String},System.Boolean)">
+            <summary>
+            	get convert handler
+            </summary>
+            <param name="inputType">Type of the input.</param>
+            <param name="outputType">Type of the output.</param>
+            <param name="mappingNames">The mapping names.</param>
+            <param name="ignoreList">The ignore list.</param>
+            <param name="mappingOrders">The mapping orders.</param>
+            <param name="mappingSpecifiedOnly">if set to <c>true</c> [mapping specified only].</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectSetterGenerator.EndSetMembers(System.Reflection.Emit.CodeGenerator)">
+            <summary>
+            Ends the set members.
+            </summary>
+            <param name="generator">The generator.</param>
+        </member>
+        <member name="T:NBear.Mapping.ObjectMapper">
+            <summary>
+            ObjectMapper
+            </summary>
+        </member>
+        <member name="M:NBear.Mapping.ObjectMapper.#ctor(System.Type,System.Type)">
+            <summary>
+            Initialize an instance of ObjectMapper
+            </summary>
+            <param name="inputType"></param>
+            <param name="outputType"></param>
+        </member>
+        <member name="M:NBear.Mapping.ObjectMapper.AddCustomMappingName(System.String,System.String)">
+            <summary>
+            AddCustomMappingName
+            </summary>
+            <param name="inputMemberName"></param>
+            <param name="outputMemberName"></param>
+        </member>
+        <member name="M:NBear.Mapping.ObjectMapper.ClearCustomMappingName">
+            <summary>
+            ClearCustomMappingName
+            </summary>
+        </member>
+        <member name="M:NBear.Mapping.ObjectMapper.RemoveCustomMappingName(System.String)">
+            <summary>
+            RemoveCustomMappingName
+            </summary>
+            <param name="inputMemberName"></param>
+        </member>
+        <member name="M:NBear.Mapping.ObjectMapper.AddIgnoreMappingName(System.String)">
+            <summary>
+            AddIgnoreMappingName
+            <remark>abu 2007-11-16 10:53</remark>
+            </summary>
+            <param name="outputMemberName">Name of the output member.</param>
+        </member>
+        <member name="M:NBear.Mapping.ObjectMapper.ClearIgnoreMappingName">
+            <summary>
+            ClearIgnoreMappingName
+            	<remark>abu 2007-11-16 10:54</remark>
+            </summary>
+        </member>
+        <member name="M:NBear.Mapping.ObjectMapper.RemoveIgnoreMappingName(System.String)">
+            <summary>
+            RemoveIgnoreMappingName
+            <remark>abu 2007-11-16 10:54 </remark>
+            </summary>
+            <param name="outputMemberName">Name of the output member.</param>
+        </member>
+        <member name="M:NBear.Mapping.ObjectMapper.AddCustomMapping(NBear.Mapping.ICustomObjectMemberMapping)">
+            <summary>
+            	AddCustomMappingFunction
+            </summary>
+        </member>
+        <member name="M:NBear.Mapping.ObjectMapper.ClearCustomMappingFunction">
+            <summary>
+            	ClearCustomMappingFunction
+            </summary>
+        </member>
+        <member name="M:NBear.Mapping.ObjectMapper.AddMappingOrder(System.String,System.Int32)">
+            <summary>
+            AddMappingOrder
+            <remark>abu 2007-11-16 11:00</remark>
+            </summary>
+            <param name="outputMemberName">Name of the output member.</param>
+            <param name="order">The order.</param>
+        </member>
+        <member name="M:NBear.Mapping.ObjectMapper.ClearMappingOrder">
+            <summary>
+            	ClearMappingOrder
+            </summary>
+        </member>
+        <member name="M:NBear.Mapping.ObjectMapper.ConvertObject(System.Object)">
+            <summary>
+            Convert the specified inputObject to the output mapping type.
+            </summary>
+            <param name="inputObject">The inputObject must be consistent with the specified inputMappingType in ObjectMapper's Constructor.</param>
+            <param name="customMappingHandlers"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectMapper.ConvertObject(System.Object,System.Object)">
+            <summary>
+            Convert the specified inputObject to the output mapping type.
+            </summary>
+            <param name="inputObject">The inputObject must be consistent with the specified inputMappingType in ObjectMapper's Constructor.</param>
+            <param name="outputObject">outputObject is an instance to set member values on instead of create a new one.</param>
+            <param name="customMappingHandlers"></param>
+            <returns></returns>
+        </member>
+        <member name="T:NBear.Mapping.DictionaryGetterGenerator">
+            <summary>
+            	DictionaryGetterGenerator
+            </summary>
+        </member>
+        <member name="T:NBear.Mapping.DataReaderGetterGenerator">
+            <summary>
+            	DataReaderGetterGenerator
+            </summary>
+        </member>
+        <member name="M:NBear.Mapping.ConfigurationManager.AddObjectMapper(System.Collections.Generic.List{NBear.Mapping.ObjectMapperConfig})">
+            <summary>
+            添加ObjectMapper配置
+            </summary>
+            <param name="configs">The configs.</param>
+        </member>
+        <member name="M:NBear.Mapping.ConfigurationManager.AddDefaultInitTypes(NBear.Mapping.DefaultInitTypesConfig)">
+            <summary>
+            添加默认初始化类
+            	<remark>abu 2007-11-16 10:27</remark>
+            </summary>
+            <param name="config">The config.</param>
+        </member>
+        <member name="M:NBear.Mapping.ConfigurationManager.AddTypeAliases(NBear.Mapping.TypeAliasesConfig)">
+            <summary>
+            添加类型别名
+            	<remark>abu 2007-11-16 10:27</remark>
+            </summary>
+            <param name="config">The config.</param>
+        </member>
+        <member name="T:NBear.Mapping.NBearMappingSection">
+            <summary>
+            The nbear mapping configuration section.
+            </summary>
+        </member>
+        <member name="P:NBear.Mapping.NBearMappingSection.Includes">
+            <summary>
+            Gets or sets the includes.
+            </summary>
+            <value>The includes.</value>
+        </member>
+        <member name="T:NBear.Mapping.SettingsConfig`2">
+            <summary>
+            	<remark>abu 2007-11-16 9:46</remark>
+            </summary>
+            <typeparam name="RemoveSettingType">The type of the emove setting type.</typeparam>
+            <typeparam name="AddSettingType">The type of the dd setting type.</typeparam>
+        </member>
+        <member name="P:NBear.Mapping.SettingsConfig`2.Removes">
+            <summary>
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:NBear.Mapping.SettingsConfig`2.Adds">
+            <summary>
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:NBear.Mapping.SettingConfig">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:NBear.Mapping.SettingConfig.XmlNode">
+            <summary>
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:NBear.Mapping.ObjectMapperConfig.InputType">
+            <summary>
+            输入类型
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:NBear.Mapping.DictionarySetterGenerator">
+            <summary>
+            	DictionarySetterGenerator
+            </summary>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToObject``1(System.Object)">
+            <summary>
+            	Convert to outputType
+            </summary>
+            <typeparam name="OutputType">The type of the output type.</typeparam>
+            <param name="inputObject">The input object.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToObject``2(``0)">
+            <summary>
+            	Convert to outputType
+            </summary>
+            <typeparam name="InputType">The type of the input type.</typeparam>
+            <typeparam name="OutputType">The type of the output type.</typeparam>
+            <param name="inputObject">The input object.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToObject``3(``0)">
+            <summary>
+            	Convert to outputType
+            </summary>
+            <typeparam name="InputType">The type of the nput type.</typeparam>
+            <typeparam name="OutputType">The type of the utput type.</typeparam>
+            <typeparam name="InitType">The type of the nit type.</typeparam>
+            <param name="inputObject">The input object.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToObject``1(System.Object,System.String)">
+            <summary>
+            	Convert to outputType
+            </summary>
+            <typeparam name="OutputType">The type of the output type.</typeparam>
+            <param name="inputObject">The input object.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToObject``2(``0,System.String)">
+            <summary>
+            	Convert to outputType
+            </summary>
+            <typeparam name="InputType">The type of the nput type.</typeparam>
+            <typeparam name="OutputType">The type of the utput type.</typeparam>
+            <param name="inputObject">The input object.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToObject(System.Type,System.Type,System.Type,System.Object)">
+            <summary>
+            	convert to object
+            </summary>
+            <param name="inputType">Type of the input.</param>
+            <param name="outputType">Type of the output.</param>
+            <param name="initType">Type of the init.</param>
+            <param name="inputObject">The input object.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToObject(System.Type,System.Type,System.Type,System.Object,System.String)">
+            <summary>
+            	convert to object
+            </summary>
+            <param name="inputType">Type of the input.</param>
+            <param name="outputType">Type of the output.</param>
+            <param name="initType">Type of the init.</param>
+            <param name="inputObject">The input object.</param>
+            <param name="viewName">Name of the view.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToObject``1(System.Object,``0)">
+            <summary>
+            Toes the object.
+            </summary>
+            <typeparam name="OutputType">The type of the utput type.</typeparam>
+            <param name="inputObject">The input object.</param>
+            <param name="outputObject">The output object.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToObject``1(System.Object,``0,System.String)">
+            <summary>
+            Toes the object.
+            </summary>
+            <typeparam name="OutputType">The type of the utput type.</typeparam>
+            <param name="inputObject">The input object.</param>
+            <param name="outputObject">The output object.</param>
+            <param name="viewName">Name of the view.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToObject``2(``0,``1)">
+            <summary>
+            Toes the object.
+            </summary>
+            <typeparam name="InpuType">The type of the npu type.</typeparam>
+            <typeparam name="OutputType">The type of the utput type.</typeparam>
+            <param name="inputObject">The input object.</param>
+            <param name="outputObject">The output object.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToObject``2(``0,``1,System.String)">
+            <summary>
+            Toes the object.
+            </summary>
+            <typeparam name="InpuType">The type of the npu type.</typeparam>
+            <typeparam name="OutputType">The type of the utput type.</typeparam>
+            <param name="inputObject">The input object.</param>
+            <param name="outputObject">The output object.</param>
+            <param name="viewName">Name of the view.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.GetObjectMapper(System.Type,System.Type,System.Type,System.String)">
+            <summary>
+            	get object mapper
+            </summary>
+            <param name="inputType">Type of the input.</param>
+            <param name="outputType">Type of the output.</param>
+            <param name="initType">Type of the init.</param>
+            <param name="viewName">Name of the view.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToArray``2(System.Object)">
+            <summary>
+            convert to object list
+            </summary>
+            <typeparam name="InputType">The type of the input type.</typeparam>
+            <typeparam name="OutputType">The type of the output type.</typeparam>
+            <param name="inputList">The input list.(IEnumerable or DataTable or DataReader)</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToList``2(System.Object)">
+            <summary>
+            convert to object list
+            </summary>
+            <typeparam name="InputType">The type of the input type.</typeparam>
+            <typeparam name="OutputType">The type of the output type.</typeparam>
+            <param name="inputList">The input list.(IEnumerable or DataTable or DataReader)</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToArray``3(System.Object)">
+            <summary>
+            	convert to object list
+            </summary>
+            <typeparam name="InputType">The type of the nput type.</typeparam>
+            <typeparam name="OutputType">The type of the utput type.</typeparam>
+            <typeparam name="InitType">The type of the nit type.</typeparam>
+            <param name="inputObject">The input object.(IEnumerable or DataTable or DataReader)</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToList``3(System.Object)">
+            <summary>
+            	convert to object list
+            </summary>
+            <typeparam name="InputType">The type of the nput type.</typeparam>
+            <typeparam name="OutputType">The type of the utput type.</typeparam>
+            <typeparam name="InitType">The type of the nit type.</typeparam>
+            <param name="inputObject">The input object.(IEnumerable or DataTable or DataReader)</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToArray``2(System.Object,System.String)">
+            <summary>
+            	convert to object list
+            </summary>
+            <typeparam name="InputType">The type of the nput type.</typeparam>
+            <typeparam name="OutputType">The type of the utput type.</typeparam>
+            <param name="inputObject">The input object.(IEnumerable or DataTable or DataReader)</param>
+            <param name="viewName">Name of the view.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToList``2(System.Object,System.String)">
+            <summary>
+            	convert to object list
+            </summary>
+            <typeparam name="InputType">The type of the nput type.</typeparam>
+            <typeparam name="OutputType">The type of the utput type.</typeparam>
+            <param name="inputObject">The input object.(IEnumerable or DataTable or DataReader)</param>
+            <param name="viewName">Name of the view.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToArray``3(System.Object,System.String)">
+            <summary>
+            	convert to list
+            </summary>
+            <typeparam name="InputType">The type of the input type.</typeparam>
+            <typeparam name="OutputType">The type of the output type.</typeparam>
+            <typeparam name="InitType">The type of the init type.</typeparam>
+            <param name="inputList">The input list.</param>
+            <param name="viewName">Name of the view.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToList``3(System.Object,System.String)">
+            <summary>
+            	convert to list
+            </summary>
+            <typeparam name="InputType">The type of the input type.</typeparam>
+            <typeparam name="OutputType">The type of the output type.</typeparam>
+            <typeparam name="InitType">The type of the init type.</typeparam>
+            <param name="inputList">The input list.</param>
+            <param name="viewName">Name of the view.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToArray``1(System.Object,System.Type,System.Type,System.String)">
+            <summary>
+            	convert to array
+            </summary>
+            <typeparam name="OutputType">The type of the output type.</typeparam>
+            <param name="inputList">The input list.</param>
+            <param name="inputType">Type of the input.</param>
+            <param name="initType">Type of the init.</param>
+            <param name="viewName">Name of the view.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToList``1(System.Object,System.Type,System.Type,System.String)">
+            <summary>
+            	convert to list
+            </summary>
+            <typeparam name="OutputType">The type of the output type.</typeparam>
+            <param name="inputList">The input list.</param>
+            <param name="inputType">Type of the input.</param>
+            <param name="initType">Type of the init.</param>
+            <param name="viewName">Name of the view.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToArray(System.Object,System.Type,System.Type)">
+            <summary>
+            	ToArray
+            </summary>
+            <param name="inputList">The input list.</param>
+            <param name="inputType">Type of the input.</param>
+            <param name="outputType">Type of the output.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToArray(System.Object,System.Type,System.Type,System.String)">
+            <summary>
+            	ToArray
+            </summary>
+            <param name="inputList">The input list.</param>
+            <param name="inputType">Type of the input.</param>
+            <param name="outputType">Type of the output.</param>
+            <param name="viewName">Name of the view.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToArray(System.Object,System.Type,System.Type,System.Type,System.String)">
+            <summary>
+            	ToArray
+            </summary>
+            <param name="inputList">The input list.</param>
+            <param name="inputType">Type of the input.</param>
+            <param name="outputType">Type of the output.</param>
+            <param name="initType">Type of the init.</param>
+            <param name="viewName">Name of the view.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToDataTable(System.Object,System.Type)">
+            <summary>
+            	convert to DataTable
+            </summary>
+            <param name="inputList">The input list.</param>
+            <param name="inputType">Type of the input.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBear.Mapping.ObjectConvertor.ToDataTable(System.Object,System.Type,System.String,System.Data.DataRowState)">
+            <summary>
+            	convert to DataTable
+            </summary>
+            <param name="inputList">The input list.</param>
+            <param name="inputType">Type of the input.</param>
+            <param name="viewName">Name of the view.</param>
+            <returns></returns>
+        </member>
+        <member name="T:NBear.Mapping.ConvertHandler">
+            <summary>
+            convert handler
+            </summary>
+            <param name="inputObject"></param>
+            <param name="outputObject"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

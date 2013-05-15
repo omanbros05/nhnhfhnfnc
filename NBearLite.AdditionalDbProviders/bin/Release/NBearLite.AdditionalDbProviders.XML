@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NBearLite.AdditionalDbProviders</name>
+    </assembly>
+    <members>
+        <member name="T:NBearLite.DbProviders.PostgreSql.PostgreSqlDbProvider">
+            <summary>
+            <para>Represents a Sqlite Database Provider.</para>
+            </summary>
+            <remarks> 
+            <para>
+            Internally uses Sqlite .NET Managed Provider to connect to the database.
+            </para>  
+            </remarks>
+        </member>
+        <member name="M:NBearLite.DbProviders.PostgreSql.PostgreSqlDbProvider.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="!:AccessDbProvider"/> class.
+            </summary>
+            <param name="connStr">The conn STR.</param>
+        </member>
+        <member name="M:NBearLite.DbProviders.SqlServerCE.SqlServerCEDbProvider.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="!:SqlDbProvider"/> class.
+            </summary>
+            <param name="connStr">The conn STR.</param>
+        </member>
+        <member name="T:NBearLite.DbProviders.Sqlite.SqliteDbProvider">
+            <summary>
+            <para>Represents a Sqlite Database Provider.</para>
+            </summary>
+            <remarks> 
+            <para>
+            Internally uses Sqlite .NET Managed Provider to connect to the database.
+            </para>  
+            </remarks>
+        </member>
+        <member name="M:NBearLite.DbProviders.Sqlite.SqliteDbProvider.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="!:AccessDbProvider"/> class.
+            </summary>
+            <param name="connStr">The conn STR.</param>
+        </member>
+        <member name="T:NBearLite.DbProviders.DB2.DB2DbProvider">
+            <summary>
+            <para>Represents an DB2 Database.</para>
+            </summary>
+            <remarks> 
+            <para>
+            Internally uses DB2 .NET Managed Provider from Microsoft (IBM.Data.DB2) to connect to the database.
+            </para>  
+            </remarks>
+        </member>
+        <member name="M:NBearLite.DbProviders.DB2.DB2DbProvider.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBearLite.DbProviders.DB2.DB2DbProvider"/> class.
+            </summary>
+            <param name="connStr">The conn STR.</param>
+        </member>
+        <member name="T:NBearLite.DbProviders.MySql.MySqlDbProvider">
+            <summary>
+            <para>Represents a MySql Database Provider.</para>
+            </summary>
+        </member>
+        <member name="M:NBearLite.DbProviders.MySql.MySqlDbProvider.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBearLite.DbProviders.MySql.MySqlDbProvider"/> class.
+            </summary>
+            <param name="connStr">The conn STR.</param>
+        </member>
+    </members>
+</doc>

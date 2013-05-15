@@ -1,0 +1,1770 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseEntitiesModel.Store" Alias="Self" Provider="System.Data.SqlServerCe.4.0" ProviderManifestToken="4.0" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="DatabaseEntitiesModelStoreContainer">
+    <EntitySet Name="AdministrativePenaltyCompany" EntityType="DatabaseEntitiesModel.Store.AdministrativePenaltyCompany" store:Type="Tables" />
+    <EntitySet Name="AdministrativePenaltyPerson" EntityType="DatabaseEntitiesModel.Store.AdministrativePenaltyPerson" store:Type="Tables" />
+    <EntitySet Name="AdminPunishNotification" EntityType="DatabaseEntitiesModel.Store.AdminPunishNotification" store:Type="Tables" />
+    <EntitySet Name="AppraisalEntrust" EntityType="DatabaseEntitiesModel.Store.AppraisalEntrust" store:Type="Tables" />
+    <EntitySet Name="Archive" EntityType="DatabaseEntitiesModel.Store.Archive" store:Type="Tables" />
+    <EntitySet Name="AreaCode" EntityType="DatabaseEntitiesModel.Store.AreaCode" store:Type="Tables" />
+    <EntitySet Name="Bank" EntityType="DatabaseEntitiesModel.Store.Bank" store:Type="Tables" />
+    <EntitySet Name="CaseCancel" EntityType="DatabaseEntitiesModel.Store.CaseCancel" store:Type="Tables" />
+    <EntitySet Name="CaseClosedApproval" EntityType="DatabaseEntitiesModel.Store.CaseClosedApproval" store:Type="Tables" />
+    <EntitySet Name="CaseExtensionClosedApproval" EntityType="DatabaseEntitiesModel.Store.CaseExtensionClosedApproval" store:Type="Tables" />
+    <EntitySet Name="CaseExtensionClosedApprovalToSibling" EntityType="DatabaseEntitiesModel.Store.CaseExtensionClosedApprovalToSibling" store:Type="Tables" />
+    <EntitySet Name="CaseHandel" EntityType="DatabaseEntitiesModel.Store.CaseHandel" store:Type="Tables" />
+    <EntitySet Name="CaseSource" EntityType="DatabaseEntitiesModel.Store.CaseSource" store:Type="Tables" />
+    <EntitySet Name="CaseTransferred" EntityType="DatabaseEntitiesModel.Store.CaseTransferred" store:Type="Tables" />
+    <EntitySet Name="CaseTransferredApproval" EntityType="DatabaseEntitiesModel.Store.CaseTransferredApproval" store:Type="Tables" />
+    <EntitySet Name="CheckPlace" EntityType="DatabaseEntitiesModel.Store.CheckPlace" store:Type="Tables" />
+    <EntitySet Name="ChemicalsHighlyToxic" EntityType="DatabaseEntitiesModel.Store.ChemicalsHighlyToxic" store:Type="Tables" />
+    <EntitySet Name="ChemicalsList" EntityType="DatabaseEntitiesModel.Store.ChemicalsList" store:Type="Tables" />
+    <EntitySet Name="Company" EntityType="DatabaseEntitiesModel.Store.Company" store:Type="Tables" />
+    <EntitySet Name="CompanyArea" EntityType="DatabaseEntitiesModel.Store.CompanyArea" store:Type="Tables" />
+    <EntitySet Name="CompanyDangerChemicals" EntityType="DatabaseEntitiesModel.Store.CompanyDangerChemicals" store:Type="Tables" />
+    <EntitySet Name="CompanyDangerChemicalsProduce" EntityType="DatabaseEntitiesModel.Store.CompanyDangerChemicalsProduce" store:Type="Tables" />
+    <EntitySet Name="CompanyFireworks" EntityType="DatabaseEntitiesModel.Store.CompanyFireworks" store:Type="Tables" />
+    <EntitySet Name="CompanyHighlyToxicChemicals" EntityType="DatabaseEntitiesModel.Store.CompanyHighlyToxicChemicals" store:Type="Tables" />
+    <EntitySet Name="CompanyNoCoalSecurity" EntityType="DatabaseEntitiesModel.Store.CompanyNoCoalSecurity" store:Type="Tables" />
+    <EntitySet Name="CompanyType" EntityType="DatabaseEntitiesModel.Store.CompanyType" store:Type="Tables" />
+    <EntitySet Name="ContributeFine" EntityType="DatabaseEntitiesModel.Store.ContributeFine" store:Type="Tables" />
+    <EntitySet Name="ContributeFineApproval" EntityType="DatabaseEntitiesModel.Store.ContributeFineApproval" store:Type="Tables" />
+    <EntitySet Name="DefenseRecords" EntityType="DatabaseEntitiesModel.Store.DefenseRecords" store:Type="Tables" />
+    <EntitySet Name="DocumentsServiceReply" EntityType="DatabaseEntitiesModel.Store.DocumentsServiceReply" store:Type="Tables" />
+    <EntitySet Name="EnquireQuestion" EntityType="DatabaseEntitiesModel.Store.EnquireQuestion" store:Type="Tables" />
+    <EntitySet Name="EnquireQuestionItem" EntityType="DatabaseEntitiesModel.Store.EnquireQuestionItem" store:Type="Tables" />
+    <EntitySet Name="ExplorationRecord" EntityType="DatabaseEntitiesModel.Store.ExplorationRecord" store:Type="Tables" />
+    <EntitySet Name="FineCallsNotice" EntityType="DatabaseEntitiesModel.Store.FineCallsNotice" store:Type="Tables" />
+    <EntitySet Name="ForceMeasureDecision" EntityType="DatabaseEntitiesModel.Store.ForceMeasureDecision" store:Type="Tables" />
+    <EntitySet Name="ForceMeasureDecisionApprove" EntityType="DatabaseEntitiesModel.Store.ForceMeasureDecisionApprove" store:Type="Tables" />
+    <EntitySet Name="HearingInform" EntityType="DatabaseEntitiesModel.Store.HearingInform" store:Type="Tables" />
+    <EntitySet Name="HearingNotice" EntityType="DatabaseEntitiesModel.Store.HearingNotice" store:Type="Tables" />
+    <EntitySet Name="IllegalType" EntityType="DatabaseEntitiesModel.Store.IllegalType" store:Type="Tables" />
+    <EntitySet Name="ImportDocument" EntityType="DatabaseEntitiesModel.Store.ImportDocument" store:Type="Tables" />
+    <EntitySet Name="InCaseOfTable" EntityType="DatabaseEntitiesModel.Store.InCaseOfTable" store:Type="Tables" />
+    <EntitySet Name="InstrumentsExample" EntityType="DatabaseEntitiesModel.Store.InstrumentsExample" store:Type="Tables" />
+    <EntitySet Name="InstrumentsHistoryFile" EntityType="DatabaseEntitiesModel.Store.InstrumentsHistoryFile" store:Type="Tables" />
+    <EntitySet Name="InstrumentsHistoryFolder" EntityType="DatabaseEntitiesModel.Store.InstrumentsHistoryFolder" store:Type="Tables" />
+    <EntitySet Name="InstrumentsReceipt" EntityType="DatabaseEntitiesModel.Store.InstrumentsReceipt" store:Type="Tables" />
+    <EntitySet Name="InterrogationRecord" EntityType="DatabaseEntitiesModel.Store.InterrogationRecord" store:Type="Tables" />
+    <EntitySet Name="LawFile" EntityType="DatabaseEntitiesModel.Store.LawFile" store:Type="Tables" />
+    <EntitySet Name="LawRegulations" EntityType="DatabaseEntitiesModel.Store.LawRegulations" store:Type="Tables" />
+    <EntitySet Name="Lawyer" EntityType="DatabaseEntitiesModel.Store.Lawyer" store:Type="Tables" />
+    <EntitySet Name="NaturalPerson" EntityType="DatabaseEntitiesModel.Store.NaturalPerson" store:Type="Tables" />
+    <EntitySet Name="NoticeOfEnquiry" EntityType="DatabaseEntitiesModel.Store.NoticeOfEnquiry" store:Type="Tables" />
+    <EntitySet Name="Officers" EntityType="DatabaseEntitiesModel.Store.Officers" store:Type="Tables" />
+    <EntitySet Name="OrderDeadlineReform" EntityType="DatabaseEntitiesModel.Store.OrderDeadlineReform" store:Type="Tables" />
+    <EntitySet Name="PowerInventory" EntityType="DatabaseEntitiesModel.Store.PowerInventory" store:Type="Tables" />
+    <EntitySet Name="PunishmentDecision" EntityType="DatabaseEntitiesModel.Store.PunishmentDecision" store:Type="Tables" />
+    <EntitySet Name="PunishmentDecisionPersonal" EntityType="DatabaseEntitiesModel.Store.PunishmentDecisionPersonal" store:Type="Tables" />
+    <EntitySet Name="PunishmentDecisionUnit" EntityType="DatabaseEntitiesModel.Store.PunishmentDecisionUnit" store:Type="Tables" />
+    <EntitySet Name="PunishmentDiscussRecord" EntityType="DatabaseEntitiesModel.Store.PunishmentDiscussRecord" store:Type="Tables" />
+    <EntitySet Name="PutDown" EntityType="DatabaseEntitiesModel.Store.PutDown" store:Type="Tables" />
+    <EntitySet Name="PutOnRecord" EntityType="DatabaseEntitiesModel.Store.PutOnRecord" store:Type="Tables" />
+    <EntitySet Name="Question" EntityType="DatabaseEntitiesModel.Store.Question" store:Type="Tables" />
+    <EntitySet Name="ReformReView" EntityType="DatabaseEntitiesModel.Store.ReformReView" store:Type="Tables" />
+    <EntitySet Name="ReviewOptionApprove" EntityType="DatabaseEntitiesModel.Store.ReviewOptionApprove" store:Type="Tables" />
+    <EntitySet Name="Sampling" EntityType="DatabaseEntitiesModel.Store.Sampling" store:Type="Tables" />
+    <EntitySet Name="SamplingContent" EntityType="DatabaseEntitiesModel.Store.SamplingContent" store:Type="Tables" />
+    <EntitySet Name="SaveEvidenceAudit" EntityType="DatabaseEntitiesModel.Store.SaveEvidenceAudit" store:Type="Tables" />
+    <EntitySet Name="SaveEvidenceNotice" EntityType="DatabaseEntitiesModel.Store.SaveEvidenceNotice" store:Type="Tables" />
+    <EntitySet Name="SaveEvidenceProceAudit" EntityType="DatabaseEntitiesModel.Store.SaveEvidenceProceAudit" store:Type="Tables" />
+    <EntitySet Name="SaveEvidenceProceDecide" EntityType="DatabaseEntitiesModel.Store.SaveEvidenceProceDecide" store:Type="Tables" />
+    <EntitySet Name="SealDecide" EntityType="DatabaseEntitiesModel.Store.SealDecide" store:Type="Tables" />
+    <EntitySet Name="SealDecideApproval" EntityType="DatabaseEntitiesModel.Store.SealDecideApproval" store:Type="Tables" />
+    <EntitySet Name="SealThingDetail" EntityType="DatabaseEntitiesModel.Store.SealThingDetail" store:Type="Tables" />
+    <EntitySet Name="SealThingHandle" EntityType="DatabaseEntitiesModel.Store.SealThingHandle" store:Type="Tables" />
+    <EntitySet Name="SealThingHandleApproval" EntityType="DatabaseEntitiesModel.Store.SealThingHandleApproval" store:Type="Tables" />
+    <EntitySet Name="SealThings" EntityType="DatabaseEntitiesModel.Store.SealThings" store:Type="Tables" />
+    <EntitySet Name="SearchWord" EntityType="DatabaseEntitiesModel.Store.SearchWord" store:Type="Tables" />
+    <EntitySet Name="SpotCheck" EntityType="DatabaseEntitiesModel.Store.SpotCheck" store:Type="Tables" />
+    <EntitySet Name="SpotHandelDesision" EntityType="DatabaseEntitiesModel.Store.SpotHandelDesision" store:Type="Tables" />
+    <EntitySet Name="SpotHandelDesisionSixtyDay" EntityType="DatabaseEntitiesModel.Store.SpotHandelDesisionSixtyDay" store:Type="Tables" />
+    <EntitySet Name="SpotPunishmentDecisionPersonal" EntityType="DatabaseEntitiesModel.Store.SpotPunishmentDecisionPersonal" store:Type="Tables" />
+    <EntitySet Name="SpotPunishmentDecisionUnit" EntityType="DatabaseEntitiesModel.Store.SpotPunishmentDecisionUnit" store:Type="Tables" />
+    <EntitySet Name="SpotShoot" EntityType="DatabaseEntitiesModel.Store.SpotShoot" store:Type="Tables" />
+    <EntitySet Name="SpotShootItem" EntityType="DatabaseEntitiesModel.Store.SpotShootItem" store:Type="Tables" />
+    <EntitySet Name="SurveyEndReport" EntityType="DatabaseEntitiesModel.Store.SurveyEndReport" store:Type="Tables" />
+    <EntitySet Name="TableSequence" EntityType="DatabaseEntitiesModel.Store.TableSequence" store:Type="Tables" />
+    <EntitySet Name="UserInfo" EntityType="DatabaseEntitiesModel.Store.UserInfo" store:Type="Tables" />
+    <EntitySet Name="WritServiceReceipt" EntityType="DatabaseEntitiesModel.Store.WritServiceReceipt" store:Type="Tables" />
+    <EntitySet Name="WritServiceReceiptItem" EntityType="DatabaseEntitiesModel.Store.WritServiceReceiptItem" store:Type="Tables" />
+  </EntityContainer>
+  <EntityType Name="AdministrativePenaltyCompany">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CompanyName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CompanyAddress" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="CompanyPost" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="JuridicalName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="JuridicalJob" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="JuridicalTel" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Proof" Type="ntext" Nullable="false" />
+    <Property Name="Deregulation" Type="ntext" Nullable="false" />
+    <Property Name="LegalRule" Type="ntext" Nullable="false" />
+    <Property Name="AdministrativePenalty" Type="ntext" Nullable="false" />
+    <Property Name="PromptCash" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="TimeQuantumCash" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="PaymentAddress" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="PaymentAccount" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="GovArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="ManageArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CourtArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="OfficerName1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CID1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="OfficerName2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CID2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DocManageArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="DocDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="AdministrativePenaltyPerson">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SentPeople" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SentSex" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SentAge" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SentIDCard" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SentAddress" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="SentCompany" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="SentJob" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SentCompanyAddress" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="SentTel" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Proof" Type="ntext" Nullable="false" />
+    <Property Name="Deregulation" Type="ntext" Nullable="false" />
+    <Property Name="LegalRule" Type="ntext" Nullable="false" />
+    <Property Name="AdministrativePenalty" Type="ntext" Nullable="false" />
+    <Property Name="PromptCash" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="TimeQuantumCash" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="PaymentAddress" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="PaymentAccount" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="GovArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="ManageArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CourtArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="OfficerName1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CID1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="OfficerName2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CID2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DocManageArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="DocDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="AdminPunishNotification">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CompanyID" Type="int" Nullable="false" />
+    <Property Name="CompanyName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="BriefCase" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CompanyBehavior" Type="ntext" Nullable="false" />
+    <Property Name="LawProvision" Type="ntext" Nullable="false" />
+    <Property Name="Certificate" Type="ntext" Nullable="false" />
+    <Property Name="AdminPunish" Type="ntext" Nullable="false" />
+    <Property Name="Address" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Post" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Contacter" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="Tel" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SendDate" Type="datetime" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+    <Property Name="DocManageArea" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="AppraisalEntrust">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="SamplingID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="AppraisalUnit" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="AppraisalPoints" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="AppraisaDate" Type="datetime" Nullable="false" />
+    <Property Name="ContactUserName" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="ContactUserPhone" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="DocManageArea" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FillDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="Archive">
+    <Key>
+      <PropertyRef Name="GUID" />
+    </Key>
+    <Property Name="GUID" Type="nchar" Nullable="false" MaxLength="32" />
+    <Property Name="NAME" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="CREATION_DATE" Type="datetime" Nullable="false" />
+    <Property Name="TABLE_NAME" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="RECORD_ID" Type="int" Nullable="false" />
+    <Property Name="PATH" Type="nvarchar" Nullable="false" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="AreaCode">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CodeID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CodeName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ParentID" Type="int" Nullable="false" />
+    <Property Name="OrderID" Type="int" Nullable="false" />
+    <Property Name="LevelID" Type="int" Nullable="false" />
+    <Property Name="LevelName" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="Path" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="Bank">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="BankName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Account" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="CaseCancel">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PutOnRecordCaseName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="PutOnRecordThisDate" Type="datetime" Nullable="false" />
+    <Property Name="PutOnRecordDocTitle" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="PutOnRecordPeopleName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PutOnRecordFName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PutOnRecordPeopleAddress" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="PutOnRecordPeoplePhone" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PutOnRecordSourceName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="PutOnRecordUserNames1" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="PutOnRecordUserNames2" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="ResearchDetail" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="RevocationReason" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="UndertakerUserName1" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="UndertakerUserName2" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="UndertakerUserName3" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="UndertakerData" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="CaseClosedApproval">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CaseID" Type="int" Nullable="false" />
+    <Property Name="CaseName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="Party" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Legal" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="CaseSourceID" Type="int" Nullable="false" />
+    <Property Name="PunishInstrumentNo" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="CaseStartDate" Type="datetime" Nullable="false" />
+    <Property Name="CaseEndDate" Type="datetime" Nullable="false" />
+    <Property Name="PunishDate" Type="datetime" Nullable="false" />
+    <Property Name="UserID1" Type="int" Nullable="false" />
+    <Property Name="UserID2" Type="int" Nullable="false" />
+    <Property Name="PunishContent" Type="ntext" Nullable="false" />
+    <Property Name="ExecutionResult" Type="ntext" Nullable="false" />
+    <Property Name="FormDate" Type="datetime" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="CaseSourceName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="UserName1" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="UserName2" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="CaseExtensionClosedApproval">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CaseID" Type="int" Nullable="false" />
+    <Property Name="CaseName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="Party" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Legal" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="CaseSourceID" Type="int" Nullable="false" />
+    <Property Name="CaseStartDate" Type="datetime" Nullable="false" />
+    <Property Name="FormDate" Type="datetime" Nullable="false" />
+    <Property Name="ExtensionApproval" Type="ntext" Nullable="false" />
+    <Property Name="Address" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Tel" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="CaseSourceName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+    <Property Name="DocManageArea" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="CaseExtensionClosedApprovalToSibling">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CaseID" Type="int" Nullable="false" />
+    <Property Name="CaseName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="Party" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Legal" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="CaseSourceID" Type="int" Nullable="false" />
+    <Property Name="CaseStartDate" Type="datetime" Nullable="false" />
+    <Property Name="FormDate" Type="datetime" Nullable="false" />
+    <Property Name="ExtensionApproval" Type="ntext" Nullable="false" />
+    <Property Name="Address" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Tel" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="CaseSourceName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="UserID1" Type="int" Nullable="false" />
+    <Property Name="UserID2" Type="int" Nullable="false" />
+    <Property Name="UserName1" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="UserName2" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="CaseHandel">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="UnitAbb" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DocYear" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="DocIndex" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="Party" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LegalRepre" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="CaseSource" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CaseSituation" Type="ntext" Nullable="false" />
+    <Property Name="Fact" Type="ntext" Nullable="false" />
+    <Property Name="Undertake" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="UndertakeOpinion" Type="ntext" Nullable="false" />
+    <Property Name="UndertakeDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="CaseSource">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="SourceName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="OrderID" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="CaseTransferred">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="UnitName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="TransferredDate" Type="datetime" Nullable="false" />
+    <Property Name="CaseName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="TransferredReason" Type="ntext" Nullable="false" />
+    <Property Name="TransferredLaw" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CaseMaterial" Type="ntext" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="HandleDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+    <Property Name="DocManageArea" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="CaseTransferredApproval">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CaseID" Type="int" Nullable="false" />
+    <Property Name="CaseName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="ReceiverUnit" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CaseInfo" Type="ntext" Nullable="false" />
+    <Property Name="TransferredReason" Type="ntext" Nullable="false" />
+    <Property Name="UserID1" Type="int" Nullable="false" />
+    <Property Name="UserID2" Type="int" Nullable="false" />
+    <Property Name="UserReason" Type="ntext" Nullable="false" />
+    <Property Name="HandleDate" Type="datetime" Nullable="false" />
+    <Property Name="Party" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="Address" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="UserName1" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="UserName2" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="CheckPlace">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CheckContent" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="ChemicalsHighlyToxic">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="ChemicalName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="ChemicalAlias" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="ChemicalNameEn" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="ChemicalAliasEn" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Formula" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CAS" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="UN" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="LimitedRange" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="ChemicalsList">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="ChemicalsType" Type="int" Nullable="false" />
+    <Property Name="ChemicalsNumber" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ChemicalsName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="ChemicalsAlias" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ChemicalsUN" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ChemicalsChildType" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="Company">
+    <Key>
+      <PropertyRef Name="CompanyID" />
+    </Key>
+    <Property Name="CompanyID" Type="int" Nullable="false" />
+    <Property Name="CompanyName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CompanyAddress" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="CompanyPost" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="JuridicalPerson" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="JuridicalPersonSex" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="JuridicalPersonAge" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="JuridicalPersonJob" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Mobile" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Tel" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+    <Property Name="CompanyType" Type="int" Nullable="false" />
+    <Property Name="IsCity" Type="int" />
+    <Property Name="CompanyAreaID" Type="int" />
+    <Property Name="WarehousAddress" Type="nvarchar" MaxLength="500" />
+    <Property Name="PermitRange" Type="nvarchar" MaxLength="500" />
+    <Property Name="BusinessMode" Type="nvarchar" MaxLength="300" />
+    <Property Name="PermitValid" Type="nvarchar" MaxLength="300" />
+    <Property Name="IDCard" Type="nvarchar" MaxLength="300" />
+  </EntityType>
+  <EntityType Name="CompanyArea">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="AreaName" Type="nvarchar" MaxLength="300" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="ExchangeGUID" Type="nchar" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="CompanyDangerChemicals">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CompanyID" Type="int" Nullable="false" />
+    <Property Name="Certificate" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="WarehousAddress" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="BusinessScope" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="EconomicTypes" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="BusinessMode" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+    <Property Name="ValidStartDate" Type="datetime" />
+    <Property Name="ValidEndDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="CompanyDangerChemicalsProduce">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CompanyID" Type="int" Nullable="false" />
+    <Property Name="PermitRange" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="ValidStartDate" Type="datetime" Nullable="false" />
+    <Property Name="ValidEndDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="CompanyFireworks">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CompanyID" Type="int" Nullable="false" />
+    <Property Name="WarehousAddress" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="PermitCertificateNo" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="PermitBusinessScope" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="ValidStartDate" Type="datetime" Nullable="false" />
+    <Property Name="ValidEndDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="CompanyHighlyToxicChemicals">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CompanyID" Type="int" Nullable="false" />
+    <Property Name="MainProducts" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Registration" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="ValidStartDate" Type="datetime" Nullable="false" />
+    <Property Name="ValidEndDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="CompanyNoCoalSecurity">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CompanyID" Type="int" Nullable="false" />
+    <Property Name="MiningMethods" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="EconomicType" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="PermitRange" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="CertificateNumber" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="IsStandard" Type="bit" Nullable="false" />
+    <Property Name="StandardizationRegister" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="ValidStartDate" Type="datetime" Nullable="false" />
+    <Property Name="ValidEndDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="CompanyType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CompanyTypeName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="ContributeFine">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CompanyID" Type="int" Nullable="false" />
+    <Property Name="CompanyName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="ContributionsDate" Type="datetime" Nullable="false" />
+    <Property Name="InstrumentNo" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="FineSumString" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="FineSum" Type="numeric" Nullable="false" Scale="2" />
+    <Property Name="ExtensionDate" Type="datetime" Nullable="false" />
+    <Property Name="ExtensionDateString" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Period" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="InstallmentsDate" Type="datetime" Nullable="false" />
+    <Property Name="InstallmentsDateString" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="InstallmentsSum" Type="numeric" Nullable="false" Scale="2" />
+    <Property Name="InstallmentsSumString" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="InstallmentsBalance" Type="numeric" Nullable="false" Scale="2" />
+    <Property Name="InstallmentsBalanceString" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FormDate" Type="datetime" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="ContributeFineApproval">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CaseID" Type="int" Nullable="false" />
+    <Property Name="CaseName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="PunishInstrumentNo" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="Party" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Address" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="LawFactPunish" Type="ntext" Nullable="false" />
+    <Property Name="ExtensionReason" Type="ntext" Nullable="false" />
+    <Property Name="UserOpinion" Type="ntext" Nullable="false" />
+    <Property Name="FormDate" Type="datetime" Nullable="false" />
+    <Property Name="UserName1" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="UserName2" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="DefenseRecords">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DefenseStartDate" Type="datetime" Nullable="false" />
+    <Property Name="DefenseEndDate" Type="datetime" Nullable="false" />
+    <Property Name="Location" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="DefenseUser" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Sex" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Position" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="WorkUnit" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="Tel" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="ZipCode" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="UserName1" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="UserName2" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="UserName3" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="LawUnit" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="ProblemResult1" Type="ntext" Nullable="false" />
+    <Property Name="ProblemResult2" Type="ntext" Nullable="false" />
+    <Property Name="ProblemResult3" Type="ntext" Nullable="false" />
+    <Property Name="CaseID" Type="int" Nullable="false" />
+    <Property Name="CaseName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="DefenseDate" Type="datetime" Nullable="false" />
+    <Property Name="ProblemUser1" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ProblemUser2" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ProblemUserCode1" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ProblemUserCode2" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ProblemResult4" Type="ntext" Nullable="false" />
+    <Property Name="ProblemContent" Type="ntext" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="DocumentsServiceReply">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PutOnRecordCaseName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CompanyName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DocManageArea" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="EnquireQuestion">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="EnquireBeginDate" Type="datetime" Nullable="false" />
+    <Property Name="EnquireEndDate" Type="datetime" Nullable="false" />
+    <Property Name="EnquireCount" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="EnquireAddress" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="EnquirePerson" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="EnquirePersonSex" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="EnquirePersonAge" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="EnquirePersonIDC" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="EnquirePersonUnit" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="EnquirePersonJob" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="EnquirePersonAddress" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="EnquirePersonTel" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="EnquirerName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="EnquirerUnit" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="WriterName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="WriterUnit" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Attendee" Type="ntext" Nullable="false" />
+    <Property Name="QFirstUnit" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="QFirstPerson1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="QFirstPersonIDC1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="QFirstPerson2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="QFirstPerson2IDC2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="QFirstAnswer" Type="ntext" Nullable="false" />
+    <Property Name="QuestionSecond" Type="ntext" Nullable="false" />
+    <Property Name="QuestionSecondAnswer" Type="ntext" Nullable="false" />
+    <Property Name="QuestionThirdAnswer" Type="ntext" Nullable="false" />
+    <Property Name="Questions" Type="ntext" Nullable="false" />
+    <Property Name="DocDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="EnquireQuestionItem">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="EnquireID" Type="int" Nullable="false" />
+    <Property Name="Question" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="Anwser" Type="ntext" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="ExplorationRecord">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="BeganTime" Type="datetime" Nullable="false" />
+    <Property Name="ToTime" Type="datetime" Nullable="false" />
+    <Property Name="Address" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="Weather" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="EUserName1" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="ECompanyName1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="EUserName2" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="ECompanyName2" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="TheEPeopleName1" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="TheECompanyName1" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="TheEPeopleName2" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="TheECompanyName2" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="InvitedEPeopleName" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="InvitedECompanyName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="RecordUserName" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="RecordCompanyName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="QFirstPerson1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="QFirstPersonUser1" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="QFirstPersonIDC1" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="QFirstPerson2" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="QFirstPerson2IDC2" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="ESituation" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="FineCallsNotice">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CompanyID" Type="int" Nullable="false" />
+    <Property Name="CompanyName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="SendCallsDate" Type="datetime" Nullable="false" />
+    <Property Name="DecideNumber" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="EndDate" Type="datetime" Nullable="false" />
+    <Property Name="Location" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="FormDate" Type="datetime" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+    <Property Name="DocManageArea" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="ForceMeasureDecision">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CompanyName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Matter" Type="ntext" Nullable="false" />
+    <Property Name="Accord" Type="ntext" Nullable="false" />
+    <Property Name="EnforceMea" Type="ntext" Nullable="false" />
+    <Property Name="GovArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="ManageArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CourtArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="DocManageArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="DocDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="ForceMeasureDecisionApprove">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Party" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PartyAddress" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="LegalRepre" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Tel" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Matter" Type="ntext" Nullable="false" />
+    <Property Name="Accord" Type="ntext" Nullable="false" />
+    <Property Name="Supervise" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SuperviseDate" Type="datetime" Nullable="false" />
+    <Property Name="Undertake" Type="ntext" Nullable="false" />
+    <Property Name="Principal" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PrincipalDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="HearingInform">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CaseName" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="CompereName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SecretaryName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="HearName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Summary" Type="ntext" Nullable="false" />
+    <Property Name="Suggest" Type="ntext" Nullable="false" />
+    <Property Name="PrincipalSuggest" Type="ntext" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="HearingNotice">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Informant" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="About" Type="ntext" Nullable="false" />
+    <Property Name="HearDate" Type="datetime" Nullable="false" />
+    <Property Name="HearAddress" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="CompereName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CompereJob" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SecretaryName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SecretaryJob" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="HearName1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="HearJob1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="HearName2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="HearJob2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DocManageArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="DocDate" Type="datetime" Nullable="false" />
+    <Property Name="DocManageAddress" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="DocManagePost" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LinkMan" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CompanyID" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="IllegalType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="TypeName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="OrderID" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="ImportDocument">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="TableName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="TableID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DocName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="DiskDocName" Type="nchar" Nullable="false" MaxLength="32" />
+    <Property Name="DocState" Type="int" Nullable="false" />
+    <Property Name="DirectoryID" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="InCaseOfTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PutOnRecordCaseName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PutOnRecordPeopleName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PutOnRecordFName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PutOnRecordPeopleAddress" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="CaseSourceName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="GeneralCase" Type="ntext" Nullable="false" />
+    <Property Name="IllegalFact" Type="ntext" Nullable="false" />
+    <Property Name="UndertakerOpinion" Type="ntext" Nullable="false" />
+    <Property Name="UndertakerUserName1" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="UndertakerUserName2" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="UndertakerData" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="GUID" Type="nvarchar" Nullable="false" MaxLength="32" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="InstrumentsExample">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="InstrumentsTitle" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="InstrumentsPath" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="InstrumentsType" Type="int" Nullable="false" />
+    <Property Name="InstrumentsChildType" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="InstrumentsHistoryFile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="InstrumentsTitle" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="InstrumentsPath" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="InstrumentsFolderID" Type="int" Nullable="false" />
+    <Property Name="TableName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="TableID" Type="int" Nullable="false" />
+    <Property Name="CompanyName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="InstrumentsHistoryFolder">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="InstrumentsParentType" Type="int" Nullable="false" />
+    <Property Name="InstrumentsChildType" Type="int" Nullable="false" />
+    <Property Name="InstrumentsYear" Type="int" Nullable="false" />
+    <Property Name="InstrumentsMonth" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="InstrumentsReceipt">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CaseID" Type="int" Nullable="false" />
+    <Property Name="CaseName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="ReceiverUnit" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="InstrumentsNameSymbol" Type="nvarchar" Nullable="false" MaxLength="300" />
+    <Property Name="ServiceDate" Type="datetime" Nullable="false" />
+    <Property Name="ServiceLocation" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="ServiceMode" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ServiceUser" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Area" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Note" Type="ntext" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="InterrogationRecord">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="InterrogationRecordCount" Type="int" Nullable="false" />
+    <Property Name="BeganTime" Type="datetime" Nullable="false" />
+    <Property Name="ToTime" Type="datetime" Nullable="false" />
+    <Property Name="AskAddress" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="BeAskEPeopleName" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="BeAskEPeopleSex" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="BeAskEPeopleAge" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="BeAskEPeopleID" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="BeAskEPeopleCompanyName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="BeAskEPeoplePosition" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="BeAskEPeopleAddress" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="BeAskEPeoplePhone" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="AskUserName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="AskUserCompanyName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="RecordUserName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="RecordCompanyName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="PresentEPeopleName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="QFirstPerson1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="QFirstPersonName1" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="QFirstPersonIDC1" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="QFirstPerson2" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="QFirstPerson2IDC2" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="QFirstAnswer" Type="nvarchar" Nullable="false" MaxLength="400" />
+    <Property Name="QuestionSecond" Type="nvarchar" Nullable="false" MaxLength="400" />
+    <Property Name="QuestionSecondAnswer" Type="nvarchar" Nullable="false" MaxLength="400" />
+    <Property Name="QuestionThirdAnswer" Type="nvarchar" Nullable="false" MaxLength="400" />
+    <Property Name="Questions" Type="ntext" Nullable="false" />
+    <Property Name="RecordDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="LawFile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="LawTitle" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="LawFilePath" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="LawType" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="LawRegulations">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="Content" Type="ntext" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="Lawyer">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="LawyerName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Sex" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Age" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Job" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="NaturalPerson">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="PersonName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Sex" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Age" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="IDcard" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="CompanyName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Job" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CompanyAddress" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="CompanyTel" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="NoticeOfEnquiry">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CompanyName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="IllegalTypeName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ToDateTime" Type="datetime" Nullable="false" />
+    <Property Name="ToAddress" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="IfID" Type="bit" />
+    <Property Name="IfBusinessLicense" Type="bit" />
+    <Property Name="IfLawID" Type="bit" />
+    <Property Name="IfOther" Type="bit" />
+    <Property Name="OtherDocument" Type="nvarchar" MaxLength="100" />
+    <Property Name="DetpAddress" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="DetpName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DetpPhone" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DocManageArea" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FillDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="Officers">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="OfficersName" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="Unit" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Position" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="CID" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="OrderDeadlineReform">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="OrderCompany" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Matter" Type="ntext" Nullable="false" />
+    <Property Name="MatterCount" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="ReformDate" Type="datetime" Nullable="false" />
+    <Property Name="GovArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="ManageArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CourtArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="OfficerName1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CID1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="OfficerName2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CID2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DocManageArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="DocDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="PowerInventory">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="PowerName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="PowerNumber" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="PowerType" Type="int" Nullable="false" />
+    <Property Name="PowerSubject" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="PowerContent" Type="ntext" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="PunishmentDecision">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Number" Type="nvarchar" MaxLength="10" />
+    <Property Name="PutOnRecordID" Type="int" />
+    <Property Name="BePenalizeEPeopleID" Type="int" />
+    <Property Name="IllegalEvidence" Type="nvarchar" MaxLength="300" />
+    <Property Name="IllegalProvisions" Type="nvarchar" MaxLength="100" />
+    <Property Name="According" Type="nvarchar" MaxLength="100" />
+    <Property Name="PunishmentMoney" Type="numeric" />
+    <Property Name="PunishmentAmount" Type="nvarchar" MaxLength="30" />
+    <Property Name="IfSpotPay" Type="bit" />
+    <Property Name="BankName" Type="nvarchar" MaxLength="20" />
+    <Property Name="BankID" Type="nvarchar" MaxLength="20" />
+    <Property Name="ReconsiderationUnit1" Type="int" />
+    <Property Name="ReconsiderationUnit2" Type="int" />
+    <Property Name="LitigationUnit" Type="int" />
+    <Property Name="ExecUserID1" Type="int" />
+    <Property Name="ExecUserID2" Type="int" />
+    <Property Name="FillDate" Type="datetime" />
+    <Property Name="CreateTime" Type="datetime" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="PunishmentDecisionPersonal">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FieldEPeopleName" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="FieldEPeopleSex" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="FieldEPeopleAge" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="FieldEPeoplePhone" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="FieldEPeopleAddress" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FieldEPeopleCompanyName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FieldEPeoplePosition" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="FieldEPeopleCompanyAddress" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FieldEPeopleZip" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="IllegalEvidence" Type="nvarchar" Nullable="false" MaxLength="300" />
+    <Property Name="IllegalProvisions" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="According" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="PunishmentMoney" Type="numeric" Nullable="false" />
+    <Property Name="PunishmentAmount" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="BankName" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="BankID" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="ReconsiderationUnitName1" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="ReconsiderationUnitName2" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="LitigationUnitName" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="DocManageArea" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FillDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="PunishmentDecisionUnit">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PutOnRecordCaseName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FieldEAddress" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="FieldEPeopleZio" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="FieldEFName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FieldEPosition" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FieldEPeoplePhone" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="IllegalEvidence" Type="ntext" Nullable="false" />
+    <Property Name="IllegalProvisions" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="According" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="PunishmentMoney" Type="numeric" Nullable="false" />
+    <Property Name="PunishmentAmount" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="BankName" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="BankID" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="ReconsiderationUnitName1" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="ReconsiderationUnitName2" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="LitigationUnitName" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="DocManageArea" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FillDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="PunishmentDiscussRecord">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="PutOnRecordCaseName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DiscussDate" Type="datetime" Nullable="false" />
+    <Property Name="DiscussAddress" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="HostName" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="ReportName" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="RecordUserName" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="PDRPeople1" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="PDRPeople2" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="DiscussContent" Type="ntext" Nullable="false" />
+    <Property Name="RecordContent" Type="ntext" Nullable="false" />
+    <Property Name="Conclusion" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="PutDown">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CaseName" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="Organ" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="OrganAddress" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="HearBeginDate" Type="datetime" Nullable="false" />
+    <Property Name="HearEndDate" Type="datetime" Nullable="false" />
+    <Property Name="CompereName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="HearName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SecretaryName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Investigador1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="InvestigadorIDC1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Investigador2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="InvestigadorIDC2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ProposerCompany" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="ProposerAddress" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="LegalRepre" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LegalRepreSex" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LegalRepreAge" Type="int" Nullable="false" />
+    <Property Name="LegalRepreAgent1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LegalRepreAgentSex1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LegalRepreAgentAge1" Type="int" Nullable="false" />
+    <Property Name="LegalRepreAgentJob1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LegalRepreAgent2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LegalRepreAgentSex2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LegalRepreAgentAge2" Type="int" Nullable="false" />
+    <Property Name="LegalRepreAgentJob2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Proposer" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="ProposerSex" Type="int" Nullable="false" />
+    <Property Name="ProposerAge" Type="int" Nullable="false" />
+    <Property Name="ProposerJob" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ProposerAgent1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ProposerAgentSex1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ProposerAgentAge1" Type="int" Nullable="false" />
+    <Property Name="ProposerAgentJob1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ProposerAgen2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ProposerAgentSex2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ProposerAgentAge2" Type="int" Nullable="false" />
+    <Property Name="ProposerAgentJob2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ThirdPerson" Type="ntext" Nullable="false" />
+    <Property Name="OhterPerson" Type="ntext" Nullable="false" />
+    <Property Name="Record" Type="ntext" Nullable="false" />
+    <Property Name="ProposerOrAgent" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="DocDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="PutOnRecord">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="IllegalTypeName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="CaseSourceName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ThisDate" Type="datetime" Nullable="false" />
+    <Property Name="CaseName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CompanyName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PeopleName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PeoplePhone" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PeopleCondition" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="PeopleAddress" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="PeopleZip" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="CaseStatus" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="UndertakerOpinion" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="UndertakerUserName1" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="UndertakerUserName2" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="UndertakerUserName3" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="UndertakerData" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="Question">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="QuestionInfo" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="ReformReView">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ReviewCompany" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="ReviewDate" Type="datetime" Nullable="false" />
+    <Property Name="Decide" Type="ntext" Nullable="false" />
+    <Property Name="DocTitle2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Idea" Type="ntext" Nullable="false" />
+    <Property Name="OfficerName1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CID1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="OfficerName2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CID2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DocManageArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="DocDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="ReviewOptionApprove">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Party" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PartyAddress" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="LegalRepre" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Tel" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="RawDecisionID" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="LeaveTime" Type="datetime" Nullable="false" />
+    <Property Name="ReceiveTime" Type="datetime" Nullable="false" />
+    <Property Name="ReviewTime" Type="datetime" Nullable="false" />
+    <Property Name="MajorProblems" Type="ntext" Nullable="false" />
+    <Property Name="ReviewCondition" Type="ntext" Nullable="false" />
+    <Property Name="Reviewer" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ReviewDate" Type="datetime" Nullable="false" />
+    <Property Name="Undertake" Type="ntext" Nullable="false" />
+    <Property Name="Principal" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PrincipalDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="Sampling">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FieldECompanyName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FieldEPeopleName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FieldEAddress" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="FieldEPeoplePhone" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FieldEPeopleZio" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="BeganTime" Type="datetime" Nullable="false" />
+    <Property Name="ToTime" Type="datetime" Nullable="false" />
+    <Property Name="SamplingAddress" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="FieldEPeopleName1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ExecUserName1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ExecUserNumber1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ExecUserName2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ExecUserNumber2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="WitnesEPeopleName1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="WitnesEPeopleName2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DocManageArea" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FillDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="SamplingContent">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="SamplingID" Type="int" Nullable="false" />
+    <Property Name="SDocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ItemName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="ItemRule" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="Origin" Type="int" Nullable="false" />
+    <Property Name="Grade" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="ItemUnit" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Note" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="SaveEvidenceAudit">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="PutOnRecordCaseName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PutOnRecordCasePeopleInfo" Type="nvarchar" Nullable="false" MaxLength="300" />
+    <Property Name="PutOnRecordCaseContent" Type="nvarchar" Nullable="false" MaxLength="300" />
+    <Property Name="SamplingID" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="ReasonBasis" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="SavaWay" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="UndertakerOpinion" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="UndertakerUserName1" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="UndertakerUserName2" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="UndertakerData" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="SaveEvidenceNotice">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="SamplingID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FieldECompanyName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="IllegalTypeName" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ToTime" Type="datetime" Nullable="false" />
+    <Property Name="QFirstPerson" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="DocManageArea" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FillDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="SaveEvidenceProceAudit">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="PutOnRecordCaseName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PutOnRecordCasePeopleInfo" Type="nvarchar" Nullable="false" MaxLength="300" />
+    <Property Name="PutOnRecordCaseContent" Type="nvarchar" Nullable="false" MaxLength="300" />
+    <Property Name="SamplingID" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="ReasonBasis" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="UndertakerOpinion" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="UndertakerUserName1" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="UndertakerUserName2" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="UndertakerData" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="SaveEvidenceProceDecide">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FieldECompanyName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="JData" Type="datetime" Nullable="false" />
+    <Property Name="SamplingContent" Type="nvarchar" Nullable="false" MaxLength="300" />
+    <Property Name="SaveEvidenceProceAuditDocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DecideContent" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="LitigationUnitName1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LitigationUnitName2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LitigationUnitName3" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DocManageArea" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="FillDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="SealDecide">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CompanyName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CompanyID" Type="int" Nullable="false" />
+    <Property Name="SealReason" Type="ntext" Nullable="false" />
+    <Property Name="SealLaw" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Government" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="ManageDepartment" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="Court" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="SealLocation" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="SealStartDate" Type="datetime" Nullable="false" />
+    <Property Name="SealEndDate" Type="datetime" Nullable="false" />
+    <Property Name="UserName1" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="UserName2" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HandleDate" Type="datetime" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+    <Property Name="DocManageArea" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="SealDecideApproval">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CaseID" Type="int" Nullable="false" />
+    <Property Name="CaseName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="CaseStatus" Type="ntext" Nullable="false" />
+    <Property Name="PartyBaseInfo" Type="ntext" Nullable="false" />
+    <Property Name="SealContent" Type="ntext" Nullable="false" />
+    <Property Name="SealReason" Type="ntext" Nullable="false" />
+    <Property Name="UserName1" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="UserName2" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="UserReason" Type="ntext" Nullable="false" />
+    <Property Name="HandleDate" Type="datetime" Nullable="false" />
+    <Property Name="ThingID" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="SealThingDetail">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="ThingName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="ThingModel" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="ThingPlace" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="ThingGrade" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="ThingUnit" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ThingPrice" Type="numeric" Nullable="false" Scale="2" />
+    <Property Name="ThingNumber" Type="numeric" Nullable="false" Scale="1" />
+    <Property Name="ThingNoe" Type="ntext" Nullable="false" />
+    <Property Name="ThingID" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="SealThingHandle">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CompanyName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="SealDate" Type="datetime" Nullable="false" />
+    <Property Name="SealContent" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="SealResult" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Government" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="ManageDepartment" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="Court" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="HandleDate" Type="datetime" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="ThingCheckNo" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+    <Property Name="DocManageArea" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="SealThingHandleApproval">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CaseName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="PartyBaseInfo" Type="ntext" Nullable="false" />
+    <Property Name="CaseSurveyInfo" Type="ntext" Nullable="false" />
+    <Property Name="UserReason" Type="ntext" Nullable="false" />
+    <Property Name="UserName1" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="UserName2" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="HandleDate" Type="datetime" Nullable="false" />
+    <Property Name="SealDecideNo" Type="ntext" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="SealThings">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="ThingUser" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="UserID1" Type="int" Nullable="false" />
+    <Property Name="UserID2" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="SearchWord">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Words" Type="ntext" Nullable="false" />
+    <Property Name="SearchIndex" Type="ntext" Nullable="false" />
+    <Property Name="Fields" Type="ntext" Nullable="false" />
+    <Property Name="Rate" Type="int" Nullable="false" />
+    <Property Name="WordClassType" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="TableID" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="SpotCheck">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CompanyName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CompanyAddress" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="JuridicalName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="JuridicalJob" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="JuridicalTel" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CheckAddress" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="CheckStartTime" Type="datetime" Nullable="false" />
+    <Property Name="CheckEndTime" Type="datetime" Nullable="false" />
+    <Property Name="Area" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="OfficerName1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CID1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="OfficerName2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CID2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CheckCondition" Type="ntext" Nullable="false" />
+    <Property Name="SpotCondition" Type="ntext" Nullable="false" />
+    <Property Name="CheckPerson1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CheckPerson2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CheckDate" Type="datetime" Nullable="false" />
+    <Property Name="SiteJuridical" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="SpotHandelDesision">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="CompanyName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CheckDate" Type="datetime" Nullable="false" />
+    <Property Name="Violations" Type="ntext" Nullable="false" />
+    <Property Name="LegalBasis" Type="ntext" Nullable="false" />
+    <Property Name="SitHandel" Type="ntext" Nullable="false" />
+    <Property Name="GovArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="ManageArea" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="CourtArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="OfficerName1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CID1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="OfficerName2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CID2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DocManageArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="DocDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="SpotHandelDesisionSixtyDay">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="HandleComp" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CheckDate" Type="datetime" Nullable="false" />
+    <Property Name="Danger" Type="ntext" Nullable="false" />
+    <Property Name="LegalBasis" Type="ntext" Nullable="false" />
+    <Property Name="SitHandel" Type="ntext" Nullable="false" />
+    <Property Name="GovArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="ManageArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CourtArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="OfficerName1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CID1" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="OfficerName2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CID2" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DocManageArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="DocDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="SpotPunishmentDecisionPersonal">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FieldEPeopleName" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="FieldEPeopleSex" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="FieldEPeopleAge" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="FieldEPeopleID" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="FieldEPeopleAddress" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FieldEPeopleCompanyName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FieldEPeoplePosition" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="FieldEPeopleCompanyAddress" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FieldEPeoplePhone" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="IllegalEvidence" Type="nvarchar" Nullable="false" MaxLength="300" />
+    <Property Name="IllegalProvisions" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="According" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="PunishmentMoney" Type="numeric" Nullable="false" />
+    <Property Name="PunishmentAmount" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="IfSpotPay" Type="bit" Nullable="false" />
+    <Property Name="IfOther" Type="bit" Nullable="false" />
+    <Property Name="BankName" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="BankID" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="ReconsiderationUnitName1" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="ReconsiderationUnitName2" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="LitigationUnitName" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="ExecUserName1" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="ExecUserName2" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="DocManageArea" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FillDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="SpotPunishmentDecisionUnit">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PutOnRecordCompanyName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FieldEAddress" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="FieldEPeopleZio" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="FieldEFName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FieldEPosition" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FieldEPeoplePhone" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="IllegalEvidence" Type="nvarchar" Nullable="false" MaxLength="300" />
+    <Property Name="IllegalProvisions" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="According" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="PunishmentMoney" Type="numeric" Nullable="false" />
+    <Property Name="PunishmentAmount" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="IfSpotPay" Type="bit" Nullable="false" />
+    <Property Name="IfOther" Type="bit" Nullable="false" />
+    <Property Name="BankName" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="BankID" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="ReconsiderationUnitName1" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="ReconsiderationUnitName2" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="LitigationUnitName" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="ExecUserName1" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="ExecUserName2" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="DocManageArea" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FillDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="SpotShoot">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="SpotName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="ShootDate" Type="datetime" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="SpotShootItem">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="SpotID" Type="int" Nullable="false" />
+    <Property Name="SpotPhoto" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="ShootAddress" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="PhotoIllustr" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="SurveyEndReport">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="CaseID" Type="int" Nullable="false" />
+    <Property Name="CaseName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="CaseHandleResult" Type="ntext" Nullable="false" />
+    <Property Name="CaseStartDate" Type="datetime" Nullable="false" />
+    <Property Name="CaseEndDate" Type="datetime" Nullable="false" />
+    <Property Name="CaseVolume" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CaseItem" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CasePage" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CaseRetention" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="CaseArchivingNo" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="AllCaseVolume" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="AllCaseCatalogNo" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="AllFondsNo" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="FormHeadUnitAbb" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="UserName1" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="UserName2" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="TableSequence">
+    <Key>
+      <PropertyRef Name="TableName" />
+    </Key>
+    <Property Name="TableName" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="Sequence" Type="int" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="UserInfo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="Abb" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="Tel" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Post" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Area" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="WritServiceReceipt">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="DocTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CaseName" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="ServiceCompany" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="DocManageArea" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Note" Type="ntext" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+  <EntityType Name="WritServiceReceiptItem">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="ReceiptID" Type="int" Nullable="false" />
+    <Property Name="WritName" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="Recipient" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ServiceDate" Type="datetime" Nullable="false" />
+    <Property Name="ServiceAddress" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="ServiceWay" Type="nvarchar" Nullable="false" MaxLength="1000" />
+    <Property Name="ServicePerson" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="ExchangeGUID" Type="nchar" Nullable="false" MaxLength="32" />
+  </EntityType>
+</Schema>

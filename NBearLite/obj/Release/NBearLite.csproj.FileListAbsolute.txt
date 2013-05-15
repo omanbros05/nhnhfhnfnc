@@ -1,0 +1,6 @@
+F:\src\Maleos\NBearLite\bin\Release\NBearLite.dll
+F:\src\Maleos\NBearLite\bin\Release\NBear.Core.dll
+F:\src\Maleos\NBearLite\bin\Release\NBear.Mapping.dll
+F:\src\Maleos\NBearLite\bin\Release\NBear.Mapping.xml
+F:\src\Maleos\NBearLite\obj\Release\ResolveAssemblyReference.cache
+F:\src\Maleos\NBearLite\obj\Release\NBearLite.dll

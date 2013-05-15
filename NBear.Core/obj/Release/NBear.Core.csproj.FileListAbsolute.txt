@@ -1,0 +1,3 @@
+F:\src\Maleos\NBear.Core\bin\Release\NBear.Core.dll
+F:\src\Maleos\NBear.Core\obj\Release\ResolveAssemblyReference.cache
+F:\src\Maleos\NBear.Core\obj\Release\NBear.Core.dll

@@ -1,0 +1,2015 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NBearLite</name>
+    </assembly>
+    <members>
+        <member name="T:NBearLite.DbProviders.DbProviderOptions">
+            <summary>
+            Options of DbProvider
+            </summary>
+        </member>
+        <member name="P:NBearLite.DbProviders.DbProviderOptions.SupportADO20Transaction">
+            <summary>
+            if true, by default, ADO20Transaction will be used instead of System.Data.Common.DbTransaction.
+            </summary>
+        </member>
+        <member name="P:NBearLite.DbProviders.DbProviderOptions.SupportMultiSqlStatementInOneCommand">
+            <summary>
+            If true, write queries with no return values can be executed together as one query.
+            </summary>
+        </member>
+        <member name="M:NBearLite.SqlQueryFactory.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBearLite.SqlQueryFactory"/> class.
+            The default factory generates TSQL for MS SQL database
+            </summary>
+        </member>
+        <member name="T:NBearLite.DbProviders.DbProviderFactory">
+            <summary>
+            The db provider factory.
+            </summary>
+        </member>
+        <member name="M:NBearLite.DbProviders.DbProviderFactory.CreateDbProvider(System.String,System.String,System.String)">
+            <summary>
+            Creates the db provider.
+            </summary>
+            <param name="assemblyName">Name of the assembly.</param>
+            <param name="className">Name of the class.</param>
+            <param name="connStr">The conn STR.</param>
+            <returns>The db provider.</returns>
+        </member>
+        <member name="M:NBearLite.DbProviders.DbProviderFactory.CreateDbProvider(System.String)">
+            <summary>
+            Creates the db provider.
+            </summary>
+            <param name="connStrName">Name of the conn STR.</param>
+            <returns>The db provider.</returns>
+        </member>
+        <member name="P:NBearLite.DbProviders.DbProviderFactory.Default">
+            <summary>
+            Gets the default db provider.
+            </summary>
+            <value>The default.</value>
+        </member>
+        <member name="M:NBearLite.ExpressionClip.#ctor(System.String,System.Data.DbType)">
+            <summary>
+            Initializes a new Column Expression instance of the <see cref="T:NBearLite.ExpressionClip"/> class.
+            </summary>
+            <param name="columnName">Name of the column.</param>
+            <param name="type">The type.</param>
+        </member>
+        <member name="M:NBearLite.ExpressionClip.#ctor(System.Data.DbType,System.Object)">
+            <summary>
+            Initializes a new Parameter Expression instance of the <see cref="T:NBearLite.ExpressionClip"/> class.
+            </summary>
+            <param name="type">The type.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:NBearLite.ExpressionClip.#ctor(System.String,System.Data.DbType,System.String[],System.Data.DbType[],System.Object[])">
+            <summary>
+            Initializes a new Custom Expression instance of the <see cref="T:NBearLite.ExpressionClip"/> class.
+            </summary>
+            <param name="sql">The SQL.</param>
+            <param name="type">The type.</param>
+            <param name="paramNames">The param names.</param>
+            <param name="types">The types.</param>
+            <param name="values">The values.</param>
+        </member>
+        <member name="T:NBearLite.IReadOnlyRecord">
+            <summary>
+            The interface of ReadOnly Record.
+            </summary>
+        </member>
+        <member name="M:NBearLite.IReadOnlyRecord.Exists">
+            <summary>
+            Existses this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.IReadOnlyRecord.Refresh">
+            <summary>
+            Refreshes this instance.
+            </summary>
+        </member>
+        <member name="T:NBearLite.IRecord">
+            <summary>
+            The interface of Record.
+            </summary>
+        </member>
+        <member name="M:NBearLite.IRecord.Create(System.Data.Common.DbTransaction)">
+            <summary>
+            Creates the instance.
+            </summary>
+            <param name="tran">The tran.</param>
+        </member>
+        <member name="M:NBearLite.IRecord.Create(System.Data.Common.DbTransaction,System.String[])">
+            <summary>
+            Creates the instance.
+            </summary>
+            <param name="tran">The tran.</param>
+            <param name="specifiedFieldsToCreate">The specified fields to create.</param>
+        </member>
+        <member name="M:NBearLite.IRecord.Create(System.String[])">
+            <summary>
+            Creates the specified fields to create.
+            </summary>
+            <param name="specifiedFieldsToCreate">The specified fields to create.</param>
+        </member>
+        <member name="M:NBearLite.IRecord.Create">
+            <summary>
+            Creates this instance.
+            </summary>
+        </member>
+        <member name="M:NBearLite.IRecord.Delete(System.Data.Common.DbTransaction)">
+            <summary>
+            Deletes this instance.
+            </summary>
+            <param name="tran">The tran.</param>
+        </member>
+        <member name="M:NBearLite.IRecord.Delete">
+            <summary>
+            Deletes this instance.
+            </summary>
+        </member>
+        <member name="M:NBearLite.IRecord.Save(System.Data.Common.DbTransaction)">
+            <summary>
+            Saves this instance.
+            </summary>
+            <param name="tran">The tran.</param>
+        </member>
+        <member name="M:NBearLite.IRecord.Save">
+            <summary>
+            Saves this instance.
+            </summary>
+        </member>
+        <member name="M:NBearLite.IRecord.Update(System.Data.Common.DbTransaction,System.String[])">
+            <summary>
+            Updates this instance.
+            </summary>
+            <param name="tran">The tran.</param>
+            <param name="specifiedFieldsToUpdate">The specified fields to update.</param>
+        </member>
+        <member name="M:NBearLite.IRecord.Update(System.Data.Common.DbTransaction)">
+            <summary>
+            Updates this instance.
+            </summary>
+            <param name="tran">The tran.</param>
+        </member>
+        <member name="M:NBearLite.IRecord.Update">
+            <summary>
+            Updates this instance.
+            </summary>
+        </member>
+        <member name="M:NBearLite.IRecord.Update(System.String[])">
+            <summary>
+            Updates the specified fields to update.
+            </summary>
+            <param name="specifiedFieldsToUpdate">The specified fields to update.</param>
+        </member>
+        <member name="T:NBearLite.BatchCommander">
+            <summary>
+            BatchCommander is used to execute batch queries.
+            </summary>
+        </member>
+        <member name="M:NBearLite.BatchCommander.#ctor(NBearLite.Database,System.Int32,System.Data.IsolationLevel)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBearLite.BatchCommander"/> class.
+            </summary>
+            <param name="db">The db.</param>
+            <param name="batchSize">Size of the batch.</param>
+            <param name="il">The il.</param>
+        </member>
+        <member name="M:NBearLite.BatchCommander.#ctor(NBearLite.Database,System.Int32,System.Data.Common.DbTransaction)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBearLite.BatchCommander"/> class.
+            </summary>
+            <param name="db">The db.</param>
+            <param name="batchSize">Size of the batch.</param>
+            <param name="tran">The tran.</param>
+        </member>
+        <member name="M:NBearLite.BatchCommander.#ctor(NBearLite.Database,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBearLite.BatchCommander"/> class.
+            </summary>
+            <param name="db">The db.</param>
+            <param name="batchSize">Size of the batch.</param>
+        </member>
+        <member name="M:NBearLite.BatchCommander.Process(System.Data.Common.DbCommand)">
+            <summary>
+            Processes the specified CMD.
+            </summary>
+            <param name="cmd">The CMD.</param>
+        </member>
+        <member name="M:NBearLite.BatchCommander.Close">
+            <summary>
+            Closes this instance.
+            </summary>
+        </member>
+        <member name="T:NBearLite.ReadOnlyAssociationRecord`3">
+            <summary>
+            The ReadOnly AssociationRecord base class.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="LeftType"></typeparam>
+            <typeparam name="RightType"></typeparam>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.InitializeLifetimeService">
+            <summary>
+            Obtains a lifetime service object to control the lifetime policy for this instance.
+            </summary>
+            <returns>
+            An object of type <see cref="T:System.Runtime.Remoting.Lifetime.ILease"></see> used to control the lifetime policy for this instance. This is the current lifetime service object for this instance if one exists; otherwise, a new lifetime service object initialized to the value of the <see cref="P:System.Runtime.Remoting.Lifetime.LifetimeServices.LeaseManagerPollTime"></see> property.
+            </returns>
+            <exception cref="T:System.Security.SecurityException">The immediate caller does not have infrastructure permission. </exception>
+            <PermissionSet><IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="RemotingConfiguration, Infrastructure"/></PermissionSet>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.Initialize(NBearLite.Database,NBearLite.IQueryTable,NBearLite.QueryColumn,NBearLite.QueryColumn,NBearLite.ExpressionClip[])">
+            <summary>
+            Initializes the class.
+            </summary>
+            <param name="db">The db.</param>
+            <param name="table">The table.</param>
+            <param name="leftColumn">The left column.</param>
+            <param name="rightColumn">The right column.</param>
+            <param name="findFields">The find fields.</param>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.Initialize(NBearLite.Database,NBearLite.IQueryTable)">
+            <summary>
+            Initializes the class.
+            </summary>
+            <param name="db">The db.</param>
+            <param name="table">The table.</param>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.EnsureInitialized">
+            <summary>
+            Ensures the class is initialized.
+            </summary>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.FindAllLeft(System.Object,NBearLite.OrderByClip[])">
+            <summary>
+            Finds all left.
+            </summary>
+            <param name="rightId">The right id.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.FindAllRight(System.Object,NBearLite.OrderByClip[])">
+            <summary>
+            Finds all right.
+            </summary>
+            <param name="leftId">The left id.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.FindLeft(System.Object,NBearLite.WhereClip,NBearLite.OrderByClip[])">
+            <summary>
+            Finds the left.
+            </summary>
+            <param name="rightId">The right id.</param>
+            <param name="where">The where.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.FindRight(System.Object,NBearLite.WhereClip,NBearLite.OrderByClip[])">
+            <summary>
+            Finds the right.
+            </summary>
+            <param name="leftId">The left id.</param>
+            <param name="where">The where.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.FindPageLeft(System.Object,System.Int32,System.Int32,NBearLite.OrderByClip[])">
+            <summary>
+            Finds the page left.
+            </summary>
+            <param name="rightId">The right id.</param>
+            <param name="pageSize">Size of the page.</param>
+            <param name="pageNo">The page no.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.FindPageRight(System.Object,System.Int32,System.Int32,NBearLite.OrderByClip[])">
+            <summary>
+            Finds the page right.
+            </summary>
+            <param name="leftId">The left id.</param>
+            <param name="pageSize">Size of the page.</param>
+            <param name="pageNo">The page no.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.FindPageLeft(System.Object,System.Int32,System.Int32,NBearLite.WhereClip,NBearLite.OrderByClip[])">
+            <summary>
+            Finds the page left.
+            </summary>
+            <param name="rightId">The right id.</param>
+            <param name="pageSize">Size of the page.</param>
+            <param name="pageNo">The page no.</param>
+            <param name="where">The where.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.FindPageRight(System.Object,System.Int32,System.Int32,NBearLite.WhereClip,NBearLite.OrderByClip[])">
+            <summary>
+            Finds the page right.
+            </summary>
+            <param name="leftId">The left id.</param>
+            <param name="pageSize">Size of the page.</param>
+            <param name="pageNo">The page no.</param>
+            <param name="where">The where.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.FindTopLeft(System.Object,System.Int32,NBearLite.OrderByClip[])">
+            <summary>
+            Finds the top left.
+            </summary>
+            <param name="rightId">The right id.</param>
+            <param name="topCount">The top count.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.FindTopRight(System.Object,System.Int32,NBearLite.OrderByClip[])">
+            <summary>
+            Finds the top right.
+            </summary>
+            <param name="leftId">The left id.</param>
+            <param name="topCount">The top count.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.FindTopLeft(System.Object,System.Int32,NBearLite.WhereClip,NBearLite.OrderByClip[])">
+            <summary>
+            Finds the top left.
+            </summary>
+            <param name="rightId">The right id.</param>
+            <param name="topCount">The top count.</param>
+            <param name="where">The where.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.FindTopRight(System.Object,System.Int32,NBearLite.WhereClip,NBearLite.OrderByClip[])">
+            <summary>
+            Finds the top right.
+            </summary>
+            <param name="leftId">The left id.</param>
+            <param name="topCount">The top count.</param>
+            <param name="where">The where.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.FindFirstLeft(System.Object,NBearLite.WhereClip,NBearLite.OrderByClip[])">
+            <summary>
+            Finds the first left.
+            </summary>
+            <param name="rightId">The right id.</param>
+            <param name="where">The where.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.FindFirstRight(System.Object,NBearLite.WhereClip,NBearLite.OrderByClip[])">
+            <summary>
+            Finds the first right.
+            </summary>
+            <param name="leftId">The left id.</param>
+            <param name="where">The where.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.CountAll">
+            <summary>
+            Counts all.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.Count(NBearLite.WhereClip)">
+            <summary>
+            Counts the specified where.
+            </summary>
+            <param name="where">The where.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.Exists(System.Object,System.Object)">
+            <summary>
+            Existses the specified left id.
+            </summary>
+            <param name="leftId">The left id.</param>
+            <param name="rightId">The right id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.FindAll(NBearLite.OrderByClip[])">
+            <summary>
+            Finds all.
+            </summary>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.Find(NBearLite.WhereClip,NBearLite.OrderByClip[])">
+            <summary>
+            Finds the specified where.
+            </summary>
+            <param name="where">The where.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.FindFirst(NBearLite.WhereClip,NBearLite.OrderByClip[])">
+            <summary>
+            Finds the first.
+            </summary>
+            <param name="where">The where.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.FindById(System.Object,System.Object)">
+            <summary>
+            Finds the by id.
+            </summary>
+            <param name="leftId">The left id.</param>
+            <param name="rightId">The right id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.FindScalar``1(NBearLite.ExpressionClip,NBearLite.WhereClip)">
+            <summary>
+            Finds the scalar.
+            </summary>
+            <param name="returnColumn">The return column.</param>
+            <param name="where">The where.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.FindScalarById``1(NBearLite.ExpressionClip,System.Object,System.Object)">
+            <summary>
+            Finds the scalar by id.
+            </summary>
+            <param name="returnColumn">The return column.</param>
+            <param name="leftId">The left id.</param>
+            <param name="rightId">The right id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.Refresh">
+            <summary>
+            Refreshes this instance.
+            </summary>
+        </member>
+        <member name="M:NBearLite.ReadOnlyAssociationRecord`3.Exists">
+            <summary>
+            Existses this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:NBearLite.AssociationRecord`3">
+            <summary>
+            The AssociationRecord base class.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="LeftType"></typeparam>
+            <typeparam name="RightType"></typeparam>
+        </member>
+        <member name="M:NBearLite.AssociationRecord`3.Initialize(NBearLite.Database,NBearLite.IQueryTable,NBearLite.QueryColumn,NBearLite.QueryColumn,NBearLite.ActiveRecordFieldList,NBearLite.ActiveRecordFieldList,NBearLite.ExpressionClip[])">
+            <summary>
+            Initializes the class.
+            </summary>
+            <param name="db">The db.</param>
+            <param name="table">The table.</param>
+            <param name="leftColumn">The left column.</param>
+            <param name="rightColumn">The right column.</param>
+            <param name="createFields">The create fields.</param>
+            <param name="updateFields">The update fields.</param>
+            <param name="findFields">The find fields.</param>
+        </member>
+        <member name="M:NBearLite.AssociationRecord`3.Initialize(NBearLite.Database,NBearLite.IQueryTable,NBearLite.QueryColumn,NBearLite.QueryColumn,NBearLite.ActiveRecordFieldList,NBearLite.ExpressionClip[])">
+            <summary>
+            Initializes the class.
+            </summary>
+            <param name="db">The db.</param>
+            <param name="table">The table.</param>
+            <param name="leftColumn">The left column.</param>
+            <param name="rightColumn">The right column.</param>
+            <param name="createAndUpdateFields">The create and update fields.</param>
+            <param name="findFields">The find fields.</param>
+        </member>
+        <member name="M:NBearLite.AssociationRecord`3.Initialize(NBearLite.Database,NBearLite.IQueryTable)">
+            <summary>
+            Initializes the class.
+            </summary>
+            <param name="db">The db.</param>
+            <param name="table">The table.</param>
+        </member>
+        <member name="M:NBearLite.AssociationRecord`3.EnsureInitialized">
+            <summary>
+            Ensures the class is initialized.
+            </summary>
+        </member>
+        <member name="M:NBearLite.AssociationRecord`3.DeleteAll">
+            <summary>
+            Deletes all.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.AssociationRecord`3.Delete(NBearLite.WhereClip)">
+            <summary>
+            Deletes the specified where.
+            </summary>
+            <param name="where">The where.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.AssociationRecord`3.Create">
+            <summary>
+            Creates this instance.
+            </summary>
+        </member>
+        <member name="M:NBearLite.AssociationRecord`3.Create(System.String[])">
+            <summary>
+            Creates the specified fields to create.
+            </summary>
+            <param name="specifiedFieldsToCreate">The specified fields to create.</param>
+        </member>
+        <member name="M:NBearLite.AssociationRecord`3.Create(System.Data.Common.DbTransaction)">
+            <summary>
+            Creates the instance.
+            </summary>
+            <param name="tran">The tran.</param>
+        </member>
+        <member name="M:NBearLite.AssociationRecord`3.Create(System.Data.Common.DbTransaction,System.String[])">
+            <summary>
+            Creates the instance.
+            </summary>
+            <param name="tran">The tran.</param>
+            <param name="specifiedFieldsToCreate">The specified fields to create.</param>
+        </member>
+        <member name="M:NBearLite.AssociationRecord`3.Update">
+            <summary>
+            Updates this instance.
+            </summary>
+        </member>
+        <member name="M:NBearLite.AssociationRecord`3.Update(System.String[])">
+            <summary>
+            Updates the specified fields to update.
+            </summary>
+            <param name="specifiedFieldsToUpdate">The specified fields to update.</param>
+        </member>
+        <member name="M:NBearLite.AssociationRecord`3.Update(System.Data.Common.DbTransaction)">
+            <summary>
+            Updates this instance.
+            </summary>
+            <param name="tran">The tran.</param>
+        </member>
+        <member name="M:NBearLite.AssociationRecord`3.Update(System.Data.Common.DbTransaction,System.String[])">
+            <summary>
+            Updates this instance.
+            </summary>
+            <param name="tran">The tran.</param>
+            <param name="specifiedFieldsToUpdate">The specified fields to update.</param>
+        </member>
+        <member name="M:NBearLite.AssociationRecord`3.Delete(System.Data.Common.DbTransaction)">
+            <summary>
+            Deletes this instance.
+            </summary>
+            <param name="tran">The tran.</param>
+        </member>
+        <member name="M:NBearLite.AssociationRecord`3.Delete">
+            <summary>
+            Deletes this instance.
+            </summary>
+        </member>
+        <member name="M:NBearLite.AssociationRecord`3.Save">
+            <summary>
+            Saves this instance.
+            </summary>
+        </member>
+        <member name="M:NBearLite.AssociationRecord`3.Save(System.Data.Common.DbTransaction)">
+            <summary>
+            Saves this instance.
+            </summary>
+            <param name="tran">The tran.</param>
+        </member>
+        <member name="T:NBearLite.DbProviders.SqlServer.SqlDbProvider">
+            <summary>
+            <para>Represents a Sql Server Database.</para>
+            </summary>
+            <remarks> 
+            <para>
+            Internally uses Sql Server .NET Managed Provider from Microsoft (System.Data.SqlClient) to connect to the database.
+            </para>  
+            </remarks>
+        </member>
+        <member name="T:NBearLite.DbProviders.DbProvider">
+            <summary>
+            The base class of all db providers.
+            </summary>
+        </member>
+        <member name="F:NBearLite.DbProviders.DbProvider.dbProviderFactory">
+            <summary>
+            The db provider factory.
+            </summary>
+        </member>
+        <member name="F:NBearLite.DbProviders.DbProvider.dbConnStrBuilder">
+            <summary>
+            The db connection string builder
+            </summary>
+        </member>
+        <member name="M:NBearLite.DbProviders.DbProvider.#ctor(System.String,System.Data.Common.DbProviderFactory)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DbProvider"/> class.
+            </summary>
+            <param name="connStr">The conn STR.</param>
+            <param name="dbProviderFactory">The db provider factory.</param>
+        </member>
+        <member name="P:NBearLite.DbProviders.DbProvider.ConnectionString">
+            <summary>
+            Gets the connection string.
+            </summary>
+            <value>The connection string.</value>
+        </member>
+        <member name="P:NBearLite.DbProviders.DbProvider.DbProviderFactory">
+            <summary>
+            Gets the db provider factory.
+            </summary>
+            <value>The db provider factory.</value>
+        </member>
+        <member name="P:NBearLite.DbProviders.DbProvider.Options">
+            <summary>
+            Gets the options.
+            </summary>
+            <value>The options.</value>
+        </member>
+        <member name="M:NBearLite.DbProviders.SqlServer.SqlDbProvider.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBearLite.DbProviders.SqlServer.SqlDbProvider"/> class.
+            </summary>
+            <param name="connStr">The conn STR.</param>
+        </member>
+        <member name="T:NBearLite.DatabaseType">
+            <summary>
+            Database Types supported.
+            </summary>
+        </member>
+        <member name="T:NBearLite.Database">
+            <summary>
+            A DAAB style database object.
+            </summary>
+        </member>
+        <member name="T:NBearLite.ILogable">
+            <summary>
+            Mark a implementing class as loggable.
+            </summary>
+        </member>
+        <member name="E:NBearLite.ILogable.OnLog">
+            <summary>
+            OnLog event.
+            </summary>
+        </member>
+        <member name="F:NBearLite.Database.Default">
+            <summary>
+            Get the default database, a default database is mapping the last connection string in config file, and can be modified manually.
+            </summary>
+        </member>
+        <member name="M:NBearLite.Database.#cctor">
+            <summary>
+            Initializes the <see cref="T:Database"/> class.
+            </summary>
+        </member>
+        <member name="M:NBearLite.Database.LoadDataSet(System.Data.Common.DbTransaction,System.Data.CommandType,System.String,System.Data.DataSet,System.String[])">
+            <summary>
+            <para>Loads a <see cref="T:System.Data.DataSet"/> from command text in a transaction.</para>
+            </summary>
+            <param name="transaction">
+            <para>The <see cref="T:System.Data.IDbTransaction"/> to execute the command in.</para>
+            </param>
+            <param name="commandType">
+            <para>One of the <see cref="T:System.Data.CommandType"/> values.</para>
+            </param>
+            <param name="commandText">
+            <para>The command text to execute.</para>
+            </param>
+            <param name="dataSet">
+            <para>The <see cref="T:System.Data.DataSet"/> to fill.</para>
+            </param>
+            <param name="tableNames">
+            <para>An array of table name mappings for the <see cref="T:System.Data.DataSet"/>.</para>
+            </param>
+        </member>
+        <member name="M:NBearLite.Database.ExecuteReader(System.Data.CommandType,System.String)">
+            <summary>
+            <para>Executes the <paramref name="commandText"/> interpreted as specified by the <paramref name="commandType"/> and returns an <see cref="T:System.Data.IDataReader"></see> through which the result can be read.
+            It is the responsibility of the caller to close the connection and reader when finished.</para>
+            </summary>
+            <param name="commandType">
+            <para>One of the <see cref="T:System.Data.CommandType"/> values.</para>
+            </param>
+            <param name="commandText">
+            <para>The command text to execute.</para>
+            </param>
+            <returns>
+            <para>An <see cref="T:System.Data.IDataReader"/> object.</para>
+            </returns>        
+        </member>
+        <member name="M:NBearLite.Database.ExecuteReader(System.Data.Common.DbTransaction,System.Data.CommandType,System.String)">
+            <summary>
+            <para>Executes the <paramref name="commandText"/> interpreted as specified by the <paramref name="commandType"/> within the given 
+            <paramref name="transaction"/> and returns an <see cref="T:System.Data.IDataReader"></see> through which the result can be read.
+            It is the responsibility of the caller to close the connection and reader when finished.</para>
+            </summary>
+            <param name="transaction">
+            <para>The <see cref="T:System.Data.IDbTransaction"/> to execute the command within.</para>
+            </param>
+            <param name="commandType">
+            <para>One of the <see cref="T:System.Data.CommandType"/> values.</para>
+            </param>
+            <param name="commandText">
+            <para>The command text to execute.</para>
+            </param>
+            <returns>
+            <para>An <see cref="T:System.Data.IDataReader"/> object.</para>
+            </returns>        
+        </member>
+        <member name="M:NBearLite.Database.LoadDataSet(System.Data.Common.DbCommand,System.Data.DataSet,System.String)">
+            <summary>
+            <para>Executes the <paramref name="command"/> and adds a new <see cref="T:System.Data.DataTable"></see> to the existing <see cref="T:System.Data.DataSet"></see>.</para>
+            </summary>
+            <param name="command">
+            <para>The <see cref="T:System.Data.Common.DbCommand"/> to execute.</para>
+            </param>
+            <param name="dataSet">
+            <para>The <see cref="T:System.Data.DataSet"/> to load.</para>
+            </param>
+            <param name="tableName">
+            <para>The name for the new <see cref="T:System.Data.DataTable"/> to add to the <see cref="T:System.Data.DataSet"/>.</para>
+            </param>        
+            <exception cref="T:System.ArgumentNullException">Any input parameter was <see langword="null"/> (<b>Nothing</b> in Visual Basic)</exception>
+            <exception cref="T:System.ArgumentException">tableName was an empty string</exception>
+        </member>
+        <member name="M:NBearLite.Database.LoadDataSet(System.Data.Common.DbCommand,System.Data.DataSet,System.String,System.Data.Common.DbTransaction)">
+            <summary>
+            <para>Executes the <paramref name="command"/> within the given <paramref name="transaction"/> and adds a new <see cref="T:System.Data.DataTable"></see> to the existing <see cref="T:System.Data.DataSet"></see>.</para>
+            </summary>
+            <param name="command">
+            <para>The <see cref="T:System.Data.Common.DbCommand"/> to execute.</para>
+            </param>
+            <param name="dataSet">
+            <para>The <see cref="T:System.Data.DataSet"/> to load.</para>
+            </param>
+            <param name="tableName">
+            <para>The name for the new <see cref="T:System.Data.DataTable"/> to add to the <see cref="T:System.Data.DataSet"/>.</para>
+            </param>
+            <param name="transaction">
+            <para>The <see cref="T:System.Data.IDbTransaction"/> to execute the command within.</para>
+            </param>        
+            <exception cref="T:System.ArgumentNullException">Any input parameter was <see langword="null"/> (<b>Nothing</b> in Visual Basic).</exception>
+            <exception cref="T:System.ArgumentException">tableName was an empty string.</exception>
+        </member>
+        <member name="M:NBearLite.Database.LoadDataSet(System.Data.Common.DbCommand,System.Data.DataSet,System.String[])">
+            <summary>
+            <para>Loads a <see cref="T:System.Data.DataSet"/> from a <see cref="T:System.Data.Common.DbCommand"/>.</para>
+            </summary>
+            <param name="command">
+            <para>The command to execute to fill the <see cref="T:System.Data.DataSet"/>.</para>
+            </param>
+            <param name="dataSet">
+            <para>The <see cref="T:System.Data.DataSet"/> to fill.</para>
+            </param>
+            <param name="tableNames">
+            <para>An array of table name mappings for the <see cref="T:System.Data.DataSet"/>.</para>
+            </param>
+        </member>
+        <member name="M:NBearLite.Database.LoadDataSet(System.Data.Common.DbCommand,System.Data.DataSet,System.String[],System.Data.Common.DbTransaction)">
+            <summary>
+            <para>Loads a <see cref="T:System.Data.DataSet"/> from a <see cref="T:System.Data.Common.DbCommand"/> in  a transaction.</para>
+            </summary>
+            <param name="command">
+            <para>The command to execute to fill the <see cref="T:System.Data.DataSet"/>.</para>
+            </param>
+            <param name="dataSet">
+            <para>The <see cref="T:System.Data.DataSet"/> to fill.</para>
+            </param>
+            <param name="tableNames">
+            <para>An array of table name mappings for the <see cref="T:System.Data.DataSet"/>.</para>
+            </param>
+            <param name="transaction">
+            <para>The <see cref="T:System.Data.IDbTransaction"/> to execute the command in.</para>
+            </param>
+        </member>
+        <member name="M:NBearLite.Database.LoadDataSet(System.Data.CommandType,System.String,System.Data.DataSet,System.String[])">
+            <summary>
+            <para>Loads a <see cref="T:System.Data.DataSet"/> from command text.</para>
+            </summary>
+            <param name="commandType">
+            <para>One of the <see cref="T:System.Data.CommandType"/> values.</para>
+            </param>
+            <param name="commandText">
+            <para>The command text to execute.</para>
+            </param>
+            <param name="dataSet">
+            <para>The <see cref="T:System.Data.DataSet"/> to fill.</para>
+            </param>
+            <param name="tableNames">
+            <para>An array of table name mappings for the <see cref="T:System.Data.DataSet"/>.</para>
+            </param>
+        </member>
+        <member name="M:NBearLite.Database.CloseConnection(System.Data.Common.DbCommand)">
+            <summary>
+            Closes the connection.
+            </summary>
+            <param name="command">The command.</param>
+        </member>
+        <member name="M:NBearLite.Database.CloseConnection(System.Data.Common.DbConnection)">
+            <summary>
+            Closes the connection.
+            </summary>
+            <param name="conn">The conn.</param>
+        </member>
+        <member name="M:NBearLite.Database.CloseConnection(System.Data.Common.DbTransaction)">
+            <summary>
+            Closes the connection.
+            </summary>
+            <param name="tran">The tran.</param>
+        </member>
+        <member name="M:NBearLite.Database.#ctor(NBearLite.DbProviders.DbProvider)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBearLite.Database"/> class.
+            </summary>
+            <param name="dbProvider">The db provider.</param>
+        </member>
+        <member name="M:NBearLite.Database.#ctor(NBearLite.DatabaseType,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBearLite.Database"/> class.
+            </summary>
+            <param name="type">The type.</param>
+            <param name="connectionString">The connection string.</param>
+        </member>
+        <member name="M:NBearLite.Database.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBearLite.Database"/> class.
+            </summary>
+            <param name="connectionStringName">Name of the connection string.</param>
+        </member>
+        <member name="M:NBearLite.Database.GetConnection">
+            <summary>
+            Gets the connection.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.Database.GetConnection(System.Boolean)">
+            <summary>
+            Gets the connection.
+            </summary>
+            <param name="tryOpen">if set to <c>true</c> [try open].</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.Database.CreateConnection">
+            <summary>
+            <para>When overridden in a derived class, gets the connection for this database.</para>
+            <seealso cref="T:System.Data.Common.DbConnection"/>        
+            </summary>
+            <returns>
+            <para>The <see cref="T:System.Data.Common.DbConnection"/> for this database.</para>
+            </returns>
+        </member>
+        <member name="M:NBearLite.Database.CreateConnection(System.Boolean)">
+            <summary>
+            <para>When overridden in a derived class, gets the connection for this database.</para>
+            <seealso cref="T:System.Data.Common.DbConnection"/>        
+            </summary>
+            <returns>
+            <para>The <see cref="T:System.Data.Common.DbConnection"/> for this database.</para>
+            </returns>
+        </member>
+        <member name="M:NBearLite.Database.GetStoredProcCommand(System.String)">
+            <summary>
+            <para>When overridden in a derived class, creates a <see cref="T:System.Data.Common.DbCommand"/> for a stored procedure.</para>
+            </summary>
+            <param name="storedProcedureName"><para>The name of the stored procedure.</para></param>
+            <returns><para>The <see cref="T:System.Data.Common.DbCommand"/> for the stored procedure.</para></returns>       
+        </member>
+        <member name="M:NBearLite.Database.GetSqlStringCommand(System.String)">
+            <summary>
+            <para>When overridden in a derived class, creates an <see cref="T:System.Data.Common.DbCommand"/> for a SQL query.</para>
+            </summary>
+            <param name="query"><para>The text of the query.</para></param>        
+            <returns><para>The <see cref="T:System.Data.Common.DbCommand"/> for the SQL query.</para></returns>        
+        </member>
+        <member name="M:NBearLite.Database.GetDataAdapter">
+            <summary>
+            Gets a DbDataAdapter with Standard update behavior.
+            </summary>
+            <returns>A <see cref="T:System.Data.Common.DbDataAdapter"/>.</returns>
+            <seealso cref="T:System.Data.Common.DbDataAdapter"/>
+        </member>
+        <member name="M:NBearLite.Database.ExecuteDataSet(System.Data.Common.DbCommand)">
+            <summary>
+            <para>Executes the <paramref name="command"/> and returns the results in a new <see cref="T:System.Data.DataSet"/>.</para>
+            </summary>
+            <param name="command"><para>The <see cref="T:System.Data.Common.DbCommand"/> to execute.</para></param>
+            <returns>A <see cref="T:System.Data.DataSet"/> with the results of the <paramref name="command"/>.</returns>        
+        </member>
+        <member name="M:NBearLite.Database.ExecuteDataSet(System.Data.Common.DbCommand,System.Data.Common.DbTransaction)">
+            <summary>
+            <para>Executes the <paramref name="command"/> as part of the <paramref name="transaction"/> and returns the results in a new <see cref="T:System.Data.DataSet"/>.</para>
+            </summary>
+            <param name="command"><para>The <see cref="T:System.Data.Common.DbCommand"/> to execute.</para></param>
+            <param name="transaction">
+            <para>The <see cref="T:System.Data.IDbTransaction"/> to execute the command within.</para>
+            </param>
+            <returns>A <see cref="T:System.Data.DataSet"/> with the results of the <paramref name="command"/>.</returns>        
+        </member>
+        <member name="M:NBearLite.Database.ExecuteDataSet(System.Data.CommandType,System.String)">
+            <summary>
+            <para>Executes the <paramref name="commandText"/> interpreted as specified by the <paramref name="commandType"/> and returns the results in a new <see cref="T:System.Data.DataSet"/>.</para>
+            </summary>
+            <param name="commandType">
+            <para>One of the <see cref="T:System.Data.CommandType"/> values.</para>
+            </param>
+            <param name="commandText">
+            <para>The command text to execute.</para>
+            </param>
+            <returns>
+            <para>A <see cref="T:System.Data.DataSet"/> with the results of the <paramref name="commandText"/>.</para>
+            </returns>
+        </member>
+        <member name="M:NBearLite.Database.ExecuteDataSet(System.Data.Common.DbTransaction,System.Data.CommandType,System.String)">
+            <summary>
+            <para>Executes the <paramref name="commandText"/> as part of the given <paramref name="transaction"/> and returns the results in a new <see cref="T:System.Data.DataSet"/>.</para>
+            </summary>
+            <param name="transaction">
+            <para>The <see cref="T:System.Data.IDbTransaction"/> to execute the command within.</para>
+            </param>
+            <param name="commandType">
+            <para>One of the <see cref="T:System.Data.CommandType"/> values.</para>
+            </param>
+            <param name="commandText">
+            <para>The command text to execute.</para>
+            </param>
+            <returns>
+            <para>A <see cref="T:System.Data.DataSet"/> with the results of the <paramref name="commandText"/>.</para>
+            </returns>
+        </member>
+        <member name="M:NBearLite.Database.ExecuteScalar(System.Data.Common.DbCommand)">
+            <summary>
+            <para>Executes the <paramref name="command"/> and returns the first column of the first row in the result set returned by the query. Extra columns or rows are ignored.</para>
+            </summary>
+            <param name="command">
+            <para>The command that contains the query to execute.</para>
+            </param>
+            <returns>
+            <para>The first column of the first row in the result set.</para>
+            </returns>
+            <seealso cref="M:System.Data.IDbCommand.ExecuteScalar"/>
+        </member>
+        <member name="M:NBearLite.Database.ExecuteScalar(System.Data.Common.DbCommand,System.Data.Common.DbTransaction)">
+            <summary>
+            <para>Executes the <paramref name="command"/> within a <paramref name="transaction"/>, and returns the first column of the first row in the result set returned by the query. Extra columns or rows are ignored.</para>
+            </summary>
+            <param name="command">
+            <para>The command that contains the query to execute.</para>
+            </param>
+            <param name="transaction">
+            <para>The <see cref="T:System.Data.IDbTransaction"/> to execute the command within.</para>
+            </param>
+            <returns>
+            <para>The first column of the first row in the result set.</para>
+            </returns>
+            <seealso cref="M:System.Data.IDbCommand.ExecuteScalar"/>
+        </member>
+        <member name="M:NBearLite.Database.ExecuteScalar(System.Data.CommandType,System.String)">
+            <summary>
+            <para>Executes the <paramref name="commandText"/> interpreted as specified by the <paramref name="commandType"/>  and returns the first column of the first row in the result set returned by the query. Extra columns or rows are ignored.</para>
+            </summary>
+            <param name="commandType">
+            <para>One of the <see cref="T:System.Data.CommandType"/> values.</para>
+            </param>
+            <param name="commandText">
+            <para>The command text to execute.</para>
+            </param>
+            <returns>
+            <para>The first column of the first row in the result set.</para>
+            </returns>
+            <seealso cref="M:System.Data.IDbCommand.ExecuteScalar"/>
+        </member>
+        <member name="M:NBearLite.Database.ExecuteScalar(System.Data.Common.DbTransaction,System.Data.CommandType,System.String)">
+            <summary>
+            <para>Executes the <paramref name="commandText"/> interpreted as specified by the <paramref name="commandType"/> 
+            within the given <paramref name="transaction"/> and returns the first column of the first row in the result set returned by the query. Extra columns or rows are ignored.</para>
+            </summary>
+            <param name="transaction">
+            <para>The <see cref="T:System.Data.IDbTransaction"/> to execute the command within.</para>
+            </param>
+            <param name="commandType">
+            <para>One of the <see cref="T:System.Data.CommandType"/> values.</para>
+            </param>
+            <param name="commandText">
+            <para>The command text to execute.</para>
+            </param>
+            <returns>
+            <para>The first column of the first row in the result set.</para>
+            </returns>
+            <seealso cref="M:System.Data.IDbCommand.ExecuteScalar"/>
+        </member>
+        <member name="M:NBearLite.Database.ExecuteNonQuery(System.Data.Common.DbCommand)">
+            <summary>
+            <para>Executes the <paramref name="command"/> and returns the number of rows affected.</para>
+            </summary>
+            <param name="command">
+            <para>The command that contains the query to execute.</para>
+            </param>       
+            <seealso cref="M:System.Data.IDbCommand.ExecuteScalar"/>
+        </member>
+        <member name="M:NBearLite.Database.ExecuteNonQuery(System.Data.Common.DbCommand,System.Data.Common.DbTransaction)">
+            <summary>
+            <para>Executes the <paramref name="command"/> within the given <paramref name="transaction"/>, and returns the number of rows affected.</para>
+            </summary>
+            <param name="command">
+            <para>The command that contains the query to execute.</para>
+            </param>
+            <param name="transaction">
+            <para>The <see cref="T:System.Data.IDbTransaction"/> to execute the command within.</para>
+            </param>
+            <seealso cref="M:System.Data.IDbCommand.ExecuteScalar"/>
+        </member>
+        <member name="M:NBearLite.Database.ExecuteNonQuery(System.Data.CommandType,System.String)">
+            <summary>
+            <para>Executes the <paramref name="commandText"/> interpreted as specified by the <paramref name="commandType"/> and returns the number of rows affected.</para>
+            </summary>
+            <param name="commandType">
+            <para>One of the <see cref="T:System.Data.CommandType"/> values.</para>
+            </param>
+            <param name="commandText">
+            <para>The command text to execute.</para>
+            </param>
+            <returns>
+            <para>The number of rows affected.</para>
+            </returns>
+            <seealso cref="M:System.Data.IDbCommand.ExecuteScalar"/>
+        </member>
+        <member name="M:NBearLite.Database.ExecuteNonQuery(System.Data.Common.DbTransaction,System.Data.CommandType,System.String)">
+            <summary>
+            <para>Executes the <paramref name="commandText"/> interpreted as specified by the <paramref name="commandType"/> as part of the given <paramref name="transaction"/> and returns the number of rows affected.</para>
+            </summary>
+            <param name="transaction">
+            <para>The <see cref="T:System.Data.IDbTransaction"/> to execute the command within.</para>
+            </param>
+            <param name="commandType">
+            <para>One of the <see cref="T:System.Data.CommandType"/> values.</para>
+            </param>
+            <param name="commandText">
+            <para>The command text to execute.</para>
+            </param>
+            <returns>
+            <para>The number of rows affected</para>
+            </returns>
+            <seealso cref="M:System.Data.IDbCommand.ExecuteScalar"/>
+        </member>
+        <member name="M:NBearLite.Database.ExecuteReader(System.Data.Common.DbCommand)">
+            <summary>
+            <para>Executes the <paramref name="command"/> and returns an <see cref="T:System.Data.IDataReader"></see> through which the result can be read.
+            It is the responsibility of the caller to close the connection and reader when finished.</para>
+            </summary>
+            <param name="command">
+            <para>The command that contains the query to execute.</para>
+            </param>
+            <returns>
+            <para>An <see cref="T:System.Data.IDataReader"/> object.</para>
+            </returns>        
+        </member>
+        <member name="M:NBearLite.Database.ExecuteReader(System.Data.Common.DbCommand,System.Data.Common.DbTransaction)">
+            <summary>
+            <para>Executes the <paramref name="command"/> within a transaction and returns an <see cref="T:System.Data.IDataReader"></see> through which the result can be read.
+            It is the responsibility of the caller to close the connection and reader when finished.</para>
+            </summary>
+            <param name="command">
+            <para>The command that contains the query to execute.</para>
+            </param>
+            <param name="transaction">
+            <para>The <see cref="T:System.Data.IDbTransaction"/> to execute the command within.</para>
+            </param>
+            <returns>
+            <para>An <see cref="T:System.Data.IDataReader"/> object.</para>
+            </returns>        
+        </member>
+        <member name="M:NBearLite.Database.ExecuteBatchInsert(System.String,System.String[],System.Data.DbType[],System.Object[][],System.Int32,System.Data.Common.DbTransaction)">
+            <summary>
+            Executes the batch insert.
+            </summary>
+            <param name="tableName">Name of the table.</param>
+            <param name="columnNames">The column names.</param>
+            <param name="columnTypes">The column types.</param>
+            <param name="rows">The rows.</param>
+            <param name="tran">The tran.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.Database.ExecuteBatchInsert(System.String,System.String[],System.Data.DbType[],System.Object[][],System.Int32)">
+            <summary>
+            Executes the batch insert.
+            </summary>
+            <param name="tableName">Name of the table.</param>
+            <param name="columnNames">The column names.</param>
+            <param name="columnTypes">The column types.</param>
+            <param name="rows">The rows.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.Database.ExecuteInsertReturnAutoIncrementID(System.Data.Common.DbCommand,System.Data.Common.DbTransaction,System.String,System.String)">
+            <summary>
+            Executes the insert return auto increment ID.
+            </summary>
+            <param name="basicInsertCmd">The basic insert CMD.</param>
+            <param name="tran">The tran.</param>
+            <param name="tableName">Name of the table.</param>
+            <param name="autoIncrementColumn">The auto increment column.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.Database.ExecuteInsertReturnAutoIncrementID(System.Data.Common.DbCommand,System.String,System.String)">
+            <summary>
+            Executes the insert return auto increment ID.
+            </summary>
+            <param name="basicInsertCmd">The basic insert CMD.</param>
+            <param name="tableName">Name of the table.</param>
+            <param name="autoIncrementColumn">The auto increment column.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.Database.CustomSql(System.String)">
+            <summary>
+            Query from specified custom sql.
+            </summary>
+            <param name="sql"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.Database.StoredProcedure(System.String)">
+            <summary>
+            Query from specified stored procedure.
+            </summary>
+            <param name="spName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.Database.Insert(NBearLite.IQueryTable)">
+            <summary>
+            Insert to specified table.
+            </summary>
+            <param name="table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.Database.Update(NBearLite.IQueryTable)">
+            <summary>
+            Update specified table.
+            </summary>
+            <param name="table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.Database.Delete(NBearLite.IQueryTable)">
+            <summary>
+            Delete from specified table.
+            </summary>
+            <param name="table"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.Database.Select(NBearLite.IQueryTable,NBearLite.ExpressionClip[])">
+            <summary>
+            Select from specified table. Supports select with order by, where, group by, inner join, top, skip.
+            </summary>
+            <param name="table"></param>
+            <param name="columns"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.Database.BeginTransaction">
+            <summary>
+            Begins the transaction.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.Database.BeginTransaction(System.Data.IsolationLevel)">
+            <summary>
+            Begins the transaction.
+            </summary>
+            <param name="il">The il.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.Database.AddParameter(System.Data.Common.DbCommand,System.String,System.Data.DbType,System.Int32,System.Data.ParameterDirection,System.Boolean,System.Byte,System.Byte,System.String,System.Data.DataRowVersion,System.Object)">
+            <summary>
+            Adds a new In <see cref="T:System.Data.Common.DbParameter"/> object to the given <paramref name="command"/>.
+            </summary>
+            <param name="command">The command to add the parameter.</param>
+            <param name="name"><para>The name of the parameter.</para></param>
+            <param name="dbType"><para>One of the <see cref="T:System.Data.DbType"/> values.</para></param>
+            <param name="size"><para>The maximum size of the data within the column.</para></param>
+            <param name="direction"><para>One of the <see cref="T:System.Data.ParameterDirection"/> values.</para></param>
+            <param name="nullable"><para>Avalue indicating whether the parameter accepts <see langword="null"/> (<b>Nothing</b> in Visual Basic) values.</para></param>
+            <param name="precision"><para>The maximum number of digits used to represent the <paramref name="value"/>.</para></param>
+            <param name="scale"><para>The number of decimal places to which <paramref name="value"/> is resolved.</para></param>
+            <param name="sourceColumn"><para>The name of the source column mapped to the DataSet and used for loading or returning the <paramref name="value"/>.</para></param>
+            <param name="sourceVersion"><para>One of the <see cref="T:System.Data.DataRowVersion"/> values.</para></param>
+            <param name="value"><para>The value of the parameter.</para></param>       
+        </member>
+        <member name="M:NBearLite.Database.AddParameter(System.Data.Common.DbCommand,System.String,System.Data.DbType,System.Data.ParameterDirection,System.String,System.Data.DataRowVersion,System.Object)">
+            <summary>
+            <para>Adds a new instance of a <see cref="T:System.Data.Common.DbParameter"/> object to the command.</para>
+            </summary>
+            <param name="command">The command to add the parameter.</param>
+            <param name="name"><para>The name of the parameter.</para></param>
+            <param name="dbType"><para>One of the <see cref="T:System.Data.DbType"/> values.</para></param>        
+            <param name="direction"><para>One of the <see cref="T:System.Data.ParameterDirection"/> values.</para></param>                
+            <param name="sourceColumn"><para>The name of the source column mapped to the DataSet and used for loading or returning the <paramref name="value"/>.</para></param>
+            <param name="sourceVersion"><para>One of the <see cref="T:System.Data.DataRowVersion"/> values.</para></param>
+            <param name="value"><para>The value of the parameter.</para></param>    
+        </member>
+        <member name="M:NBearLite.Database.AddOutParameter(System.Data.Common.DbCommand,System.String,System.Data.DbType,System.Int32)">
+            <summary>
+            Adds a new Out <see cref="T:System.Data.Common.DbParameter"/> object to the given <paramref name="command"/>.
+            </summary>
+            <param name="command">The command to add the out parameter.</param>
+            <param name="name"><para>The name of the parameter.</para></param>
+            <param name="dbType"><para>One of the <see cref="T:System.Data.DbType"/> values.</para></param>        
+            <param name="size"><para>The maximum size of the data within the column.</para></param>        
+        </member>
+        <member name="M:NBearLite.Database.AddInParameter(System.Data.Common.DbCommand,System.String,System.Object)">
+            <summary>
+            Adds a new In <see cref="T:System.Data.Common.DbParameter"/> object to the given <paramref name="command"/>.
+            </summary>
+            <param name="command">The commmand to add the parameter.</param>
+            <param name="name"><para>The name of the parameter.</para></param>
+            <param name="value"><para>The value of the parameter.</para></param>      
+        </member>
+        <member name="M:NBearLite.Database.AddInParameter(System.Data.Common.DbCommand,System.String,System.Guid)">
+            <summary>
+            Adds a new In <see cref="T:System.Data.Common.DbParameter"/> object to the given <paramref name="command"/>.
+            </summary>
+            <param name="command">The commmand to add the parameter.</param>
+            <param name="name"><para>The name of the parameter.</para></param>
+            <param name="value"><para>The value of the parameter.</para></param>      
+        </member>
+        <member name="M:NBearLite.Database.AddInParameter(System.Data.Common.DbCommand,System.String,System.Data.DbType)">
+            <summary>
+            Adds a new In <see cref="T:System.Data.Common.DbParameter"/> object to the given <paramref name="command"/>.
+            </summary>
+            <param name="command">The command to add the in parameter.</param>
+            <param name="name"><para>The name of the parameter.</para></param>
+            <param name="dbType"><para>One of the <see cref="T:System.Data.DbType"/> values.</para></param>                
+            <remarks>
+            <para>This version of the method is used when you can have the same parameter object multiple times with different values.</para>
+            </remarks>        
+        </member>
+        <member name="M:NBearLite.Database.AddInParameter(System.Data.Common.DbCommand,System.String,System.Int32)">
+            <summary>
+            Adds a new In <see cref="T:System.Data.Common.DbParameter"/> object to the given <paramref name="command"/>.
+            </summary>
+            <param name="command">The commmand to add the parameter.</param>
+            <param name="name"><para>The name of the parameter.</para></param>
+            <param name="value"><para>The value of the parameter.</para></param>      
+        </member>
+        <member name="M:NBearLite.Database.AddInParameter(System.Data.Common.DbCommand,System.String,System.Data.DbType,System.Object)">
+            <summary>
+            Adds a new In <see cref="T:System.Data.Common.DbParameter"/> object to the given <paramref name="command"/>.
+            </summary>
+            <param name="command">The commmand to add the parameter.</param>
+            <param name="name"><para>The name of the parameter.</para></param>
+            <param name="dbType"><para>One of the <see cref="T:System.Data.DbType"/> values.</para></param>                
+            <param name="value"><para>The value of the parameter.</para></param>      
+        </member>
+        <member name="M:NBearLite.Database.AddInParameter(System.Data.Common.DbCommand,System.String,System.Data.DbType,System.String,System.Data.DataRowVersion)">
+            <summary>
+            Adds a new In <see cref="T:System.Data.Common.DbParameter"/> object to the given <paramref name="command"/>.
+            </summary>
+            <param name="command">The command to add the parameter.</param>
+            <param name="name"><para>The name of the parameter.</para></param>
+            <param name="dbType"><para>One of the <see cref="T:System.Data.DbType"/> values.</para></param>                
+            <param name="sourceColumn"><para>The name of the source column mapped to the DataSet and used for loading or returning the value.</para></param>
+            <param name="sourceVersion"><para>One of the <see cref="T:System.Data.DataRowVersion"/> values.</para></param>
+        </member>
+        <member name="M:NBearLite.Database.BeginBatchConnection(System.Int32)">
+            <summary>
+            Begins the batch connection.
+            </summary>
+            <param name="batchSize">Size of the batch.</param>
+        </member>
+        <member name="M:NBearLite.Database.BeginBatchConnection(System.Int32,System.Data.Common.DbTransaction)">
+            <summary>
+            Begins the batch connection.
+            </summary>
+            <param name="batchSize">Size of the batch.</param>
+            <param name="tran">The tran.</param>
+        </member>
+        <member name="M:NBearLite.Database.BeginBatchConnection(System.Int32,System.Data.IsolationLevel)">
+            <summary>
+            Begins the batch connection.
+            </summary>
+            <param name="batchSize">Size of the batch.</param>
+            <param name="il">The il.</param>
+        </member>
+        <member name="M:NBearLite.Database.EndBatchConnection">
+            <summary>
+            Ends the batch connection.
+            </summary>
+        </member>
+        <member name="M:NBearLite.Database.ExecutePendingBatchOperations">
+            <summary>
+            Executes the pending batch operations.
+            </summary>
+        </member>
+        <member name="M:NBearLite.Database.BeginUnDisconnectConnection">
+            <summary>
+            Begins a un disconnect connection.
+            </summary>
+        </member>
+        <member name="M:NBearLite.Database.EndUnDisconnectConnection">
+            <summary>
+            Ends the un disconnect connection.
+            </summary>
+        </member>
+        <member name="P:NBearLite.Database.ConnectionString">
+            <summary>
+            Gets the connect string.
+            </summary>
+            <value>The connect string.</value>
+        </member>
+        <member name="P:NBearLite.Database.QueryFactory">
+            <summary>
+            Get the QueryFactory, which can be used to construct complex CRUD command.
+            </summary>
+        </member>
+        <member name="P:NBearLite.Database.DbProvider">
+            <summary>
+            Gets the db provider.
+            </summary>
+            <value>The db provider.</value>
+        </member>
+        <member name="P:NBearLite.Database.BatchSize">
+            <summary>
+            Gets the size of a batch.
+            </summary>
+            <value>The size of the batch.</value>
+        </member>
+        <member name="P:NBearLite.Database.IsBatchConnection">
+            <summary>
+            Gets a value indicating whether this instance is batch connection.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is batch connection; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="E:NBearLite.Database.OnLog">
+            <summary>
+            OnLog event.
+            </summary>
+        </member>
+        <member name="T:NBearLite.ReadOnlyActiveRecord`1">
+            <summary>
+            ReadOnly Active Record base class
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:NBearLite.ReadOnlyActiveRecord`1.InitializeLifetimeService">
+            <summary>
+            Obtains a lifetime service object to control the lifetime policy for this instance.
+            </summary>
+            <returns>
+            An object of type <see cref="T:System.Runtime.Remoting.Lifetime.ILease"></see> used to control the lifetime policy for this instance. This is the current lifetime service object for this instance if one exists; otherwise, a new lifetime service object initialized to the value of the <see cref="P:System.Runtime.Remoting.Lifetime.LifetimeServices.LeaseManagerPollTime"></see> property.
+            </returns>
+            <exception cref="T:System.Security.SecurityException">The immediate caller does not have infrastructure permission. </exception>
+            <PermissionSet><IPermission class="System.Security.Permissions.SecurityPermission, mscorlib, Version=2.0.3600.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Flags="RemotingConfiguration, Infrastructure"/></PermissionSet>
+        </member>
+        <member name="M:NBearLite.ReadOnlyActiveRecord`1.Initialize(NBearLite.Database,NBearLite.IQueryTable,NBearLite.QueryColumn,NBearLite.ExpressionClip[])">
+            <summary>
+            Initializes the class.
+            </summary>
+            <param name="db">The db.</param>
+            <param name="table">The table.</param>
+            <param name="identyColumn">The identy column.</param>
+            <param name="findFields">The find fields.</param>
+        </member>
+        <member name="M:NBearLite.ReadOnlyActiveRecord`1.Initialize(NBearLite.Database,NBearLite.IQueryTable)">
+            <summary>
+            Initializes the class.
+            </summary>
+            <param name="db">The db.</param>
+            <param name="table">The table.</param>
+        </member>
+        <member name="M:NBearLite.ReadOnlyActiveRecord`1.EnsureInitialized">
+            <summary>
+            Ensures the class is initialized.
+            </summary>
+        </member>
+        <member name="M:NBearLite.ReadOnlyActiveRecord`1.CountAll">
+            <summary>
+            Counts all.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyActiveRecord`1.Count(NBearLite.WhereClip)">
+            <summary>
+            Counts the specified where.
+            </summary>
+            <param name="where">The where.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyActiveRecord`1.Exists(System.Object)">
+            <summary>
+            Existses the specified id.
+            </summary>
+            <param name="id">The id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyActiveRecord`1.FindAll(NBearLite.OrderByClip[])">
+            <summary>
+            Finds all.
+            </summary>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyActiveRecord`1.Find(NBearLite.WhereClip,NBearLite.OrderByClip[])">
+            <summary>
+            Finds the specified where.
+            </summary>
+            <param name="where">The where.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyActiveRecord`1.FindPage(System.Int32,System.Int32,NBearLite.OrderByClip[])">
+            <summary>
+            Finds the page.
+            </summary>
+            <param name="pageSize">Size of the page.</param>
+            <param name="pageNo">The page no.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyActiveRecord`1.FindPage(System.Int32,System.Int32,NBearLite.WhereClip,NBearLite.OrderByClip[])">
+            <summary>
+            Finds the page.
+            </summary>
+            <param name="pageSize">Size of the page.</param>
+            <param name="pageNo">The page no.</param>
+            <param name="where">The where.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyActiveRecord`1.FindTop(System.Int32,NBearLite.OrderByClip[])">
+            <summary>
+            Finds the top.
+            </summary>
+            <param name="topCount">The top count.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyActiveRecord`1.FindTop(System.Int32,NBearLite.WhereClip,NBearLite.OrderByClip[])">
+            <summary>
+            Finds the top.
+            </summary>
+            <param name="topCount">The top count.</param>
+            <param name="where">The where.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyActiveRecord`1.FindFirst(NBearLite.WhereClip,NBearLite.OrderByClip[])">
+            <summary>
+            Finds the first.
+            </summary>
+            <param name="where">The where.</param>
+            <param name="orderBys">The order bys.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyActiveRecord`1.FindById(System.Object)">
+            <summary>
+            Finds the by id.
+            </summary>
+            <param name="id">The id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyActiveRecord`1.FindScalar``1(NBearLite.ExpressionClip,NBearLite.WhereClip)">
+            <summary>
+            Finds the scalar.
+            </summary>
+            <param name="returnColumn">The return column.</param>
+            <param name="where">The where.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyActiveRecord`1.FindScalarById``1(NBearLite.ExpressionClip,System.Object)">
+            <summary>
+            Finds the scalar by id.
+            </summary>
+            <param name="returnColumn">The return column.</param>
+            <param name="id">The id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ReadOnlyActiveRecord`1.Refresh">
+            <summary>
+            Refreshes this instance.
+            </summary>
+        </member>
+        <member name="M:NBearLite.ReadOnlyActiveRecord`1.Exists">
+            <summary>
+            Existses this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:NBearLite.ActiveRecord`1">
+            <summary>
+            Active Record base class.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:NBearLite.ActiveRecord`1.Initialize(NBearLite.Database,NBearLite.IQueryTable,NBearLite.QueryColumn,NBearLite.ActiveRecordFieldList,NBearLite.ActiveRecordFieldList,NBearLite.ExpressionClip[])">
+            <summary>
+            Initializes the class.
+            </summary>
+            <param name="db">The db.</param>
+            <param name="readTable">The read table.</param>
+            <param name="identyColumn">The identy column.</param>
+            <param name="createFields">The create fields.</param>
+            <param name="updateFields">The update fields.</param>
+            <param name="findFields">The find fields.</param>
+        </member>
+        <member name="M:NBearLite.ActiveRecord`1.Initialize(NBearLite.Database,NBearLite.IQueryTable,NBearLite.IQueryTable,NBearLite.QueryColumn,NBearLite.ActiveRecordFieldList,NBearLite.ActiveRecordFieldList,NBearLite.ExpressionClip[])">
+            <summary>
+            Initializes the class.
+            </summary>
+            <param name="db">The db.</param>
+            <param name="readTable">The read table.</param>
+            <param name="writeTable">The write table.</param>
+            <param name="identyColumn">The identy column.</param>
+            <param name="createFields">The create fields.</param>
+            <param name="updateFields">The update fields.</param>
+            <param name="findFields">The find fields.</param>
+        </member>
+        <member name="M:NBearLite.ActiveRecord`1.Initialize(NBearLite.Database,NBearLite.IQueryTable,NBearLite.QueryColumn,NBearLite.ActiveRecordFieldList,NBearLite.ExpressionClip[])">
+            <summary>
+            Initializes the class.
+            </summary>
+            <param name="db">The db.</param>
+            <param name="readTable">The read table.</param>
+            <param name="identyColumn">The identy column.</param>
+            <param name="createAndUpdateFields">The create and update fields.</param>
+            <param name="findFields">The find fields.</param>
+        </member>
+        <member name="M:NBearLite.ActiveRecord`1.Initialize(NBearLite.Database,NBearLite.IQueryTable)">
+            <summary>
+            Initializes the class.
+            </summary>
+            <param name="db">The db.</param>
+            <param name="table">The table.</param>
+        </member>
+        <member name="M:NBearLite.ActiveRecord`1.EnsureInitialized">
+            <summary>
+            Ensures the class is initialized.
+            </summary>
+        </member>
+        <member name="M:NBearLite.ActiveRecord`1.DeleteAll">
+            <summary>
+            Deletes all.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ActiveRecord`1.Delete(NBearLite.WhereClip)">
+            <summary>
+            Deletes the specified where.
+            </summary>
+            <param name="where">The where.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ActiveRecord`1.Create">
+            <summary>
+            Creates this instance.
+            </summary>
+        </member>
+        <member name="M:NBearLite.ActiveRecord`1.Create(System.String[])">
+            <summary>
+            Creates the specified fields to create.
+            </summary>
+            <param name="specifiedFieldsToCreate">The specified fields to create.</param>
+        </member>
+        <member name="M:NBearLite.ActiveRecord`1.Create(System.Data.Common.DbTransaction)">
+            <summary>
+            Creates the instance.
+            </summary>
+            <param name="tran">The tran.</param>
+        </member>
+        <member name="M:NBearLite.ActiveRecord`1.Create(System.Data.Common.DbTransaction,System.String[])">
+            <summary>
+            Creates the instance.
+            </summary>
+            <param name="tran">The tran.</param>
+            <param name="specifiedFieldsToCreate">The specified fields to create.</param>
+        </member>
+        <member name="M:NBearLite.ActiveRecord`1.Update">
+            <summary>
+            Updates this instance.
+            </summary>
+        </member>
+        <member name="M:NBearLite.ActiveRecord`1.Update(System.String[])">
+            <summary>
+            Updates the specified fields to update.
+            </summary>
+            <param name="specifiedFieldsToUpdate">The specified fields to update.</param>
+        </member>
+        <member name="M:NBearLite.ActiveRecord`1.Update(System.Data.Common.DbTransaction)">
+            <summary>
+            Updates this instance.
+            </summary>
+            <param name="tran">The tran.</param>
+        </member>
+        <member name="M:NBearLite.ActiveRecord`1.Update(System.Data.Common.DbTransaction,System.String[])">
+            <summary>
+            Updates this instance.
+            </summary>
+            <param name="tran">The tran.</param>
+            <param name="specifiedFieldsToUpdate">The specified fields to update.</param>
+        </member>
+        <member name="M:NBearLite.ActiveRecord`1.Delete(System.Data.Common.DbTransaction)">
+            <summary>
+            Deletes the instance.
+            </summary>
+            <param name="tran">The tran.</param>
+        </member>
+        <member name="M:NBearLite.ActiveRecord`1.Delete">
+            <summary>
+            Deletes this instance.
+            </summary>
+        </member>
+        <member name="M:NBearLite.ActiveRecord`1.Save">
+            <summary>
+            Saves this instance.
+            </summary>
+        </member>
+        <member name="M:NBearLite.ActiveRecord`1.Save(System.Data.Common.DbTransaction)">
+            <summary>
+            Deletes this instance.
+            </summary>
+            <param name="tran">The tran.</param>
+        </member>
+        <member name="T:NBearLite.ActiveRecordFieldList">
+            <summary>
+            The ActiveRecordFieldList class.
+            </summary>
+        </member>
+        <member name="M:NBearLite.ActiveRecordFieldList.Add(System.String,NBearLite.QueryColumn)">
+            <summary>
+            Adds the specified field name.
+            </summary>
+            <param name="fieldName">Name of the field.</param>
+            <param name="mappingColumn">The mapping column.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ActiveRecordFieldList.Remove(System.String)">
+            <summary>
+            Removes the specified field name.
+            </summary>
+            <param name="fieldName">Name of the field.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.ActiveRecordFieldList.FilterSpecifiedFields(NBearLite.ActiveRecordFieldList,System.String[])">
+            <summary>
+            Filters the specified fields.
+            </summary>
+            <param name="baseList">The base list.</param>
+            <param name="specifiedFieldsToFilter">The specified fields to filter.</param>
+            <returns></returns>
+        </member>
+        <member name="T:NBearLite.DbProviders.MsAccess.AccessDbProvider">
+            <summary>
+            <para>Represents a MsAccess Database Provider.</para>
+            </summary>
+            <remarks> 
+            <para>
+            Internally uses MsAccess .NET Managed Provider from Microsoft (System.Data.OleDb) to connect to the database.
+            </para>  
+            </remarks>
+        </member>
+        <member name="M:NBearLite.DbProviders.MsAccess.AccessDbProvider.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBearLite.DbProviders.MsAccess.AccessDbProvider"/> class.
+            </summary>
+            <param name="connStr">The conn STR.</param>
+        </member>
+        <member name="M:NBearLite.WhereClip.#ctor(NBearLite.FromClip)">
+            <summary>
+            Initializes a new WhereClip instance with FromClip of the <see cref="T:NBearLite.WhereClip"/> class.
+            </summary>
+            <param name="from">From.</param>
+        </member>
+        <member name="M:NBearLite.WhereClip.#ctor">
+            <summary>
+            Initializes a new empty WhereClip instance of the <see cref="T:NBearLite.WhereClip"/> class.
+            </summary>
+        </member>
+        <member name="M:NBearLite.WhereClip.#ctor(System.String,System.String[],System.Data.DbType[],System.Object[])">
+            <summary>
+            Initializes a new Custom WhereClip instance of the <see cref="T:NBearLite.WhereClip"/> class.
+            </summary>
+            <param name="sql">The SQL.</param>
+            <param name="paramNames">The param names.</param>
+            <param name="paramTypes">The param types.</param>
+            <param name="paramValues">The param values.</param>
+        </member>
+        <member name="T:NBearLite.LogHandler">
+            <summary>
+            A delegate used for log.
+            </summary>
+            <param name="logMsg">The msg to write to log.</param>
+        </member>
+        <member name="T:NBearLite.SerializationManager">
+            <summary>
+            The serialization manager.
+            </summary>
+        </member>
+        <member name="M:NBearLite.SerializationManager.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBearLite.SerializationManager"/> class.
+            </summary>
+        </member>
+        <member name="M:NBearLite.SerializationManager.Serialize(System.Object)">
+            <summary>
+            Serializes the specified obj.
+            </summary>
+            <param name="obj">The obj.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.SerializationManager.Deserialize(System.Type,System.String)">
+            <summary>
+            Deserializes the specified return type.
+            </summary>
+            <param name="returnType">Type of the return.</param>
+            <param name="data">The data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.SerializationManager.RegisterSerializeHandler(System.Type,NBearLite.SerializationManager.TypeSerializeHandler,NBearLite.SerializationManager.TypeDeserializeHandler)">
+            <summary>
+            Registers the serialize handler.
+            </summary>
+            <param name="type">The type.</param>
+            <param name="serializeHandler">The serialize handler.</param>
+            <param name="deserializeHandler">The deserialize handler.</param>
+        </member>
+        <member name="M:NBearLite.SerializationManager.UnregisterSerializeHandler(System.Type)">
+            <summary>
+            Unregisters the serialize handler.
+            </summary>
+            <param name="type">The type.</param>
+        </member>
+        <member name="M:NBearLite.SerializationManager.InitDefaultSerializeHandlers">
+            <summary>
+            Inits the default serialize handlers.
+            </summary>
+        </member>
+        <member name="T:NBearLite.SerializationManager.TypeSerializeHandler">
+            <summary>
+            The serialize delegate.
+            </summary>
+            <param name="obj">obj to be serialized.</param>
+            <returns></returns>
+        </member>
+        <member name="T:NBearLite.SerializationManager.TypeDeserializeHandler">
+            <summary>
+            The deserialize delegate.
+            </summary>
+            <param name="data">the data to be deserialied.</param>
+            <returns></returns>
+        </member>
+        <member name="T:NBearLite.DbProviders.Oracle.OracleDbProvider">
+            <summary>
+            <para>Represents an Oracle Database.</para>
+            </summary>
+            <remarks> 
+            <para>
+            Internally uses Oracle .NET Managed Provider from Microsoft (System.Data.OracleClient) to connect to the database.
+            </para>  
+            </remarks>
+        </member>
+        <member name="M:NBearLite.DbProviders.Oracle.OracleDbProvider.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBearLite.DbProviders.Oracle.OracleDbProvider"/> class.
+            </summary>
+            <param name="connStr">The conn STR.</param>
+        </member>
+        <member name="M:NBearLite.SelectSqlSection.ToDbCommandText(System.Boolean,System.String[])">
+            <summary>
+            If fillParameterValues == false, you must specify the parameter names you want to be in the returning sql.
+            </summary>
+            <param name="fillParameterValues"></param>
+            <param name="parameterNames"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.UpdateSqlSection.ToDbCommandText(System.Boolean,System.String[])">
+            <summary>
+            If fillParameterValues == false, you must specify the parameter names you want to be in the returning sql.
+            </summary>
+            <param name="fillParameterValues"></param>
+            <param name="parameterNames"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.InsertSqlSection.ToDbCommandText(System.Boolean,System.String[])">
+            <summary>
+            If fillParameterValues == false, you must specify the parameter names you want to be in the returning sql.
+            </summary>
+            <param name="fillParameterValues"></param>
+            <param name="parameterNames"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.DeleteSqlSection.ToDbCommandText(System.Boolean,System.String[])">
+            <summary>
+            If fillParameterValues == false, you must specify the parameter names you want to be in the returning sql.
+            </summary>
+            <param name="fillParameterValues"></param>
+            <param name="parameterNames"></param>
+            <returns></returns>
+        </member>
+        <member name="T:NBearLite.OrderByClip">
+            <summary>
+            Strong typed orderby clip, used internal only.
+            </summary>
+        </member>
+        <member name="M:NBearLite.OrderByClip.ToString">
+            <summary>
+            Returns a <see cref="T:System.String"></see> that represents the current <see cref="T:System.Object"></see>.
+            </summary>
+            <returns>
+            A <see cref="T:System.String"></see> that represents the current <see cref="T:System.Object"></see>.
+            </returns>
+        </member>
+        <member name="M:NBearLite.OrderByClip.#ctor(NBearLite.ExpressionClip,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBearLite.OrderByClip"/> class.
+            </summary>
+            <param name="item">The item.</param>
+            <param name="descend">if set to <c>true</c> [descend].</param>
+        </member>
+        <member name="M:NBearLite.OrderByClip.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBearLite.OrderByClip"/> class.
+            </summary>
+            <param name="orderByStr">The order by STR.</param>
+        </member>
+        <member name="M:NBearLite.OrderByClip.op_BitwiseAnd(NBearLite.OrderByClip,NBearLite.OrderByClip)">
+            <summary>
+            And two orderby clips.
+            </summary>
+            <param name="left"></param>
+            <param name="right"></param>
+            <returns>The combined order by clip.</returns>
+        </member>
+        <member name="M:NBearLite.OrderByClip.op_True(NBearLite.OrderByClip)">
+            <summary>
+            Operator trues the specified right.
+            </summary>
+            <param name="right">The right.</param>
+            <returns></returns>
+        </member>
+        <member name="M:NBearLite.OrderByClip.op_False(NBearLite.OrderByClip)">
+            <summary>
+            Operator falses the specified right.
+            </summary>
+            <param name="right">The right.</param>
+            <returns></returns>
+        </member>
+        <member name="T:NBearLite.DbProviders.SqlServer.SqlDbProvider9">
+            <summary>
+            Db provider implementation for SQL Server 9.X (2005)
+            </summary>
+        </member>
+        <member name="M:NBearLite.DbProviders.SqlServer.SqlDbProvider9.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SqlDatabase"/> class.
+            </summary>
+            <param name="connStr"></param>
+        </member>
+        <member name="T:NBearLite.Web.NBearLiteDataSourceSaveEventName">
+            <summary>
+            NBearLite DataSource Save Event Names
+            </summary>
+        </member>
+        <member name="T:NBearLite.Web.NBearLiteDataSourceEventArgs">
+            <summary>
+            NBearLite DataSource Event Arguments
+            </summary>
+        </member>
+        <member name="M:NBearLite.Web.NBearLiteDataSourceEventArgs.#ctor(System.Object,NBearLite.Web.NBearLiteDataSourceSaveEventName)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBearLite.Web.NBearLiteDataSourceEventArgs"/> class.
+            </summary>
+            <param name="entity">The entity.</param>
+        </member>
+        <member name="P:NBearLite.Web.NBearLiteDataSourceEventArgs.EventName">
+            <summary>
+            The raised event name.
+            </summary>
+            <value>The name of the event.</value>
+        </member>
+        <member name="P:NBearLite.Web.NBearLiteDataSourceEventArgs.Entity">
+            <summary>
+            The entity being operated.
+            </summary>
+            <value>The entity.</value>
+        </member>
+        <member name="P:NBearLite.Web.NBearLiteDataSourceEventArgs.ModifiedFields">
+            <summary>
+            The modified fields of entity being operated. 
+            For insert, all the fields included in the insert value list are counted. 
+            For Update, all the updated fields are counted.
+            </summary>
+            <value>The modified fields.</value>
+        </member>
+        <member name="P:NBearLite.Web.NBearLiteDataSourceEventArgs.Cancelled">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:NBearLite.Web.NBearLiteDataSourceEventArgs"/> is cancelled.
+            </summary>
+            <value><c>true</c> if cancelled; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="T:NBearLite.Web.NBearLiteDataSourceSelectingEventArgs">
+            <summary>
+            NBearLite DataSource Selecting Event Arguments
+            </summary>
+        </member>
+        <member name="M:NBearLite.Web.NBearLiteDataSourceSelectingEventArgs.#ctor(System.Web.UI.DataSourceSelectArguments)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBearLite.Web.NBearLiteDataSourceSelectingEventArgs"/> class.
+            </summary>
+            <param name="arguments">The arguments.</param>
+        </member>
+        <member name="P:NBearLite.Web.NBearLiteDataSourceSelectingEventArgs.SelectArguments">
+            <summary>
+            Gets or sets the select arguments.
+            </summary>
+            <value>The select arguments.</value>
+        </member>
+        <member name="M:NBearLite.Web.NBearLiteDataSourceSelectedEventArgs.#ctor(System.Web.UI.DataSourceSelectArguments,System.Array)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NBearLite.Web.NBearLiteDataSourceSelectedEventArgs"/> class.
+            </summary>
+            <param name="arguments">The arguments.</param>
+            <param name="resultEntities">The result entities.</param>
+        </member>
+        <member name="P:NBearLite.Web.NBearLiteDataSourceSelectedEventArgs.ResultEntities">
+            <summary>
+            Gets or sets the result entities.
+            </summary>
+            <value>The result entities.</value>
+        </member>
+        <member name="T:NBearLite.Web.NBearLiteDataSource">
+            <summary>
+            NBearLite Data Source
+            </summary>
+        </member>
+        <member name="M:NBearLite.Web.NBearLiteDataSource.OnSaving(NBearLite.Web.NBearLiteDataSourceEventArgs)">
+            <summary>
+            Raises the <see cref="E:Saving"/> event.
+            </summary>
+            <param name="args">The <see cref="T:NBearLite.Web.NBearLiteDataSourceEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:NBearLite.Web.NBearLiteDataSource.OnSaved(NBearLite.Web.NBearLiteDataSourceEventArgs)">
+            <summary>
+            Raises the <see cref="E:Saved"/> event.
+            </summary>
+            <param name="args">The <see cref="T:NBearLite.Web.NBearLiteDataSourceEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:NBearLite.Web.NBearLiteDataSource.OnSelecting(NBearLite.Web.NBearLiteDataSourceSelectingEventArgs)">
+            <summary>
+            Raises the <see cref="E:Selecting"/> event.
+            </summary>
+            <param name="args">The <see cref="T:NBearLite.Web.NBearLiteDataSourceEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:NBearLite.Web.NBearLiteDataSource.OnSelected(NBearLite.Web.NBearLiteDataSourceSelectedEventArgs)">
+            <summary>
+            Raises the <see cref="E:Selected"/> event.
+            </summary>
+            <param name="args">The <see cref="T:NBearLite.Web.NBearLiteDataSourceEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:NBearLite.Web.NBearLiteDataSource.OnDeleting(NBearLite.Web.NBearLiteDataSourceEventArgs)">
+            <summary>
+            Raises the <see cref="E:Deleting"/> event.
+            </summary>
+            <param name="args">The <see cref="T:NBearLite.Web.NBearLiteDataSourceEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:NBearLite.Web.NBearLiteDataSource.OnDeleted(NBearLite.Web.NBearLiteDataSourceEventArgs)">
+            <summary>
+            Raises the <see cref="E:Deleted"/> event.
+            </summary>
+            <param name="args">The <see cref="T:NBearLite.Web.NBearLiteDataSourceEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="E:NBearLite.Web.NBearLiteDataSource.Saving">
+            <summary>
+            The saving evet.
+            </summary>
+        </member>
+        <member name="E:NBearLite.Web.NBearLiteDataSource.Saved">
+            <summary>
+            The saved event.
+            </summary>
+        </member>
+        <member name="E:NBearLite.Web.NBearLiteDataSource.Selecting">
+            <summary>
+            The selecting evet.
+            </summary>
+        </member>
+        <member name="E:NBearLite.Web.NBearLiteDataSource.Selected">
+            <summary>
+            The Selected event.
+            </summary>
+        </member>
+        <member name="E:NBearLite.Web.NBearLiteDataSource.Deleting">
+            <summary>
+            The Deleting evet.
+            </summary>
+        </member>
+        <member name="E:NBearLite.Web.NBearLiteDataSource.Deleted">
+            <summary>
+            The Deleted event.
+            </summary>
+        </member>
+    </members>
+</doc>

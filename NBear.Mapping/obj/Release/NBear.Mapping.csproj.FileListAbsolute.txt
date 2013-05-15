@@ -1,0 +1,4 @@
+F:\src\Maleos\NBear.Mapping\bin\Release\NBear.Mapping.dll
+F:\src\Maleos\NBear.Mapping\bin\Release\NBear.Core.dll
+F:\src\Maleos\NBear.Mapping\obj\Release\ResolveAssemblyReference.cache
+F:\src\Maleos\NBear.Mapping\obj\Release\NBear.Mapping.dll

@@ -1,0 +1,4 @@
+F:\src\Maleos\Common\bin\Release\Common.dll
+F:\src\Maleos\Common\bin\Release\SevenZipSharp.dll
+F:\src\Maleos\Common\obj\Release\ResolveAssemblyReference.cache
+F:\src\Maleos\Common\obj\Release\Common.dll

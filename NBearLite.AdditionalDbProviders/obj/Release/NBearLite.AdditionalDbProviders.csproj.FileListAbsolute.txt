@@ -1,0 +1,14 @@
+F:\src\Maleos\NBearLite.AdditionalDbProviders\obj\Release\ResolveAssemblyReference.cache
+F:\src\Maleos\NBearLite.AdditionalDbProviders\bin\Release\NBearLite.AdditionalDbProviders.dll
+F:\src\Maleos\NBearLite.AdditionalDbProviders\bin\Release\IBM.Data.DB2.dll
+F:\src\Maleos\NBearLite.AdditionalDbProviders\bin\Release\IBM.Data.U2.Ucinet.dll
+F:\src\Maleos\NBearLite.AdditionalDbProviders\bin\Release\Mono.Security.dll
+F:\src\Maleos\NBearLite.AdditionalDbProviders\bin\Release\MySql.Data.dll
+F:\src\Maleos\NBearLite.AdditionalDbProviders\bin\Release\NBear.Core.dll
+F:\src\Maleos\NBearLite.AdditionalDbProviders\bin\Release\NBearLite.dll
+F:\src\Maleos\NBearLite.AdditionalDbProviders\bin\Release\Npgsql.dll
+F:\src\Maleos\NBearLite.AdditionalDbProviders\bin\Release\System.Data.SQLite.dll
+F:\src\Maleos\NBearLite.AdditionalDbProviders\bin\Release\NBear.Mapping.dll
+F:\src\Maleos\NBearLite.AdditionalDbProviders\bin\Release\NBearLite.xml
+F:\src\Maleos\NBearLite.AdditionalDbProviders\bin\Release\NBear.Mapping.xml
+F:\src\Maleos\NBearLite.AdditionalDbProviders\obj\Release\NBearLite.AdditionalDbProviders.dll
