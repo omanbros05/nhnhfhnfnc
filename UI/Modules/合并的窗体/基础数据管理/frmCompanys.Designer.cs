@@ -37,15 +37,6 @@
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButtonDel = new System.Windows.Forms.ToolStripButton();
             this.enforceLawGridViewCompany = new EnforceUI.EnforceLawGridView(this.components);
-            this.tableTextBoxCompanyName = new EnforceUI.DocumentAutoCompleteTextBox(this.components);
-            this.buttonQuery = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.btnImport = new System.Windows.Forms.Button();
-            this.header1 = new Maleos.Controls.Header();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CompanyTypeName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CompanyName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -55,6 +46,15 @@
             this.JuridicalPerson = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IDCard = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Mobile = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tableTextBoxCompanyName = new EnforceUI.DocumentAutoCompleteTextBox(this.components);
+            this.buttonQuery = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.btnImport = new System.Windows.Forms.Button();
+            this.header1 = new Maleos.Controls.Header();
             this.panelTop.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -186,6 +186,59 @@
             this.enforceLawGridViewCompany.Size = new System.Drawing.Size(1099, 414);
             this.enforceLawGridViewCompany.TabIndex = 0;
             // 
+            // ID
+            // 
+            this.ID.HeaderText = "ID";
+            this.ID.Name = "ID";
+            this.ID.Visible = false;
+            // 
+            // CompanyTypeName
+            // 
+            this.CompanyTypeName.HeaderText = "类型";
+            this.CompanyTypeName.Name = "CompanyTypeName";
+            this.CompanyTypeName.Width = 120;
+            // 
+            // CompanyName
+            // 
+            this.CompanyName.HeaderText = "名称";
+            this.CompanyName.Name = "CompanyName";
+            this.CompanyName.Width = 300;
+            // 
+            // CompanyAddress
+            // 
+            this.CompanyAddress.HeaderText = "地址";
+            this.CompanyAddress.Name = "CompanyAddress";
+            this.CompanyAddress.Width = 250;
+            // 
+            // CompanyArea
+            // 
+            this.CompanyArea.HeaderText = "区域";
+            this.CompanyArea.Name = "CompanyArea";
+            // 
+            // CompanyPost
+            // 
+            this.CompanyPost.HeaderText = "邮编";
+            this.CompanyPost.Name = "CompanyPost";
+            this.CompanyPost.Width = 80;
+            // 
+            // JuridicalPerson
+            // 
+            this.JuridicalPerson.HeaderText = "法定代表人";
+            this.JuridicalPerson.Name = "JuridicalPerson";
+            this.JuridicalPerson.Width = 120;
+            // 
+            // IDCard
+            // 
+            this.IDCard.HeaderText = "身份证号";
+            this.IDCard.Name = "IDCard";
+            this.IDCard.ReadOnly = true;
+            // 
+            // Mobile
+            // 
+            this.Mobile.HeaderText = "联系电话";
+            this.Mobile.Name = "Mobile";
+            this.Mobile.Width = 120;
+            // 
             // tableTextBoxCompanyName
             // 
             this.tableTextBoxCompanyName.ControlText = "";
@@ -260,7 +313,6 @@
             this.btnImport.TabIndex = 9;
             this.btnImport.Text = "导入";
             this.btnImport.UseVisualStyleBackColor = true;
-            this.btnImport.Visible = false;
             this.btnImport.Click += new System.EventHandler(this.btnImport_Click);
             // 
             // header1
@@ -274,59 +326,6 @@
             this.header1.TabIndex = 4;
             this.header1.Title = "企业信息管理";
             this.header1.BackEvent += new System.EventHandler(this.header1_BackEvent);
-            // 
-            // ID
-            // 
-            this.ID.HeaderText = "ID";
-            this.ID.Name = "ID";
-            this.ID.Visible = false;
-            // 
-            // CompanyTypeName
-            // 
-            this.CompanyTypeName.HeaderText = "类型";
-            this.CompanyTypeName.Name = "CompanyTypeName";
-            this.CompanyTypeName.Width = 120;
-            // 
-            // CompanyName
-            // 
-            this.CompanyName.HeaderText = "名称";
-            this.CompanyName.Name = "CompanyName";
-            this.CompanyName.Width = 300;
-            // 
-            // CompanyAddress
-            // 
-            this.CompanyAddress.HeaderText = "地址";
-            this.CompanyAddress.Name = "CompanyAddress";
-            this.CompanyAddress.Width = 250;
-            // 
-            // CompanyArea
-            // 
-            this.CompanyArea.HeaderText = "区域";
-            this.CompanyArea.Name = "CompanyArea";
-            // 
-            // CompanyPost
-            // 
-            this.CompanyPost.HeaderText = "邮编";
-            this.CompanyPost.Name = "CompanyPost";
-            this.CompanyPost.Width = 80;
-            // 
-            // JuridicalPerson
-            // 
-            this.JuridicalPerson.HeaderText = "法定代表人";
-            this.JuridicalPerson.Name = "JuridicalPerson";
-            this.JuridicalPerson.Width = 120;
-            // 
-            // IDCard
-            // 
-            this.IDCard.HeaderText = "身份证号";
-            this.IDCard.Name = "IDCard";
-            this.IDCard.ReadOnly = true;
-            // 
-            // Mobile
-            // 
-            this.Mobile.HeaderText = "联系电话";
-            this.Mobile.Name = "Mobile";
-            this.Mobile.Width = 120;
             // 
             // frmCompanys
             // 

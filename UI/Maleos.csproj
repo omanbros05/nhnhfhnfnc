@@ -136,6 +136,12 @@
     <Compile Include="Controls\Header.Designer.cs">
       <DependentUpon>Header.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\Launcher.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Launcher.Designer.cs">
+      <DependentUpon>Launcher.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\Search.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -1239,6 +1245,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\Header.resx">
       <DependentUpon>Header.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Launcher.resx">
+      <DependentUpon>Launcher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\Search.resx">
       <DependentUpon>Search.cs</DependentUpon>

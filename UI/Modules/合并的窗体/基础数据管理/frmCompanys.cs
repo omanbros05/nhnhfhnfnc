@@ -303,8 +303,7 @@ namespace EnforceForm
 
             try
             {
-                frmCompanyImport frm = new frmCompanyImport();
-                frm.OpenWindow(this);
+                OnNavigationRequest(new Maleos.NavigationRequestEventArgs("EnforceForm.frmCompanyImport"));
             }
             catch (Exception ex)
             {

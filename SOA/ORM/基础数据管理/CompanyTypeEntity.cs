@@ -4,6 +4,7 @@ using System.Text;
 using System.Data;
 using System.Runtime.Serialization;
 using NBearLite;
+using Common;
 
 namespace SOA.ORM
 {
@@ -77,5 +78,43 @@ namespace SOA.ORM
             DeleteSqlSection section = DB.Delete(DataBases.CompanyType).Where(DataBases.CompanyType.ID == ID);
             Remove(section, DataBases.CompanyType);
         }
+
+
+        /// <summary>
+        /// 根据企业类型名称查询
+        /// </summary>
+        public int GetByName(string TypeName)
+        {
+            int ID = 0;
+            SelectSqlSection section = DB.Select(DataBases.CompanyType).Where(DataBases.CompanyType.CompanyTypeName == TypeName);
+            using (IDataReader reader = section.ToDataReader())
+            {
+
+                while (reader.Read())
+                {
+
+                    ID = (int)reader["ID"];
+                }
+            }
+            return ID;
+        }
+
+
+        /// <summary>
+        /// 保存企业类别并返回ID值
+        /// </summary>
+        public int Create()
+        {
+            int id = DB.Select(DataBases.CompanyType).ToList<SOA.ORM.CompanyType>().Count;
+            InsertSqlSection insert = DB.Insert(DataBases.CompanyType);
+            insert.AddColumn(DataBases.CompanyType.ID, ++id);
+            insert.AddColumn(DataBases.CompanyType.CompanyTypeName, CompanyTypeName);
+            insert.AddColumn(DataBases.ArchiveExt.CreateTime, DateTime.Now);
+            insert.AddColumn(DataBases.CompanyType.ExchangeGUID, CommonInvoke.NewGuid);
+            insert.Execute();
+            return id;
+        }
+
+
     }
 }

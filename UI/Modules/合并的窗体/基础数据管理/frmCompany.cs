@@ -141,7 +141,31 @@ namespace EnforceForm
                 Company.WarehousAddress = this.WarehousAddress.Text;
                 Company.IsCity = Convert.ToInt32(((ComboBoxItemTextValue)(this.comboBox2.SelectedItem)).selectValue);
                 Company.CompanyAreaID = Convert.ToInt32(((ComboBoxItemTextValue)(this.comboBox3.SelectedItem)).selectValue);
-                Company.CompanyType = Convert.ToInt32(((ComboBoxItemTextValue)(this.comboBox1.SelectedItem)).selectValue);
+                //Company.CompanyType = Convert.ToInt32(((ComboBoxItemTextValue)(this.comboBox1.SelectedItem)).selectValue);
+                if (this.comboBox1.SelectedItem != null)
+                {
+                    Company.CompanyType = Convert.ToInt32(((ComboBoxItemTextValue)(this.comboBox1.SelectedItem)).selectValue);
+                }
+                else
+                {
+                    string CompanyTypeName = this.comboBox1.Text;
+                    if (!string.IsNullOrEmpty(CompanyTypeName))
+                    {
+                        CompanyType _CompanyType = new CompanyType();
+                        int ID = _CompanyType.GetByName(CompanyTypeName.Trim());
+                        if (ID > 0)
+                        {
+                            Company.CompanyType = ID;
+                        }
+                        else
+                        {
+                            _CompanyType.CompanyTypeName = CompanyTypeName.Trim();
+                            Company.CompanyType = _CompanyType.Create();
+                        }
+                    }
+                }
+
+
 
                 string temp = "";
                 if (txtIDCard.Text.Length == 18)
@@ -182,7 +206,5 @@ namespace EnforceForm
         {
             OnNavigationRequest(new Maleos.NavigationRequestEventArgs("EnforceForm.frmCompanys"));
         }
-
-
     }
 }

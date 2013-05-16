@@ -48,10 +48,13 @@ namespace Maleos.Modules
             // 
             // footer1
             // 
+            this.footer1.AddLabel = "添加";
             this.footer1.BackColor = System.Drawing.Color.ForestGreen;
+            this.footer1.DeleteLabel = "删除";
             this.footer1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.footer1.Location = new System.Drawing.Point(0, 516);
             this.footer1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.footer1.MarkLabel = "最终归档";
             this.footer1.MaximumSize = new System.Drawing.Size(1303, 156);
             this.footer1.Name = "footer1";
             this.footer1.Size = new System.Drawing.Size(1303, 95);
