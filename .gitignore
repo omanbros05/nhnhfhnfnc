@@ -6,6 +6,11 @@
 .project
 .metadata
 bin/
+obj/
+Nbear.Core/
+Nbear.Mapping/
+Nbear.Lite/
+NBearLite.AdditionalDbProviders/
 tmp/
 *.tmp
 *.bak
