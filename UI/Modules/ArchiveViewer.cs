@@ -42,7 +42,8 @@ namespace Maleos.Modules
             } else {
 
                 this.Controls.Remove(listBoxControl1);
-                this.Controls.Remove(richEditControl1);
+
+                this.Controls.Remove(launcher1.RichEditControl);
                 this.BackgroundImage = Image.FromFile("images/Under_Construction.png");
                 this.BackgroundImageLayout = ImageLayout.Center;
             }
@@ -53,10 +54,10 @@ namespace Maleos.Modules
             //richEditControl1.Document.LoadDocument(file, DevExpress.XtraRichEdit.DocumentFormat.Rtf);
 
             if (System.IO.File.Exists(file))
-                richEditControl1.LoadDocument(file);
+                launcher1.RichEditControl.LoadDocument(file);
             else {
-                richEditControl1.CreateNewDocument();
-                richEditControl1.Document.AppendText("所要打开的文件不存在磁盘上，可能已经被物理删除或移动到其他位置。");
+                launcher1.RichEditControl.CreateNewDocument();
+                launcher1.RichEditControl.Document.AppendText("所要打开的文件不存在磁盘上，可能已经被物理删除或移动到其他位置。");
             }
         }
 

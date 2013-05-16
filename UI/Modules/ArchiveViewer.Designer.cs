@@ -30,7 +30,7 @@
         {
             this.header1 = new Maleos.Controls.Header();
             this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
-            this.richEditControl1 = new DevExpress.XtraRichEdit.RichEditControl();
+            this.launcher1 = new Maleos.Controls.Launcher();
             ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,16 +60,13 @@
             this.listBoxControl1.TabIndex = 1;
             this.listBoxControl1.SelectedIndexChanged += new System.EventHandler(this.listBoxControl1_SelectedIndexChanged);
             // 
-            // richEditControl1
+            // launcher1
             // 
-            this.richEditControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.richEditControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richEditControl1.Location = new System.Drawing.Point(284, 75);
-            this.richEditControl1.Name = "richEditControl1";
-            this.richEditControl1.Options.MailMerge.KeepLastParagraph = false;
-            this.richEditControl1.ReadOnly = true;
-            this.richEditControl1.Size = new System.Drawing.Size(1009, 768);
-            this.richEditControl1.TabIndex = 2;
+            this.launcher1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.launcher1.Location = new System.Drawing.Point(284, 75);
+            this.launcher1.Name = "launcher1";
+            this.launcher1.Size = new System.Drawing.Size(1009, 768);
+            this.launcher1.TabIndex = 2;
             // 
             // ArchiveViewer
             // 
@@ -79,7 +76,7 @@
             this.Appearance.Options.UseFont = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.richEditControl1);
+            this.Controls.Add(this.launcher1);
             this.Controls.Add(this.listBoxControl1);
             this.Controls.Add(this.header1);
             this.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
@@ -94,6 +91,6 @@
 
         private Controls.Header header1;
         private DevExpress.XtraEditors.ListBoxControl listBoxControl1;
-        private DevExpress.XtraRichEdit.RichEditControl richEditControl1;
+        private Controls.Launcher launcher1;
     }
 }

@@ -29,92 +29,78 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.Utils.SuperToolTip superToolTip40 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem40 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem40 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip41 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem41 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem41 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip42 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem42 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem42 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip43 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem43 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem43 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip27 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem27 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem27 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip4 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem4 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem4 = new DevExpress.Utils.ToolTipItem();
             DevExpress.Utils.SuperToolTip superToolTip5 = new DevExpress.Utils.SuperToolTip();
             DevExpress.Utils.ToolTipTitleItem toolTipTitleItem5 = new DevExpress.Utils.ToolTipTitleItem();
             DevExpress.Utils.ToolTipItem toolTipItem5 = new DevExpress.Utils.ToolTipItem();
             DevExpress.Utils.SuperToolTip superToolTip6 = new DevExpress.Utils.SuperToolTip();
             DevExpress.Utils.ToolTipTitleItem toolTipTitleItem6 = new DevExpress.Utils.ToolTipTitleItem();
             DevExpress.Utils.ToolTipItem toolTipItem6 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip28 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem28 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem28 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip29 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem29 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem29 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip30 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem30 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem30 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip31 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem31 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem31 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip32 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem32 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem32 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip33 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem33 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem33 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip34 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem34 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem34 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip35 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem35 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem35 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip36 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem36 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem36 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip37 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem37 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem37 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip38 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem38 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem38 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip39 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem39 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem39 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip44 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem44 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem44 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip45 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem45 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem45 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip46 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem46 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem46 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip47 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem47 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem47 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip48 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem48 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem48 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip49 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem49 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem49 = new DevExpress.Utils.ToolTipItem();
-            DevExpress.Utils.SuperToolTip superToolTip50 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem50 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.ToolTipItem toolTipItem50 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip7 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem7 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem7 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip8 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem8 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem8 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip9 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem9 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem9 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip10 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem10 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem10 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip11 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem11 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem11 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip12 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem12 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem12 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip13 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem13 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem13 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip14 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem14 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem14 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip15 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem15 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem15 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip16 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem16 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem16 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip17 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem17 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem17 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip18 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem18 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem18 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip19 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem19 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem19 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip20 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem20 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem20 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip21 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem21 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem21 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip22 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem22 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem22 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip1 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem1 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem1 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip2 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem2 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem2 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip3 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem3 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.ToolTipItem toolTipItem3 = new DevExpress.Utils.ToolTipItem();
             this.richEditControl1 = new DevExpress.XtraRichEdit.RichEditControl();
             this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
-            this.clipboardBar1 = new DevExpress.XtraRichEdit.UI.ClipboardBar();
             this.pasteItem1 = new DevExpress.XtraRichEdit.UI.PasteItem();
             this.cutItem1 = new DevExpress.XtraRichEdit.UI.CutItem();
             this.copyItem1 = new DevExpress.XtraRichEdit.UI.CopyItem();
             this.pasteSpecialItem1 = new DevExpress.XtraRichEdit.UI.PasteSpecialItem();
-            this.fontBar1 = new DevExpress.XtraRichEdit.UI.FontBar();
             this.changeFontNameItem1 = new DevExpress.XtraRichEdit.UI.ChangeFontNameItem();
             this.repositoryItemFontEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemFontEdit();
             this.changeFontSizeItem1 = new DevExpress.XtraRichEdit.UI.ChangeFontSizeItem();
@@ -131,13 +117,7 @@
             this.toggleFontSubscriptItem1 = new DevExpress.XtraRichEdit.UI.ToggleFontSubscriptItem();
             this.changeFontColorItem1 = new DevExpress.XtraRichEdit.UI.ChangeFontColorItem();
             this.changeFontBackColorItem1 = new DevExpress.XtraRichEdit.UI.ChangeFontBackColorItem();
-            this.changeTextCaseItem1 = new DevExpress.XtraRichEdit.UI.ChangeTextCaseItem();
-            this.makeTextUpperCaseItem1 = new DevExpress.XtraRichEdit.UI.MakeTextUpperCaseItem();
-            this.makeTextLowerCaseItem1 = new DevExpress.XtraRichEdit.UI.MakeTextLowerCaseItem();
-            this.toggleTextCaseItem1 = new DevExpress.XtraRichEdit.UI.ToggleTextCaseItem();
-            this.clearFormattingItem1 = new DevExpress.XtraRichEdit.UI.ClearFormattingItem();
             this.showFontFormItem1 = new DevExpress.XtraRichEdit.UI.ShowFontFormItem();
-            this.paragraphBar1 = new DevExpress.XtraRichEdit.UI.ParagraphBar();
             this.toggleBulletedListItem1 = new DevExpress.XtraRichEdit.UI.ToggleBulletedListItem();
             this.toggleNumberingListItem1 = new DevExpress.XtraRichEdit.UI.ToggleNumberingListItem();
             this.toggleMultiLevelListItem1 = new DevExpress.XtraRichEdit.UI.ToggleMultiLevelListItem();
@@ -160,18 +140,19 @@
             this.changeParagraphBackColorItem1 = new DevExpress.XtraRichEdit.UI.ChangeParagraphBackColorItem();
             this.showParagraphFormItem1 = new DevExpress.XtraRichEdit.UI.ShowParagraphFormItem();
             this.commonBar1 = new DevExpress.XtraRichEdit.UI.CommonBar();
-            this.fileOpenItem1 = new DevExpress.XtraRichEdit.UI.FileOpenItem();
-            this.fileSaveAsItem1 = new DevExpress.XtraRichEdit.UI.FileSaveAsItem();
             this.quickPrintItem1 = new DevExpress.XtraRichEdit.UI.QuickPrintItem();
             this.printItem1 = new DevExpress.XtraRichEdit.UI.PrintItem();
             this.printPreviewItem1 = new DevExpress.XtraRichEdit.UI.PrintPreviewItem();
-            this.undoItem1 = new DevExpress.XtraRichEdit.UI.UndoItem();
-            this.redoItem1 = new DevExpress.XtraRichEdit.UI.RedoItem();
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
             this.Cut = new DevExpress.XtraBars.BarButtonItem();
+            this.changeTextCaseItem1 = new DevExpress.XtraRichEdit.UI.ChangeTextCaseItem();
+            this.makeTextUpperCaseItem1 = new DevExpress.XtraRichEdit.UI.MakeTextUpperCaseItem();
+            this.makeTextLowerCaseItem1 = new DevExpress.XtraRichEdit.UI.MakeTextLowerCaseItem();
+            this.toggleTextCaseItem1 = new DevExpress.XtraRichEdit.UI.ToggleTextCaseItem();
+            this.clearFormattingItem1 = new DevExpress.XtraRichEdit.UI.ClearFormattingItem();
             this.changeStyleItem1 = new DevExpress.XtraRichEdit.UI.ChangeStyleItem();
             this.repositoryItemRichEditStyleEdit1 = new DevExpress.XtraRichEdit.Design.RepositoryItemRichEditStyleEdit();
             this.showEditStyleFormItem1 = new DevExpress.XtraRichEdit.UI.ShowEditStyleFormItem();
@@ -222,25 +203,23 @@
             // richEditControl1
             // 
             this.richEditControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.richEditControl1.Location = new System.Drawing.Point(0, 62);
+            this.richEditControl1.Location = new System.Drawing.Point(0, 33);
             this.richEditControl1.MenuManager = this.barManager1;
             this.richEditControl1.Name = "richEditControl1";
             this.richEditControl1.Options.MailMerge.KeepLastParagraph = false;
-            this.richEditControl1.Size = new System.Drawing.Size(1137, 1116);
+            this.richEditControl1.Size = new System.Drawing.Size(1137, 1145);
             this.richEditControl1.TabIndex = 1;
             this.richEditControl1.Text = "richEditControl1";
             // 
             // barManager1
             // 
             this.barManager1.Bars.AddRange(new DevExpress.XtraBars.Bar[] {
-            this.clipboardBar1,
-            this.fontBar1,
-            this.paragraphBar1,
             this.commonBar1});
             this.barManager1.DockControls.Add(this.barDockControlTop);
             this.barManager1.DockControls.Add(this.barDockControlBottom);
             this.barManager1.DockControls.Add(this.barDockControlLeft);
             this.barManager1.DockControls.Add(this.barDockControlRight);
+            this.barManager1.DockWindowTabFont = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.barManager1.Form = this;
             this.barManager1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
             this.Cut,
@@ -294,14 +273,10 @@
             this.findItem1,
             this.replaceItem1,
             this.fileNewItem1,
-            this.fileOpenItem1,
             this.fileSaveItem1,
-            this.fileSaveAsItem1,
             this.quickPrintItem1,
             this.printItem1,
             this.printPreviewItem1,
-            this.undoItem1,
-            this.redoItem1,
             this.changeFloatingObjectFillColorItem1,
             this.changeFloatingObjectOutlineColorItem1,
             this.changeFloatingObjectOutlineWeightItem1,
@@ -337,96 +312,64 @@
             this.repositoryItemRichEditFontSizeEdit1,
             this.repositoryItemRichEditStyleEdit1,
             this.repositoryItemFloatingObjectOutlineWeight1});
-            // 
-            // clipboardBar1
-            // 
-            this.clipboardBar1.DockCol = 0;
-            this.clipboardBar1.DockRow = 1;
-            this.clipboardBar1.DockStyle = DevExpress.XtraBars.BarDockStyle.Top;
-            this.clipboardBar1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
-            new DevExpress.XtraBars.LinkPersistInfo(this.pasteItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.cutItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.copyItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.pasteSpecialItem1)});
+            this.barManager1.ShowScreenTipsInToolbars = false;
+            this.barManager1.ShowShortcutInScreenTips = false;
             // 
             // pasteItem1
             // 
             this.pasteItem1.Id = 1;
             this.pasteItem1.Name = "pasteItem1";
-            toolTipTitleItem40.Text = "粘贴 (Ctrl+V)";
-            toolTipItem40.LeftIndent = 6;
-            toolTipItem40.Text = "从系统剪切板粘贴内容。";
-            superToolTip40.Items.Add(toolTipTitleItem40);
-            superToolTip40.Items.Add(toolTipItem40);
-            this.pasteItem1.SuperTip = superToolTip40;
+            toolTipTitleItem4.Text = "粘贴 (Ctrl+V)";
+            toolTipItem4.LeftIndent = 6;
+            toolTipItem4.Text = "从系统剪切板粘贴内容。";
+            superToolTip4.Items.Add(toolTipTitleItem4);
+            superToolTip4.Items.Add(toolTipItem4);
+            this.pasteItem1.SuperTip = superToolTip4;
             // 
             // cutItem1
             // 
             this.cutItem1.Id = 2;
             this.cutItem1.Name = "cutItem1";
-            toolTipTitleItem41.Text = "剪切 (Ctrl+X)";
-            toolTipItem41.LeftIndent = 6;
-            toolTipItem41.Text = "剪切所选内容，并将其放入系统剪切板。";
-            superToolTip41.Items.Add(toolTipTitleItem41);
-            superToolTip41.Items.Add(toolTipItem41);
-            this.cutItem1.SuperTip = superToolTip41;
+            toolTipTitleItem5.Text = "剪切 (Ctrl+X)";
+            toolTipItem5.LeftIndent = 6;
+            toolTipItem5.Text = "剪切所选内容，并将其放入系统剪切板。";
+            superToolTip5.Items.Add(toolTipTitleItem5);
+            superToolTip5.Items.Add(toolTipItem5);
+            this.cutItem1.SuperTip = superToolTip5;
             // 
             // copyItem1
             // 
             this.copyItem1.Id = 3;
             this.copyItem1.Name = "copyItem1";
-            toolTipTitleItem42.Text = "复制 (Ctrl+C)";
-            toolTipItem42.LeftIndent = 6;
-            toolTipItem42.Text = "复制所选内容，并将其放入系统剪切板。";
-            superToolTip42.Items.Add(toolTipTitleItem42);
-            superToolTip42.Items.Add(toolTipItem42);
-            this.copyItem1.SuperTip = superToolTip42;
+            toolTipTitleItem6.Text = "复制 (Ctrl+C)";
+            toolTipItem6.LeftIndent = 6;
+            toolTipItem6.Text = "复制所选内容，并将其放入系统剪切板。";
+            superToolTip6.Items.Add(toolTipTitleItem6);
+            superToolTip6.Items.Add(toolTipItem6);
+            this.copyItem1.SuperTip = superToolTip6;
             // 
             // pasteSpecialItem1
             // 
             this.pasteSpecialItem1.Id = 4;
             this.pasteSpecialItem1.Name = "pasteSpecialItem1";
-            toolTipTitleItem43.Text = "选择性粘贴 (Ctrl+Alt+V)";
-            toolTipItem43.LeftIndent = 6;
-            toolTipItem43.Text = "选择性粘贴...";
-            superToolTip43.Items.Add(toolTipTitleItem43);
-            superToolTip43.Items.Add(toolTipItem43);
-            this.pasteSpecialItem1.SuperTip = superToolTip43;
-            // 
-            // fontBar1
-            // 
-            this.fontBar1.DockCol = 1;
-            this.fontBar1.DockRow = 0;
-            this.fontBar1.DockStyle = DevExpress.XtraBars.BarDockStyle.Top;
-            this.fontBar1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
-            new DevExpress.XtraBars.LinkPersistInfo(this.changeFontNameItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.changeFontSizeItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.fontSizeIncreaseItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.fontSizeDecreaseItem1, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph),
-            new DevExpress.XtraBars.LinkPersistInfo(this.toggleFontBoldItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.toggleFontItalicItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.toggleFontUnderlineItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.toggleFontDoubleUnderlineItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.toggleFontStrikeoutItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.toggleFontDoubleStrikeoutItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.toggleFontSuperscriptItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.toggleFontSubscriptItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.changeFontColorItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.changeFontBackColorItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.showFontFormItem1)});
-            this.fontBar1.Offset = 197;
+            toolTipTitleItem7.Text = "选择性粘贴 (Ctrl+Alt+V)";
+            toolTipItem7.LeftIndent = 6;
+            toolTipItem7.Text = "选择性粘贴...";
+            superToolTip7.Items.Add(toolTipTitleItem7);
+            superToolTip7.Items.Add(toolTipItem7);
+            this.pasteSpecialItem1.SuperTip = superToolTip7;
             // 
             // changeFontNameItem1
             // 
             this.changeFontNameItem1.Edit = this.repositoryItemFontEdit1;
             this.changeFontNameItem1.Id = 5;
             this.changeFontNameItem1.Name = "changeFontNameItem1";
-            toolTipTitleItem27.Text = "字体";
-            toolTipItem27.LeftIndent = 6;
-            toolTipItem27.Text = "设置不同的字体。";
-            superToolTip27.Items.Add(toolTipTitleItem27);
-            superToolTip27.Items.Add(toolTipItem27);
-            this.changeFontNameItem1.SuperTip = superToolTip27;
+            toolTipTitleItem8.Text = "字体";
+            toolTipItem8.LeftIndent = 6;
+            toolTipItem8.Text = "设置不同的字体。";
+            superToolTip8.Items.Add(toolTipTitleItem8);
+            superToolTip8.Items.Add(toolTipItem8);
+            this.changeFontNameItem1.SuperTip = superToolTip8;
             // 
             // repositoryItemFontEdit1
             // 
@@ -440,12 +383,12 @@
             this.changeFontSizeItem1.Edit = this.repositoryItemRichEditFontSizeEdit1;
             this.changeFontSizeItem1.Id = 6;
             this.changeFontSizeItem1.Name = "changeFontSizeItem1";
-            toolTipTitleItem5.Text = "字号";
-            toolTipItem5.LeftIndent = 6;
-            toolTipItem5.Text = "设置字号的大小。";
-            superToolTip5.Items.Add(toolTipTitleItem5);
-            superToolTip5.Items.Add(toolTipItem5);
-            this.changeFontSizeItem1.SuperTip = superToolTip5;
+            toolTipTitleItem9.Text = "字号";
+            toolTipItem9.LeftIndent = 6;
+            toolTipItem9.Text = "设置字号的大小。";
+            superToolTip9.Items.Add(toolTipTitleItem9);
+            superToolTip9.Items.Add(toolTipItem9);
+            this.changeFontSizeItem1.SuperTip = superToolTip9;
             // 
             // repositoryItemRichEditFontSizeEdit1
             // 
@@ -459,194 +402,144 @@
             // 
             this.fontSizeIncreaseItem1.Id = 7;
             this.fontSizeIncreaseItem1.Name = "fontSizeIncreaseItem1";
-            toolTipTitleItem6.Text = "增大字号 (Ctrl+Shift+.)";
-            toolTipItem6.LeftIndent = 6;
-            toolTipItem6.Text = "增大字体的字号。";
-            superToolTip6.Items.Add(toolTipTitleItem6);
-            superToolTip6.Items.Add(toolTipItem6);
-            this.fontSizeIncreaseItem1.SuperTip = superToolTip6;
+            toolTipTitleItem10.Text = "增大字号 (Ctrl+Shift+.)";
+            toolTipItem10.LeftIndent = 6;
+            toolTipItem10.Text = "增大字体的字号。";
+            superToolTip10.Items.Add(toolTipTitleItem10);
+            superToolTip10.Items.Add(toolTipItem10);
+            this.fontSizeIncreaseItem1.SuperTip = superToolTip10;
             // 
             // fontSizeDecreaseItem1
             // 
             this.fontSizeDecreaseItem1.Id = 8;
             this.fontSizeDecreaseItem1.Name = "fontSizeDecreaseItem1";
-            toolTipTitleItem28.Text = "缩小字号 (Ctrl+Shift+,)";
-            toolTipItem28.LeftIndent = 6;
-            toolTipItem28.Text = "缩小字体的字号。";
-            superToolTip28.Items.Add(toolTipTitleItem28);
-            superToolTip28.Items.Add(toolTipItem28);
-            this.fontSizeDecreaseItem1.SuperTip = superToolTip28;
+            toolTipTitleItem11.Text = "缩小字号 (Ctrl+Shift+,)";
+            toolTipItem11.LeftIndent = 6;
+            toolTipItem11.Text = "缩小字体的字号。";
+            superToolTip11.Items.Add(toolTipTitleItem11);
+            superToolTip11.Items.Add(toolTipItem11);
+            this.fontSizeDecreaseItem1.SuperTip = superToolTip11;
             // 
             // toggleFontBoldItem1
             // 
             this.toggleFontBoldItem1.Id = 9;
             this.toggleFontBoldItem1.Name = "toggleFontBoldItem1";
-            toolTipTitleItem29.Text = "加粗 (Ctrl+B)";
-            toolTipItem29.LeftIndent = 6;
-            toolTipItem29.Text = "将所选内容的字体加粗。";
-            superToolTip29.Items.Add(toolTipTitleItem29);
-            superToolTip29.Items.Add(toolTipItem29);
-            this.toggleFontBoldItem1.SuperTip = superToolTip29;
+            toolTipTitleItem12.Text = "加粗 (Ctrl+B)";
+            toolTipItem12.LeftIndent = 6;
+            toolTipItem12.Text = "将所选内容的字体加粗。";
+            superToolTip12.Items.Add(toolTipTitleItem12);
+            superToolTip12.Items.Add(toolTipItem12);
+            this.toggleFontBoldItem1.SuperTip = superToolTip12;
             // 
             // toggleFontItalicItem1
             // 
             this.toggleFontItalicItem1.Id = 10;
             this.toggleFontItalicItem1.Name = "toggleFontItalicItem1";
-            toolTipTitleItem30.Text = "倾斜 (Ctrl+I)";
-            toolTipItem30.LeftIndent = 6;
-            toolTipItem30.Text = "将所选内容的字体设置为倾斜。";
-            superToolTip30.Items.Add(toolTipTitleItem30);
-            superToolTip30.Items.Add(toolTipItem30);
-            this.toggleFontItalicItem1.SuperTip = superToolTip30;
+            toolTipTitleItem13.Text = "倾斜 (Ctrl+I)";
+            toolTipItem13.LeftIndent = 6;
+            toolTipItem13.Text = "将所选内容的字体设置为倾斜。";
+            superToolTip13.Items.Add(toolTipTitleItem13);
+            superToolTip13.Items.Add(toolTipItem13);
+            this.toggleFontItalicItem1.SuperTip = superToolTip13;
             // 
             // toggleFontUnderlineItem1
             // 
             this.toggleFontUnderlineItem1.Id = 11;
             this.toggleFontUnderlineItem1.Name = "toggleFontUnderlineItem1";
-            toolTipTitleItem31.Text = "下划线 (Ctrl+U)";
-            toolTipItem31.LeftIndent = 6;
-            toolTipItem31.Text = "给所选文字内容添加下划线。";
-            superToolTip31.Items.Add(toolTipTitleItem31);
-            superToolTip31.Items.Add(toolTipItem31);
-            this.toggleFontUnderlineItem1.SuperTip = superToolTip31;
+            toolTipTitleItem14.Text = "下划线 (Ctrl+U)";
+            toolTipItem14.LeftIndent = 6;
+            toolTipItem14.Text = "给所选文字内容添加下划线。";
+            superToolTip14.Items.Add(toolTipTitleItem14);
+            superToolTip14.Items.Add(toolTipItem14);
+            this.toggleFontUnderlineItem1.SuperTip = superToolTip14;
             // 
             // toggleFontDoubleUnderlineItem1
             // 
             this.toggleFontDoubleUnderlineItem1.Id = 12;
             this.toggleFontDoubleUnderlineItem1.Name = "toggleFontDoubleUnderlineItem1";
-            toolTipTitleItem32.Text = "双下划线 (Ctrl+Shift+D)";
-            toolTipItem32.LeftIndent = 6;
-            toolTipItem32.Text = "给所选文字内容添加双下划线。";
-            superToolTip32.Items.Add(toolTipTitleItem32);
-            superToolTip32.Items.Add(toolTipItem32);
-            this.toggleFontDoubleUnderlineItem1.SuperTip = superToolTip32;
+            toolTipTitleItem15.Text = "双下划线 (Ctrl+Shift+D)";
+            toolTipItem15.LeftIndent = 6;
+            toolTipItem15.Text = "给所选文字内容添加双下划线。";
+            superToolTip15.Items.Add(toolTipTitleItem15);
+            superToolTip15.Items.Add(toolTipItem15);
+            this.toggleFontDoubleUnderlineItem1.SuperTip = superToolTip15;
             // 
             // toggleFontStrikeoutItem1
             // 
             this.toggleFontStrikeoutItem1.Id = 13;
             this.toggleFontStrikeoutItem1.Name = "toggleFontStrikeoutItem1";
-            toolTipTitleItem33.Text = "删除线";
-            toolTipItem33.LeftIndent = 6;
-            toolTipItem33.Text = "在所选文字内容中间添加一条横线。";
-            superToolTip33.Items.Add(toolTipTitleItem33);
-            superToolTip33.Items.Add(toolTipItem33);
-            this.toggleFontStrikeoutItem1.SuperTip = superToolTip33;
+            toolTipTitleItem16.Text = "删除线";
+            toolTipItem16.LeftIndent = 6;
+            toolTipItem16.Text = "在所选文字内容中间添加一条横线。";
+            superToolTip16.Items.Add(toolTipTitleItem16);
+            superToolTip16.Items.Add(toolTipItem16);
+            this.toggleFontStrikeoutItem1.SuperTip = superToolTip16;
             // 
             // toggleFontDoubleStrikeoutItem1
             // 
             this.toggleFontDoubleStrikeoutItem1.Id = 14;
             this.toggleFontDoubleStrikeoutItem1.Name = "toggleFontDoubleStrikeoutItem1";
-            toolTipTitleItem34.Text = "双删除线";
-            toolTipItem34.LeftIndent = 6;
-            toolTipItem34.Text = "在所选文字内容中间添加一条双横线。";
-            superToolTip34.Items.Add(toolTipTitleItem34);
-            superToolTip34.Items.Add(toolTipItem34);
-            this.toggleFontDoubleStrikeoutItem1.SuperTip = superToolTip34;
+            toolTipTitleItem17.Text = "双删除线";
+            toolTipItem17.LeftIndent = 6;
+            toolTipItem17.Text = "在所选文字内容中间添加一条双横线。";
+            superToolTip17.Items.Add(toolTipTitleItem17);
+            superToolTip17.Items.Add(toolTipItem17);
+            this.toggleFontDoubleStrikeoutItem1.SuperTip = superToolTip17;
             // 
             // toggleFontSuperscriptItem1
             // 
             this.toggleFontSuperscriptItem1.Id = 15;
             this.toggleFontSuperscriptItem1.Name = "toggleFontSuperscriptItem1";
-            toolTipTitleItem35.Text = "上标 (Ctrl+Shift++)";
-            toolTipItem35.LeftIndent = 6;
-            toolTipItem35.Text = "在文本行上方创建小字符。";
-            superToolTip35.Items.Add(toolTipTitleItem35);
-            superToolTip35.Items.Add(toolTipItem35);
-            this.toggleFontSuperscriptItem1.SuperTip = superToolTip35;
+            toolTipTitleItem18.Text = "上标 (Ctrl+Shift++)";
+            toolTipItem18.LeftIndent = 6;
+            toolTipItem18.Text = "在文本行上方创建小字符。";
+            superToolTip18.Items.Add(toolTipTitleItem18);
+            superToolTip18.Items.Add(toolTipItem18);
+            this.toggleFontSuperscriptItem1.SuperTip = superToolTip18;
             // 
             // toggleFontSubscriptItem1
             // 
             this.toggleFontSubscriptItem1.Id = 16;
             this.toggleFontSubscriptItem1.Name = "toggleFontSubscriptItem1";
-            toolTipTitleItem36.Text = "下标 (Ctrl++)";
-            toolTipItem36.LeftIndent = 6;
-            toolTipItem36.Text = "在文本行下方创建小字符。";
-            superToolTip36.Items.Add(toolTipTitleItem36);
-            superToolTip36.Items.Add(toolTipItem36);
-            this.toggleFontSubscriptItem1.SuperTip = superToolTip36;
+            toolTipTitleItem19.Text = "下标 (Ctrl++)";
+            toolTipItem19.LeftIndent = 6;
+            toolTipItem19.Text = "在文本行下方创建小字符。";
+            superToolTip19.Items.Add(toolTipTitleItem19);
+            superToolTip19.Items.Add(toolTipItem19);
+            this.toggleFontSubscriptItem1.SuperTip = superToolTip19;
             // 
             // changeFontColorItem1
             // 
             this.changeFontColorItem1.Id = 17;
             this.changeFontColorItem1.Name = "changeFontColorItem1";
-            toolTipTitleItem37.Text = "字体颜色";
-            toolTipItem37.LeftIndent = 6;
-            toolTipItem37.Text = "设置文字的颜色。";
-            superToolTip37.Items.Add(toolTipTitleItem37);
-            superToolTip37.Items.Add(toolTipItem37);
-            this.changeFontColorItem1.SuperTip = superToolTip37;
+            toolTipTitleItem20.Text = "字体颜色";
+            toolTipItem20.LeftIndent = 6;
+            toolTipItem20.Text = "设置文字的颜色。";
+            superToolTip20.Items.Add(toolTipTitleItem20);
+            superToolTip20.Items.Add(toolTipItem20);
+            this.changeFontColorItem1.SuperTip = superToolTip20;
             // 
             // changeFontBackColorItem1
             // 
             this.changeFontBackColorItem1.Id = 18;
             this.changeFontBackColorItem1.Name = "changeFontBackColorItem1";
-            toolTipTitleItem38.Text = "突出显示";
-            toolTipItem38.LeftIndent = 6;
-            toolTipItem38.Text = "给文字加上颜色底纹，以凸显文字内容。";
-            superToolTip38.Items.Add(toolTipTitleItem38);
-            superToolTip38.Items.Add(toolTipItem38);
-            this.changeFontBackColorItem1.SuperTip = superToolTip38;
-            // 
-            // changeTextCaseItem1
-            // 
-            this.changeTextCaseItem1.Id = 19;
-            this.changeTextCaseItem1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
-            new DevExpress.XtraBars.LinkPersistInfo(this.makeTextUpperCaseItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.makeTextLowerCaseItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.toggleTextCaseItem1)});
-            this.changeTextCaseItem1.Name = "changeTextCaseItem1";
-            // 
-            // makeTextUpperCaseItem1
-            // 
-            this.makeTextUpperCaseItem1.Id = 20;
-            this.makeTextUpperCaseItem1.Name = "makeTextUpperCaseItem1";
-            // 
-            // makeTextLowerCaseItem1
-            // 
-            this.makeTextLowerCaseItem1.Id = 21;
-            this.makeTextLowerCaseItem1.Name = "makeTextLowerCaseItem1";
-            // 
-            // toggleTextCaseItem1
-            // 
-            this.toggleTextCaseItem1.Id = 22;
-            this.toggleTextCaseItem1.Name = "toggleTextCaseItem1";
-            // 
-            // clearFormattingItem1
-            // 
-            this.clearFormattingItem1.Id = 23;
-            this.clearFormattingItem1.Name = "clearFormattingItem1";
+            toolTipTitleItem21.Text = "突出显示";
+            toolTipItem21.LeftIndent = 6;
+            toolTipItem21.Text = "给文字加上颜色底纹，以凸显文字内容。";
+            superToolTip21.Items.Add(toolTipTitleItem21);
+            superToolTip21.Items.Add(toolTipItem21);
+            this.changeFontBackColorItem1.SuperTip = superToolTip21;
             // 
             // showFontFormItem1
             // 
             this.showFontFormItem1.Id = 24;
             this.showFontFormItem1.Name = "showFontFormItem1";
-            toolTipTitleItem39.Text = "字体 (Ctrl+D)";
-            toolTipItem39.LeftIndent = 6;
-            toolTipItem39.Text = "显示字体设置对话框。";
-            superToolTip39.Items.Add(toolTipTitleItem39);
-            superToolTip39.Items.Add(toolTipItem39);
-            this.showFontFormItem1.SuperTip = superToolTip39;
-            // 
-            // paragraphBar1
-            // 
-            this.paragraphBar1.DockCol = 1;
-            this.paragraphBar1.DockRow = 1;
-            this.paragraphBar1.DockStyle = DevExpress.XtraBars.BarDockStyle.Top;
-            this.paragraphBar1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
-            new DevExpress.XtraBars.LinkPersistInfo(this.toggleBulletedListItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.toggleNumberingListItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.toggleMultiLevelListItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.decreaseIndentItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.increaseIndentItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.toggleParagraphAlignmentLeftItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.toggleParagraphAlignmentCenterItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.toggleParagraphAlignmentRightItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.toggleParagraphAlignmentJustifyItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.toggleShowWhitespaceItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.changeParagraphLineSpacingItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.changeParagraphBackColorItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.showParagraphFormItem1)});
-            this.paragraphBar1.Offset = 129;
+            toolTipTitleItem22.Text = "字体 (Ctrl+D)";
+            toolTipItem22.LeftIndent = 6;
+            toolTipItem22.Text = "显示字体设置对话框。";
+            superToolTip22.Items.Add(toolTipTitleItem22);
+            superToolTip22.Items.Add(toolTipItem22);
+            this.showFontFormItem1.SuperTip = superToolTip22;
             // 
             // toggleBulletedListItem1
             // 
@@ -764,103 +657,66 @@
             // 
             // commonBar1
             // 
+            this.commonBar1.BarAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.commonBar1.BarAppearance.Normal.Options.UseFont = true;
             this.commonBar1.DockCol = 0;
             this.commonBar1.DockRow = 0;
             this.commonBar1.DockStyle = DevExpress.XtraBars.BarDockStyle.Top;
             this.commonBar1.FloatLocation = new System.Drawing.Point(53, 123);
             this.commonBar1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
-            new DevExpress.XtraBars.LinkPersistInfo(this.fileOpenItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.fileSaveAsItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.quickPrintItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.printItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.printPreviewItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.undoItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.redoItem1)});
+            new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.quickPrintItem1, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph),
+            new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.printItem1, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph),
+            new DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, this.printPreviewItem1, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph)});
             this.commonBar1.Offset = 1;
-            // 
-            // fileOpenItem1
-            // 
-            this.fileOpenItem1.Id = 51;
-            this.fileOpenItem1.Name = "fileOpenItem1";
-            toolTipTitleItem44.Text = "打开 (Ctrl+O)";
-            toolTipItem44.LeftIndent = 6;
-            toolTipItem44.Text = "打开一个文档。";
-            superToolTip44.Items.Add(toolTipTitleItem44);
-            superToolTip44.Items.Add(toolTipItem44);
-            this.fileOpenItem1.SuperTip = superToolTip44;
-            // 
-            // fileSaveAsItem1
-            // 
-            this.fileSaveAsItem1.Id = 53;
-            this.fileSaveAsItem1.Name = "fileSaveAsItem1";
-            toolTipTitleItem45.Text = "另存为... (F12)";
-            toolTipItem45.LeftIndent = 6;
-            toolTipItem45.Text = "打开另存为对话框，选择一个文件格式与文件的新路径。";
-            superToolTip45.Items.Add(toolTipTitleItem45);
-            superToolTip45.Items.Add(toolTipItem45);
-            this.fileSaveAsItem1.SuperTip = superToolTip45;
             // 
             // quickPrintItem1
             // 
+            this.quickPrintItem1.Caption = "快速打印";
             this.quickPrintItem1.Id = 54;
+            this.quickPrintItem1.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.quickPrintItem1.ItemAppearance.Normal.Options.UseFont = true;
             this.quickPrintItem1.Name = "quickPrintItem1";
-            toolTipTitleItem46.Text = "&快速打印";
-            toolTipItem46.LeftIndent = 6;
-            toolTipItem46.Text = "不对文档做任何修改，直接发送至默认的打印机打印。";
-            superToolTip46.Items.Add(toolTipTitleItem46);
-            superToolTip46.Items.Add(toolTipItem46);
-            this.quickPrintItem1.SuperTip = superToolTip46;
+            toolTipTitleItem1.Text = "&快速打印";
+            toolTipItem1.LeftIndent = 6;
+            toolTipItem1.Text = "不对文档做任何修改，直接发送至默认的打印机打印。";
+            superToolTip1.Items.Add(toolTipTitleItem1);
+            superToolTip1.Items.Add(toolTipItem1);
+            this.quickPrintItem1.SuperTip = superToolTip1;
             // 
             // printItem1
             // 
+            this.printItem1.Caption = "打印";
             this.printItem1.Id = 55;
+            this.printItem1.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.printItem1.ItemAppearance.Normal.Options.UseFont = true;
             this.printItem1.Name = "printItem1";
-            toolTipTitleItem47.Text = "&打印 (Ctrl+P)";
-            toolTipItem47.LeftIndent = 6;
-            toolTipItem47.Text = "可对打印做详细设置，如选择打印机、打印页数、打印分数或者并打和缩放等。";
-            superToolTip47.Items.Add(toolTipTitleItem47);
-            superToolTip47.Items.Add(toolTipItem47);
-            this.printItem1.SuperTip = superToolTip47;
+            toolTipTitleItem2.Text = "&打印 (Ctrl+P)";
+            toolTipItem2.LeftIndent = 6;
+            toolTipItem2.Text = "可对打印做详细设置，如选择打印机、打印页数、打印分数或者并打和缩放等。";
+            superToolTip2.Items.Add(toolTipTitleItem2);
+            superToolTip2.Items.Add(toolTipItem2);
+            this.printItem1.SuperTip = superToolTip2;
             // 
             // printPreviewItem1
             // 
+            this.printPreviewItem1.Caption = "打印预览";
             this.printPreviewItem1.Id = 56;
+            this.printPreviewItem1.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.printPreviewItem1.ItemAppearance.Normal.Options.UseFont = true;
             this.printPreviewItem1.Name = "printPreviewItem1";
-            toolTipTitleItem48.Text = "打印预览";
-            toolTipItem48.LeftIndent = 6;
-            toolTipItem48.Text = "查看文档打印输出后的效果。";
-            superToolTip48.Items.Add(toolTipTitleItem48);
-            superToolTip48.Items.Add(toolTipItem48);
-            this.printPreviewItem1.SuperTip = superToolTip48;
-            // 
-            // undoItem1
-            // 
-            this.undoItem1.Id = 57;
-            this.undoItem1.Name = "undoItem1";
-            toolTipTitleItem49.Text = "撤销 (Ctrl+Z)";
-            toolTipItem49.LeftIndent = 6;
-            toolTipItem49.Text = "撤销修改。";
-            superToolTip49.Items.Add(toolTipTitleItem49);
-            superToolTip49.Items.Add(toolTipItem49);
-            this.undoItem1.SuperTip = superToolTip49;
-            // 
-            // redoItem1
-            // 
-            this.redoItem1.Id = 58;
-            this.redoItem1.Name = "redoItem1";
-            toolTipTitleItem50.Text = "恢复 (Ctrl+Y)";
-            toolTipItem50.LeftIndent = 6;
-            toolTipItem50.Text = "恢复修改。";
-            superToolTip50.Items.Add(toolTipTitleItem50);
-            superToolTip50.Items.Add(toolTipItem50);
-            this.redoItem1.SuperTip = superToolTip50;
+            toolTipTitleItem3.Text = "打印预览";
+            toolTipItem3.LeftIndent = 6;
+            toolTipItem3.Text = "查看文档打印输出后的效果。";
+            superToolTip3.Items.Add(toolTipTitleItem3);
+            superToolTip3.Items.Add(toolTipItem3);
+            this.printPreviewItem1.SuperTip = superToolTip3;
             // 
             // barDockControlTop
             // 
             this.barDockControlTop.CausesValidation = false;
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
-            this.barDockControlTop.Size = new System.Drawing.Size(1137, 62);
+            this.barDockControlTop.Size = new System.Drawing.Size(1137, 33);
             // 
             // barDockControlBottom
             // 
@@ -873,21 +729,50 @@
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 62);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 1116);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 33);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 1145);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(1137, 62);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 1116);
+            this.barDockControlRight.Location = new System.Drawing.Point(1137, 33);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 1145);
             // 
             // Cut
             // 
             this.Cut.Caption = "Cut";
             this.Cut.Id = 0;
             this.Cut.Name = "Cut";
+            // 
+            // changeTextCaseItem1
+            // 
+            this.changeTextCaseItem1.Id = 19;
+            this.changeTextCaseItem1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.makeTextUpperCaseItem1),
+            new DevExpress.XtraBars.LinkPersistInfo(this.makeTextLowerCaseItem1),
+            new DevExpress.XtraBars.LinkPersistInfo(this.toggleTextCaseItem1)});
+            this.changeTextCaseItem1.Name = "changeTextCaseItem1";
+            // 
+            // makeTextUpperCaseItem1
+            // 
+            this.makeTextUpperCaseItem1.Id = 20;
+            this.makeTextUpperCaseItem1.Name = "makeTextUpperCaseItem1";
+            // 
+            // makeTextLowerCaseItem1
+            // 
+            this.makeTextLowerCaseItem1.Id = 21;
+            this.makeTextLowerCaseItem1.Name = "makeTextLowerCaseItem1";
+            // 
+            // toggleTextCaseItem1
+            // 
+            this.toggleTextCaseItem1.Id = 22;
+            this.toggleTextCaseItem1.Name = "toggleTextCaseItem1";
+            // 
+            // clearFormattingItem1
+            // 
+            this.clearFormattingItem1.Id = 23;
+            this.clearFormattingItem1.Name = "clearFormattingItem1";
             // 
             // changeStyleItem1
             // 
@@ -1160,14 +1045,10 @@
             this.richEditBarController1.BarItems.Add(this.findItem1);
             this.richEditBarController1.BarItems.Add(this.replaceItem1);
             this.richEditBarController1.BarItems.Add(this.fileNewItem1);
-            this.richEditBarController1.BarItems.Add(this.fileOpenItem1);
             this.richEditBarController1.BarItems.Add(this.fileSaveItem1);
-            this.richEditBarController1.BarItems.Add(this.fileSaveAsItem1);
             this.richEditBarController1.BarItems.Add(this.quickPrintItem1);
             this.richEditBarController1.BarItems.Add(this.printItem1);
             this.richEditBarController1.BarItems.Add(this.printPreviewItem1);
-            this.richEditBarController1.BarItems.Add(this.undoItem1);
-            this.richEditBarController1.BarItems.Add(this.redoItem1);
             this.richEditBarController1.BarItems.Add(this.changeFloatingObjectFillColorItem1);
             this.richEditBarController1.BarItems.Add(this.changeFloatingObjectOutlineColorItem1);
             this.richEditBarController1.BarItems.Add(this.changeFloatingObjectOutlineWeightItem1);
@@ -1228,12 +1109,10 @@
         private DevExpress.XtraBars.BarDockControl barDockControlBottom;
         private DevExpress.XtraBars.BarDockControl barDockControlLeft;
         private DevExpress.XtraBars.BarDockControl barDockControlRight;
-        private DevExpress.XtraRichEdit.UI.ClipboardBar clipboardBar1;
         private DevExpress.XtraRichEdit.UI.PasteItem pasteItem1;
         private DevExpress.XtraRichEdit.UI.CutItem cutItem1;
         private DevExpress.XtraRichEdit.UI.CopyItem copyItem1;
         private DevExpress.XtraRichEdit.UI.PasteSpecialItem pasteSpecialItem1;
-        private DevExpress.XtraRichEdit.UI.FontBar fontBar1;
         private DevExpress.XtraRichEdit.UI.ChangeFontNameItem changeFontNameItem1;
         private DevExpress.XtraEditors.Repository.RepositoryItemFontEdit repositoryItemFontEdit1;
         private DevExpress.XtraRichEdit.UI.ChangeFontSizeItem changeFontSizeItem1;
@@ -1256,7 +1135,6 @@
         private DevExpress.XtraRichEdit.UI.ToggleTextCaseItem toggleTextCaseItem1;
         private DevExpress.XtraRichEdit.UI.ClearFormattingItem clearFormattingItem1;
         private DevExpress.XtraRichEdit.UI.ShowFontFormItem showFontFormItem1;
-        private DevExpress.XtraRichEdit.UI.ParagraphBar paragraphBar1;
         private DevExpress.XtraRichEdit.UI.ToggleBulletedListItem toggleBulletedListItem1;
         private DevExpress.XtraRichEdit.UI.ToggleNumberingListItem toggleNumberingListItem1;
         private DevExpress.XtraRichEdit.UI.ToggleMultiLevelListItem toggleMultiLevelListItem1;
@@ -1285,14 +1163,10 @@
         private DevExpress.XtraRichEdit.UI.ReplaceItem replaceItem1;
         private DevExpress.XtraRichEdit.UI.CommonBar commonBar1;
         private DevExpress.XtraRichEdit.UI.FileNewItem fileNewItem1;
-        private DevExpress.XtraRichEdit.UI.FileOpenItem fileOpenItem1;
         private DevExpress.XtraRichEdit.UI.FileSaveItem fileSaveItem1;
-        private DevExpress.XtraRichEdit.UI.FileSaveAsItem fileSaveAsItem1;
         private DevExpress.XtraRichEdit.UI.QuickPrintItem quickPrintItem1;
         private DevExpress.XtraRichEdit.UI.PrintItem printItem1;
         private DevExpress.XtraRichEdit.UI.PrintPreviewItem printPreviewItem1;
-        private DevExpress.XtraRichEdit.UI.UndoItem undoItem1;
-        private DevExpress.XtraRichEdit.UI.RedoItem redoItem1;
         private DevExpress.XtraBars.BarButtonItem Cut;
         private DevExpress.XtraRichEdit.UI.ChangeFloatingObjectFillColorItem changeFloatingObjectFillColorItem1;
         private DevExpress.XtraRichEdit.UI.ChangeFloatingObjectOutlineColorItem changeFloatingObjectOutlineColorItem1;
